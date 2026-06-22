@@ -1,49 +1,77 @@
 import { defineStore } from 'pinia'
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
+
+const STORAGE_KEY = 'apprentissage-progress'
+
+function loadFromStorage() {
+  try {
+    const data = localStorage.getItem(STORAGE_KEY)
+    return data ? JSON.parse(data) : null
+  } catch {
+    return null
+  }
+}
 
 export const useProgressStore = defineStore('progress', () => {
-  const scoreGlobal = ref(0)
-  const meilleurScoresParLecon = ref({})
-  const scoresTentativeCourante = ref({})
-  const exercicesReussisTentative = ref([])
+  const savedData = loadFromStorage()
 
-  const scoreTentativeCourante = computed(() => {
-    return Object.values(scoresTentativeCourante.value).reduce((a, b) => a + b, 0)
+  const scoreGlobal = ref(savedData?.scoreGlobal ?? 0)
+  const bestScoresByLesson = ref(savedData?.bestScoresByLesson ?? {})
+  const currentAttemptScores = ref({})
+  const completedExercisesInAttempt = ref([])
+
+  watch(
+    [scoreGlobal, bestScoresByLesson],
+    () => {
+      localStorage.setItem(
+        STORAGE_KEY,
+        JSON.stringify({
+          scoreGlobal: scoreGlobal.value,
+          bestScoresByLesson: bestScoresByLesson.value,
+        }),
+      )
+    },
+    { deep: true },
+  )
+
+  const currentAttemptScore = computed(() => {
+    return Object.values(currentAttemptScores.value).reduce((a, b) => a + b, 0)
   })
 
-  function validerReponse(idLecon, idExercice, estCorrect, points) {
-    if (estCorrect && !exercicesReussisTentative.value.includes(idExercice)) {
-      scoresTentativeCourante.value[idExercice] = points
-      exercicesReussisTentative.value.push(idExercice)
-    } else if (!estCorrect) {
-      scoresTentativeCourante.value[idExercice] = 0
+  function submitAnswer(lessonId, exerciseId, isCorrect, points) {
+    const key = `${lessonId}/${exerciseId}`
+    if (isCorrect && !completedExercisesInAttempt.value.includes(key)) {
+      currentAttemptScores.value[key] = points
+      completedExercisesInAttempt.value.push(key)
+    } else if (!isCorrect) {
+      currentAttemptScores.value[key] = 0
     }
   }
 
-  function terminerLecon(idLecon) {
-    const scoreTentative = scoreTentativeCourante.value
-    const ancienMeilleur = meilleurScoresParLecon.value[idLecon] || 0
+  function finishLesson(lessonId) {
+    const attemptScore = currentAttemptScore.value
+    const previousBest = bestScoresByLesson.value[lessonId] || 0
 
-    if (scoreTentative > ancienMeilleur) {
-      const gain = scoreTentative - ancienMeilleur
-      scoreGlobal.value += gain
-      meilleurScoresParLecon.value[idLecon] = scoreTentative
+    if (attemptScore > previousBest) {
+      const improvement = attemptScore - previousBest
+      scoreGlobal.value += improvement
+      bestScoresByLesson.value[lessonId] = attemptScore
     }
   }
 
-  function resetTentative() {
-    scoresTentativeCourante.value = {}
-    exercicesReussisTentative.value = []
+  function resetAttempt() {
+    currentAttemptScores.value = {}
+    completedExercisesInAttempt.value = []
   }
 
   return {
     scoreGlobal,
-    meilleurScoresParLecon,
-    scoresTentativeCourante,
-    scoreTentativeCourante,
-    exercicesReussisTentative,
-    validerReponse,
-    terminerLecon,
-    resetTentative,
+    bestScoresByLesson,
+    currentAttemptScores,
+    currentAttemptScore,
+    completedExercisesInAttempt,
+    submitAnswer,
+    finishLesson,
+    resetAttempt,
   }
 })

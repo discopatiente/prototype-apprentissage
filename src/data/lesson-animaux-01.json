@@ -1,5 +1,6 @@
 {
-  "id": "lesson-01",
+  "id": "lesson-animaux-01",
+  "theme": "animaux",
   "titre": "Les animaux de la ferme",
   "description": "Apprends à reconnaître les animaux !",
   "exercices": [

@@ -1,86 +1,104 @@
 <template>
   <div class="lesson">
-    <header class="lesson-header">
-      <h1 class="lesson-titre">{{ lecon.titre }}</h1>
-      <ScoreBadge />
-    </header>
-
-    <div v-if="!termine" class="lesson-contenu">
-      <p class="progression">Question {{ indexCourant + 1 }} / {{ lecon.exercices.length }}</p>
-
-      <ExerciseQCM
-        :exercice="exerciceCourant"
-        :key="exerciceCourant.id"
-        @reponse-validee="onReponseValidee"
-      />
-
-      <FeedbackMessage v-if="feedbackVisible" :correct="derniereReponseCorrecte" />
-
-      <button v-if="feedbackVisible" class="btn-suivant" @click="questionSuivante">
-        {{ estDerniereQuestion ? 'Voir mon bilan' : 'Question suivante' }}
-      </button>
+    <div v-if="error" class="lesson-erreur">
+      <p>Oups, cette leçon n'existe pas.</p>
+      <button class="btn-suivant" @click="goToMenu">Retour au menu</button>
     </div>
 
-    <LessonBilan
-      v-else
-      :exercices="lecon.exercices"
-      :id-lecon="lecon.id"
-      @recommencer="recommencer"
-      @menu="allerAuMenu"
-    />
+    <div v-else-if="lesson">
+      <header class="lesson-header">
+        <h1 class="lesson-titre">{{ lesson.titre }}</h1>
+        <ScoreBadge />
+      </header>
+
+      <div v-if="!finished" class="lesson-contenu">
+        <p class="progression">Question {{ currentIndex + 1 }} / {{ lesson.exercices.length }}</p>
+        <ExerciseQCM
+          :exercise="currentExercise"
+          :key="currentExercise.id"
+          @answer-submitted="onAnswerSubmitted"
+        />
+        <FeedbackMessage v-if="showFeedback" :correct="lastAnswerCorrect" />
+        <button v-if="showFeedback" class="btn-suivant" @click="nextQuestion">
+          {{ isLastQuestion ? 'Voir mon bilan' : 'Question suivante' }}
+        </button>
+      </div>
+
+      <LessonBilan
+        v-else
+        :exercises="lesson.exercices"
+        :id-lesson="lesson.id"
+        @restart="restart"
+        @go-to-menu="goToMenu"
+      />
+    </div>
   </div>
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
-import { useRouter } from 'vue-router'
+import { ref, computed, watchEffect } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
 import { useProgressStore } from '../stores/progressStore'
 import ScoreBadge from '../components/ScoreBadge.vue'
 import ExerciseQCM from '../components/ExerciseQCM.vue'
 import FeedbackMessage from '../components/FeedbackMessage.vue'
 import LessonBilan from '../components/LessonBilan.vue'
-import lecon from '../data/lesson-01.json'
 
-const store = useProgressStore()
+const route = useRoute()
 const router = useRouter()
+const store = useProgressStore()
 
-const indexCourant = ref(0)
-const feedbackVisible = ref(false)
-const derniereReponseCorrecte = ref(false)
-const termine = ref(false)
+const lesson = ref(null)
+const error = ref(false)
+const currentIndex = ref(0)
+const showFeedback = ref(false)
+const lastAnswerCorrect = ref(false)
+const finished = ref(false)
 
-const exerciceCourant = computed(() => {
-  return lecon.exercices[indexCourant.value]
+watchEffect(async () => {
+  const id = route.params.id
+  error.value = false
+  try {
+    const module = await import(`../data/${id}.json`)
+    lesson.value = module.default
+  } catch {
+    error.value = true
+  }
 })
 
-const estDerniereQuestion = computed(() => {
-  return indexCourant.value === lecon.exercices.length - 1
+const currentExercise = computed(() => {
+  return lesson.value.exercices[currentIndex.value]
 })
 
-function onReponseValidee({ id, estCorrect, points }) {
-  store.validerReponse(lecon.id, id, estCorrect, points)
-  derniereReponseCorrecte.value = estCorrect
-  feedbackVisible.value = true
+const isLastQuestion = computed(() => {
+  return currentIndex.value === lesson.value.exercices.length - 1
+})
+
+function onAnswerSubmitted({ id, isCorrect, points }) {
+  store.submitAnswer(lesson.value.id, id, isCorrect, points)
+  lastAnswerCorrect.value = isCorrect
+  showFeedback.value = true
 }
 
-function questionSuivante() {
-  if (estDerniereQuestion.value) {
-    termine.value = true
+function nextQuestion() {
+  if (isLastQuestion.value) {
+    store.finishLesson(lesson.value.id)
+    finished.value = true
   } else {
-    indexCourant.value++
-    feedbackVisible.value = false
+    currentIndex.value++
+    showFeedback.value = false
   }
 }
 
-function recommencer() {
-  store.resetTentative()
-  indexCourant.value = 0
-  feedbackVisible.value = false
-  termine.value = false
+function restart() {
+  store.resetAttempt()
+  currentIndex.value = 0
+  showFeedback.value = false
+  finished.value = false
 }
 
-function allerAuMenu() {
-  store.resetTentative()
+function goToMenu() {
+  store.resetAttempt()
   router.push('/')
 }
 </script>
@@ -134,5 +152,16 @@ function allerAuMenu() {
 
 .btn-suivant:hover {
   background: #1565c0;
+}
+
+.lesson-erreur {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 64px 16px;
+  text-align: center;
+  font-size: 18px;
+  color: #757575;
 }
 </style>

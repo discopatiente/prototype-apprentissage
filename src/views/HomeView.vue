@@ -3,7 +3,7 @@
     <h1 class="titre">Bonjour !</h1>
     <p class="description">Prête pour la leçon du jour ?</p>
 
-    <button class="btn-demarrer" @click="demarrer">Commencer</button>
+    <button class="btn-start" @click="start">Commencer</button>
   </div>
 </template>
 
@@ -12,8 +12,8 @@ import { useRouter } from 'vue-router'
 
 const router = useRouter()
 
-function demarrer() {
-  router.push('/lesson/lesson-01')
+function start() {
+  router.push('/lesson/lesson-animaux-01')
 }
 </script>
 
@@ -41,7 +41,7 @@ function demarrer() {
   margin: 0;
 }
 
-.btn-demarrer {
+.btn-start {
   margin-top: 16px;
   padding: 16px 48px;
   font-size: 18px;
@@ -53,7 +53,7 @@ function demarrer() {
   cursor: pointer;
 }
 
-.btn-demarrer:hover {
+.btn-start:hover {
   background: #1565c0;
 }
 </style>

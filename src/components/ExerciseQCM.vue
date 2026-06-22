@@ -1,20 +1,20 @@
 <template>
   <div class="exercice">
-    <p class="question">{{ exercice.question }}</p>
+    <p class="question">{{ exercise.question }}</p>
 
     <div class="choix">
       <button
-        v-for="(choix, index) in exercice.choix"
+        v-for="(option, index) in exercise.choix"
         :key="index"
         class="choix-btn"
         :class="{
-          correct: reponseValidee && index === exercice.bonne_reponse,
-          incorrect: reponseValidee && index === reponseChoisie && index !== exercice.bonne_reponse,
+          correct: answerSubmitted && index === exercise.bonne_reponse,
+          incorrect: answerSubmitted && index === selectedAnswer && index !== exercise.bonne_reponse,
         }"
-        :disabled="reponseValidee"
-        @click="choisir(index)"
+        :disabled="answerSubmitted"
+        @click="select(index)"
       >
-        {{ choix }}
+        {{ option }}
       </button>
     </div>
   </div>
@@ -24,29 +24,29 @@
 import { ref } from 'vue'
 
 const props = defineProps({
-  exercice: {
+  exercise: {
     type: Object,
     required: true,
   },
 })
 
-const emit = defineEmits(['reponse-validee'])
+const emit = defineEmits(['answer-submitted'])
 
-const reponseChoisie = ref(null)
-const reponseValidee = ref(false)
+const selectedAnswer = ref(null)
+const answerSubmitted = ref(false)
 
-function choisir(index) {
-  if (reponseValidee.value) return
+function select(index) {
+  if (answerSubmitted.value) return
 
-  reponseChoisie.value = index
-  reponseValidee.value = true
+  selectedAnswer.value = index
+  answerSubmitted.value = true
 
-  const estCorrect = index === props.exercice.bonne_reponse
+  const isCorrect = index === props.exercise.bonne_reponse
 
-  emit('reponse-validee', {
-    id: props.exercice.id,
-    estCorrect,
-    points: props.exercice.points,
+  emit('answer-submitted', {
+    id: props.exercise.id,
+    isCorrect,
+    points: props.exercise.points,
   })
 }
 </script>

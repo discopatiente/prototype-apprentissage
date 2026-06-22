@@ -4,31 +4,31 @@
 
     <div class="bilan-contenu">
       <p class="bilan-emoji">{{ emoji }}</p>
-      <h2 class="bilan-titre">{{ titre }}</h2>
-      <p class="bilan-phrase">{{ phrase }}</p>
+      <h2 class="bilan-titre">{{ title }}</h2>
+      <p class="bilan-phrase">{{ message }}</p>
 
       <div class="score-total">
         <span class="score-total-label">Score de cette leçon</span>
-        <span class="score-total-valeur">{{ scoreTentative }} pts</span>
+        <span class="score-total-valeur">{{ attemptScore }} pts</span>
       </div>
 
       <div class="questions-liste">
         <div
-          v-for="exercice in exercices"
-          :key="exercice.id"
+          v-for="exercise in exercises"
+          :key="exercise.id"
           class="question-ligne"
-          :class="aReussi(exercice.id) ? 'reussi' : 'rate'"
+          :class="isPassed(exercise.id) ? 'reussi' : 'rate'"
         >
-          <span class="question-texte">{{ exercice.question }}</span>
+          <span class="question-texte">{{ exercise.question }}</span>
           <span class="question-points">
-            {{ aReussi(exercice.id) ? '+' + exercice.points + ' pts' : '0 pt' }}
+            {{ isPassed(exercise.id) ? '+' + exercise.points + ' pts' : '0 pt' }}
           </span>
         </div>
       </div>
 
       <div class="bilan-actions">
-        <button class="btn-secondaire" @click="emit('recommencer')">Recommencer</button>
-        <button class="btn-principal" @click="emit('menu')">Menu principal</button>
+        <button class="btn-secondaire" @click="emit('restart')">Recommencer</button>
+        <button class="btn-principal" @click="emit('go-to-menu')">Menu principal</button>
       </div>
     </div>
   </div>
@@ -39,86 +39,85 @@ import { ref, computed, onMounted } from 'vue'
 import { useProgressStore } from '../stores/progressStore'
 
 const props = defineProps({
-  exercices: {
+  exercises: {
     type: Array,
     required: true,
   },
-  idLecon: {
+  idLesson: {
     type: String,
     required: true,
   },
 })
 
-const emit = defineEmits(['recommencer', 'menu'])
+const emit = defineEmits(['restart', 'go-to-menu'])
 
 const store = useProgressStore()
 const confettiCanvas = ref(null)
 
-const scoreTentative = computed(() => store.scoreTentativeCourante)
+const attemptScore = computed(() => store.currentAttemptScore)
 
-const pourcentage = computed(() => {
-  const scoreMax = props.exercices.reduce((a, e) => a + e.points, 0)
-  return scoreMax === 0 ? 0 : Math.round((scoreTentative.value / scoreMax) * 100)
+const percentage = computed(() => {
+  const maxScore = props.exercises.reduce((a, e) => a + e.points, 0)
+  return maxScore === 0 ? 0 : Math.round((attemptScore.value / maxScore) * 100)
 })
 
 const emoji = computed(() => {
-  if (pourcentage.value === 100) return '🌟'
-  if (pourcentage.value >= 50) return '😊'
+  if (percentage.value === 100) return '🌟'
+  if (percentage.value >= 50) return '😊'
   return '💪'
 })
 
-const titre = computed(() => {
-  if (pourcentage.value === 100) return 'Parfait !'
-  if (pourcentage.value >= 50) return 'Bien joué !'
+const title = computed(() => {
+  if (percentage.value === 100) return 'Parfait !'
+  if (percentage.value >= 50) return 'Bien joué !'
   return 'Continue comme ça !'
 })
 
-const phrase = computed(() => {
-  if (pourcentage.value === 100) return 'Tu as tout bon, bravo !'
-  if (pourcentage.value >= 50) return 'Tu progresses bien, continue !'
+const message = computed(() => {
+  if (percentage.value === 100) return 'Tu as tout bon, bravo !'
+  if (percentage.value >= 50) return 'Tu progresses bien, continue !'
   return 'Recommence pour faire encore mieux !'
 })
 
-function aReussi(idExercice) {
-  return store.exercicesReussisTentative.includes(idExercice)
+function isPassed(exerciseId) {
+  return store.completedExercisesInAttempt.includes(`${props.idLesson}/${exerciseId}`)
 }
 
-function lancerConfettis() {
+function launchConfetti() {
   const canvas = confettiCanvas.value
   const ctx = canvas.getContext('2d')
   canvas.width = canvas.offsetWidth
   canvas.height = canvas.offsetHeight
 
-  const confettis = Array.from({ length: 80 }, () => ({
+  const pieces = Array.from({ length: 80 }, () => ({
     x: Math.random() * canvas.width,
     y: Math.random() * canvas.height - canvas.height,
-    taille: Math.random() * 8 + 4,
-    couleur: ['#1976d2', '#2e7d32', '#f57c00', '#c62828', '#7b1fa2'][Math.floor(Math.random() * 5)],
-    vitesse: Math.random() * 3 + 2,
-    oscillation: Math.random() * 2 - 1,
+    size: Math.random() * 8 + 4,
+    color: ['#1976d2', '#2e7d32', '#f57c00', '#c62828', '#7b1fa2'][Math.floor(Math.random() * 5)],
+    speed: Math.random() * 3 + 2,
+    wobble: Math.random() * 2 - 1,
   }))
 
   let frame = 0
 
-  function animer() {
+  function animate() {
     ctx.clearRect(0, 0, canvas.width, canvas.height)
-    confettis.forEach((c) => {
-      c.y += c.vitesse
-      c.x += c.oscillation
-      ctx.fillStyle = c.couleur
-      ctx.fillRect(c.x, c.y, c.taille, c.taille)
+    pieces.forEach((p) => {
+      p.y += p.speed
+      p.x += p.wobble
+      ctx.fillStyle = p.color
+      ctx.fillRect(p.x, p.y, p.size, p.size)
     })
     frame++
-    if (frame < 180) requestAnimationFrame(animer)
+    if (frame < 180) requestAnimationFrame(animate)
     else ctx.clearRect(0, 0, canvas.width, canvas.height)
   }
 
-  animer()
+  animate()
 }
 
 onMounted(() => {
-  store.terminerLecon(props.idLecon)
-  if (pourcentage.value >= 50) lancerConfettis()
+  if (percentage.value >= 50) launchConfetti()
 })
 </script>
 
