@@ -4,7 +4,7 @@
       <ScoreBadge />
     </header>
 
-    <h1 class="titre">Bonjour !</h1>
+    <h1 class="titre">Bonjour Sofia !</h1>
     <p class="description">Choisis un thème pour commencer :</p>
     <button class="btn-progress" @click="router.push('/progress')">📈 Mes progrès</button>
 

@@ -74,6 +74,10 @@ const finished = ref(false)
 
 watchEffect(async () => {
   const id = route.params.id
+  store.resetAttempt()
+  currentIndex.value = 0
+  showFeedback.value = false
+  finished.value = false
   error.value = false
   try {
     const module = await import(`../data/${id}.json`)
