@@ -3,6 +3,9 @@ import HomeView from '../views/HomeView.vue'
 import ThemeView from '../views/ThemeView.vue'
 import LessonView from '../views/LessonView.vue'
 import ProgressView from '../views/ProgressView.vue'
+import AdminLoginView from '../views/AdminLoginView.vue'
+import AdminView from '../views/AdminView.vue'
+import { useAuthStore } from '../stores/authStore'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -27,7 +30,31 @@ const router = createRouter({
       name: 'progress',
       component: ProgressView,
     },
+    {
+      path: '/admin/login',
+      name: 'admin-login',
+      component: AdminLoginView,
+    },
+    {
+      path: '/admin',
+      name: 'admin',
+      component: AdminView,
+      meta: { requiresAuth: true },
+    },
   ],
+})
+
+router.beforeEach(async (to) => {
+  const authStore = useAuthStore()
+  // Attendre que Netlify Identity ait vérifié la session avant de décider
+  await authStore.readyPromise
+
+  if (to.meta.requiresAuth && !authStore.user) {
+    return { name: 'admin-login' }
+  }
+  if (to.name === 'admin-login' && authStore.user) {
+    return { name: 'admin' }
+  }
 })
 
 export default router
