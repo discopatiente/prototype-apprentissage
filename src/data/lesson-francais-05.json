@@ -1,42 +1,42 @@
 {
   "id": "lesson-francais-05",
   "theme": "francais",
-  "titre": "Le renard et la forêt",
+  "titre": "Inès au judo",
   "description": "Lis le texte et réponds aux questions",
   "exercices": [
     {
       "id": "ex-01",
       "type": "qcm-texte",
-      "texte": "Le matin, le soleil se lève sur la montagne. Les oiseaux chantent dans les arbres. Un renard traverse la forêt à pas silencieux. Il cherche de la nourriture pour ses petits. Au loin, une rivière coule doucement. Le renard s'arrête pour boire un peu d'eau.",
-      "question": "Où se lève le soleil ?",
-      "choix": ["Sur la montagne", "Sur la mer", "Dans la rivière"],
-      "bonne_reponse": 0,
+      "texte": "Le samedi, Inès va au judo avec son sac de sport. Elle retrouve son amie Clara. Ensemble, elles s'entraînent pendant une heure. Après le cours, elles mangent une pomme.",
+      "question": "Quel jour Inès va-t-elle au judo ?",
+      "choix": ["Le vendredi", "Le samedi", "Le dimanche"],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-02",
       "type": "qcm-texte",
-      "texte": "Le matin, le soleil se lève sur la montagne. Les oiseaux chantent dans les arbres. Un renard traverse la forêt à pas silencieux. Il cherche de la nourriture pour ses petits. Au loin, une rivière coule doucement. Le renard s'arrête pour boire un peu d'eau.",
-      "question": "Qui traverse la forêt ?",
-      "choix": ["Un renard", "Un oiseau", "Un chien"],
-      "bonne_reponse": 0,
+      "texte": "Le samedi, Inès va au judo avec son sac de sport. Elle retrouve son amie Clara. Ensemble, elles s'entraînent pendant une heure. Après le cours, elles mangent une pomme.",
+      "question": "Avec qui s'entraîne-t-elle ?",
+      "choix": ["Son frère", "Son professeur", "Son amie Clara"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
       "id": "ex-03",
       "type": "qcm-texte",
-      "texte": "Le matin, le soleil se lève sur la montagne. Les oiseaux chantent dans les arbres. Un renard traverse la forêt à pas silencieux. Il cherche de la nourriture pour ses petits. Au loin, une rivière coule doucement. Le renard s'arrête pour boire un peu d'eau.",
-      "question": "Pourquoi le renard cherche-t-il de la nourriture ?",
-      "choix": ["Pour lui", "Pour ses petits", "Pour les oiseaux"],
+      "texte": "Le samedi, Inès va au judo avec son sac de sport. Elle retrouve son amie Clara. Ensemble, elles s'entraînent pendant une heure. Après le cours, elles mangent une pomme.",
+      "question": "Pendant combien de temps s'entraînent-elles ?",
+      "choix": ["Une demi-heure", "Une heure", "Deux heures"],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-04",
       "type": "qcm-texte",
-      "texte": "Le matin, le soleil se lève sur la montagne. Les oiseaux chantent dans les arbres. Un renard traverse la forêt à pas silencieux. Il cherche de la nourriture pour ses petits. Au loin, une rivière coule doucement. Le renard s'arrête pour boire un peu d'eau.",
-      "question": "Que fait le renard à la rivière ?",
-      "choix": ["Il boit de l'eau", "Il pêche un poisson", "Il se baigne"],
+      "texte": "Le samedi, Inès va au judo avec son sac de sport. Elle retrouve son amie Clara. Ensemble, elles s'entraînent pendant une heure. Après le cours, elles mangent une pomme.",
+      "question": "Que mangent-elles après le cours ?",
+      "choix": ["Une pomme", "Un sandwich", "Une glace"],
       "bonne_reponse": 0,
       "points": 10
     }

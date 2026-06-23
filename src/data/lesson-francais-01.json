@@ -1,42 +1,34 @@
 {
   "id": "lesson-francais-01",
   "theme": "francais",
-  "titre": "Le chien de Léa",
+  "titre": "La maison",
   "description": "Lis le texte et réponds aux questions",
   "exercices": [
     {
       "id": "ex-01",
       "type": "qcm-texte",
-      "texte": "Léa a un chien qui s'appelle Rex. Rex est blanc et il a de grandes oreilles. Chaque matin, Léa promène Rex dans le parc. Rex aime jouer avec les autres chiens. Le soir, Rex dort dans son panier.",
-      "question": "Comment s'appelle le chien de Léa ?",
-      "choix": ["Médor", "Rex", "Fido", "Tom"],
+      "texte": "Le chat dort sur le canapé. Il fait beau dehors. Le chien joue dans le jardin. La famille mange dans la cuisine.",
+      "question": "Où dort le chat ?",
+      "choix": ["Sur le lit", "Sur le canapé", "Dans le jardin"],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-02",
       "type": "qcm-texte",
-      "texte": "Léa a un chien qui s'appelle Rex. Rex est blanc et il a de grandes oreilles. Chaque matin, Léa promène Rex dans le parc. Rex aime jouer avec les autres chiens. Le soir, Rex dort dans son panier.",
-      "question": "De quelle couleur est Rex ?",
-      "choix": ["Noir", "Marron", "Blanc", "Gris"],
-      "bonne_reponse": 2,
+      "texte": "Le chat dort sur le canapé. Il fait beau dehors. Le chien joue dans le jardin. La famille mange dans la cuisine.",
+      "question": "Qui joue dans le jardin ?",
+      "choix": ["Le chat", "Le chien", "La famille"],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-03",
       "type": "qcm-texte",
-      "texte": "Léa a un chien qui s'appelle Rex. Rex est blanc et il a de grandes oreilles. Chaque matin, Léa promène Rex dans le parc. Rex aime jouer avec les autres chiens. Le soir, Rex dort dans son panier.",
-      "question": "Où est-ce que Léa promène Rex ?",
-      "choix": ["Dans la forêt", "Dans le jardin", "Dans le parc", "Dans la rue"],
+      "texte": "Le chat dort sur le canapé. Il fait beau dehors. Le chien joue dans le jardin. La famille mange dans la cuisine.",
+      "question": "Où mange la famille ?",
+      "choix": ["Dans le jardin", "Sur le canapé", "Dans la cuisine"],
       "bonne_reponse": 2,
-      "points": 10
-    },
-    {
-      "id": "ex-04",
-      "type": "reponse-courte",
-      "texte": "Léa a un chien qui s'appelle Rex. Rex est blanc et il a de grandes oreilles. Chaque matin, Léa promène Rex dans le parc. Rex aime jouer avec les autres chiens. Le soir, Rex dort dans son panier.",
-      "question": "Où est-ce que Rex dort le soir ?",
-      "bonnes_reponses": ["panier", "dans son panier", "son panier", "dans un panier"],
       "points": 10
     }
   ]

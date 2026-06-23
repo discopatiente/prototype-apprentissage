@@ -1,43 +1,42 @@
 {
   "id": "lesson-francais-06",
   "theme": "francais",
-  "titre": "Inès au judo",
+  "titre": "Le chien de Léa",
   "description": "Lis le texte et réponds aux questions",
   "exercices": [
     {
       "id": "ex-01",
       "type": "qcm-texte",
-      "texte": "Le samedi, Inès va au judo avec son sac de sport. Elle retrouve son amie Clara. Ensemble, elles s'entraînent pendant une heure. Après le cours, elles mangent une pomme.",
-      "question": "Quel jour Inès va-t-elle au judo ?",
-      "choix": ["Le vendredi", "Le samedi", "Le dimanche"],
+      "texte": "Léa a un chien qui s'appelle Rex. Rex est blanc et il a de grandes oreilles. Chaque matin, Léa promène Rex dans le parc. Rex aime jouer avec les autres chiens. Le soir, Rex dort dans son panier.",
+      "question": "Comment s'appelle le chien de Léa ?",
+      "choix": ["Médor", "Rex", "Fido", "Tom"],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-02",
       "type": "qcm-texte",
-      "texte": "Le samedi, Inès va au judo avec son sac de sport. Elle retrouve son amie Clara. Ensemble, elles s'entraînent pendant une heure. Après le cours, elles mangent une pomme.",
-      "question": "Avec qui s'entraîne-t-elle ?",
-      "choix": ["Son frère", "Son professeur", "Son amie Clara"],
+      "texte": "Léa a un chien qui s'appelle Rex. Rex est blanc et il a de grandes oreilles. Chaque matin, Léa promène Rex dans le parc. Rex aime jouer avec les autres chiens. Le soir, Rex dort dans son panier.",
+      "question": "De quelle couleur est Rex ?",
+      "choix": ["Noir", "Marron", "Blanc", "Gris"],
       "bonne_reponse": 2,
       "points": 10
     },
     {
       "id": "ex-03",
       "type": "qcm-texte",
-      "texte": "Le samedi, Inès va au judo avec son sac de sport. Elle retrouve son amie Clara. Ensemble, elles s'entraînent pendant une heure. Après le cours, elles mangent une pomme.",
-      "question": "Pendant combien de temps s'entraînent-elles ?",
-      "choix": ["Une demi-heure", "Une heure", "Deux heures"],
-      "bonne_reponse": 1,
+      "texte": "Léa a un chien qui s'appelle Rex. Rex est blanc et il a de grandes oreilles. Chaque matin, Léa promène Rex dans le parc. Rex aime jouer avec les autres chiens. Le soir, Rex dort dans son panier.",
+      "question": "Où est-ce que Léa promène Rex ?",
+      "choix": ["Dans la forêt", "Dans le jardin", "Dans le parc", "Dans la rue"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
       "id": "ex-04",
-      "type": "qcm-texte",
-      "texte": "Le samedi, Inès va au judo avec son sac de sport. Elle retrouve son amie Clara. Ensemble, elles s'entraînent pendant une heure. Après le cours, elles mangent une pomme.",
-      "question": "Que mangent-elles après le cours ?",
-      "choix": ["Une pomme", "Un sandwich", "Une glace"],
-      "bonne_reponse": 0,
+      "type": "reponse-courte",
+      "texte": "Léa a un chien qui s'appelle Rex. Rex est blanc et il a de grandes oreilles. Chaque matin, Léa promène Rex dans le parc. Rex aime jouer avec les autres chiens. Le soir, Rex dort dans son panier.",
+      "question": "Où est-ce que Rex dort le soir ?",
+      "bonnes_reponses": ["panier", "dans son panier", "son panier", "dans un panier"],
       "points": 10
     }
   ]
