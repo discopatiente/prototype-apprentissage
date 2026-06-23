@@ -12,5 +12,12 @@
     "description": "Apprends à compter et reconnaître les nombres",
     "icone": "🔢",
     "lessons": []
+  },
+  {
+    "id": "francais",
+    "titre": "Français",
+    "description": "Lecture et compréhension de textes",
+    "icone": "📖",
+    "lessons": ["lesson-francais-01"]
   }
 ]

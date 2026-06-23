@@ -13,11 +13,26 @@
 
       <div v-if="!finished" class="lesson-contenu">
         <p class="progression">Question {{ currentIndex + 1 }} / {{ lesson.exercices.length }}</p>
+
         <ExerciseQCM
+          v-if="currentExercise.type === 'qcm'"
           :exercise="currentExercise"
           :key="currentExercise.id"
           @answer-submitted="onAnswerSubmitted"
         />
+        <ExerciseQCMTexte
+          v-else-if="currentExercise.type === 'qcm-texte'"
+          :exercise="currentExercise"
+          :key="currentExercise.id"
+          @answer-submitted="onAnswerSubmitted"
+        />
+        <ExerciseReponseCorte
+          v-else-if="currentExercise.type === 'reponse-courte'"
+          :exercise="currentExercise"
+          :key="currentExercise.id"
+          @answer-submitted="onAnswerSubmitted"
+        />
+
         <FeedbackMessage v-if="showFeedback" :correct="lastAnswerCorrect" />
         <button v-if="showFeedback" class="btn-suivant" @click="nextQuestion">
           {{ isLastQuestion ? 'Voir mon bilan' : 'Question suivante' }}
@@ -41,6 +56,8 @@ import { useRoute, useRouter } from 'vue-router'
 import { useProgressStore } from '../stores/progressStore'
 import ScoreBadge from '../components/ScoreBadge.vue'
 import ExerciseQCM from '../components/ExerciseQCM.vue'
+import ExerciseQCMTexte from '../components/ExerciseQCMTexte.vue'
+import ExerciseReponseCorte from '../components/ExerciseReponseCorte.vue'
 import FeedbackMessage from '../components/FeedbackMessage.vue'
 import LessonBilan from '../components/LessonBilan.vue'
 
