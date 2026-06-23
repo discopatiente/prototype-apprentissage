@@ -1,0 +1,35 @@
+{
+  "id": "lesson-francais-03",
+  "theme": "francais",
+  "titre": "Léa et le judo",
+  "description": "Lis le texte et réponds aux questions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Léa fait du judo. Elle porte un kimono blanc. Son professeur s'appelle Marc. Après le cours, elle boit de l'eau.",
+      "question": "Que fait Léa ?",
+      "choix": ["Du judo", "De la danse", "De la natation"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Léa fait du judo. Elle porte un kimono blanc. Son professeur s'appelle Marc. Après le cours, elle boit de l'eau.",
+      "question": "De quelle couleur est son kimono ?",
+      "choix": ["Bleu", "Blanc", "Noir"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Léa fait du judo. Elle porte un kimono blanc. Son professeur s'appelle Marc. Après le cours, elle boit de l'eau.",
+      "question": "Comment s'appelle son professeur ?",
+      "choix": ["Marc", "Paul", "Louis"],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "lesson-francais-04",
+  "theme": "francais",
+  "titre": "La semaine de Sofia",
+  "description": "Lis le texte et réponds aux questions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Le lundi, Sofia va à l'école. Le mardi matin, elle a judo. Le mardi soir, elle regarde la télévision. Le mercredi, elle se promène dans la nature.",
+      "question": "Quel jour Sofia va-t-elle à l'école ?",
+      "choix": ["Le lundi", "Le mardi", "Le mercredi"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Le lundi, Sofia va à l'école. Le mardi matin, elle a judo. Le mardi soir, elle regarde la télévision. Le mercredi, elle se promène dans la nature.",
+      "question": "Quand a-t-elle judo ?",
+      "choix": ["Le lundi matin", "Le mardi matin", "Le mardi soir"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Le lundi, Sofia va à l'école. Le mardi matin, elle a judo. Le mardi soir, elle regarde la télévision. Le mercredi, elle se promène dans la nature.",
+      "question": "Que fait-elle le mercredi ?",
+      "choix": ["Elle regarde la télévision", "Elle se promène dans la nature", "Elle va à l'école"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "lesson-francais-06",
+  "theme": "francais",
+  "titre": "Inès au judo",
+  "description": "Lis le texte et réponds aux questions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Le samedi, Inès va au judo avec son sac de sport. Elle retrouve son amie Clara. Ensemble, elles s'entraînent pendant une heure. Après le cours, elles mangent une pomme.",
+      "question": "Quel jour Inès va-t-elle au judo ?",
+      "choix": ["Le vendredi", "Le samedi", "Le dimanche"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Le samedi, Inès va au judo avec son sac de sport. Elle retrouve son amie Clara. Ensemble, elles s'entraînent pendant une heure. Après le cours, elles mangent une pomme.",
+      "question": "Avec qui s'entraîne-t-elle ?",
+      "choix": ["Son frère", "Son professeur", "Son amie Clara"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Le samedi, Inès va au judo avec son sac de sport. Elle retrouve son amie Clara. Ensemble, elles s'entraînent pendant une heure. Après le cours, elles mangent une pomme.",
+      "question": "Pendant combien de temps s'entraînent-elles ?",
+      "choix": ["Une demi-heure", "Une heure", "Deux heures"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Le samedi, Inès va au judo avec son sac de sport. Elle retrouve son amie Clara. Ensemble, elles s'entraînent pendant une heure. Après le cours, elles mangent une pomme.",
+      "question": "Que mangent-elles après le cours ?",
+      "choix": ["Une pomme", "Un sandwich", "Une glace"],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

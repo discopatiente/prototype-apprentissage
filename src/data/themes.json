@@ -18,6 +18,6 @@
     "titre": "Français",
     "description": "Lecture et compréhension de textes",
     "icone": "📖",
-    "lessons": ["lesson-francais-01"]
+    "lessons": ["lesson-francais-01", "lesson-francais-02", "lesson-francais-03", "lesson-francais-04", "lesson-francais-05", "lesson-francais-06"]
   }
 ]

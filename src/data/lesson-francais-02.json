@@ -1,0 +1,35 @@
+{
+  "id": "lesson-francais-02",
+  "theme": "francais",
+  "titre": "La maison",
+  "description": "Lis le texte et réponds aux questions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Le chat dort sur le canapé. Il fait beau dehors. Le chien joue dans le jardin. La famille mange dans la cuisine.",
+      "question": "Où dort le chat ?",
+      "choix": ["Sur le lit", "Sur le canapé", "Dans le jardin"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Le chat dort sur le canapé. Il fait beau dehors. Le chien joue dans le jardin. La famille mange dans la cuisine.",
+      "question": "Qui joue dans le jardin ?",
+      "choix": ["Le chat", "Le chien", "La famille"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Le chat dort sur le canapé. Il fait beau dehors. Le chien joue dans le jardin. La famille mange dans la cuisine.",
+      "question": "Où mange la famille ?",
+      "choix": ["Dans le jardin", "Sur le canapé", "Dans la cuisine"],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}
