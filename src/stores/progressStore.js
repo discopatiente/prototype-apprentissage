@@ -74,6 +74,13 @@ export const useProgressStore = defineStore('progress', () => {
     completedExercisesInAttempt.value = []
   }
 
+  function resetProgress() {
+    scoreGlobal.value = 0
+    bestScoresByLesson.value = {}
+    attemptHistory.value = []
+    resetAttempt()
+  }
+
   return {
     scoreGlobal,
     bestScoresByLesson,
@@ -84,5 +91,6 @@ export const useProgressStore = defineStore('progress', () => {
     submitAnswer,
     finishLesson,
     resetAttempt,
+    resetProgress,
   }
 })

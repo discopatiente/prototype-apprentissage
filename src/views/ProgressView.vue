@@ -38,6 +38,10 @@
       <p>Tu n'as pas encore fait de leçon.</p>
       <button class="btn-start" @click="router.push('/')">Choisir une leçon</button>
     </div>
+
+    <div v-if="store.attemptHistory.length > 0" class="reset-zone">
+      <button class="btn-reset" @click="confirmReset">Réinitialiser la progression</button>
+    </div>
   </div>
 </template>
 
@@ -67,6 +71,12 @@ function scoreClass(attempt) {
   if (ratio >= 0.8) return 'score--great'
   if (ratio >= 0.5) return 'score--ok'
   return 'score--low'
+}
+
+function confirmReset() {
+  if (window.confirm('Effacer toute la progression ? Cette action est irréversible.')) {
+    store.resetProgress()
+  }
 }
 </script>
 
@@ -227,5 +237,26 @@ function scoreClass(attempt) {
 
 .btn-start:hover {
   background: #1565c0;
+}
+
+.reset-zone {
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+}
+
+.btn-reset {
+  font-size: 13px;
+  color: #9e9e9e;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.btn-reset:hover {
+  color: #c62828;
 }
 </style>
