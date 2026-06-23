@@ -17,17 +17,19 @@ export const useProgressStore = defineStore('progress', () => {
 
   const scoreGlobal = ref(savedData?.scoreGlobal ?? 0)
   const bestScoresByLesson = ref(savedData?.bestScoresByLesson ?? {})
+  const attemptHistory = ref(savedData?.attemptHistory ?? [])
   const currentAttemptScores = ref({})
   const completedExercisesInAttempt = ref([])
 
   watch(
-    [scoreGlobal, bestScoresByLesson],
+    [scoreGlobal, bestScoresByLesson, attemptHistory],
     () => {
       localStorage.setItem(
         STORAGE_KEY,
         JSON.stringify({
           scoreGlobal: scoreGlobal.value,
           bestScoresByLesson: bestScoresByLesson.value,
+          attemptHistory: attemptHistory.value,
         }),
       )
     },
@@ -48,7 +50,7 @@ export const useProgressStore = defineStore('progress', () => {
     }
   }
 
-  function finishLesson(lessonId) {
+  function finishLesson(lessonId, lessonTitle, maxScore) {
     const attemptScore = currentAttemptScore.value
     const previousBest = bestScoresByLesson.value[lessonId] || 0
 
@@ -57,6 +59,14 @@ export const useProgressStore = defineStore('progress', () => {
       scoreGlobal.value += improvement
       bestScoresByLesson.value[lessonId] = attemptScore
     }
+
+    attemptHistory.value.push({
+      date: new Date().toISOString(),
+      lessonId,
+      lessonTitle: lessonTitle ?? lessonId,
+      score: attemptScore,
+      maxScore: maxScore ?? 0,
+    })
   }
 
   function resetAttempt() {
@@ -67,6 +77,7 @@ export const useProgressStore = defineStore('progress', () => {
   return {
     scoreGlobal,
     bestScoresByLesson,
+    attemptHistory,
     currentAttemptScores,
     currentAttemptScore,
     completedExercisesInAttempt,

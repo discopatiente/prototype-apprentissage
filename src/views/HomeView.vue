@@ -6,6 +6,7 @@
 
     <h1 class="titre">Bonjour !</h1>
     <p class="description">Choisis un thème pour commencer :</p>
+    <button class="btn-progress" @click="router.push('/progress')">📈 Mes progrès</button>
 
     <div class="themes-grid">
       <button
@@ -63,6 +64,23 @@ const router = useRouter()
   color: #757575;
   margin: 0;
   text-align: center;
+}
+
+.btn-progress {
+  align-self: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: #1976d2;
+  background: #e3f2fd;
+  border: 2px solid #bbdefb;
+  border-radius: 24px;
+  padding: 10px 24px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-progress:hover {
+  background: #bbdefb;
 }
 
 .themes-grid {

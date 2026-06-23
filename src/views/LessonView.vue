@@ -82,7 +82,8 @@ function onAnswerSubmitted({ id, isCorrect, points }) {
 
 function nextQuestion() {
   if (isLastQuestion.value) {
-    store.finishLesson(lesson.value.id)
+    const maxScore = lesson.value.exercices.reduce((sum, ex) => sum + ex.points, 0)
+    store.finishLesson(lesson.value.id, lesson.value.titre, maxScore)
     finished.value = true
   } else {
     currentIndex.value++
