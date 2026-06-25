@@ -80,7 +80,8 @@ watchEffect(async () => {
   finished.value = false
   error.value = false
   try {
-    const module = await import(`../data/${id}.json`)
+    const subject = id.split('-')[1]
+    const module = await import(`../data/${subject}/${id}.json`)
     lesson.value = module.default
   } catch {
     error.value = true

@@ -5,24 +5,23 @@
     </header>
 
     <h1 class="titre">Bonjour Sofia !</h1>
-    <p class="description">Choisis un thème pour commencer :</p>
+    <p class="description">Choisis une matière pour commencer :</p>
     <button class="btn-progress" @click="router.push('/progress')">📈 Mes progrès</button>
 
     <div class="themes-grid">
       <button
-        v-for="theme in themes"
-        :key="theme.id"
+        v-for="subject in subjects"
+        :key="subject.id"
         class="theme-card"
-        :class="{ 'theme-card--disabled': theme.lessons.length === 0 }"
-        :disabled="theme.lessons.length === 0"
-        @click="router.push('/theme/' + theme.id)"
+        :class="{ 'theme-card--disabled': totalLessons(subject) === 0 }"
+        :disabled="totalLessons(subject) === 0"
+        @click="router.push('/matiere/' + subject.id)"
       >
-        <span class="theme-icon">{{ theme.icone }}</span>
-        <span class="theme-title">{{ theme.titre }}</span>
-        <span class="theme-description">{{ theme.description }}</span>
-        <span v-if="theme.lessons.length === 0" class="theme-soon">Bientôt disponible</span>
+        <span class="theme-icon">{{ subject.icone }}</span>
+        <span class="theme-title">{{ subject.titre }}</span>
+        <span v-if="totalLessons(subject) === 0" class="theme-soon">Bientôt disponible</span>
         <span v-else class="theme-count">
-          {{ theme.lessons.length }} leçon{{ theme.lessons.length > 1 ? 's' : '' }}
+          {{ totalLessons(subject) }} leçon{{ totalLessons(subject) > 1 ? 's' : '' }}
         </span>
       </button>
     </div>
@@ -32,9 +31,13 @@
 <script setup>
 import { useRouter } from 'vue-router'
 import ScoreBadge from '../components/ScoreBadge.vue'
-import themes from '../data/themes.json'
+import subjects from '../data/subjects.json'
 
 const router = useRouter()
+
+function totalLessons(subject) {
+  return subject.niveaux.reduce((sum, n) => sum + n.lessons.length, 0)
+}
 </script>
 
 <style scoped>

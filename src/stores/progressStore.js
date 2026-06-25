@@ -67,6 +67,19 @@ export const useProgressStore = defineStore('progress', () => {
       score: attemptScore,
       maxScore: maxScore ?? 0,
     })
+
+    sendResultsToAdmin(lessonTitle ?? lessonId, attemptScore, maxScore ?? 0)
+  }
+
+  function sendResultsToAdmin(lessonTitle, score, maxScore) {
+    const body = new URLSearchParams({
+      'form-name': 'resultats-lecon',
+      lecon: lessonTitle,
+      score: String(score),
+      'score-max': String(maxScore),
+      date: new Date().toLocaleString('fr-FR'),
+    })
+    fetch('/', { method: 'POST', body }).catch(() => {})
   }
 
   function resetAttempt() {

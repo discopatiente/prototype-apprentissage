@@ -1,12 +1,5 @@
 [
   {
-    "id": "animaux",
-    "titre": "Les animaux",
-    "description": "Découvre les animaux de la ferme et leurs sons",
-    "icone": "🐄",
-    "lessons": ["lesson-animaux-01"]
-  },
-  {
     "id": "chiffres",
     "titre": "Les chiffres",
     "description": "Apprends à compter et reconnaître les nombres",

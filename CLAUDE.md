@@ -99,19 +99,6 @@ Ne pas réintroduire un score qui se remettrait à zéro globalement — c'est u
 - `HomeView.vue` — page d'accueil. **En cours de refonte** : doit passer d'un bouton unique "Commencer" à une grille de thématiques lue depuis `themes.json`.
 - `LessonView.vue` — orchestre une leçon : charge le bon fichier JSON selon l'id dans l'URL, affiche les exercices un par un, gère la transition vers `LessonBilan`.
 
-## Roadmap en cours — branche `feature/thematiques`
-
-Travail en cours sur cette branche, isolée de `main` qui reste stable et déployée :
-
-1. ✅ Restructuration des données en thèmes/leçons séparées
-2. ✅ Chargement dynamique de leçon par id d'URL
-3. ⬜ `HomeView` : afficher la grille de thèmes depuis `themes.json`
-4. ⬜ Nouvelle vue `ThemeView` : liste des leçons d'un thème, route `/theme/:id`
-5. ⬜ Historique des tentatives (date, leçon, score obtenu/max) à ajouter au store
-6. ⬜ Vue "Mes progrès" côté élève + vue équivalente côté admin
-7. ⬜ Interface admin pour ajouter du contenu sans toucher au code
-8. ⬜ Réflexion sur l'authentification admin (pertinente dès l'étape 6, la vue de progrès ne doit pas être publique sur l'URL)
-
 ## Style de travail attendu
 
 - Composition API uniquement, un composant par fichier, `<style scoped>` systématique.

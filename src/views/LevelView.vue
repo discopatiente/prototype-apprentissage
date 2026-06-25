@@ -1,15 +1,13 @@
 <template>
-  <div class="theme">
-    <header class="theme-header">
-      <button class="btn-back" @click="router.push('/')">← Retour</button>
+  <div class="level">
+    <header class="level-header">
+      <button class="btn-back" @click="router.push(`/matiere/${route.params.matiereId}`)">← Retour</button>
       <ScoreBadge />
     </header>
 
-    <div v-if="theme" class="theme-content">
-      <div class="theme-intro">
-        <p class="theme-icon">{{ theme.icone }}</p>
-        <h1 class="theme-title">{{ theme.titre }}</h1>
-        <p class="theme-description">{{ theme.description }}</p>
+    <div v-if="niveau" class="level-content">
+      <div class="level-intro">
+        <h1 class="level-title">{{ subject.titre }} — {{ niveau.titre }}</h1>
       </div>
 
       <div v-if="lessons.length > 0" class="lessons-list">
@@ -31,44 +29,47 @@
         </button>
       </div>
 
-      <p v-else class="no-lessons">Pas encore de leçons dans ce thème.</p>
+      <p v-else class="no-lessons">Pas encore de leçons dans ce niveau.</p>
     </div>
 
-    <div v-else class="theme-error">
-      <p>Ce thème n'existe pas.</p>
+    <div v-else class="level-error">
+      <p>Ce niveau n'existe pas.</p>
       <button class="btn-back" @click="router.push('/')">Retour au menu</button>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref, watchEffect } from 'vue'
+import { ref, watchEffect, computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useProgressStore } from '../stores/progressStore'
 import ScoreBadge from '../components/ScoreBadge.vue'
-import themesData from '../data/themes.json'
+import subjectsData from '../data/subjects.json'
 
 const route = useRoute()
 const router = useRouter()
 const store = useProgressStore()
 
-const theme = ref(null)
 const lessons = ref([])
 
-watchEffect(async () => {
-  const id = route.params.id
-  const found = themesData.find((t) => t.id === id)
+const subject = computed(() => subjectsData.find((s) => s.id === route.params.matiereId) ?? null)
 
-  if (!found) {
-    theme.value = null
+const niveau = computed(() => {
+  if (!subject.value) return null
+  return subject.value.niveaux.find((n) => n.id === route.params.niveauId) ?? null
+})
+
+watchEffect(async () => {
+  if (!niveau.value || niveau.value.lessons.length === 0) {
     lessons.value = []
     return
   }
 
-  theme.value = found
-
   const loaded = await Promise.all(
-    found.lessons.map((lessonId) => import(`../data/${lessonId}.json`).then((m) => m.default)),
+    niveau.value.lessons.map((lessonId) => {
+      const subjectId = lessonId.split('-')[1]
+      return import(`../data/${subjectId}/${lessonId}.json`).then((m) => m.default)
+    }),
   )
 
   lessons.value = loaded.map((lesson) => ({
@@ -79,7 +80,7 @@ watchEffect(async () => {
 </script>
 
 <style scoped>
-.theme {
+.level {
   max-width: 640px;
   margin: 0 auto;
   padding: 32px 16px 64px;
@@ -88,7 +89,7 @@ watchEffect(async () => {
   gap: 32px;
 }
 
-.theme-header {
+.level-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -107,29 +108,13 @@ watchEffect(async () => {
   text-decoration: underline;
 }
 
-.theme-intro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
+.level-intro {
   text-align: center;
 }
 
-.theme-icon {
-  font-size: 64px;
-  margin: 0;
-  line-height: 1;
-}
-
-.theme-title {
-  font-size: 28px;
+.level-title {
+  font-size: 24px;
   font-weight: 500;
-  margin: 0;
-}
-
-.theme-description {
-  font-size: 16px;
-  color: #757575;
   margin: 0;
 }
 
@@ -205,7 +190,7 @@ watchEffect(async () => {
   font-size: 16px;
 }
 
-.theme-error {
+.level-error {
   display: flex;
   flex-direction: column;
   align-items: center;

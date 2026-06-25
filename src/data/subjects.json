@@ -1,0 +1,33 @@
+[
+  {
+    "id": "francais",
+    "titre": "Français",
+    "icone": "📖",
+    "niveaux": [
+      {
+        "id": "niveau-1",
+        "titre": "Niveau 1",
+        "lessons": [
+          "lesson-francais-01",
+          "lesson-francais-02",
+          "lesson-francais-03",
+          "lesson-francais-04",
+          "lesson-francais-05",
+          "lesson-francais-06"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "maths",
+    "titre": "Mathématiques",
+    "icone": "🔢",
+    "niveaux": [
+      {
+        "id": "niveau-1",
+        "titre": "Niveau 1",
+        "lessons": []
+      }
+    ]
+  }
+]

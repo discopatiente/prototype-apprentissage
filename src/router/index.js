@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import ThemeView from '../views/ThemeView.vue'
+import SubjectView from '../views/SubjectView.vue'
+import LevelView from '../views/LevelView.vue'
 import LessonView from '../views/LessonView.vue'
 import ProgressView from '../views/ProgressView.vue'
 import AdminLoginView from '../views/AdminLoginView.vue'
@@ -16,9 +17,14 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: '/theme/:id',
-      name: 'theme',
-      component: ThemeView,
+      path: '/matiere/:matiereId',
+      name: 'subject',
+      component: SubjectView,
+    },
+    {
+      path: '/matiere/:matiereId/:niveauId',
+      name: 'level',
+      component: LevelView,
     },
     {
       path: '/lesson/:id',
