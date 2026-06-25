@@ -27,8 +27,9 @@
       </div>
 
       <div class="bilan-actions">
-        <button class="btn-secondaire" @click="emit('restart')">Recommencer</button>
-        <button class="btn-principal" @click="emit('go-to-menu')">Menu principal</button>
+        <button class="btn-principal" @click="emit('restart')">Recommencer</button>
+        <button class="btn-secondaire" @click="emit('go-to-level')">Retour aux leçons</button>
+        <button class="btn-tertiaire" @click="emit('go-to-menu')">Menu principal</button>
       </div>
     </div>
   </div>
@@ -49,7 +50,7 @@ const props = defineProps({
   },
 })
 
-const emit = defineEmits(['restart', 'go-to-menu'])
+const emit = defineEmits(['restart', 'go-to-level', 'go-to-menu'])
 
 const store = useProgressStore()
 const confettiCanvas = ref(null)
@@ -224,11 +225,16 @@ onMounted(() => {
 
 .bilan-actions {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 12px;
   margin-top: 8px;
+  width: 100%;
+  max-width: 320px;
 }
 
 .btn-principal {
+  width: 100%;
   padding: 14px 32px;
   font-size: 16px;
   font-weight: 500;
@@ -244,6 +250,7 @@ onMounted(() => {
 }
 
 .btn-secondaire {
+  width: 100%;
   padding: 14px 32px;
   font-size: 16px;
   font-weight: 500;
@@ -256,5 +263,20 @@ onMounted(() => {
 
 .btn-secondaire:hover {
   background: #e3f2fd;
+}
+
+.btn-tertiaire {
+  font-size: 14px;
+  font-weight: 500;
+  color: #9e9e9e;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.btn-tertiaire:hover {
+  color: #757575;
+  text-decoration: underline;
 }
 </style>

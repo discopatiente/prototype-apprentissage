@@ -44,6 +44,7 @@
         :exercises="lesson.exercices"
         :id-lesson="lesson.id"
         @restart="restart"
+        @go-to-level="goToLevel"
         @go-to-menu="goToMenu"
       />
     </div>
@@ -60,6 +61,7 @@ import ExerciseQCMTexte from '../components/ExerciseQCMTexte.vue'
 import ExerciseReponseCorte from '../components/ExerciseReponseCorte.vue'
 import FeedbackMessage from '../components/FeedbackMessage.vue'
 import LessonBilan from '../components/LessonBilan.vue'
+import subjectsData from '../data/subjects.json'
 
 const route = useRoute()
 const router = useRouter()
@@ -118,6 +120,20 @@ function restart() {
   currentIndex.value = 0
   showFeedback.value = false
   finished.value = false
+}
+
+function goToLevel() {
+  const lessonId = route.params.id
+  for (const subject of subjectsData) {
+    for (const niveau of subject.niveaux) {
+      if (niveau.lessons.includes(lessonId)) {
+        store.resetAttempt()
+        router.push(`/matiere/${subject.id}/${niveau.id}`)
+        return
+      }
+    }
+  }
+  router.push('/')
 }
 
 function goToMenu() {
