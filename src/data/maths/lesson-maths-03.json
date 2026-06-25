@@ -1,0 +1,35 @@
+{
+  "id": "lesson-maths-03",
+  "theme": "maths",
+  "titre": "Chiffres et lettres",
+  "description": "Reconnais les nombres écrits en chiffres et en lettres",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "On peut écrire les nombres en chiffres ou en lettres.",
+      "question": "Comment écrit-on sept en chiffres ?",
+      "choix": ["5", "7", "9"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "On peut écrire les nombres en chiffres ou en lettres.",
+      "question": "Comment écrit-on dix en chiffres ?",
+      "choix": ["8", "10", "12"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "On peut écrire les nombres en chiffres ou en lettres.",
+      "question": "Comment écrit-on 4 en lettres ?",
+      "choix": ["Quatre", "Six", "Deux"],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

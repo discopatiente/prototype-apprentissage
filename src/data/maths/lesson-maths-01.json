@@ -1,0 +1,35 @@
+{
+  "id": "lesson-maths-01",
+  "theme": "maths",
+  "titre": "Une suite de nombres",
+  "description": "Lis la suite et réponds aux questions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Voici une suite de nombres : 3, 5, 7, 9.",
+      "question": "Quel est le premier nombre de la suite ?",
+      "choix": ["3", "5", "9"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Voici une suite de nombres : 3, 5, 7, 9.",
+      "question": "Quel est le dernier nombre de la suite ?",
+      "choix": ["3", "7", "9"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Voici une suite de nombres : 3, 5, 7, 9.",
+      "question": "Combien y a-t-il de nombres dans la suite ?",
+      "choix": ["2", "4", "6"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

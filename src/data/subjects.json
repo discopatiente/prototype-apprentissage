@@ -26,7 +26,13 @@
       {
         "id": "niveau-1",
         "titre": "Niveau 1",
-        "lessons": []
+        "lessons": [
+          "lesson-maths-01",
+          "lesson-maths-02",
+          "lesson-maths-03",
+          "lesson-maths-04",
+          "lesson-maths-05"
+        ]
       }
     ]
   }

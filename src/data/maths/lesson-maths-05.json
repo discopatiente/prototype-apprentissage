@@ -1,0 +1,35 @@
+{
+  "id": "lesson-maths-05",
+  "theme": "maths",
+  "titre": "Comparer et ranger",
+  "description": "Entraîne-toi à comparer et ranger des nombres",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "On compare et on range des nombres.",
+      "question": "Parmi 14, 9 et 20, quel est le plus grand ?",
+      "choix": ["14", "9", "20"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "On compare et on range des nombres.",
+      "question": "Parmi 6, 18 et 11, quel est le plus petit ?",
+      "choix": ["6", "18", "11"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "On compare et on range des nombres.",
+      "question": "Range ces nombres du plus petit au plus grand : 17, 4, 10. Quel est l'ordre correct ?",
+      "choix": ["4, 10, 17", "17, 10, 4", "10, 4, 17"],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

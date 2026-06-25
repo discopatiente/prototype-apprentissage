@@ -1,0 +1,35 @@
+{
+  "id": "lesson-maths-04",
+  "theme": "maths",
+  "titre": "Dizaines et unités",
+  "description": "Apprends à décomposer un nombre en dizaines et unités",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Voici un nombre : 23.",
+      "question": "Combien de dizaines y a-t-il dans 23 ?",
+      "choix": ["2", "3", "4"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Voici un nombre : 23.",
+      "question": "Combien d'unités y a-t-il dans 23 ?",
+      "choix": ["2", "3", "4"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Voici un nombre : 23.",
+      "question": "Quel nombre vient juste après 23 ?",
+      "choix": ["22", "24", "25"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

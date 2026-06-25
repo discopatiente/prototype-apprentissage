@@ -1,0 +1,35 @@
+{
+  "id": "lesson-maths-02",
+  "theme": "maths",
+  "titre": "Comparer des nombres",
+  "description": "Observe les nombres et réponds aux questions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Voici trois nombres : 12, 8, 15.",
+      "question": "Quel est le plus petit nombre ?",
+      "choix": ["12", "8", "15"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Voici trois nombres : 12, 8, 15.",
+      "question": "Quel est le plus grand nombre ?",
+      "choix": ["12", "8", "15"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Voici trois nombres : 12, 8, 15.",
+      "question": "Lequel de ces nombres est entre 8 et 15 ?",
+      "choix": ["12", "15", "8"],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}
