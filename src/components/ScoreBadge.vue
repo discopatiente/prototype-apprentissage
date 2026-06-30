@@ -1,35 +1,62 @@
 <template>
-  <div class="score-badge">
-    <span class="score-label">Score</span>
-    <span class="score-value">{{ store.scoreGlobal }}</span>
+  <div class="badge">
+    <div class="badge-group">
+      <div class="diamond"></div>
+      <span class="badge-score">{{ store.scoreGlobal }}</span>
+    </div>
+    <div class="badge-group">
+      <div class="balloon"></div>
+      <span class="badge-balloons">{{ store.balloons }}</span>
+    </div>
   </div>
 </template>
 
 <script setup>
 import { useProgressStore } from '../stores/progressStore'
-
 const store = useProgressStore()
 </script>
 
 <style scoped>
-.score-badge {
+.badge {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 8px 16px;
-  background-color: #e8f5e9;
-  border-radius: 20px;
+  gap: 12px;
+  background: #FFFDFB;
+  padding: 8px 15px;
+  border-radius: 18px;
+  box-shadow: 0 8px 18px -14px rgba(74, 53, 43, 0.3);
 }
 
-.score-label {
+.badge-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.diamond {
+  width: 11px;
+  height: 11px;
+  background: #D9A85F;
+  transform: rotate(45deg);
+  border-radius: 2px;
+}
+
+.badge-score {
   font-size: 14px;
-  color: #2e7d32;
-  font-weight: 500;
+  font-weight: 800;
+  color: #9A6E2E;
 }
 
-.score-value {
-  font-size: 20px;
-  font-weight: 700;
-  color: #1b5e20;
+.balloon {
+  width: 12px;
+  height: 15px;
+  background: #DD8A78;
+  border-radius: 50% 50% 50% 50% / 55% 55% 45% 45%;
+}
+
+.badge-balloons {
+  font-size: 14px;
+  font-weight: 800;
+  color: #C25E47;
 }
 </style>

@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  body { margin:0; font-family:'Nunito',sans-serif; }
+  button { font-family:'Nunito',sans-serif; }
+  input { font-family:'Nunito',sans-serif; }
+  ::-webkit-scrollbar { width:0; height:0; }
+  @keyframes burst { 0%{ transform:translate(0,0) scale(1); opacity:1; } 100%{ transform:translate(var(--tx),var(--ty)) scale(0.35); opacity:0; } }
+  @keyframes rise { 0%{ transform:translateY(60px); opacity:0; } 12%{ opacity:1; } 90%{ opacity:1; } 100%{ transform:translateY(-780px); opacity:0; } }
+  @keyframes popIn { 0%{ transform:scale(0.7); opacity:0; } 60%{ transform:scale(1.06); } 100%{ transform:scale(1); opacity:1; } }
+</style>
+</helmet>
+
+<div style="min-height:100vh; display:flex; align-items:center; justify-content:center; padding:48px 24px; background:#EFE7DC;">
+  <div style="width:390px; height:824px; border-radius:46px; overflow:hidden; position:relative; display:flex; flex-direction:column; background:#FAF5EF; box-shadow:0 24px 60px -22px rgba(74,53,43,0.30);">
+
+    <div style="height:52px; padding:18px 32px 0; display:flex; justify-content:space-between; align-items:center; font:700 15px Nunito,sans-serif; color:#4A4038; position:relative; z-index:5; flex-shrink:0;">
+      <span>9:41</span>
+      <div style="width:26px; height:13px; border:1.5px solid #4A4038; border-radius:4px; opacity:0.65; position:relative;">
+        <div style="position:absolute; top:2px; bottom:2px; left:2px; width:65%; background:#4A4038; border-radius:1.5px;"></div>
+      </div>
+    </div>
+
+    <div style="flex:1; position:relative; overflow:hidden;">
+
+      <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+        <div style="position:absolute; inset:0; display:flex; flex-direction:column; background:linear-gradient(180deg,#FBE9DD 0%,#FAF5EF 46%); overflow-y:auto;">
+          <div style="display:flex; justify-content:space-between; align-items:center; padding:10px 24px 0;">
+            <span style="font:600 14px Nunito,sans-serif; color:#A2937F;">{{ today }}</span>
+            <div style="display:flex; align-items:center; gap:12px; background:#FFFDFB; padding:8px 15px; border-radius:18px; box-shadow:0 8px 18px -14px rgba(74,53,43,0.3);">
+              <div style="display:flex; align-items:center; gap:6px;">
+                <div style="width:11px; height:11px; background:#D9A85F; transform:rotate(45deg); border-radius:2px;"></div>
+                <span style="font:800 14px Nunito,sans-serif; color:#9A6E2E;">{{ score }}</span>
+              </div>
+              <div style="display:flex; align-items:center; gap:6px;">
+                <div style="width:12px; height:15px; background:#DD8A78; border-radius:50% 50% 50% 50%/55% 55% 45% 45%;"></div>
+                <span style="font:800 14px Nunito,sans-serif; color:#C25E47;">{{ balloons }}</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="display:flex; align-items:center; gap:14px; padding:14px 26px 0;">
+            <div style="position:relative; width:88px; height:82px; flex-shrink:0;">
+              <div style="position:absolute; top:7px; left:14px; width:22px; height:27px; background:#E3A48F; border-radius:50% 50% 50% 50% / 62% 62% 38% 38%; transform:rotate(-20deg);"></div>
+              <div style="position:absolute; top:7px; right:14px; width:22px; height:27px; background:#E3A48F; border-radius:50% 50% 50% 50% / 62% 62% 38% 38%; transform:rotate(20deg);"></div>
+              <div style="position:absolute; top:15px; left:9px; width:70px; height:62px; background:#F0C2B0; border-radius:50%;"></div>
+              <div style="position:absolute; top:48px; left:20px; width:10px; height:7px; background:rgba(221,138,120,0.38); border-radius:50%;"></div>
+              <div style="position:absolute; top:48px; right:20px; width:10px; height:7px; background:rgba(221,138,120,0.38); border-radius:50%;"></div>
+              <div style="position:absolute; top:38px; left:28px; width:7px; height:9px; background:#6B4A3A; border-radius:50%;"></div>
+              <div style="position:absolute; top:38px; right:28px; width:7px; height:9px; background:#6B4A3A; border-radius:50%;"></div>
+              <div style="position:absolute; top:49px; left:50%; transform:translateX(-50%); width:30px; height:22px; background:#E3A48F; border-radius:50%; display:flex; align-items:center; justify-content:center; gap:6px;">
+                <div style="width:5px; height:8px; background:#7A5443; border-radius:50%;"></div>
+                <div style="width:5px; height:8px; background:#7A5443; border-radius:50%;"></div>
+              </div>
+            </div>
+            <div style="position:relative; flex:1; background:#FFFDFB; border-radius:20px; padding:15px 18px; box-shadow:0 12px 26px -16px rgba(74,53,43,0.32);">
+              <div style="position:absolute; left:-8px; top:50%; transform:translateY(-50%) rotate(45deg); width:18px; height:18px; background:#FFFDFB; border-radius:4px;"></div>
+              <h1 style="position:relative; margin:0; font:800 25px Nunito,sans-serif; color:#4A352B; line-height:1.15;">Bonjour {{ childName }}&nbsp;!</h1>
+            </div>
+          </div>
+
+          <p style="margin:18px 0 0; padding:0 26px; font:600 16px Nunito,sans-serif; color:#A2937F;">Choisis une matière&nbsp;:</p>
+
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px; padding:14px 26px 0;">
+            <sc-for list="{{ subjects }}" as="m" hint-placeholder-count="2">
+              <button onClick="{{ m.onClick }}" style="display:flex; flex-direction:column; align-items:center; gap:10px; padding:24px 14px; background:#FFFDFB; border:none; border-radius:24px; cursor:pointer; box-shadow:0 12px 26px -16px rgba(74,53,43,0.35);" style-active="transform:scale(0.97);">
+                <div style="width:64px; height:64px; border-radius:20px; display:flex; align-items:center; justify-content:center; font-size:34px; background:{{ m.tint }};">{{ m.icone }}</div>
+                <span style="font:800 18px Nunito,sans-serif; color:#4A352B;">{{ m.titre }}</span>
+                <span style="font:700 12px Nunito,sans-serif; color:{{ m.color }}; background:{{ m.tint }}; padding:4px 11px; border-radius:14px;">{{ m.countLabel }}</span>
+              </button>
+            </sc-for>
+          </div>
+
+          <div style="display:flex; justify-content:center; padding:26px 26px 30px;">
+            <button onClick="{{ openProgress }}" style="display:flex; align-items:center; gap:9px; background:#F3E7D6; border:none; padding:12px 22px; border-radius:22px; cursor:pointer;" style-active="opacity:0.7;">
+              <div style="display:flex; align-items:flex-end; gap:2px; height:14px;">
+                <div style="width:4px; height:7px; background:#C2855F; border-radius:1px;"></div>
+                <div style="width:4px; height:11px; background:#C2855F; border-radius:1px;"></div>
+                <div style="width:4px; height:14px; background:#C2855F; border-radius:1px;"></div>
+              </div>
+              <span style="font:700 15px Nunito,sans-serif; color:#A56A45;">Mes progrès</span>
+            </button>
+          </div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ isSubject }}" hint-placeholder-val="{{ false }}">
+        <div style="position:absolute; inset:0; display:flex; flex-direction:column; padding:10px 24px 30px; overflow-y:auto;">
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <button onClick="{{ goHome }}" style="background:none; border:none; padding:6px 4px; font:700 16px Nunito,sans-serif; color:#C2855F; cursor:pointer;" style-active="opacity:0.6;">‹ Accueil</button>
+            <div style="display:flex; align-items:center; gap:12px; background:#FFFDFB; padding:8px 15px; border-radius:18px; box-shadow:0 8px 18px -14px rgba(74,53,43,0.3);">
+              <div style="display:flex; align-items:center; gap:6px;"><div style="width:11px; height:11px; background:#D9A85F; transform:rotate(45deg); border-radius:2px;"></div><span style="font:800 14px Nunito,sans-serif; color:#9A6E2E;">{{ score }}</span></div>
+              <div style="display:flex; align-items:center; gap:6px;"><div style="width:12px; height:15px; background:#DD8A78; border-radius:50% 50% 50% 50%/55% 55% 45% 45%;"></div><span style="font:800 14px Nunito,sans-serif; color:#C25E47;">{{ balloons }}</span></div>
+            </div>
+          </div>
+
+          <div style="display:flex; flex-direction:column; align-items:center; gap:6px; text-align:center; margin-top:18px;">
+            <div style="width:84px; height:84px; border-radius:26px; display:flex; align-items:center; justify-content:center; font-size:44px; background:{{ subjectTint }};">{{ subjectIcone }}</div>
+            <h1 style="margin:8px 0 0; font:800 26px Nunito,sans-serif; color:#4A352B;">{{ subjectTitre }}</h1>
+            <p style="margin:0; font:600 15px Nunito,sans-serif; color:#A2937F;">Choisis ton niveau&nbsp;:</p>
+          </div>
+
+          <div style="display:flex; flex-direction:column; gap:12px; margin-top:24px;">
+            <sc-for list="{{ niveaux }}" as="n" hint-placeholder-count="1">
+              <button onClick="{{ n.onClick }}" style="display:flex; justify-content:space-between; align-items:center; width:100%; text-align:left; background:#FFFDFB; border:none; border-radius:20px; padding:22px 22px; cursor:pointer; box-shadow:0 10px 24px -16px rgba(74,53,43,0.35);" style-active="transform:scale(0.985);">
+                <span style="font:800 19px Nunito,sans-serif; color:#4A352B;">{{ n.titre }}</span>
+                <span style="font:700 14px Nunito,sans-serif; color:#A2937F;">{{ n.countLabel }}</span>
+              </button>
+            </sc-for>
+          </div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ isLevel }}" hint-placeholder-val="{{ false }}">
+        <div style="position:absolute; inset:0; display:flex; flex-direction:column; padding:10px 24px 30px; overflow-y:auto;">
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <button onClick="{{ backToSubject }}" style="background:none; border:none; padding:6px 4px; font:700 16px Nunito,sans-serif; color:#C2855F; cursor:pointer;" style-active="opacity:0.6;">‹ Retour</button>
+            <div style="display:flex; align-items:center; gap:12px; background:#FFFDFB; padding:8px 15px; border-radius:18px; box-shadow:0 8px 18px -14px rgba(74,53,43,0.3);">
+              <div style="display:flex; align-items:center; gap:6px;"><div style="width:11px; height:11px; background:#D9A85F; transform:rotate(45deg); border-radius:2px;"></div><span style="font:800 14px Nunito,sans-serif; color:#9A6E2E;">{{ score }}</span></div>
+              <div style="display:flex; align-items:center; gap:6px;"><div style="width:12px; height:15px; background:#DD8A78; border-radius:50% 50% 50% 50%/55% 55% 45% 45%;"></div><span style="font:800 14px Nunito,sans-serif; color:#C25E47;">{{ balloons }}</span></div>
+            </div>
+          </div>
+
+          <h1 style="margin:18px 2px 4px; font:800 23px Nunito,sans-serif; color:#4A352B;">{{ levelTitle }}</h1>
+          <p style="margin:0 2px 18px; font:600 15px Nunito,sans-serif; color:#A2937F;">Touche une leçon pour commencer.</p>
+
+          <div style="display:flex; flex-direction:column; gap:12px;">
+            <sc-for list="{{ lessonsList }}" as="l" hint-placeholder-count="3">
+              <button onClick="{{ l.onClick }}" style="display:flex; align-items:center; gap:14px; width:100%; text-align:left; background:#FFFDFB; border:none; border-radius:20px; padding:18px 18px; cursor:pointer; box-shadow:0 10px 24px -16px rgba(74,53,43,0.35);" style-active="transform:scale(0.985);">
+                <div style="flex:1;">
+                  <div style="font:800 17px Nunito,sans-serif; color:#4A352B;">{{ l.titre }}</div>
+                  <div style="font:600 13px Nunito,sans-serif; color:#A2937F; margin-top:2px;">{{ l.description }}</div>
+                </div>
+                <div style="{{ l.badgeStyle }}">{{ l.badgeText }}</div>
+              </button>
+            </sc-for>
+          </div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ isLesson }}" hint-placeholder-val="{{ false }}">
+        <div style="position:absolute; inset:0; display:flex; flex-direction:column; padding:10px 24px 24px; overflow-y:auto;">
+          <div style="display:flex; align-items:center; gap:12px;">
+            <button onClick="{{ backToLevel }}" style="background:none; border:none; padding:4px 6px; font:700 22px Nunito,sans-serif; color:#C2855F; cursor:pointer; line-height:1;" style-active="opacity:0.6;">‹</button>
+            <div style="flex:1; height:9px; background:#EFE3D2; border-radius:6px; overflow:hidden;">
+              <div style="height:100%; width:{{ progressPct }}; background:#EFA88C; border-radius:6px; transition:width .3s ease;"></div>
+            </div>
+            <span style="font:700 14px Nunito,sans-serif; color:#A2937F; white-space:nowrap;">{{ qNum }} / {{ qTotal }}</span>
+          </div>
+
+          <span style="margin-top:22px; font:700 12px Nunito,sans-serif; color:{{ subjectColor }}; letter-spacing:0.05em; text-transform:uppercase;">{{ lessonTitre }}</span>
+
+          <sc-if value="{{ hasTexte }}" hint-placeholder-val="{{ false }}">
+            <div style="background:#FBF1E2; border-left:4px solid #E0A48F; border-radius:0 14px 14px 0; padding:14px 18px; margin-top:12px;">
+              <p style="margin:0 0 6px; font:800 11px Nunito,sans-serif; color:#C2855F; text-transform:uppercase; letter-spacing:0.08em;">Texte à lire</p>
+              <p style="margin:0; font:600 16px Nunito,sans-serif; line-height:1.6; color:#5C4A3D;">{{ exTexte }}</p>
+            </div>
+          </sc-if>
+
+          <h2 style="margin:18px 0 0; font:800 22px Nunito,sans-serif; color:#4A352B; line-height:1.3;">{{ exQuestion }}</h2>
+
+          <sc-if value="{{ isChoiceType }}" hint-placeholder-val="{{ true }}">
+            <div style="display:flex; flex-direction:column; gap:11px; margin-top:18px;">
+              <sc-for list="{{ choices }}" as="c" hint-placeholder-count="3">
+                <button onClick="{{ c.onClick }}" style="{{ c.style }}">{{ c.label }}</button>
+              </sc-for>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ isInputType }}" hint-placeholder-val="{{ false }}">
+            <div style="margin-top:18px;">
+              <input value="{{ inputVal }}" onInput="{{ onInput }}" disabled="{{ inputDisabled }}" placeholder="Écris ta réponse ici…" style="{{ inputStyle }}">
+              <sc-if value="{{ showCorrection }}" hint-placeholder-val="{{ false }}">
+                <p style="margin:12px 0 0; font:700 15px Nunito,sans-serif; color:#B25B45; text-align:center;">{{ correctionText }}</p>
+              </sc-if>
+            </div>
+          </sc-if>
+
+          <div style="flex:1;"></div>
+
+          <sc-if value="{{ answered }}" hint-placeholder-val="{{ false }}">
+            <div style="margin-top:16px;">
+              <div style="padding:13px 20px; border-radius:16px; text-align:center; margin-bottom:12px; background:{{ feedbackBg }}; border:2px solid {{ feedbackBorder }};">
+                <span style="font:800 18px Nunito,sans-serif; color:{{ feedbackColor }};">{{ feedbackText }}</span>
+              </div>
+              <button onClick="{{ next }}" style="width:100%; height:62px; border:none; border-radius:30px; background:#EFA88C; color:#4A352B; font:800 19px Nunito,sans-serif; cursor:pointer; box-shadow:0 12px 22px -12px rgba(216,138,108,0.7);" style-active="transform:scale(0.98);">{{ nextLabel }}</button>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ canValidate }}" hint-placeholder-val="{{ false }}">
+            <button onClick="{{ valider }}" disabled="{{ validerDisabled }}" style="{{ validerStyle }}">Valider</button>
+          </sc-if>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ isBilan }}" hint-placeholder-val="{{ false }}">
+        <div style="position:absolute; inset:0; display:flex; flex-direction:column; background:linear-gradient(180deg,#FBE9DD 0%,#FAF5EF 58%); overflow-y:auto;">
+          {{ rewardAnim }}
+          <div style="display:flex; flex-direction:column; align-items:center; padding:24px 28px 30px; position:relative; z-index:2;">
+            <div style="position:relative; width:120px; height:112px; animation:popIn 0.5s ease-out both; margin-top:6px;">
+              <div style="position:absolute; top:9px; left:19px; width:30px; height:36px; background:#E3A48F; border-radius:50% 50% 50% 50% / 62% 62% 38% 38%; transform:rotate(-20deg);"></div>
+              <div style="position:absolute; top:9px; right:19px; width:30px; height:36px; background:#E3A48F; border-radius:50% 50% 50% 50% / 62% 62% 38% 38%; transform:rotate(20deg);"></div>
+              <div style="position:absolute; top:19px; left:12px; width:96px; height:85px; background:#F0C2B0; border-radius:50%;"></div>
+              <div style="position:absolute; top:66px; left:26px; width:13px; height:8px; background:rgba(221,138,120,0.38); border-radius:50%;"></div>
+              <div style="position:absolute; top:66px; right:26px; width:13px; height:8px; background:rgba(221,138,120,0.38); border-radius:50%;"></div>
+              <div style="position:absolute; top:53px; left:40px; width:8px; height:10px; background:#6B4A3A; border-radius:50%;"></div>
+              <div style="position:absolute; top:53px; right:40px; width:8px; height:10px; background:#6B4A3A; border-radius:50%;"></div>
+              <div style="position:absolute; top:69px; left:50%; transform:translateX(-50%); width:41px; height:30px; background:#E3A48F; border-radius:50%; display:flex; align-items:center; justify-content:center; gap:8px;">
+                <div style="width:6px; height:9px; background:#7A5443; border-radius:50%;"></div>
+                <div style="width:6px; height:9px; background:#7A5443; border-radius:50%;"></div>
+              </div>
+            </div>
+            <h1 style="margin:16px 0 4px; font:800 29px Nunito,sans-serif; color:#4A352B; text-align:center;">{{ bilanTitle }}</h1>
+            <p style="margin:0 0 16px; font:600 16px Nunito,sans-serif; color:#A2937F; text-align:center;">{{ bilanMessage }}</p>
+
+            <div style="display:flex; align-items:center; gap:14px; background:#FFFDFB; padding:14px 22px; border-radius:22px; box-shadow:0 12px 26px -16px rgba(74,53,43,0.35);">
+              <div style="display:flex; align-items:center; gap:8px;">
+                <div style="display:flex; flex-direction:column; align-items:center;"><div style="width:18px; height:23px; background:#DD8A78; border-radius:50% 50% 50% 50%/55% 55% 45% 45%;"></div><div style="width:2px; height:6px; background:#DD8A78; opacity:0.5;"></div></div>
+                <span style="font:800 20px Nunito,sans-serif; color:#C25E47;">+{{ sessionBalloons }}</span>
+              </div>
+              <div style="width:1px; height:28px; background:#EEE3D2;"></div>
+              <div style="display:flex; align-items:center; gap:8px;">
+                <div style="width:16px; height:16px; background:#D9A85F; transform:rotate(45deg); border-radius:3px;"></div>
+                <span style="font:800 20px Nunito,sans-serif; color:#9A6E2E;">{{ attemptScore }} pts</span>
+              </div>
+            </div>
+
+            <div style="width:100%; display:flex; flex-direction:column; gap:7px; margin-top:20px;">
+              <sc-for list="{{ recap }}" as="r" hint-placeholder-count="3">
+                <div style="display:flex; justify-content:space-between; align-items:center; gap:10px; padding:11px 15px; border-radius:12px; background:{{ r.bg }};">
+                  <span style="flex:1; font:600 13px Nunito,sans-serif; color:{{ r.color }};">{{ r.question }}</span>
+                  <span style="font:800 13px Nunito,sans-serif; color:{{ r.color }}; white-space:nowrap;">{{ r.points }}</span>
+                </div>
+              </sc-for>
+            </div>
+
+            <div style="width:100%; display:flex; flex-direction:column; gap:10px; margin-top:24px;">
+              <button onClick="{{ restart }}" style="width:100%; height:60px; border:none; border-radius:30px; background:#EFA88C; color:#4A352B; font:800 18px Nunito,sans-serif; cursor:pointer; box-shadow:0 14px 26px -14px rgba(216,138,108,0.75);" style-active="transform:scale(0.98);">Recommencer</button>
+              <button onClick="{{ backToLevel }}" style="width:100%; height:56px; border:2px solid #E8B79F; border-radius:28px; background:#FFFDFB; color:#C2855F; font:800 17px Nunito,sans-serif; cursor:pointer;" style-active="transform:scale(0.98);">Retour aux leçons</button>
+              <button onClick="{{ goHome }}" style="width:100%; height:44px; border:none; background:none; color:#B6A998; font:700 15px Nunito,sans-serif; cursor:pointer;" style-active="opacity:0.6;">Menu principal</button>
+            </div>
+          </div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ isProgress }}" hint-placeholder-val="{{ false }}">
+        <div style="position:absolute; inset:0; display:flex; flex-direction:column; padding:10px 24px 30px; overflow-y:auto;">
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <button onClick="{{ goHome }}" style="background:none; border:none; padding:6px 4px; font:700 16px Nunito,sans-serif; color:#C2855F; cursor:pointer;" style-active="opacity:0.6;">‹ Accueil</button>
+          </div>
+
+          <h1 style="margin:14px 2px 16px; font:800 26px Nunito,sans-serif; color:#4A352B; text-align:center;">Mes progrès</h1>
+
+          <div style="display:flex; gap:12px;">
+            <div style="flex:1; display:flex; flex-direction:column; align-items:center; gap:3px; background:#F6E7CE; border-radius:20px; padding:20px 10px;">
+              <span style="font:700 12px Nunito,sans-serif; color:#9A6E2E; text-transform:uppercase; letter-spacing:0.04em;">Score total</span>
+              <span style="font:800 36px Nunito,sans-serif; color:#9A6E2E;">{{ score }}</span>
+            </div>
+            <div style="flex:1; display:flex; flex-direction:column; align-items:center; gap:3px; background:#F7D9CE; border-radius:20px; padding:20px 10px;">
+              <span style="font:700 12px Nunito,sans-serif; color:#C25E47; text-transform:uppercase; letter-spacing:0.04em;">Ballons</span>
+              <span style="font:800 36px Nunito,sans-serif; color:#C25E47;">{{ balloons }}</span>
+            </div>
+          </div>
+
+          <h2 style="margin:24px 2px 12px; font:800 17px Nunito,sans-serif; color:#4A352B;">Historique des leçons</h2>
+
+          <sc-if value="{{ hasHistory }}" hint-placeholder-val="{{ false }}">
+            <div style="display:flex; flex-direction:column; gap:10px;">
+              <sc-for list="{{ history }}" as="h" hint-placeholder-count="3">
+                <div style="display:flex; justify-content:space-between; align-items:center; gap:14px; padding:15px 18px; background:#FFFDFB; border-radius:14px; box-shadow:0 8px 20px -16px rgba(74,53,43,0.3);">
+                  <div style="display:flex; flex-direction:column; gap:2px;">
+                    <span style="font:800 15px Nunito,sans-serif; color:#4A352B;">{{ h.title }}</span>
+                    <span style="font:600 12px Nunito,sans-serif; color:#A2937F;">{{ h.date }}</span>
+                  </div>
+                  <div style="display:flex; align-items:baseline; gap:3px; white-space:nowrap;">
+                    <span style="font:800 20px Nunito,sans-serif; color:{{ h.color }};">{{ h.score }}</span>
+                    <span style="font:600 12px Nunito,sans-serif; color:#A2937F;">/ {{ h.max }} pts</span>
+                  </div>
+                </div>
+              </sc-for>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ noHistory }}" hint-placeholder-val="{{ false }}">
+            <p style="text-align:center; font:600 15px Nunito,sans-serif; color:#A2937F; padding:30px 0;">Tu n'as pas encore terminé de leçon.</p>
+          </sc-if>
+        </div>
+      </sc-if>
+
+    </div>
+
+    <div style="position:absolute; bottom:9px; left:50%; transform:translateX(-50%); width:132px; height:5px; border-radius:3px; background:rgba(74,53,43,0.22); z-index:6;"></div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{
+  &quot;childName&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;Sofia&quot;, &quot;tsType&quot;: &quot;string&quot; }
+}">
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = {
+      screen: 'home',
+      subjectId: null,
+      niveauId: null,
+      lessonId: null,
+      qIndex: 0,
+      selected: null,
+      answered: false,
+      lastCorrect: false,
+      inputVal: '',
+      // progress store
+      scoreGlobal: 0,
+      balloons: 0,
+      bestScores: {},
+      attemptHistory: [],
+      // current attempt
+      attemptScores: {},
+      completed: [],
+      sessionBalloons: 0,
+    };
+  }
+
+  componentDidMount() {
+    try {
+      const raw = localStorage.getItem('sofia-proto-v2');
+      if (raw) {
+        const o = JSON.parse(raw);
+        this.setState({
+          scoreGlobal: o.scoreGlobal ?? 0,
+          balloons: o.balloons ?? 0,
+          bestScores: o.bestScores ?? {},
+          attemptHistory: o.attemptHistory ?? [],
+        });
+      }
+    } catch (e) {}
+  }
+
+  persist(s) {
+    try {
+      localStorage.setItem('sofia-proto-v2', JSON.stringify({
+        scoreGlobal: s.scoreGlobal, balloons: s.balloons,
+        bestScores: s.bestScores, attemptHistory: s.attemptHistory,
+      }));
+    } catch (e) {}
+  }
+
+  // ----- data (transcrit du dépôt) -----
+  data() {
+    const L = (id, theme, titre, description, exercices) => ({ id, theme, titre, description, exercices });
+    const T_fr1 = "Le chat dort sur le canapé. Il fait beau dehors. Le chien joue dans le jardin. La famille mange dans la cuisine.";
+    const T_fr2 = "Léa fait du judo. Elle porte un kimono blanc. Son professeur s'appelle Marc. Après le cours, elle boit de l'eau.";
+    const T_fr3 = "Le lundi, Sofia va à l'école. Le mardi matin, elle a judo. Le mardi soir, elle regarde la télévision. Le mercredi, elle se promène dans la nature.";
+    const T_fr4 = "Le matin, le soleil se lève sur la montagne. Les oiseaux chantent dans les arbres. Un renard traverse la forêt à pas silencieux. Il cherche de la nourriture pour ses petits. Au loin, une rivière coule doucement. Le renard s'arrête pour boire un peu d'eau.";
+    const T_fr5 = "Le samedi, Inès va au judo avec son sac de sport. Elle retrouve son amie Clara. Ensemble, elles s'entraînent pendant une heure. Après le cours, elles mangent une pomme.";
+    const T_fr6 = "Léa a un chien qui s'appelle Rex. Rex est blanc et il a de grandes oreilles. Chaque matin, Léa promène Rex dans le parc. Rex aime jouer avec les autres chiens. Le soir, Rex dort dans son panier.";
+    const qt = (id, texte, question, choix, bonne_reponse) => ({ id, type: 'qcm-texte', texte, question, choix, bonne_reponse, points: 10 });
+    const lessons = {
+      'lesson-francais-01': L('lesson-francais-01', 'francais', 'La maison', 'Lis le texte et réponds aux questions', [
+        qt('ex-01', T_fr1, 'Où dort le chat ?', ['Sur le lit', 'Sur le canapé', 'Dans le jardin'], 1),
+        qt('ex-02', T_fr1, 'Qui joue dans le jardin ?', ['Le chat', 'Le chien', 'La famille'], 1),
+        qt('ex-03', T_fr1, 'Où mange la famille ?', ['Dans le jardin', 'Sur le canapé', 'Dans la cuisine'], 2),
+      ]),
+      'lesson-francais-02': L('lesson-francais-02', 'francais', 'Léa et le judo', 'Lis le texte et réponds aux questions', [
+        qt('ex-01', T_fr2, 'Que fait Léa ?', ['Du judo', 'De la danse', 'De la natation'], 0),
+        qt('ex-02', T_fr2, 'De quelle couleur est son kimono ?', ['Bleu', 'Blanc', 'Noir'], 1),
+        qt('ex-03', T_fr2, "Comment s'appelle son professeur ?", ['Marc', 'Paul', 'Louis'], 0),
+      ]),
+      'lesson-francais-03': L('lesson-francais-03', 'francais', 'La semaine de Sofia', 'Lis le texte et réponds aux questions', [
+        qt('ex-01', T_fr3, 'Quel jour Sofia va-t-elle à l\u2019école ?', ['Le lundi', 'Le mardi', 'Le mercredi'], 0),
+        qt('ex-02', T_fr3, 'Quand a-t-elle judo ?', ['Le lundi matin', 'Le mardi matin', 'Le mardi soir'], 1),
+        qt('ex-03', T_fr3, 'Que fait-elle le mercredi ?', ['Elle regarde la télévision', 'Elle se promène dans la nature', 'Elle va à l\u2019école'], 1),
+      ]),
+      'lesson-francais-04': L('lesson-francais-04', 'francais', 'Le renard et la forêt', 'Lis le texte et réponds aux questions', [
+        qt('ex-01', T_fr4, 'Où se lève le soleil ?', ['Sur la montagne', 'Sur la mer', 'Dans la rivière'], 0),
+        qt('ex-02', T_fr4, 'Qui traverse la forêt ?', ['Un renard', 'Un oiseau', 'Un chien'], 0),
+        qt('ex-03', T_fr4, 'Pourquoi le renard cherche-t-il de la nourriture ?', ['Pour lui', 'Pour ses petits', 'Pour les oiseaux'], 1),
+        qt('ex-04', T_fr4, 'Que fait le renard à la rivière ?', ["Il boit de l'eau", 'Il pêche un poisson', 'Il se baigne'], 0),
+      ]),
+      'lesson-francais-05': L('lesson-francais-05', 'francais', 'Inès au judo', 'Lis le texte et réponds aux questions', [
+        qt('ex-01', T_fr5, 'Quel jour Inès va-t-elle au judo ?', ['Le vendredi', 'Le samedi', 'Le dimanche'], 1),
+        qt('ex-02', T_fr5, "Avec qui s'entraîne-t-elle ?", ['Son frère', 'Son professeur', 'Son amie Clara'], 2),
+        qt('ex-03', T_fr5, "Pendant combien de temps s'entraînent-elles ?", ['Une demi-heure', 'Une heure', 'Deux heures'], 1),
+        qt('ex-04', T_fr5, 'Que mangent-elles après le cours ?', ['Une pomme', 'Un sandwich', 'Une glace'], 0),
+      ]),
+      'lesson-francais-06': L('lesson-francais-06', 'francais', 'Le chien de Léa', 'Lis le texte et réponds aux questions', [
+        qt('ex-01', T_fr6, "Comment s'appelle le chien de Léa ?", ['Médor', 'Rex', 'Fido', 'Tom'], 1),
+        qt('ex-02', T_fr6, 'De quelle couleur est Rex ?', ['Noir', 'Marron', 'Blanc', 'Gris'], 2),
+        qt('ex-03', T_fr6, 'Où est-ce que Léa promène Rex ?', ['Dans la forêt', 'Dans le jardin', 'Dans le parc', 'Dans la rue'], 2),
+        { id: 'ex-04', type: 'reponse-courte', texte: T_fr6, question: 'Où est-ce que Rex dort le soir ?', bonnes_reponses: ['panier', 'dans son panier', 'son panier', 'dans un panier'], points: 10 },
+      ]),
+      'lesson-maths-01': L('lesson-maths-01', 'maths', 'Une suite de nombres', 'Lis la suite et réponds aux questions', [
+        qt('ex-01', 'Voici une suite de nombres : 3, 5, 7, 9.', 'Quel est le premier nombre de la suite ?', ['3', '5', '9'], 0),
+        qt('ex-02', 'Voici une suite de nombres : 3, 5, 7, 9.', 'Quel est le dernier nombre de la suite ?', ['3', '7', '9'], 2),
+        qt('ex-03', 'Voici une suite de nombres : 3, 5, 7, 9.', 'Combien y a-t-il de nombres dans la suite ?', ['2', '4', '6'], 1),
+      ]),
+      'lesson-maths-02': L('lesson-maths-02', 'maths', 'Comparer des nombres', 'Observe les nombres et réponds aux questions', [
+        qt('ex-01', 'Voici trois nombres : 12, 8, 15.', 'Quel est le plus petit nombre ?', ['12', '8', '15'], 1),
+        qt('ex-02', 'Voici trois nombres : 12, 8, 15.', 'Quel est le plus grand nombre ?', ['12', '8', '15'], 2),
+        qt('ex-03', 'Voici trois nombres : 12, 8, 15.', 'Lequel de ces nombres est entre 8 et 15 ?', ['12', '15', '8'], 0),
+      ]),
+      'lesson-maths-03': L('lesson-maths-03', 'maths', 'Chiffres et lettres', 'Reconnais les nombres écrits en chiffres et en lettres', [
+        qt('ex-01', 'On peut écrire les nombres en chiffres ou en lettres.', 'Comment écrit-on sept en chiffres ?', ['5', '7', '9'], 1),
+        qt('ex-02', 'On peut écrire les nombres en chiffres ou en lettres.', 'Comment écrit-on dix en chiffres ?', ['8', '10', '12'], 1),
+        qt('ex-03', 'On peut écrire les nombres en chiffres ou en lettres.', 'Comment écrit-on 4 en lettres ?', ['Quatre', 'Six', 'Deux'], 0),
+      ]),
+      'lesson-maths-04': L('lesson-maths-04', 'maths', 'Dizaines et unités', 'Apprends à décomposer un nombre en dizaines et unités', [
+        qt('ex-01', 'Voici un nombre : 23.', 'Combien de dizaines y a-t-il dans 23 ?', ['2', '3', '4'], 0),
+        qt('ex-02', 'Voici un nombre : 23.', "Combien d'unités y a-t-il dans 23 ?", ['2', '3', '4'], 1),
+        qt('ex-03', 'Voici un nombre : 23.', 'Quel nombre vient juste après 23 ?', ['22', '24', '25'], 1),
+      ]),
+      'lesson-maths-05': L('lesson-maths-05', 'maths', 'Comparer et ranger', "Entraîne-toi à comparer et ranger des nombres", [
+        qt('ex-01', 'On compare et on range des nombres.', 'Parmi 14, 9 et 20, quel est le plus grand ?', ['14', '9', '20'], 2),
+        qt('ex-02', 'On compare et on range des nombres.', 'Parmi 6, 18 et 11, quel est le plus petit ?', ['6', '18', '11'], 0),
+        qt('ex-03', 'On compare et on range des nombres.', 'Range ces nombres du plus petit au plus grand : 17, 4, 10. Quel est l\u2019ordre correct ?', ['4, 10, 17', '17, 10, 4', '10, 4, 17'], 0),
+      ]),
+    };
+    const subjects = [
+      { id: 'francais', titre: 'Français', icone: '📖', color: '#DD8A78', tint: '#FBE4DC', niveaux: [{ id: 'niveau-1', titre: 'Niveau 1', lessons: ['lesson-francais-01', 'lesson-francais-02', 'lesson-francais-03', 'lesson-francais-04', 'lesson-francais-05', 'lesson-francais-06'] }] },
+      { id: 'maths', titre: 'Mathématiques', icone: '🔢', color: '#D9A85F', tint: '#F7EAD2', niveaux: [{ id: 'niveau-1', titre: 'Niveau 1', lessons: ['lesson-maths-01', 'lesson-maths-02', 'lesson-maths-03', 'lesson-maths-04', 'lesson-maths-05'] }] },
+    ];
+    return { subjects, lessons };
+  }
+
+  maxScoreOf(lesson) { return lesson.exercices.reduce((a, e) => a + e.points, 0); }
+
+  // ----- navigation -----
+  goHome = () => this.setState({ screen: 'home' });
+  openProgress = () => this.setState({ screen: 'progress' });
+  openSubject = (id) => this.setState({ screen: 'subject', subjectId: id });
+  backToSubject = () => this.setState({ screen: 'subject' });
+  openLevel = (subjectId, niveauId) => this.setState({ screen: 'level', subjectId, niveauId });
+  backToLevel = () => this.setState({ screen: 'level' });
+
+  openLesson = (lessonId) => this.setState({
+    screen: 'lesson', lessonId, qIndex: 0, selected: null, answered: false,
+    lastCorrect: false, inputVal: '', attemptScores: {}, completed: [], sessionBalloons: 0,
+  });
+
+  restart = () => this.setState({
+    qIndex: 0, selected: null, answered: false, lastCorrect: false, inputVal: '',
+    attemptScores: {}, completed: [], sessionBalloons: 0, screen: 'lesson',
+  });
+
+  // ----- réponses -----
+  submit(exId, isCorrect, points) {
+    this.setState((s) => {
+      const attemptScores = { ...s.attemptScores };
+      const completed = s.completed.slice();
+      if (isCorrect && !completed.includes(exId)) { attemptScores[exId] = points; completed.push(exId); }
+      else if (!isCorrect) { attemptScores[exId] = 0; }
+      return { attemptScores, completed, answered: true, lastCorrect: isCorrect };
+    });
+  }
+
+  choose = (i) => {
+    if (this.state.answered) return;
+    const lesson = this.data().lessons[this.state.lessonId];
+    const ex = lesson.exercices[this.state.qIndex];
+    const isCorrect = i === ex.bonne_reponse;
+    this.setState({ selected: i });
+    this.submit(ex.id, isCorrect, ex.points);
+  };
+
+  onInput = (e) => this.setState({ inputVal: e.target.value });
+
+  normalize(str) { return str.trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, ''); }
+
+  valider = () => {
+    if (this.state.answered) return;
+    if (this.state.inputVal.trim() === '') return;
+    const lesson = this.data().lessons[this.state.lessonId];
+    const ex = lesson.exercices[this.state.qIndex];
+    const saisie = this.normalize(this.state.inputVal);
+    const isCorrect = ex.bonnes_reponses.some((r) => this.normalize(r) === saisie);
+    this.submit(ex.id, isCorrect, ex.points);
+  };
+
+  next = () => {
+    const lesson = this.data().lessons[this.state.lessonId];
+    const last = this.state.qIndex >= lesson.exercices.length - 1;
+    if (!last) {
+      this.setState({ qIndex: this.state.qIndex + 1, selected: null, answered: false, lastCorrect: false, inputVal: '' });
+      return;
+    }
+    // terminer la leçon
+    this.setState((s) => {
+      const attemptScore = Object.values(s.attemptScores).reduce((a, b) => a + b, 0);
+      const prevBest = s.bestScores[lesson.id] || 0;
+      let scoreGlobal = s.scoreGlobal;
+      const bestScores = { ...s.bestScores };
+      if (attemptScore > prevBest) { scoreGlobal += attemptScore - prevBest; bestScores[lesson.id] = attemptScore; }
+      const sessionBalloons = s.completed.length;
+      const balloons = s.balloons + sessionBalloons;
+      const attemptHistory = s.attemptHistory.concat([{
+        date: new Date().toISOString(), lessonId: lesson.id, lessonTitle: lesson.titre,
+        score: attemptScore, maxScore: this.maxScoreOf(lesson),
+      }]);
+      const next = { scoreGlobal, bestScores, balloons, attemptHistory, sessionBalloons, screen: 'bilan' };
+      this.persist({ scoreGlobal, balloons, bestScores, attemptHistory });
+      return next;
+    });
+  };
+
+  buildReward() {
+    const colors = ['#DD8A78', '#D9A85F', '#A9C29A', '#EFA88C', '#AEB6D6'];
+    const bursts = [{ x: 95, y: 120, delay: 0.1 }, { x: 295, y: 90, delay: 0.5 }, { x: 195, y: 200, delay: 0.9 }];
+    const nodes = [];
+    bursts.forEach((b, bi) => {
+      for (let k = 0; k < 12; k++) {
+        const ang = (k / 12) * Math.PI * 2; const dist = 72;
+        nodes.push(React.createElement('div', { key: 'p' + bi + '_' + k, style: {
+          position: 'absolute', left: b.x + 'px', top: b.y + 'px', width: '8px', height: '8px', borderRadius: '50%',
+          background: colors[(bi + k) % colors.length], opacity: 0,
+          '--tx': (Math.cos(ang) * dist) + 'px', '--ty': (Math.sin(ang) * dist) + 'px',
+          animation: 'burst 1.1s ease-out ' + b.delay + 's forwards',
+        } }));
+      }
+    });
+    for (let i = 0; i < 9; i++) {
+      const x = 24 + (i * 41) % 330; const dur = 3.4 + (i % 4) * 0.5; const delay = 0.2 + (i % 5) * 0.35; const col = colors[i % colors.length];
+      nodes.push(React.createElement('div', { key: 'b' + i, style: { position: 'absolute', left: x + 'px', bottom: '-40px', opacity: 0, animation: 'rise ' + dur + 's ease-in ' + delay + 's forwards' } },
+        React.createElement('div', { style: { width: '26px', height: '32px', background: col, borderRadius: '50% 50% 50% 50% / 55% 55% 45% 45%' } }),
+        React.createElement('div', { style: { width: '2px', height: '10px', background: col, opacity: 0.5, margin: '0 auto' } })));
+    }
+    return React.createElement('div', { style: { position: 'absolute', inset: 0, overflow: 'hidden', pointerEvents: 'none', borderRadius: '46px', zIndex: 1 } }, ...nodes);
+  }
+
+  renderVals() {
+    const s = this.state;
+    const { subjects, lessons } = this.data();
+    const d = new Date();
+    let today = new Intl.DateTimeFormat('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' }).format(d);
+    today = today.charAt(0).toUpperCase() + today.slice(1);
+
+    const subjectsView = subjects.map((m) => {
+      const count = m.niveaux.reduce((a, n) => a + n.lessons.length, 0);
+      return { titre: m.titre, icone: m.icone, color: m.color, tint: m.tint,
+        countLabel: count + ' leçon' + (count > 1 ? 's' : ''), onClick: () => this.openSubject(m.id) };
+    });
+
+    const base = {
+      childName: this.props.childName ?? 'Sofia',
+      today,
+      score: s.scoreGlobal,
+      balloons: s.balloons,
+      subjects: subjectsView,
+      isHome: s.screen === 'home', isSubject: s.screen === 'subject', isLevel: s.screen === 'level',
+      isLesson: s.screen === 'lesson', isBilan: s.screen === 'bilan', isProgress: s.screen === 'progress',
+      goHome: this.goHome, openProgress: this.openProgress, backToSubject: this.backToSubject,
+      backToLevel: this.backToLevel, restart: this.restart, next: this.next, valider: this.valider, onInput: this.onInput,
+      rewardAnim: s.screen === 'bilan' ? this.buildReward() : null,
+      // defaults
+      subjectTitre: '', subjectIcone: '', subjectTint: '#F6E7CE', subjectColor: '#DD8A78', niveaux: [],
+      levelTitle: '', lessonsList: [], lessonTitre: '', qNum: 1, qTotal: 1, progressPct: '0%',
+      hasTexte: false, exTexte: '', exQuestion: '', isChoiceType: false, isInputType: false, choices: [],
+      inputVal: '', inputDisabled: false, inputStyle: '', showCorrection: false, correctionText: '',
+      canValidate: false, validerDisabled: true, validerStyle: '', answered: false,
+      feedbackText: '', feedbackColor: '#5E7A52', feedbackBg: '#E9F0E2', feedbackBorder: '#A9C29A', nextLabel: 'Continuer',
+      bilanTitle: '', bilanMessage: '', attemptScore: 0, sessionBalloons: 0, recap: [],
+      hasHistory: false, noHistory: true, history: [],
+    };
+
+    const subj = subjects.find((m) => m.id === s.subjectId) || null;
+
+    if (s.screen === 'subject' && subj) {
+      base.subjectTitre = subj.titre; base.subjectIcone = subj.icone; base.subjectTint = subj.tint; base.subjectColor = subj.color;
+      base.niveaux = subj.niveaux.map((n) => ({ titre: n.titre,
+        countLabel: n.lessons.length + ' leçon' + (n.lessons.length > 1 ? 's' : ''),
+        onClick: () => this.openLevel(subj.id, n.id) }));
+    }
+
+    if (s.screen === 'level' && subj) {
+      const niv = subj.niveaux.find((n) => n.id === s.niveauId) || subj.niveaux[0];
+      base.subjectColor = subj.color;
+      base.levelTitle = subj.titre + ' · ' + niv.titre;
+      base.lessonsList = niv.lessons.map((lid) => {
+        const l = lessons[lid]; const best = s.bestScores[lid];
+        const max = this.maxScoreOf(l);
+        const hasBest = best !== undefined;
+        return { titre: l.titre, description: l.description,
+          badgeText: hasBest ? best + ' / ' + max : '→',
+          badgeStyle: hasBest
+            ? 'font:800 14px Nunito,sans-serif; color:#5E7A52; background:#E9F0E2; padding:7px 12px; border-radius:14px; white-space:nowrap;'
+            : 'font:700 22px Nunito,sans-serif; color:#D8C7B2; padding-right:4px;',
+          onClick: () => this.openLesson(lid) };
+      });
+    }
+
+    if (s.screen === 'lesson' && s.lessonId) {
+      const lesson = lessons[s.lessonId];
+      const ex = lesson.exercices[s.qIndex];
+      const total = lesson.exercices.length;
+      const sc = subjects.find((m) => m.id === lesson.theme) || subj || { color: '#DD8A78' };
+      base.subjectColor = sc.color;
+      base.lessonTitre = lesson.titre;
+      base.qNum = s.qIndex + 1; base.qTotal = total;
+      base.progressPct = Math.round(((s.qIndex + (s.answered ? 1 : 0)) / total) * 100) + '%';
+      base.hasTexte = !!ex.texte; base.exTexte = ex.texte || ''; base.exQuestion = ex.question;
+      base.answered = s.answered;
+
+      if (ex.type === 'reponse-courte') {
+        base.isInputType = true;
+        base.inputVal = s.inputVal; base.inputDisabled = s.answered;
+        const inputBase = 'width:100%; box-sizing:border-box; font:600 17px Nunito,sans-serif; padding:16px 18px; border-radius:16px; outline:none; border:2px solid ';
+        base.inputStyle = inputBase + (!s.answered ? '#EFE3D2; background:#FFFDFB; color:#4A352B;' : (s.lastCorrect ? '#A9C29A; background:#E9F0E2; color:#5E7A52;' : '#E0A290; background:#FBE3DC; color:#B25B45;'));
+        base.canValidate = !s.answered;
+        base.validerDisabled = s.inputVal.trim() === '';
+        base.validerStyle = 'width:100%; height:60px; margin-top:14px; border:none; border-radius:30px; font:800 18px Nunito,sans-serif; cursor:pointer; background:#EFA88C; color:#4A352B; box-shadow:0 12px 22px -12px rgba(216,138,108,0.7); opacity:' + (base.validerDisabled ? '0.45' : '1') + ';';
+        base.showCorrection = s.answered && !s.lastCorrect;
+        base.correctionText = 'Bonne réponse : ' + ex.bonnes_reponses[0];
+      } else {
+        base.isChoiceType = true;
+        const choiceBase = { width: '100%', textAlign: 'left', padding: '17px 20px', borderRadius: '18px', borderStyle: 'solid', borderWidth: '2px', font: '700 18px Nunito,sans-serif', transition: 'transform .1s' };
+        base.choices = ex.choix.map((label, i) => {
+          let st;
+          if (!s.answered) st = { ...choiceBase, background: '#FFFDFB', borderColor: '#EFE3D2', color: '#4A352B', cursor: 'pointer' };
+          else if (i === ex.bonne_reponse) st = { ...choiceBase, background: '#E9F0E2', borderColor: '#A9C29A', color: '#5E7A52', cursor: 'default' };
+          else if (i === s.selected) st = { ...choiceBase, background: '#FBE3DC', borderColor: '#E0A290', color: '#B25B45', cursor: 'default' };
+          else st = { ...choiceBase, background: '#FAF5EF', borderColor: '#F0E8DC', color: '#BCAF9E', cursor: 'default' };
+          return { label, style: st, onClick: () => this.choose(i) };
+        });
+      }
+
+      if (s.answered) {
+        const ok = s.lastCorrect;
+        base.feedbackText = ok ? 'Bravo !' : 'Essaie encore !';
+        base.feedbackColor = ok ? '#5E7A52' : '#B25B45';
+        base.feedbackBg = ok ? '#E9F0E2' : '#FBE3DC';
+        base.feedbackBorder = ok ? '#A9C29A' : '#E0A290';
+        base.nextLabel = s.qIndex >= total - 1 ? 'Voir mon bilan' : 'Question suivante';
+      }
+    }
+
+    if (s.screen === 'bilan' && s.lessonId) {
+      const lesson = lessons[s.lessonId];
+      const attemptScore = Object.values(s.attemptScores).reduce((a, b) => a + b, 0);
+      const max = this.maxScoreOf(lesson);
+      const pct = max === 0 ? 0 : Math.round((attemptScore / max) * 100);
+      base.bilanTitle = pct === 100 ? 'Parfait !' : (pct >= 50 ? 'Bien joué !' : 'Continue comme ça !');
+      base.bilanMessage = pct === 100 ? 'Tu as tout bon, bravo !' : (pct >= 50 ? 'Tu progresses bien, continue !' : 'Recommence pour faire encore mieux !');
+      base.attemptScore = attemptScore;
+      base.sessionBalloons = s.sessionBalloons;
+      base.recap = lesson.exercices.map((ex) => {
+        const passed = s.completed.includes(ex.id);
+        return { question: ex.question, points: passed ? '+' + ex.points + ' pts' : '0 pt',
+          bg: passed ? '#E9F0E2' : '#FBE3DC', color: passed ? '#5E7A52' : '#B25B45' };
+      });
+    }
+
+    if (s.screen === 'progress') {
+      const items = s.attemptHistory.slice().reverse().map((a) => {
+        const ratio = a.maxScore === 0 ? 0 : a.score / a.maxScore;
+        const color = ratio >= 0.8 ? '#5E7A52' : (ratio >= 0.5 ? '#C2855F' : '#B25B45');
+        const dt = new Date(a.date).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' });
+        return { title: a.lessonTitle, date: dt, score: a.score, max: a.maxScore, color };
+      });
+      base.history = items; base.hasHistory = items.length > 0; base.noHistory = items.length === 0;
+    }
+
+    return base;
+  }
+}
+</script>
+</body>
+</html>

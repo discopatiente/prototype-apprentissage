@@ -16,18 +16,20 @@ export const useProgressStore = defineStore('progress', () => {
   const savedData = loadFromStorage()
 
   const scoreGlobal = ref(savedData?.scoreGlobal ?? 0)
+  const balloons = ref(savedData?.balloons ?? 0)
   const bestScoresByLesson = ref(savedData?.bestScoresByLesson ?? {})
   const attemptHistory = ref(savedData?.attemptHistory ?? [])
   const currentAttemptScores = ref({})
   const completedExercisesInAttempt = ref([])
 
   watch(
-    [scoreGlobal, bestScoresByLesson, attemptHistory],
+    [scoreGlobal, balloons, bestScoresByLesson, attemptHistory],
     () => {
       localStorage.setItem(
         STORAGE_KEY,
         JSON.stringify({
           scoreGlobal: scoreGlobal.value,
+          balloons: balloons.value,
           bestScoresByLesson: bestScoresByLesson.value,
           attemptHistory: attemptHistory.value,
         }),
@@ -60,6 +62,8 @@ export const useProgressStore = defineStore('progress', () => {
       bestScoresByLesson.value[lessonId] = attemptScore
     }
 
+    balloons.value += completedExercisesInAttempt.value.length
+
     attemptHistory.value.push({
       date: new Date().toISOString(),
       lessonId,
@@ -89,6 +93,7 @@ export const useProgressStore = defineStore('progress', () => {
 
   function resetProgress() {
     scoreGlobal.value = 0
+    balloons.value = 0
     bestScoresByLesson.value = {}
     attemptHistory.value = []
     resetAttempt()
@@ -96,6 +101,7 @@ export const useProgressStore = defineStore('progress', () => {
 
   return {
     scoreGlobal,
+    balloons,
     bestScoresByLesson,
     attemptHistory,
     currentAttemptScores,

@@ -1,43 +1,44 @@
 <template>
-  <div class="progress">
-    <header class="progress-header">
-      <button class="btn-back" @click="router.push('/')">← Retour</button>
-      <ScoreBadge />
-    </header>
-
-    <h1 class="titre">Mes progrès</h1>
-
-    <div class="score-global">
-      <span class="score-global-label">Score total</span>
-      <span class="score-global-value">{{ store.scoreGlobal }} pts</span>
+  <div class="progress-view">
+    <div class="progress-header">
+      <button class="btn-back" @click="router.push('/')">‹ Accueil</button>
     </div>
 
-    <section v-if="store.attemptHistory.length > 0" class="history">
-      <h2 class="section-title">Historique des leçons</h2>
-      <ul class="attempts-list">
-        <li
-          v-for="(attempt, index) in attemptsRecentFirst"
-          :key="index"
-          class="attempt-card"
-        >
-          <div class="attempt-info">
-            <span class="attempt-lesson">{{ attempt.lessonTitle }}</span>
-            <span class="attempt-date">{{ formatDate(attempt.date) }}</span>
-          </div>
-          <div class="attempt-score">
-            <span class="attempt-score-value" :class="scoreClass(attempt)">
-              {{ attempt.score }}
-            </span>
-            <span class="attempt-score-max">/ {{ attempt.maxScore }} pts</span>
-          </div>
-        </li>
-      </ul>
-    </section>
+    <h1 class="page-title">Mes progrès</h1>
 
-    <div v-else class="empty">
-      <p>Tu n'as pas encore fait de leçon.</p>
-      <button class="btn-start" @click="router.push('/')">Choisir une leçon</button>
+    <div class="stats-row">
+      <div class="stat-tile stat-tile--amber">
+        <span class="stat-label">Score total</span>
+        <span class="stat-value">{{ store.scoreGlobal }}</span>
+      </div>
+      <div class="stat-tile stat-tile--coral">
+        <span class="stat-label">Ballons</span>
+        <span class="stat-value">{{ store.balloons }}</span>
+      </div>
     </div>
+
+    <h2 class="section-title">Historique des leçons</h2>
+
+    <div v-if="store.attemptHistory.length > 0" class="history-list">
+      <div
+        v-for="(attempt, index) in attemptsRecentFirst"
+        :key="index"
+        class="attempt-card"
+      >
+        <div class="attempt-info">
+          <span class="attempt-lesson">{{ attempt.lessonTitle }}</span>
+          <span class="attempt-date">{{ formatDate(attempt.date) }}</span>
+        </div>
+        <div class="attempt-score">
+          <span class="attempt-score-value" :style="{ color: scoreColor(attempt) }">
+            {{ attempt.score }}
+          </span>
+          <span class="attempt-score-max">/ {{ attempt.maxScore }} pts</span>
+        </div>
+      </div>
+    </div>
+
+    <p v-else class="empty-text">Tu n'as pas encore terminé de leçon.</p>
 
     <div v-if="store.attemptHistory.length > 0" class="reset-zone">
       <button class="btn-reset" @click="confirmReset">Réinitialiser la progression</button>
@@ -49,7 +50,6 @@
 import { computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { useProgressStore } from '../stores/progressStore'
-import ScoreBadge from '../components/ScoreBadge.vue'
 
 const router = useRouter()
 const store = useProgressStore()
@@ -65,12 +65,12 @@ function formatDate(iso) {
   })
 }
 
-function scoreClass(attempt) {
-  if (attempt.maxScore === 0) return ''
+function scoreColor(attempt) {
+  if (attempt.maxScore === 0) return '#A2937F'
   const ratio = attempt.score / attempt.maxScore
-  if (ratio >= 0.8) return 'score--great'
-  if (ratio >= 0.5) return 'score--ok'
-  return 'score--low'
+  if (ratio >= 0.8) return '#5E7A52'
+  if (ratio >= 0.5) return '#C2855F'
+  return '#B25B45'
 }
 
 function confirmReset() {
@@ -81,76 +81,84 @@ function confirmReset() {
 </script>
 
 <style scoped>
-.progress {
-  max-width: 640px;
+.progress-view {
+  max-width: 480px;
   margin: 0 auto;
-  padding: 32px 16px 64px;
+  padding: 10px 24px 48px;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  gap: 32px;
 }
 
 .progress-header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .btn-back {
-  font-size: 15px;
-  color: #1976d2;
   background: none;
   border: none;
+  padding: 6px 4px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #C2855F;
   cursor: pointer;
-  padding: 0;
 }
 
-.btn-back:hover {
-  text-decoration: underline;
-}
+.btn-back:hover { text-decoration: underline; }
 
-.titre {
-  font-size: 28px;
-  font-weight: 500;
-  margin: 0;
+.page-title {
+  margin: 14px 2px 16px;
+  font-size: 26px;
+  font-weight: 800;
+  color: #4A352B;
   text-align: center;
 }
 
-.score-global {
+.stats-row {
+  display: flex;
+  gap: 12px;
+}
+
+.stat-tile {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4px;
-  background: #e3f2fd;
-  border-radius: 16px;
-  padding: 24px;
+  gap: 3px;
+  border-radius: 20px;
+  padding: 20px 10px;
 }
 
-.score-global-label {
-  font-size: 14px;
-  color: #1565c0;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
+.stat-tile--amber { background: #F6E7CE; }
+.stat-tile--coral { background: #F7D9CE; }
 
-.score-global-value {
-  font-size: 48px;
+.stat-label {
+  font-size: 12px;
   font-weight: 700;
-  color: #1565c0;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
+
+.stat-tile--amber .stat-label { color: #9A6E2E; }
+.stat-tile--coral .stat-label { color: #C25E47; }
+
+.stat-value {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.stat-tile--amber .stat-value { color: #9A6E2E; }
+.stat-tile--coral .stat-value { color: #C25E47; }
 
 .section-title {
-  font-size: 18px;
-  font-weight: 500;
-  margin: 0 0 12px;
-  color: #424242;
+  margin: 24px 2px 12px;
+  font-size: 17px;
+  font-weight: 800;
+  color: #4A352B;
 }
 
-.attempts-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.history-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -158,105 +166,76 @@ function confirmReset() {
 
 .attempt-card {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  gap: 16px;
-  padding: 16px 20px;
-  background: white;
-  border: 2px solid #e0e0e0;
-  border-radius: 12px;
+  align-items: center;
+  gap: 14px;
+  padding: 15px 18px;
+  background: #FFFDFB;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px -16px rgba(74, 53, 43, 0.3);
 }
 
 .attempt-info {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 2px;
 }
 
 .attempt-lesson {
   font-size: 15px;
-  font-weight: 500;
-  color: #1a1a1a;
+  font-weight: 800;
+  color: #4A352B;
 }
 
 .attempt-date {
   font-size: 12px;
-  color: #9e9e9e;
+  font-weight: 600;
+  color: #A2937F;
 }
 
 .attempt-score {
   display: flex;
   align-items: baseline;
-  gap: 2px;
+  gap: 3px;
   white-space: nowrap;
 }
 
 .attempt-score-value {
-  font-size: 22px;
-  font-weight: 700;
-}
-
-.score--great {
-  color: #2e7d32;
-}
-
-.score--ok {
-  color: #f57c00;
-}
-
-.score--low {
-  color: #c62828;
+  font-size: 20px;
+  font-weight: 800;
 }
 
 .attempt-score-max {
-  font-size: 13px;
-  color: #9e9e9e;
+  font-size: 12px;
+  font-weight: 600;
+  color: #A2937F;
 }
 
-.empty {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  padding: 48px 16px;
+.empty-text {
   text-align: center;
-  color: #757575;
-  font-size: 16px;
-}
-
-.btn-start {
-  padding: 12px 28px;
-  font-size: 16px;
-  font-weight: 500;
-  background: #1976d2;
-  color: white;
-  border: none;
-  border-radius: 12px;
-  cursor: pointer;
-}
-
-.btn-start:hover {
-  background: #1565c0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #A2937F;
+  padding: 30px 0;
 }
 
 .reset-zone {
   display: flex;
   justify-content: center;
-  padding-top: 8px;
+  margin-top: auto;
+  padding-top: 24px;
 }
 
 .btn-reset {
   font-size: 13px;
-  color: #9e9e9e;
+  font-weight: 600;
+  color: #A2937F;
   background: none;
   border: none;
   cursor: pointer;
-  padding: 8px;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
-.btn-reset:hover {
-  color: #c62828;
-}
+.btn-reset:hover { color: #B25B45; }
 </style>

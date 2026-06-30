@@ -1,17 +1,18 @@
 <template>
   <div class="subject">
-    <header class="subject-header">
-      <button class="btn-back" @click="router.push('/')">← Retour</button>
+    <div class="subject-header">
+      <button class="btn-back" @click="router.push('/')">‹ Accueil</button>
       <ScoreBadge />
-    </header>
+    </div>
 
     <div v-if="subject" class="subject-content">
       <div class="subject-intro">
-        <p class="subject-icon">{{ subject.icone }}</p>
+        <div class="subject-icon" :style="{ background: subject.tint }">{{ subject.icone }}</div>
         <h1 class="subject-title">{{ subject.titre }}</h1>
+        <p class="subject-subtitle">Choisis ton niveau&nbsp;:</p>
       </div>
 
-      <div class="levels-grid">
+      <div class="levels-list">
         <button
           v-for="niveau in subject.niveaux"
           :key="niveau.id"
@@ -20,9 +21,11 @@
         >
           <span class="level-title">
             {{ niveau.titre }}
-            <span v-if="niveau.nouveau" class="level-badge-new">Nouveau</span>
+            <span v-if="niveau.nouveau" class="badge-new">Nouveau</span>
           </span>
-          <span class="level-count">{{ niveau.lessons.length }} leçon{{ niveau.lessons.length !== 1 ? 's' : '' }}</span>
+          <span class="level-count">
+            {{ niveau.lessons.length }} leçon{{ niveau.lessons.length !== 1 ? 's' : '' }}
+          </span>
         </button>
       </div>
     </div>
@@ -48,12 +51,13 @@ const subject = computed(() => subjectsData.find((s) => s.id === route.params.ma
 
 <style scoped>
 .subject {
-  max-width: 640px;
+  max-width: 480px;
   margin: 0 auto;
-  padding: 32px 16px 64px;
+  padding: 10px 24px 48px;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 0;
 }
 
 .subject-header {
@@ -63,84 +67,96 @@ const subject = computed(() => subjectsData.find((s) => s.id === route.params.ma
 }
 
 .btn-back {
-  font-size: 15px;
-  color: #1976d2;
   background: none;
   border: none;
+  padding: 6px 4px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #C2855F;
   cursor: pointer;
-  padding: 0;
 }
 
-.btn-back:hover {
-  text-decoration: underline;
-}
+.btn-back:hover { text-decoration: underline; }
 
 .subject-intro {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   text-align: center;
+  margin-top: 18px;
 }
 
 .subject-icon {
-  font-size: 64px;
-  margin: 0;
-  line-height: 1;
+  width: 84px;
+  height: 84px;
+  border-radius: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 44px;
 }
 
 .subject-title {
-  font-size: 28px;
-  font-weight: 500;
-  margin: 0;
+  margin: 8px 0 0;
+  font-size: 26px;
+  font-weight: 800;
+  color: #4A352B;
 }
 
-.levels-grid {
+.subject-subtitle {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #A2937F;
+}
+
+.levels-list {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  margin-top: 24px;
 }
 
 .level-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px;
-  background: white;
-  border: 2px solid #e0e0e0;
-  border-radius: 16px;
-  cursor: pointer;
-  text-align: left;
   width: 100%;
-  transition: all 0.2s;
+  text-align: left;
+  background: #FFFDFB;
+  border: none;
+  border-radius: 20px;
+  padding: 22px;
+  cursor: pointer;
+  box-shadow: 0 10px 24px -16px rgba(74, 53, 43, 0.35);
+  transition: transform 0.1s;
 }
 
-.level-card:hover {
-  border-color: #1976d2;
-  background: #e3f2fd;
-}
+.level-card:active { transform: scale(0.985); }
 
 .level-title {
-  font-size: 18px;
-  font-weight: 500;
-  color: #1a1a1a;
+  font-size: 19px;
+  font-weight: 800;
+  color: #4A352B;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.badge-new {
+  font-size: 11px;
+  font-weight: 600;
+  color: white;
+  background: #C2855F;
+  padding: 2px 8px;
+  border-radius: 20px;
 }
 
 .level-count {
   font-size: 14px;
-  color: #757575;
-}
-
-.level-badge-new {
-  display: inline-block;
-  font-size: 11px;
-  font-weight: 600;
-  color: white;
-  background: #e53935;
-  padding: 2px 8px;
-  border-radius: 20px;
-  vertical-align: middle;
-  margin-left: 8px;
+  font-weight: 700;
+  color: #A2937F;
 }
 
 .subject-error {
@@ -148,9 +164,9 @@ const subject = computed(() => subjectsData.find((s) => s.id === route.params.ma
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 64px 16px;
+  padding: 64px 0;
   text-align: center;
-  font-size: 18px;
-  color: #757575;
+  font-size: 16px;
+  color: #A2937F;
 }
 </style>

@@ -1,82 +1,97 @@
 <template>
   <div class="bilan">
-    <canvas ref="confettiCanvas" class="confetti-canvas"></canvas>
+    <div v-if="percentage >= 50" class="reward-overlay" aria-hidden="true">
+      <div
+        v-for="(p, i) in burstParticles"
+        :key="'p' + i"
+        class="burst-particle"
+        :style="p.style"
+      ></div>
+      <div
+        v-for="(b, i) in risingBalloons"
+        :key="'b' + i"
+        class="rising-balloon"
+        :style="b.wrapStyle"
+      >
+        <div class="balloon-body" :style="{ background: b.color }"></div>
+        <div class="balloon-string" :style="{ background: b.color }"></div>
+      </div>
+    </div>
 
-    <div class="bilan-contenu">
-      <p class="bilan-emoji">{{ emoji }}</p>
-      <h2 class="bilan-titre">{{ title }}</h2>
-      <p class="bilan-phrase">{{ message }}</p>
+    <div class="bilan-content">
+      <MascottePig size="large" class="mascot" />
 
-      <div class="score-total">
-        <span class="score-total-label">Score de cette leçon</span>
-        <span class="score-total-valeur">{{ attemptScore }} pts</span>
+      <h1 class="bilan-title">{{ title }}</h1>
+      <p class="bilan-message">{{ message }}</p>
+
+      <div class="recap-card">
+        <div class="recap-balloons">
+          <div class="balloon-icon"></div>
+          <div class="balloon-string-icon"></div>
+          <span class="balloons-count">+{{ sessionBalloons }}</span>
+        </div>
+        <div class="recap-divider"></div>
+        <div class="recap-score">
+          <div class="diamond-icon"></div>
+          <span class="score-value">{{ attemptScore }} pts</span>
+        </div>
       </div>
 
-      <div class="questions-liste">
+      <div class="questions-list">
         <div
           v-for="exercise in exercises"
           :key="exercise.id"
-          class="question-ligne"
-          :class="isPassed(exercise.id) ? 'reussi' : 'rate'"
+          class="question-row"
+          :class="isPassed(exercise.id) ? 'row--passed' : 'row--failed'"
         >
-          <span class="question-texte">{{ exercise.question }}</span>
-          <span class="question-points">
+          <span class="question-text">{{ exercise.question }}</span>
+          <span class="question-pts">
             {{ isPassed(exercise.id) ? '+' + exercise.points + ' pts' : '0 pt' }}
           </span>
         </div>
       </div>
 
       <div class="bilan-actions">
-        <button class="btn-principal" @click="emit('restart')">Recommencer</button>
-        <button class="btn-secondaire" @click="emit('go-to-level')">Retour aux leçons</button>
-        <button class="btn-tertiaire" @click="emit('go-to-menu')">Menu principal</button>
+        <button class="btn-restart" @click="emit('restart')">Recommencer</button>
+        <button class="btn-level" @click="emit('go-to-level')">Retour aux leçons</button>
+        <button class="btn-menu" @click="emit('go-to-menu')">Menu principal</button>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { computed } from 'vue'
 import { useProgressStore } from '../stores/progressStore'
+import MascottePig from './MascottePig.vue'
 
 const props = defineProps({
-  exercises: {
-    type: Array,
-    required: true,
-  },
-  idLesson: {
-    type: String,
-    required: true,
-  },
+  exercises: { type: Array, required: true },
+  idLesson:  { type: String, required: true },
 })
 
 const emit = defineEmits(['restart', 'go-to-level', 'go-to-menu'])
 
 const store = useProgressStore()
-const confettiCanvas = ref(null)
 
 const attemptScore = computed(() => store.currentAttemptScore)
+
+const sessionBalloons = computed(() => store.completedExercisesInAttempt.length)
 
 const percentage = computed(() => {
   const maxScore = props.exercises.reduce((a, e) => a + e.points, 0)
   return maxScore === 0 ? 0 : Math.round((attemptScore.value / maxScore) * 100)
 })
 
-const emoji = computed(() => {
-  if (percentage.value === 100) return '🌟'
-  if (percentage.value >= 50) return '😊'
-  return '💪'
-})
-
 const title = computed(() => {
   if (percentage.value === 100) return 'Parfait !'
-  if (percentage.value >= 50) return 'Bien joué !'
+  if (percentage.value >= 50)  return 'Bien joué !'
   return 'Continue comme ça !'
 })
 
 const message = computed(() => {
   if (percentage.value === 100) return 'Tu as tout bon, bravo !'
-  if (percentage.value >= 50) return 'Tu progresses bien, continue !'
+  if (percentage.value >= 50)  return 'Tu progresses bien, continue !'
   return 'Recommence pour faire encore mieux !'
 })
 
@@ -84,199 +99,271 @@ function isPassed(exerciseId) {
   return store.completedExercisesInAttempt.includes(`${props.idLesson}/${exerciseId}`)
 }
 
-function launchConfetti() {
-  const canvas = confettiCanvas.value
-  const ctx = canvas.getContext('2d')
-  canvas.width = canvas.offsetWidth
-  canvas.height = canvas.offsetHeight
+const COLORS = ['#DD8A78', '#D9A85F', '#A9C29A', '#EFA88C', '#AEB6D6']
 
-  const pieces = Array.from({ length: 80 }, () => ({
-    x: Math.random() * canvas.width,
-    y: Math.random() * canvas.height - canvas.height,
-    size: Math.random() * 8 + 4,
-    color: ['#1976d2', '#2e7d32', '#f57c00', '#c62828', '#7b1fa2'][Math.floor(Math.random() * 5)],
-    speed: Math.random() * 3 + 2,
-    wobble: Math.random() * 2 - 1,
-  }))
-
-  let frame = 0
-
-  function animate() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height)
-    pieces.forEach((p) => {
-      p.y += p.speed
-      p.x += p.wobble
-      ctx.fillStyle = p.color
-      ctx.fillRect(p.x, p.y, p.size, p.size)
-    })
-    frame++
-    if (frame < 180) requestAnimationFrame(animate)
-    else ctx.clearRect(0, 0, canvas.width, canvas.height)
-  }
-
-  animate()
-}
-
-onMounted(() => {
-  if (percentage.value >= 50) launchConfetti()
+const burstParticles = computed(() => {
+  const centers = [
+    { x: 95,  y: 120, delay: 0.1 },
+    { x: 295, y: 90,  delay: 0.5 },
+    { x: 195, y: 200, delay: 0.9 },
+  ]
+  const particles = []
+  centers.forEach((c, ci) => {
+    for (let k = 0; k < 12; k++) {
+      const ang = (k / 12) * Math.PI * 2
+      const dist = 72
+      particles.push({
+        style: {
+          left: c.x + 'px',
+          top: c.y + 'px',
+          background: COLORS[(ci + k) % COLORS.length],
+          '--tx': Math.cos(ang) * dist + 'px',
+          '--ty': Math.sin(ang) * dist + 'px',
+          animation: `burst 1.1s ease-out ${c.delay}s forwards`,
+        },
+      })
+    }
+  })
+  return particles
 })
+
+const risingBalloons = computed(() =>
+  Array.from({ length: 9 }, (_, i) => ({
+    color: COLORS[i % COLORS.length],
+    wrapStyle: {
+      left: 24 + ((i * 41) % 330) + 'px',
+      animation: `rise ${3.4 + (i % 4) * 0.5}s ease-in ${0.2 + (i % 5) * 0.35}s forwards`,
+    },
+  })),
+)
 </script>
 
 <style scoped>
 .bilan {
+  background: linear-gradient(180deg, #FBE9DD 0%, #FAF5EF 58%);
+  min-height: 100vh;
   position: relative;
+  overflow: hidden;
 }
 
-.confetti-canvas {
+.reward-overlay {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  inset: 0;
   pointer-events: none;
-}
-
-.bilan-contenu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  padding: 32px 16px;
-  position: relative;
   z-index: 1;
 }
 
-.bilan-emoji {
-  font-size: 64px;
-  margin: 0;
+.burst-particle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  opacity: 0;
 }
 
-.bilan-titre {
-  font-size: 32px;
-  font-weight: 500;
-  margin: 0;
-  text-align: center;
-}
-
-.bilan-phrase {
-  font-size: 18px;
-  color: #757575;
-  margin: 0;
-  text-align: center;
-}
-
-.score-total {
+.rising-balloon {
+  position: absolute;
+  bottom: -40px;
+  opacity: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4px;
-  background: #e8f5e9;
-  border-radius: 16px;
-  padding: 20px 48px;
 }
 
-.score-total-label {
-  font-size: 14px;
-  color: #2e7d32;
+.balloon-body {
+  width: 26px;
+  height: 32px;
+  border-radius: 50% 50% 50% 50% / 55% 55% 45% 45%;
 }
 
-.score-total-valeur {
-  font-size: 48px;
-  font-weight: 500;
-  color: #1b5e20;
+.balloon-string {
+  width: 2px;
+  height: 10px;
+  opacity: 0.5;
 }
 
-.questions-liste {
-  width: 100%;
-  max-width: 480px;
+.bilan-content {
+  position: relative;
+  z-index: 2;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 24px 28px 40px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.mascot {
+  animation: popIn 0.5s ease-out both;
+  margin-top: 6px;
+}
+
+.bilan-title {
+  margin: 16px 0 4px;
+  font-size: 29px;
+  font-weight: 800;
+  color: #4A352B;
+  text-align: center;
+}
+
+.bilan-message {
+  margin: 0 0 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #A2937F;
+  text-align: center;
+}
+
+.recap-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #FFFDFB;
+  padding: 14px 22px;
+  border-radius: 22px;
+  box-shadow: 0 12px 26px -16px rgba(74, 53, 43, 0.35);
+}
+
+.recap-balloons {
+  display: flex;
+  align-items: center;
   gap: 8px;
 }
 
-.question-ligne {
+.balloon-icon {
+  width: 18px;
+  height: 23px;
+  background: #DD8A78;
+  border-radius: 50% 50% 50% 50% / 55% 55% 45% 45%;
+}
+
+.balloon-string-icon {
+  width: 2px;
+  height: 6px;
+  background: #DD8A78;
+  opacity: 0.5;
+  margin-left: -8px;
+  margin-top: 20px;
+  align-self: flex-start;
+}
+
+.balloons-count {
+  font-size: 20px;
+  font-weight: 800;
+  color: #C25E47;
+}
+
+.recap-divider {
+  width: 1px;
+  height: 28px;
+  background: #EEE3D2;
+}
+
+.recap-score {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.diamond-icon {
+  width: 16px;
+  height: 16px;
+  background: #D9A85F;
+  transform: rotate(45deg);
+  border-radius: 3px;
+}
+
+.score-value {
+  font-size: 20px;
+  font-weight: 800;
+  color: #9A6E2E;
+}
+
+.questions-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-top: 20px;
+}
+
+.question-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 16px;
-  border-radius: 10px;
-  font-size: 14px;
+  gap: 10px;
+  padding: 11px 15px;
+  border-radius: 12px;
 }
 
-.question-ligne.reussi {
-  background: #e8f5e9;
-  color: #1b5e20;
-}
+.row--passed { background: #E9F0E2; }
+.row--failed { background: #FBE3DC; }
 
-.question-ligne.rate {
-  background: #ffebee;
-  color: #b71c1c;
-}
-
-.question-texte {
+.question-text {
   flex: 1;
-  margin-right: 12px;
+  font-size: 13px;
+  font-weight: 600;
 }
 
-.question-points {
-  font-weight: 500;
+.row--passed .question-text { color: #5E7A52; }
+.row--failed .question-text { color: #B25B45; }
+
+.question-pts {
+  font-size: 13px;
+  font-weight: 800;
   white-space: nowrap;
 }
 
+.row--passed .question-pts { color: #5E7A52; }
+.row--failed .question-pts { color: #B25B45; }
+
 .bilan-actions {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  margin-top: 8px;
-  width: 100%;
-  max-width: 320px;
+  gap: 10px;
+  margin-top: 24px;
 }
 
-.btn-principal {
+.btn-restart {
   width: 100%;
-  padding: 14px 32px;
-  font-size: 16px;
-  font-weight: 500;
-  background: #1976d2;
-  color: white;
+  height: 60px;
   border: none;
-  border-radius: 12px;
+  border-radius: 30px;
+  background: #EFA88C;
+  color: #4A352B;
+  font-size: 18px;
+  font-weight: 800;
   cursor: pointer;
+  box-shadow: 0 14px 26px -14px rgba(216, 138, 108, 0.75);
 }
 
-.btn-principal:hover {
-  background: #1565c0;
-}
+.btn-restart:active { transform: scale(0.98); }
 
-.btn-secondaire {
+.btn-level {
   width: 100%;
-  padding: 14px 32px;
-  font-size: 16px;
-  font-weight: 500;
-  background: white;
-  color: #1976d2;
-  border: 2px solid #1976d2;
-  border-radius: 12px;
+  height: 56px;
+  border: 2px solid #E8B79F;
+  border-radius: 28px;
+  background: #FFFDFB;
+  color: #C2855F;
+  font-size: 17px;
+  font-weight: 800;
   cursor: pointer;
 }
 
-.btn-secondaire:hover {
-  background: #e3f2fd;
-}
+.btn-level:active { transform: scale(0.98); }
 
-.btn-tertiaire {
-  font-size: 14px;
-  font-weight: 500;
-  color: #9e9e9e;
+.btn-menu {
+  width: 100%;
+  height: 44px;
+  border: none;
   background: none;
-  border: none;
+  color: #B6A998;
+  font-size: 15px;
+  font-weight: 700;
   cursor: pointer;
-  padding: 4px;
 }
 
-.btn-tertiaire:hover {
-  color: #757575;
-  text-decoration: underline;
-}
+.btn-menu:active { opacity: 0.6; }
 </style>

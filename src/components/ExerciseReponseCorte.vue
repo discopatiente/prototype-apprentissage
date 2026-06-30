@@ -1,38 +1,38 @@
 <template>
   <div class="exercice">
-    <div v-if="exercise.texte" class="texte-lecture">
-      <p class="texte-label">Texte à lire</p>
-      <p class="texte-contenu">{{ exercise.texte }}</p>
+    <div v-if="exercise.texte" class="text-box">
+      <p class="text-label">Texte à lire</p>
+      <p class="text-content">{{ exercise.texte }}</p>
     </div>
 
     <p class="question">{{ exercise.question }}</p>
 
-    <div class="reponse-zone">
-      <input
-        v-model="userInput"
-        class="reponse-input"
-        :class="{
-          correct: answerSubmitted && isCorrect,
-          incorrect: answerSubmitted && !isCorrect,
-        }"
-        type="text"
-        placeholder="Écris ta réponse ici…"
-        :disabled="answerSubmitted"
-        @keydown.enter="valider"
-      />
-
-      <button
-        class="btn-valider"
-        :disabled="userInput.trim() === '' || answerSubmitted"
-        @click="valider"
-      >
-        Valider
-      </button>
-    </div>
+    <input
+      v-model="userInput"
+      class="answer-input"
+      :class="{
+        'input--correct':   answerSubmitted && isCorrect,
+        'input--incorrect': answerSubmitted && !isCorrect,
+      }"
+      type="text"
+      placeholder="Écris ta réponse ici…"
+      :disabled="answerSubmitted"
+      @keydown.enter="valider"
+    />
 
     <p v-if="answerSubmitted && !isCorrect" class="correction">
       Bonne réponse : <strong>{{ exercise.bonnes_reponses[0] }}</strong>
     </p>
+
+    <button
+      v-if="!answerSubmitted"
+      class="btn-valider"
+      :disabled="userInput.trim() === ''"
+      :style="{ opacity: userInput.trim() === '' ? 0.45 : 1 }"
+      @click="valider"
+    >
+      Valider
+    </button>
   </div>
 </template>
 
@@ -40,10 +40,7 @@
 import { ref } from 'vue'
 
 const props = defineProps({
-  exercise: {
-    type: Object,
-    required: true,
-  },
+  exercise: { type: Object, required: true },
 })
 
 const emit = defineEmits(['answer-submitted'])
@@ -53,22 +50,14 @@ const answerSubmitted = ref(false)
 const isCorrect = ref(false)
 
 function normalize(str) {
-  return str
-    .trim()
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
+  return str.trim().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
 }
 
 function valider() {
   if (userInput.value.trim() === '' || answerSubmitted.value) return
-
   const saisie = normalize(userInput.value)
-  isCorrect.value = props.exercise.bonnes_reponses.some(
-    (r) => normalize(r) === saisie,
-  )
+  isCorrect.value = props.exercise.bonnes_reponses.some((r) => normalize(r) === saisie)
   answerSubmitted.value = true
-
   emit('answer-submitted', {
     id: props.exercise.id,
     isCorrect: isCorrect.value,
@@ -81,104 +70,92 @@ function valider() {
 .exercice {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 18px;
 }
 
-.texte-lecture {
-  background: #fffde7;
-  border-left: 4px solid #f9a825;
-  border-radius: 0 12px 12px 0;
-  padding: 16px 20px;
+.text-box {
+  background: #FBF1E2;
+  border-left: 4px solid #E0A48F;
+  border-radius: 0 14px 14px 0;
+  padding: 14px 18px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
 }
 
-.texte-label {
+.text-label {
   font-size: 11px;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #f57f17;
+  color: #C2855F;
   margin: 0;
 }
 
-.texte-contenu {
-  font-size: 17px;
-  line-height: 1.7;
-  color: #1a1a1a;
+.text-content {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #5C4A3D;
   margin: 0;
 }
 
 .question {
-  font-size: 20px;
-  font-weight: 500;
-  color: #1a1a1a;
-  text-align: center;
+  font-size: 22px;
+  font-weight: 800;
+  color: #4A352B;
+  line-height: 1.3;
   margin: 0;
 }
 
-.reponse-zone {
-  display: flex;
-  gap: 10px;
-  align-items: stretch;
-}
-
-.reponse-input {
-  flex: 1;
+.answer-input {
+  width: 100%;
   font-size: 17px;
-  padding: 14px 16px;
-  border: 2px solid #e0e0e0;
-  border-radius: 12px;
+  font-weight: 600;
+  padding: 16px 18px;
+  border: 2px solid #EFE3D2;
+  border-radius: 16px;
+  background: #FFFDFB;
+  color: #4A352B;
   outline: none;
   transition: border-color 0.2s;
 }
 
-.reponse-input:focus {
-  border-color: #1976d2;
+.answer-input:focus { border-color: #C2855F; }
+.answer-input:disabled { cursor: default; }
+
+.input--correct {
+  border-color: #A9C29A !important;
+  background: #E9F0E2 !important;
+  color: #5E7A52 !important;
 }
 
-.reponse-input:disabled {
-  cursor: default;
-}
-
-.reponse-input.correct {
-  border-color: #2e7d32;
-  background: #e8f5e9;
-  color: #1b5e20;
-}
-
-.reponse-input.incorrect {
-  border-color: #c62828;
-  background: #ffebee;
-  color: #b71c1c;
-}
-
-.btn-valider {
-  padding: 14px 24px;
-  font-size: 16px;
-  font-weight: 500;
-  background: #1976d2;
-  color: white;
-  border: none;
-  border-radius: 12px;
-  cursor: pointer;
-  white-space: nowrap;
-}
-
-.btn-valider:hover:not(:disabled) {
-  background: #1565c0;
-}
-
-.btn-valider:disabled {
-  opacity: 0.4;
-  cursor: not-allowed;
+.input--incorrect {
+  border-color: #E0A290 !important;
+  background: #FBE3DC !important;
+  color: #B25B45 !important;
 }
 
 .correction {
   font-size: 15px;
-  color: #c62828;
-  margin: 0;
+  font-weight: 700;
+  color: #B25B45;
   text-align: center;
+  margin: 0;
 }
+
+.btn-valider {
+  width: 100%;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  background: #EFA88C;
+  color: #4A352B;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 12px 22px -12px rgba(216, 138, 108, 0.7);
+}
+
+.btn-valider:not(:disabled):active { transform: scale(0.98); }
 </style>

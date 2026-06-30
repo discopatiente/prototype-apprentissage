@@ -1,39 +1,65 @@
 <template>
   <div class="home">
-    <header class="home-header">
+    <div class="home-header">
+      <span class="today">{{ today }}</span>
       <ScoreBadge />
-    </header>
+    </div>
 
-    <h1 class="titre">Bonjour Sofia !</h1>
-    <p class="description">Choisis une matière pour commencer :</p>
-    <button class="btn-progress" @click="router.push('/progress')">📈 Mes progrès</button>
+    <div class="mascot-row">
+      <MascottePig size="small" />
+      <div class="speech-bubble">
+        <div class="bubble-tip"></div>
+        <h1 class="greeting">Bonjour Sofia&nbsp;!</h1>
+      </div>
+    </div>
 
-    <div class="themes-grid">
+    <p class="subtitle">Choisis une matière&nbsp;:</p>
+
+    <div class="subjects-grid">
       <button
         v-for="subject in subjects"
         :key="subject.id"
-        class="theme-card"
-        :class="{ 'theme-card--disabled': totalLessons(subject) === 0 }"
-        :disabled="totalLessons(subject) === 0"
+        class="subject-card"
         @click="router.push('/matiere/' + subject.id)"
       >
-        <span class="theme-icon">{{ subject.icone }}</span>
-        <span class="theme-title">{{ subject.titre }}</span>
-        <span v-if="totalLessons(subject) === 0" class="theme-soon">Bientôt disponible</span>
-        <span v-else class="theme-count">
-          {{ totalLessons(subject) }} leçon{{ totalLessons(subject) > 1 ? 's' : '' }}
+        <div class="subject-icon" :style="{ background: subject.tint }">{{ subject.icone }}</div>
+        <span class="subject-title">{{ subject.titre }}</span>
+        <span class="subject-count" :style="{ color: subject.color, background: subject.tint }">
+          {{ totalLessons(subject) }} leçon{{ totalLessons(subject) !== 1 ? 's' : '' }}
         </span>
+      </button>
+    </div>
+
+    <div class="progress-row">
+      <button class="btn-progress" @click="router.push('/progress')">
+        <div class="progress-icon">
+          <div class="bar bar--s"></div>
+          <div class="bar bar--m"></div>
+          <div class="bar bar--l"></div>
+        </div>
+        <span>Mes progrès</span>
       </button>
     </div>
   </div>
 </template>
 
 <script setup>
+import { computed } from 'vue'
 import { useRouter } from 'vue-router'
 import ScoreBadge from '../components/ScoreBadge.vue'
+import MascottePig from '../components/MascottePig.vue'
 import subjects from '../data/subjects.json'
 
 const router = useRouter()
+
+const today = computed(() => {
+  const raw = new Intl.DateTimeFormat('fr-FR', {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+  }).format(new Date())
+  return raw.charAt(0).toUpperCase() + raw.slice(1)
+})
 
 function totalLessons(subject) {
   return subject.niveaux.reduce((sum, n) => sum + n.lessons.length, 0)
@@ -42,113 +68,153 @@ function totalLessons(subject) {
 
 <style scoped>
 .home {
-  max-width: 640px;
+  max-width: 480px;
   margin: 0 auto;
-  padding: 32px 16px 64px;
+  padding: 0 24px 48px;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #FBE9DD 0%, #FAF5EF 46%);
   display: flex;
   flex-direction: column;
-  gap: 24px;
 }
 
 .home-header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
 }
 
-.titre {
-  font-size: 36px;
-  font-weight: 500;
+.today {
+  font-size: 14px;
+  font-weight: 600;
+  color: #A2937F;
+}
+
+.mascot-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.speech-bubble {
+  position: relative;
+  flex: 1;
+  background: #FFFDFB;
+  border-radius: 20px;
+  padding: 15px 18px;
+  box-shadow: 0 12px 26px -16px rgba(74, 53, 43, 0.32);
+}
+
+.bubble-tip {
+  position: absolute;
+  left: -8px;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  width: 18px;
+  height: 18px;
+  background: #FFFDFB;
+  border-radius: 4px;
+}
+
+.greeting {
+  position: relative;
   margin: 0;
-  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+  color: #4A352B;
+  line-height: 1.15;
 }
 
-.description {
-  font-size: 18px;
-  color: #757575;
-  margin: 0;
-  text-align: center;
+.subtitle {
+  margin: 18px 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #A2937F;
 }
 
-.btn-progress {
-  align-self: center;
-  font-size: 15px;
-  font-weight: 500;
-  color: #1976d2;
-  background: #e3f2fd;
-  border: 2px solid #bbdefb;
-  border-radius: 24px;
-  padding: 10px 24px;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-.btn-progress:hover {
-  background: #bbdefb;
-}
-
-.themes-grid {
+.subjects-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
-  margin-top: 8px;
+  gap: 14px;
+  margin-top: 14px;
 }
 
-.theme-card {
+.subject-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
-  padding: 24px 16px;
-  background: white;
-  border: 2px solid #e0e0e0;
-  border-radius: 16px;
+  gap: 10px;
+  padding: 24px 14px;
+  background: #FFFDFB;
+  border: none;
+  border-radius: 24px;
   cursor: pointer;
-  text-align: center;
-  transition: all 0.2s;
+  box-shadow: 0 12px 26px -16px rgba(74, 53, 43, 0.35);
+  transition: transform 0.1s;
 }
 
-.theme-card:hover:not(:disabled) {
-  border-color: #1976d2;
-  background: #e3f2fd;
+.subject-card:active { transform: scale(0.97); }
+
+.subject-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px;
 }
 
-.theme-card--disabled {
-  opacity: 0.5;
-  cursor: default;
-}
-
-.theme-icon {
-  font-size: 48px;
-  line-height: 1;
-}
-
-.theme-title {
+.subject-title {
   font-size: 18px;
-  font-weight: 500;
-  color: #1a1a1a;
+  font-weight: 800;
+  color: #4A352B;
 }
 
-.theme-description {
-  font-size: 13px;
-  color: #757575;
-  line-height: 1.4;
-}
-
-.theme-count {
+.subject-count {
   font-size: 12px;
-  font-weight: 500;
-  color: #1976d2;
-  background: #e3f2fd;
-  padding: 4px 10px;
-  border-radius: 20px;
+  font-weight: 700;
+  padding: 4px 11px;
+  border-radius: 14px;
 }
 
-.theme-soon {
-  font-size: 12px;
-  font-weight: 500;
-  color: #9e9e9e;
-  background: #f5f5f5;
-  padding: 4px 10px;
-  border-radius: 20px;
+.progress-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 26px;
 }
+
+.btn-progress {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  background: #F3E7D6;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 22px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  color: #A56A45;
+  transition: opacity 0.15s;
+}
+
+.btn-progress:active { opacity: 0.7; }
+
+.progress-icon {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 14px;
+}
+
+.bar {
+  width: 4px;
+  background: #C2855F;
+  border-radius: 1px;
+}
+.bar--s { height: 7px; }
+.bar--m { height: 11px; }
+.bar--l { height: 14px; }
 </style>

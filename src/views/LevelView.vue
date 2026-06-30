@@ -1,16 +1,15 @@
 <template>
   <div class="level">
-    <header class="level-header">
-      <button class="btn-back" @click="router.push(`/matiere/${route.params.matiereId}`)">← Retour</button>
+    <div class="level-header">
+      <button class="btn-back" @click="router.push(`/matiere/${route.params.matiereId}`)">‹ Retour</button>
       <ScoreBadge />
-    </header>
+    </div>
 
     <div v-if="niveau" class="level-content">
-      <div class="level-intro">
-        <h1 class="level-title">{{ subject.titre }} — {{ niveau.titre }}</h1>
-      </div>
+      <h1 class="level-title">{{ subject.titre }} · {{ niveau.titre }}</h1>
+      <p class="level-subtitle">Touche une leçon pour commencer.</p>
 
-      <div v-if="lessons.length > 0" class="lessons-list">
+      <div class="lessons-list">
         <button
           v-for="lesson in lessons"
           :key="lesson.id"
@@ -22,14 +21,11 @@
             <span class="lesson-description">{{ lesson.description }}</span>
           </div>
           <div v-if="store.bestScoresByLesson[lesson.id] !== undefined" class="lesson-score">
-            <span class="lesson-score-value">{{ store.bestScoresByLesson[lesson.id] }}</span>
-            <span class="lesson-score-max">/ {{ lesson.maxScore }} pts</span>
+            {{ store.bestScoresByLesson[lesson.id] }} / {{ lesson.maxScore }}
           </div>
           <span v-else class="lesson-arrow">→</span>
         </button>
       </div>
-
-      <p v-else class="no-lessons">Pas encore de leçons dans ce niveau.</p>
     </div>
 
     <div v-else class="level-error">
@@ -64,14 +60,12 @@ watchEffect(async () => {
     lessons.value = []
     return
   }
-
   const loaded = await Promise.all(
     niveau.value.lessons.map((lessonId) => {
       const subjectId = lessonId.split('-')[1]
       return import(`../data/${subjectId}/${lessonId}.json`).then((m) => m.default)
     }),
   )
-
   lessons.value = loaded.map((lesson) => ({
     ...lesson,
     maxScore: lesson.exercices.reduce((sum, ex) => sum + ex.points, 0),
@@ -81,12 +75,12 @@ watchEffect(async () => {
 
 <style scoped>
 .level {
-  max-width: 640px;
+  max-width: 480px;
   margin: 0 auto;
-  padding: 32px 16px 64px;
+  padding: 10px 24px 48px;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  gap: 32px;
 }
 
 .level-header {
@@ -96,26 +90,29 @@ watchEffect(async () => {
 }
 
 .btn-back {
-  font-size: 15px;
-  color: #1976d2;
   background: none;
   border: none;
+  padding: 6px 4px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #C2855F;
   cursor: pointer;
-  padding: 0;
 }
 
-.btn-back:hover {
-  text-decoration: underline;
-}
-
-.level-intro {
-  text-align: center;
-}
+.btn-back:hover { text-decoration: underline; }
 
 .level-title {
-  font-size: 24px;
-  font-weight: 500;
-  margin: 0;
+  margin: 18px 2px 4px;
+  font-size: 23px;
+  font-weight: 800;
+  color: #4A352B;
+}
+
+.level-subtitle {
+  margin: 0 2px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #A2937F;
 }
 
 .lessons-list {
@@ -127,67 +124,54 @@ watchEffect(async () => {
 .lesson-card {
   display: flex;
   align-items: center;
-  gap: 16px;
-  padding: 20px;
-  background: white;
-  border: 2px solid #e0e0e0;
-  border-radius: 16px;
-  cursor: pointer;
-  text-align: left;
+  gap: 14px;
   width: 100%;
-  transition: all 0.2s;
+  text-align: left;
+  background: #FFFDFB;
+  border: none;
+  border-radius: 20px;
+  padding: 18px;
+  cursor: pointer;
+  box-shadow: 0 10px 24px -16px rgba(74, 53, 43, 0.35);
+  transition: transform 0.1s;
 }
 
-.lesson-card:hover {
-  border-color: #1976d2;
-  background: #e3f2fd;
-}
+.lesson-card:active { transform: scale(0.985); }
 
 .lesson-info {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  flex: 1;
+  gap: 2px;
 }
 
 .lesson-title {
-  font-size: 16px;
-  font-weight: 500;
-  color: #1a1a1a;
+  font-size: 17px;
+  font-weight: 800;
+  color: #4A352B;
 }
 
 .lesson-description {
   font-size: 13px;
-  color: #757575;
+  font-weight: 600;
+  color: #A2937F;
 }
 
 .lesson-score {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  font-size: 14px;
+  font-weight: 800;
+  color: #5E7A52;
+  background: #E9F0E2;
+  padding: 7px 12px;
+  border-radius: 14px;
   white-space: nowrap;
 }
 
-.lesson-score-value {
-  font-size: 20px;
-  font-weight: 700;
-  color: #2e7d32;
-}
-
-.lesson-score-max {
-  font-size: 12px;
-  color: #757575;
-}
-
 .lesson-arrow {
-  font-size: 20px;
-  color: #bdbdbd;
-}
-
-.no-lessons {
-  text-align: center;
-  color: #9e9e9e;
-  font-size: 16px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #D8C7B2;
+  padding-right: 4px;
 }
 
 .level-error {
@@ -195,9 +179,9 @@ watchEffect(async () => {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 64px 16px;
+  padding: 64px 0;
   text-align: center;
-  font-size: 18px;
-  color: #757575;
+  font-size: 16px;
+  color: #A2937F;
 }
 </style>

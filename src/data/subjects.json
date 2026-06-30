@@ -3,6 +3,8 @@
     "id": "francais",
     "titre": "Français",
     "icone": "📖",
+    "color": "#DD8A78",
+    "tint": "#FBE4DC",
     "niveaux": [
       {
         "id": "niveau-1",
@@ -34,6 +36,8 @@
     "id": "maths",
     "titre": "Mathématiques",
     "icone": "🔢",
+    "color": "#D9A85F",
+    "tint": "#F7EAD2",
     "niveaux": [
       {
         "id": "niveau-1",
@@ -64,6 +68,8 @@
     "id": "musique",
     "titre": "Musique",
     "icone": "🎵",
+    "color": "#7BAA8B",
+    "tint": "#DFF0E7",
     "niveaux": [
       {
         "id": "niveau-1",

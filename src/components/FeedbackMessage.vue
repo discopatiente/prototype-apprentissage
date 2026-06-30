@@ -1,46 +1,38 @@
 <template>
-  <div class="feedback" :class="correct ? 'feedback-correct' : 'feedback-incorrect'">
-    <p class="feedback-texte">{{ correct ? 'Bravo !' : 'Essaie encore !' }}</p>
+  <div class="feedback" :class="correct ? 'feedback--correct' : 'feedback--incorrect'">
+    <span class="feedback-text">{{ correct ? 'Bravo !' : 'Essaie encore !' }}</span>
   </div>
 </template>
 
 <script setup>
 defineProps({
-  correct: {
-    type: Boolean,
-    required: true,
-  },
+  correct: { type: Boolean, required: true },
 })
 </script>
 
 <style scoped>
 .feedback {
-  padding: 16px 24px;
-  border-radius: 12px;
+  padding: 13px 20px;
+  border-radius: 16px;
   text-align: center;
+  border: 2px solid;
 }
 
-.feedback-correct {
-  background: #e8f5e9;
-  border: 2px solid #2e7d32;
+.feedback--correct {
+  background: #E9F0E2;
+  border-color: #A9C29A;
 }
 
-.feedback-incorrect {
-  background: #ffebee;
-  border: 2px solid #c62828;
+.feedback--incorrect {
+  background: #FBE3DC;
+  border-color: #E0A290;
 }
 
-.feedback-texte {
-  font-size: 20px;
-  font-weight: 500;
-  margin: 0;
+.feedback-text {
+  font-size: 18px;
+  font-weight: 800;
 }
 
-.feedback-correct .feedback-texte {
-  color: #1b5e20;
-}
-
-.feedback-incorrect .feedback-texte {
-  color: #b71c1c;
-}
+.feedback--correct .feedback-text  { color: #5E7A52; }
+.feedback--incorrect .feedback-text { color: #B25B45; }
 </style>

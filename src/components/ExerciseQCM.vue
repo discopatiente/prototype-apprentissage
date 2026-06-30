@@ -2,14 +2,15 @@
   <div class="exercice">
     <p class="question">{{ exercise.question }}</p>
 
-    <div class="choix">
+    <div class="choices">
       <button
         v-for="(option, index) in exercise.choix"
         :key="index"
-        class="choix-btn"
+        class="choice-btn"
         :class="{
-          correct: answerSubmitted && index === exercise.bonne_reponse,
-          incorrect: answerSubmitted && index === selectedAnswer && index !== exercise.bonne_reponse,
+          'choice--correct':  answerSubmitted && index === exercise.bonne_reponse,
+          'choice--wrong':    answerSubmitted && index === selectedAnswer && index !== exercise.bonne_reponse,
+          'choice--dimmed':   answerSubmitted && index !== exercise.bonne_reponse && index !== selectedAnswer,
         }"
         :disabled="answerSubmitted"
         @click="select(index)"
@@ -24,10 +25,7 @@
 import { ref } from 'vue'
 
 const props = defineProps({
-  exercise: {
-    type: Object,
-    required: true,
-  },
+  exercise: { type: Object, required: true },
 })
 
 const emit = defineEmits(['answer-submitted'])
@@ -37,15 +35,11 @@ const answerSubmitted = ref(false)
 
 function select(index) {
   if (answerSubmitted.value) return
-
   selectedAnswer.value = index
   answerSubmitted.value = true
-
-  const isCorrect = index === props.exercise.bonne_reponse
-
   emit('answer-submitted', {
     id: props.exercise.id,
-    isCorrect,
+    isCorrect: index === props.exercise.bonne_reponse,
     points: props.exercise.points,
   })
 }
@@ -55,50 +49,59 @@ function select(index) {
 .exercice {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 18px;
 }
 
 .question {
   font-size: 22px;
-  font-weight: 500;
-  color: #1a1a1a;
-  text-align: center;
+  font-weight: 800;
+  color: #4A352B;
+  line-height: 1.3;
+  margin: 0;
 }
 
-.choix {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
 }
 
-.choix-btn {
-  padding: 16px;
-  font-size: 16px;
-  border: 2px solid #e0e0e0;
-  border-radius: 12px;
-  background: white;
+.choice-btn {
+  width: 100%;
+  text-align: left;
+  padding: 17px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  border: 2px solid #EFE3D2;
+  border-radius: 18px;
+  background: #FFFDFB;
+  color: #4A352B;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: transform 0.1s;
 }
 
-.choix-btn:hover:not(:disabled) {
-  border-color: #1976d2;
-  background: #e3f2fd;
+.choice-btn:hover:not(:disabled) {
+  border-color: #C2855F;
+  background: #FBF1E2;
 }
 
-.choix-btn:disabled {
-  cursor: default;
+.choice-btn:disabled { cursor: default; }
+
+.choice--correct {
+  background: #E9F0E2 !important;
+  border-color: #A9C29A !important;
+  color: #5E7A52 !important;
 }
 
-.choix-btn.correct {
-  border-color: #2e7d32;
-  background: #e8f5e9;
-  color: #1b5e20;
+.choice--wrong {
+  background: #FBE3DC !important;
+  border-color: #E0A290 !important;
+  color: #B25B45 !important;
 }
 
-.choix-btn.incorrect {
-  border-color: #c62828;
-  background: #ffebee;
-  color: #b71c1c;
+.choice--dimmed {
+  background: #FAF5EF !important;
+  border-color: #F0E8DC !important;
+  color: #BCAF9E !important;
 }
 </style>
