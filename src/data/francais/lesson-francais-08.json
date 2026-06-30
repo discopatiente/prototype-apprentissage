@@ -1,0 +1,44 @@
+{
+  "id": "lesson-francais-08",
+  "theme": "francais",
+  "titre": "Rex le chien",
+  "description": "Lis le texte et réponds aux questions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Le chien de Léa s'appelle Rex. Rex aime courir dans le jardin. Aujourd'hui, il pleut beaucoup. Rex reste donc dans la maison et regarde par la fenêtre. Léa le caresse pour le consoler.",
+      "question": "Comment s'appelle le chien ?",
+      "choix": ["Rex", "Max", "Loup"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Le chien de Léa s'appelle Rex. Rex aime courir dans le jardin. Aujourd'hui, il pleut beaucoup. Rex reste donc dans la maison et regarde par la fenêtre. Léa le caresse pour le consoler.",
+      "question": "Qu'aime faire Rex d'habitude ?",
+      "choix": ["Courir dans le jardin", "Dormir", "Manger"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Le chien de Léa s'appelle Rex. Rex aime courir dans le jardin. Aujourd'hui, il pleut beaucoup. Rex reste donc dans la maison et regarde par la fenêtre. Léa le caresse pour le consoler.",
+      "question": "Pourquoi Rex reste-t-il dans la maison aujourd'hui ?",
+      "choix": ["Il pleut", "Il est malade", "Il a peur"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Le chien de Léa s'appelle Rex. Rex aime courir dans le jardin. Aujourd'hui, il pleut beaucoup. Rex reste donc dans la maison et regarde par la fenêtre. Léa le caresse pour le consoler.",
+      "question": "Que fait Léa pour Rex ?",
+      "choix": ["Elle le caresse", "Elle le sort", "Elle joue avec lui dehors"],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

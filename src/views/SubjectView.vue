@@ -18,7 +18,10 @@
           class="level-card"
           @click="router.push(`/matiere/${subject.id}/${niveau.id}`)"
         >
-          <span class="level-title">{{ niveau.titre }}</span>
+          <span class="level-title">
+            {{ niveau.titre }}
+            <span v-if="niveau.nouveau" class="level-badge-new">Nouveau</span>
+          </span>
           <span class="level-count">{{ niveau.lessons.length }} leçon{{ niveau.lessons.length !== 1 ? 's' : '' }}</span>
         </button>
       </div>
@@ -126,6 +129,18 @@ const subject = computed(() => subjectsData.find((s) => s.id === route.params.ma
 .level-count {
   font-size: 14px;
   color: #757575;
+}
+
+.level-badge-new {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  color: white;
+  background: #e53935;
+  padding: 2px 8px;
+  border-radius: 20px;
+  vertical-align: middle;
+  margin-left: 8px;
 }
 
 .subject-error {

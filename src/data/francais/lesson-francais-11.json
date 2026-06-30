@@ -1,0 +1,44 @@
+{
+  "id": "lesson-francais-11",
+  "theme": "francais",
+  "titre": "Clara et Sofia",
+  "description": "Lis le texte et réponds aux questions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Clara et Sofia s'entraînent ensemble tous les samedis. Aujourd'hui, Clara est absente car elle est malade. Sofia s'entraîne seule et trouve cela moins amusant. Elle décide d'appeler Clara après le cours pour prendre de ses nouvelles. Clara est contente d'avoir des nouvelles de son amie.",
+      "question": "Quand Clara et Sofia s'entraînent-elles ensemble ?",
+      "choix": ["Tous les samedis", "Tous les dimanches", "Tous les jours"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Clara et Sofia s'entraînent ensemble tous les samedis. Aujourd'hui, Clara est absente car elle est malade. Sofia s'entraîne seule et trouve cela moins amusant. Elle décide d'appeler Clara après le cours pour prendre de ses nouvelles. Clara est contente d'avoir des nouvelles de son amie.",
+      "question": "Pourquoi Clara est-elle absente aujourd'hui ?",
+      "choix": ["Elle est malade", "Elle est en vacances", "Elle a oublié"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Clara et Sofia s'entraînent ensemble tous les samedis. Aujourd'hui, Clara est absente car elle est malade. Sofia s'entraîne seule et trouve cela moins amusant. Elle décide d'appeler Clara après le cours pour prendre de ses nouvelles. Clara est contente d'avoir des nouvelles de son amie.",
+      "question": "Comment Sofia trouve-t-elle l'entraînement sans Clara ?",
+      "choix": ["Plus amusant", "Moins amusant", "Pareil que d'habitude"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Clara et Sofia s'entraînent ensemble tous les samedis. Aujourd'hui, Clara est absente car elle est malade. Sofia s'entraîne seule et trouve cela moins amusant. Elle décide d'appeler Clara après le cours pour prendre de ses nouvelles. Clara est contente d'avoir des nouvelles de son amie.",
+      "question": "Que fait Sofia après le cours ?",
+      "choix": ["Elle appelle Clara", "Elle rentre directement", "Elle reste avec ses amies"],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

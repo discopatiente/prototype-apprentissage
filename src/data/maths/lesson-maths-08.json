@@ -1,0 +1,35 @@
+{
+  "id": "lesson-maths-08",
+  "theme": "maths",
+  "titre": "Le club de judo",
+  "description": "Lis le texte et réponds aux questions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Au judo, il y a 15 garçons et 14 filles dans le club.",
+      "question": "Quelle opération permet de trouver le nombre total d'enfants dans le club ?",
+      "choix": ["15 + 14", "15 - 14", "15 x 14"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Au judo, il y a 15 garçons et 14 filles dans le club.",
+      "question": "Combien d'enfants y a-t-il en tout dans le club ?",
+      "choix": ["28", "29", "30"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Au judo, il y a 15 garçons et 14 filles dans le club.",
+      "question": "S'il y avait 16 garçons au lieu de 15, combien y aurait-il d'enfants en tout ?",
+      "choix": ["29", "30", "31"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

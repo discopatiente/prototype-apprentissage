@@ -51,8 +51,9 @@ const router = createRouter({
 })
 
 router.beforeEach(async (to) => {
+  if (!to.meta.requiresAuth && to.name !== 'admin-login') return
+
   const authStore = useAuthStore()
-  // Attendre que Netlify Identity ait vérifié la session avant de décider
   await authStore.readyPromise
 
   if (to.meta.requiresAuth && !authStore.user) {

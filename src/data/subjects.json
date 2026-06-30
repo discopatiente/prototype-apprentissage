@@ -15,6 +15,18 @@
           "lesson-francais-05",
           "lesson-francais-06"
         ]
+      },
+      {
+        "id": "niveau-2",
+        "titre": "Niveau 2",
+        "nouveau": true,
+        "lessons": [
+          "lesson-francais-07",
+          "lesson-francais-08",
+          "lesson-francais-09",
+          "lesson-francais-10",
+          "lesson-francais-11"
+        ]
       }
     ]
   },
@@ -32,6 +44,18 @@
           "lesson-maths-03",
           "lesson-maths-04",
           "lesson-maths-05"
+        ]
+      },
+      {
+        "id": "niveau-2",
+        "titre": "Niveau 2",
+        "nouveau": true,
+        "lessons": [
+          "lesson-maths-06",
+          "lesson-maths-07",
+          "lesson-maths-08",
+          "lesson-maths-09",
+          "lesson-maths-10"
         ]
       }
     ]

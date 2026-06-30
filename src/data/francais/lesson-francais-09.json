@@ -1,0 +1,44 @@
+{
+  "id": "lesson-francais-09",
+  "theme": "francais",
+  "titre": "Inès et le judo",
+  "description": "Lis le texte et réponds aux questions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Tous les mardis, Inès va au cours de judo après l'école. Elle aime beaucoup ce sport car elle se sent forte. Un jour, elle perd un combat. Elle a les larmes aux yeux mais elle se relève vite. Son professeur la félicite pour son courage.",
+      "question": "Quand Inès va-t-elle au judo ?",
+      "choix": ["Tous les mardis après l'école", "Tous les samedis matin", "Tous les jours"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Tous les mardis, Inès va au cours de judo après l'école. Elle aime beaucoup ce sport car elle se sent forte. Un jour, elle perd un combat. Elle a les larmes aux yeux mais elle se relève vite. Son professeur la félicite pour son courage.",
+      "question": "Pourquoi Inès aime-t-elle le judo ?",
+      "choix": ["Elle se sent forte", "Elle aime son professeur", "Elle voit ses amies"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Tous les mardis, Inès va au cours de judo après l'école. Elle aime beaucoup ce sport car elle se sent forte. Un jour, elle perd un combat. Elle a les larmes aux yeux mais elle se relève vite. Son professeur la félicite pour son courage.",
+      "question": "Comment se sent Inès après avoir perdu son combat ?",
+      "choix": ["Contente", "Triste, elle a les larmes aux yeux", "En colère"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Tous les mardis, Inès va au cours de judo après l'école. Elle aime beaucoup ce sport car elle se sent forte. Un jour, elle perd un combat. Elle a les larmes aux yeux mais elle se relève vite. Son professeur la félicite pour son courage.",
+      "question": "Pourquoi le professeur félicite-t-il Inès ?",
+      "choix": ["Pour son courage", "Pour sa victoire", "Pour sa rapidité"],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

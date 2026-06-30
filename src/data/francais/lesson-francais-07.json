@@ -1,0 +1,44 @@
+{
+  "id": "lesson-francais-07",
+  "theme": "francais",
+  "titre": "Sofia et la compétition",
+  "description": "Lis le texte et réponds aux questions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Sofia se réveille tôt le samedi matin. Elle prépare son sac de judo. Elle sourit en pensant à la compétition. Sa mère lui prépare un bon petit déjeuner. Sofia mange vite et part avec son sac.",
+      "question": "Quel jour Sofia se réveille-t-elle tôt ?",
+      "choix": ["Le samedi", "Le dimanche", "Le lundi"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Sofia se réveille tôt le samedi matin. Elle prépare son sac de judo. Elle sourit en pensant à la compétition. Sa mère lui prépare un bon petit déjeuner. Sofia mange vite et part avec son sac.",
+      "question": "Que prépare Sofia ?",
+      "choix": ["Son sac de judo", "Son cartable", "Son repas"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Sofia se réveille tôt le samedi matin. Elle prépare son sac de judo. Elle sourit en pensant à la compétition. Sa mère lui prépare un bon petit déjeuner. Sofia mange vite et part avec son sac.",
+      "question": "Pourquoi Sofia sourit-elle ?",
+      "choix": ["Elle pense à la compétition", "Elle a bien dormi", "Il fait beau"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Sofia se réveille tôt le samedi matin. Elle prépare son sac de judo. Elle sourit en pensant à la compétition. Sa mère lui prépare un bon petit déjeuner. Sofia mange vite et part avec son sac.",
+      "question": "Que fait la mère de Sofia ?",
+      "choix": ["Elle prépare le petit déjeuner", "Elle va au judo", "Elle prépare le sac"],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

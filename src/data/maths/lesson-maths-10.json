@@ -1,0 +1,35 @@
+{
+  "id": "lesson-maths-10",
+  "theme": "maths",
+  "titre": "Les images d'Inès",
+  "description": "Lis le texte et réponds aux questions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Inès a 27 images. Elle en reçoit 11 de plus, puis elle en donne 6 à son amie.",
+      "question": "Combien d'images Inès a-t-elle après en avoir reçu 11 de plus ?",
+      "choix": ["37", "38", "39"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Inès a 27 images. Elle en reçoit 11 de plus, puis elle en donne 6 à son amie.",
+      "question": "Combien d'images Inès a-t-elle après en avoir donné 6 ?",
+      "choix": ["31", "32", "33"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Inès a 27 images. Elle en reçoit 11 de plus, puis elle en donne 6 à son amie.",
+      "question": "Quelle opération a-t-on utilisée pour la première étape ?",
+      "choix": ["Une addition", "Une soustraction", "Une multiplication"],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

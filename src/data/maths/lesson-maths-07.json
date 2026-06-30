@@ -1,0 +1,35 @@
+{
+  "id": "lesson-maths-07",
+  "theme": "maths",
+  "titre": "Les cartes de Sofia",
+  "description": "Lis le texte et réponds aux questions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Sofia a 24 cartes. Elle en donne 3 à son amie.",
+      "question": "Quelle opération permet de trouver combien de cartes il reste à Sofia ?",
+      "choix": ["24 + 3", "24 - 3", "24 x 3"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Sofia a 24 cartes. Elle en donne 3 à son amie.",
+      "question": "Combien de cartes reste-t-il à Sofia ?",
+      "choix": ["20", "21", "22"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Sofia a 24 cartes. Elle en donne 3 à son amie.",
+      "question": "Si Sofia avait donné 4 cartes au lieu de 3, combien lui en resterait-il ?",
+      "choix": ["19", "20", "21"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

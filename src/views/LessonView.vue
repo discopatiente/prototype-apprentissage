@@ -16,20 +16,20 @@
 
         <ExerciseQCM
           v-if="currentExercise.type === 'qcm'"
+          :key="`qcm-${currentExercise.id}`"
           :exercise="currentExercise"
-          :key="currentExercise.id"
           @answer-submitted="onAnswerSubmitted"
         />
         <ExerciseQCMTexte
           v-else-if="currentExercise.type === 'qcm-texte'"
+          :key="`texte-${currentExercise.id}`"
           :exercise="currentExercise"
-          :key="currentExercise.id"
           @answer-submitted="onAnswerSubmitted"
         />
         <ExerciseReponseCorte
           v-else-if="currentExercise.type === 'reponse-courte'"
+          :key="`courte-${currentExercise.id}`"
           :exercise="currentExercise"
-          :key="currentExercise.id"
           @answer-submitted="onAnswerSubmitted"
         />
 

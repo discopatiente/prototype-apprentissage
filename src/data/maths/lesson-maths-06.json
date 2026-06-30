@@ -1,0 +1,35 @@
+{
+  "id": "lesson-maths-06",
+  "theme": "maths",
+  "titre": "Les billes de Léa",
+  "description": "Lis le texte et réponds aux questions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Léa a 12 billes. Son frère lui donne 5 billes de plus.",
+      "question": "Quelle opération permet de trouver combien de billes a Léa maintenant ?",
+      "choix": ["12 + 5", "12 - 5", "12 x 5"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Léa a 12 billes. Son frère lui donne 5 billes de plus.",
+      "question": "Combien de billes a Léa maintenant ?",
+      "choix": ["16", "17", "18"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Léa a 12 billes. Son frère lui donne 5 billes de plus.",
+      "question": "Si Léa avait eu 13 billes au départ, combien en aurait-elle eu après le cadeau de son frère ?",
+      "choix": ["17", "18", "19"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "lesson-maths-09",
+  "theme": "maths",
+  "titre": "L'argent de Clara",
+  "description": "Lis le texte et réponds aux questions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Clara a 36 euros. Elle achète un livre à 12 euros.",
+      "question": "Quelle opération permet de trouver combien d'argent il reste à Clara ?",
+      "choix": ["36 + 12", "36 - 12", "36 x 12"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Clara a 36 euros. Elle achète un livre à 12 euros.",
+      "question": "Combien d'argent reste-t-il à Clara ?",
+      "choix": ["22 euros", "24 euros", "26 euros"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Clara a 36 euros. Elle achète un livre à 12 euros.",
+      "question": "Si le livre avait coûté 13 euros, combien lui resterait-il ?",
+      "choix": ["21 euros", "23 euros", "25 euros"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "lesson-francais-10",
+  "theme": "francais",
+  "titre": "Le renard et ses petits",
+  "description": "Lis le texte et réponds aux questions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Le renard vit dans la forêt avec ses petits. Chaque matin, il part chasser pour les nourrir. Un matin, il ne trouve rien à manger. Il rentre fatigué et inquiet. Heureusement, le lendemain, il attrape un lapin et toute la famille mange bien.",
+      "question": "Où vit le renard ?",
+      "choix": ["Dans la forêt", "Dans un terrier en ville", "Près de la rivière"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Le renard vit dans la forêt avec ses petits. Chaque matin, il part chasser pour les nourrir. Un matin, il ne trouve rien à manger. Il rentre fatigué et inquiet. Heureusement, le lendemain, il attrape un lapin et toute la famille mange bien.",
+      "question": "Pourquoi le renard chasse-t-il chaque matin ?",
+      "choix": ["Pour nourrir ses petits", "Pour s'amuser", "Pour faire de l'exercice"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Le renard vit dans la forêt avec ses petits. Chaque matin, il part chasser pour les nourrir. Un matin, il ne trouve rien à manger. Il rentre fatigué et inquiet. Heureusement, le lendemain, il attrape un lapin et toute la famille mange bien.",
+      "question": "Comment se sent le renard quand il ne trouve rien à manger ?",
+      "choix": ["Content", "Fatigué et inquiet", "En colère"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Le renard vit dans la forêt avec ses petits. Chaque matin, il part chasser pour les nourrir. Un matin, il ne trouve rien à manger. Il rentre fatigué et inquiet. Heureusement, le lendemain, il attrape un lapin et toute la famille mange bien.",
+      "question": "Que se passe-t-il le lendemain ?",
+      "choix": ["Il attrape un lapin", "Il pleut toute la journée", "Il rencontre un autre renard"],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}
