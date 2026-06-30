@@ -22,6 +22,7 @@
         class="subject-card"
         @click="router.push('/matiere/' + subject.id)"
       >
+        <div v-if="subjectHasNew(subject)" class="new-sticker">Nouveau !</div>
         <div class="subject-icon" :style="{ background: subject.tint }">{{ subject.icone }}</div>
         <span class="subject-title">{{ subject.titre }}</span>
         <span class="subject-count" :style="{ color: subject.color, background: subject.tint }">
@@ -46,11 +47,13 @@
 <script setup>
 import { computed } from 'vue'
 import { useRouter } from 'vue-router'
+import { useProgressStore } from '../stores/progressStore'
 import ScoreBadge from '../components/ScoreBadge.vue'
 import MascottePig from '../components/MascottePig.vue'
 import subjects from '../data/subjects.json'
 
 const router = useRouter()
+const store = useProgressStore()
 
 const today = computed(() => {
   const raw = new Intl.DateTimeFormat('fr-FR', {
@@ -63,6 +66,10 @@ const today = computed(() => {
 
 function totalLessons(subject) {
   return subject.niveaux.reduce((sum, n) => sum + n.lessons.length, 0)
+}
+
+function subjectHasNew(subject) {
+  return subject.niveaux.some((n) => n.nouveau && store.hasUnseenLessons(n.lessons))
 }
 </script>
 
@@ -141,6 +148,7 @@ function totalLessons(subject) {
 }
 
 .subject-card {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -155,6 +163,20 @@ function totalLessons(subject) {
 }
 
 .subject-card:active { transform: scale(0.97); }
+
+.new-sticker {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 10px;
+  font-weight: 800;
+  color: white;
+  background: #C2855F;
+  padding: 3px 9px;
+  border-radius: 20px;
+  transform: rotate(4deg);
+  box-shadow: 0 2px 6px rgba(194, 133, 95, 0.4);
+}
 
 .subject-icon {
   width: 64px;

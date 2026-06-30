@@ -19,11 +19,13 @@ export const useProgressStore = defineStore('progress', () => {
   const balloons = ref(savedData?.balloons ?? 0)
   const bestScoresByLesson = ref(savedData?.bestScoresByLesson ?? {})
   const attemptHistory = ref(savedData?.attemptHistory ?? [])
+  const seenLessons = ref(savedData?.seenLessons ?? [])
   const currentAttemptScores = ref({})
   const completedExercisesInAttempt = ref([])
+  const lastSessionBalloons = ref(0)
 
   watch(
-    [scoreGlobal, balloons, bestScoresByLesson, attemptHistory],
+    [scoreGlobal, balloons, bestScoresByLesson, attemptHistory, seenLessons],
     () => {
       localStorage.setItem(
         STORAGE_KEY,
@@ -32,6 +34,7 @@ export const useProgressStore = defineStore('progress', () => {
           balloons: balloons.value,
           bestScoresByLesson: bestScoresByLesson.value,
           attemptHistory: attemptHistory.value,
+          seenLessons: seenLessons.value,
         }),
       )
     },
@@ -41,6 +44,17 @@ export const useProgressStore = defineStore('progress', () => {
   const currentAttemptScore = computed(() => {
     return Object.values(currentAttemptScores.value).reduce((a, b) => a + b, 0)
   })
+
+  function markLessonSeen(lessonId) {
+    if (!seenLessons.value.includes(lessonId)) {
+      seenLessons.value = [...seenLessons.value, lessonId]
+    }
+  }
+
+  // Retourne true si au moins une leçon de la liste n'a pas encore été ouverte
+  function hasUnseenLessons(lessonIds) {
+    return lessonIds.some((id) => !seenLessons.value.includes(id))
+  }
 
   function submitAnswer(lessonId, exerciseId, isCorrect, points) {
     const key = `${lessonId}/${exerciseId}`
@@ -62,7 +76,12 @@ export const useProgressStore = defineStore('progress', () => {
       bestScoresByLesson.value[lessonId] = attemptScore
     }
 
-    balloons.value += completedExercisesInAttempt.value.length
+    // Ballon uniquement lors du premier 100% sur cette leçon
+    lastSessionBalloons.value = 0
+    if (attemptScore === maxScore && previousBest < maxScore) {
+      balloons.value += 1
+      lastSessionBalloons.value = 1
+    }
 
     attemptHistory.value.push({
       date: new Date().toISOString(),
@@ -89,6 +108,7 @@ export const useProgressStore = defineStore('progress', () => {
   function resetAttempt() {
     currentAttemptScores.value = {}
     completedExercisesInAttempt.value = []
+    lastSessionBalloons.value = 0
   }
 
   function resetProgress() {
@@ -96,6 +116,7 @@ export const useProgressStore = defineStore('progress', () => {
     balloons.value = 0
     bestScoresByLesson.value = {}
     attemptHistory.value = []
+    seenLessons.value = []
     resetAttempt()
   }
 
@@ -104,9 +125,13 @@ export const useProgressStore = defineStore('progress', () => {
     balloons,
     bestScoresByLesson,
     attemptHistory,
+    seenLessons,
     currentAttemptScores,
     currentAttemptScore,
     completedExercisesInAttempt,
+    lastSessionBalloons,
+    markLessonSeen,
+    hasUnseenLessons,
     submitAnswer,
     finishLesson,
     resetAttempt,

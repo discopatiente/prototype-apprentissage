@@ -21,7 +21,7 @@
         >
           <span class="level-title">
             {{ niveau.titre }}
-            <span v-if="niveau.nouveau" class="badge-new">Nouveau</span>
+            <span v-if="niveau.nouveau && store.hasUnseenLessons(niveau.lessons)" class="badge-new">Nouveau</span>
           </span>
           <span class="level-count">
             {{ niveau.lessons.length }} leçon{{ niveau.lessons.length !== 1 ? 's' : '' }}
@@ -40,11 +40,13 @@
 <script setup>
 import { computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
+import { useProgressStore } from '../stores/progressStore'
 import ScoreBadge from '../components/ScoreBadge.vue'
 import subjectsData from '../data/subjects.json'
 
 const route = useRoute()
 const router = useRouter()
+const store = useProgressStore()
 
 const subject = computed(() => subjectsData.find((s) => s.id === route.params.matiereId) ?? null)
 </script>

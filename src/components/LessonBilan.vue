@@ -76,7 +76,7 @@ const store = useProgressStore()
 
 const attemptScore = computed(() => store.currentAttemptScore)
 
-const sessionBalloons = computed(() => store.completedExercisesInAttempt.length)
+const sessionBalloons = computed(() => store.lastSessionBalloons)
 
 const percentage = computed(() => {
   const maxScore = props.exercises.reduce((a, e) => a + e.points, 0)

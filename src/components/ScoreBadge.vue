@@ -5,7 +5,10 @@
       <span class="badge-score">{{ store.scoreGlobal }}</span>
     </div>
     <div class="badge-group">
-      <div class="balloon"></div>
+      <div class="balloon-icon">
+        <div class="balloon-body"></div>
+        <div class="balloon-thread"></div>
+      </div>
       <span class="badge-balloons">{{ store.balloons }}</span>
     </div>
   </div>
@@ -47,11 +50,25 @@ const store = useProgressStore()
   color: #9A6E2E;
 }
 
-.balloon {
+.balloon-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.balloon-body {
   width: 12px;
   height: 15px;
   background: #DD8A78;
   border-radius: 50% 50% 50% 50% / 55% 55% 45% 45%;
+}
+
+.balloon-thread {
+  width: 1px;
+  height: 6px;
+  background: #DD8A78;
+  opacity: 0.6;
+  border-radius: 1px;
 }
 
 .badge-balloons {
