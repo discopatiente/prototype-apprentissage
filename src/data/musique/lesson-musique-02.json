@@ -1,0 +1,38 @@
+{
+  "id": "lesson-musique-02",
+  "theme": "musique",
+  "titre": "Le rythme",
+  "description": "Lis le texte et réponds aux questions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Le rythme, c'est la façon dont les sons s'organisent dans le temps. Un rythme peut être rapide ou lent. Quand on tape des mains en suivant la musique, on suit le rythme.",
+      "image": null,
+      "question": "Le rythme concerne…",
+      "choix": ["La hauteur du son", "L'organisation des sons dans le temps", "La couleur du son"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Le rythme, c'est la façon dont les sons s'organisent dans le temps. Un rythme peut être rapide ou lent. Quand on tape des mains en suivant la musique, on suit le rythme.",
+      "image": null,
+      "question": "Un rythme peut être…",
+      "choix": ["Grave ou aigu", "Rapide ou lent", "Fort ou faible"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Le rythme, c'est la façon dont les sons s'organisent dans le temps. Un rythme peut être rapide ou lent. Quand on tape des mains en suivant la musique, on suit le rythme.",
+      "image": null,
+      "question": "Quand on tape des mains en suivant la musique, on suit…",
+      "choix": ["Le timbre", "Le rythme", "La mélodie"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

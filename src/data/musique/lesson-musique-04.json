@@ -1,0 +1,38 @@
+{
+  "id": "lesson-musique-04",
+  "theme": "musique",
+  "titre": "La flûte et le tambour",
+  "description": "Lis le texte et réponds aux questions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "La flûte est un instrument à vent. Pour jouer de la flûte, on souffle dedans. Le tambour est un instrument à percussion. Pour jouer du tambour, on frappe dessus.",
+      "image": null,
+      "question": "La flûte est un instrument…",
+      "choix": ["À vent", "À cordes", "À percussion"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "La flûte est un instrument à vent. Pour jouer de la flûte, on souffle dedans. Le tambour est un instrument à percussion. Pour jouer du tambour, on frappe dessus.",
+      "image": null,
+      "question": "Pour jouer de la flûte, on…",
+      "choix": ["Frappe dessus", "Souffle dedans", "Frotte les cordes"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "La flûte est un instrument à vent. Pour jouer de la flûte, on souffle dedans. Le tambour est un instrument à percussion. Pour jouer du tambour, on frappe dessus.",
+      "image": null,
+      "question": "Le tambour est un instrument…",
+      "choix": ["À vent", "À cordes", "À percussion"],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

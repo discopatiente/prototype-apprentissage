@@ -1,0 +1,38 @@
+{
+  "id": "lesson-musique-03",
+  "theme": "musique",
+  "titre": "Le violon",
+  "description": "Lis le texte et réponds aux questions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Le violon est un instrument à cordes. On joue du violon avec un archet que l'on frotte sur les cordes. Le violon fait partie de la famille des cordes frottées.",
+      "image": "musique/violon.png",
+      "question": "Le violon est un instrument…",
+      "choix": ["À cordes", "À vent", "À percussion"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Le violon est un instrument à cordes. On joue du violon avec un archet que l'on frotte sur les cordes. Le violon fait partie de la famille des cordes frottées.",
+      "image": "musique/violon.png",
+      "question": "Avec quoi joue-t-on du violon ?",
+      "choix": ["Avec les mains", "Avec un archet", "Avec des baguettes"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Le violon est un instrument à cordes. On joue du violon avec un archet que l'on frotte sur les cordes. Le violon fait partie de la famille des cordes frottées.",
+      "image": "musique/violon.png",
+      "question": "Le violon fait partie de la famille…",
+      "choix": ["Des cordes frottées", "Des vents", "Des percussions"],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

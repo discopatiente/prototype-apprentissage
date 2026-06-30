@@ -59,5 +59,23 @@
         ]
       }
     ]
+  },
+  {
+    "id": "musique",
+    "titre": "Musique",
+    "icone": "🎵",
+    "niveaux": [
+      {
+        "id": "niveau-1",
+        "titre": "Niveau 1",
+        "nouveau": true,
+        "lessons": [
+          "lesson-musique-01",
+          "lesson-musique-02",
+          "lesson-musique-03",
+          "lesson-musique-04"
+        ]
+      }
+    ]
   }
 ]

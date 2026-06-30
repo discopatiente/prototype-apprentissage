@@ -5,6 +5,13 @@
       <p class="texte-contenu">{{ exercise.texte }}</p>
     </div>
 
+    <img
+      v-if="exercise.image"
+      :src="'/images/' + exercise.image"
+      :alt="exercise.question"
+      class="exercise-image"
+    />
+
     <p class="question">{{ exercise.question }}</p>
 
     <div class="choix">
@@ -87,6 +94,13 @@ function select(index) {
   line-height: 1.7;
   color: #1a1a1a;
   margin: 0;
+}
+
+.exercise-image {
+  width: 100%;
+  max-height: 220px;
+  object-fit: contain;
+  border-radius: 12px;
 }
 
 .question {

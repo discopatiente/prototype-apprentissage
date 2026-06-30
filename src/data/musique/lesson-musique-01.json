@@ -1,0 +1,38 @@
+{
+  "id": "lesson-musique-01",
+  "theme": "musique",
+  "titre": "Grave ou aigu ?",
+  "description": "Lis le texte et réponds aux questions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "La musique est faite de sons. Un son peut être grave ou aigu. Un son grave est un son bas, comme la voix d'un homme. Un son aigu est un son haut, comme la voix d'un enfant.",
+      "image": null,
+      "question": "Un son grave est un son…",
+      "choix": ["Haut", "Bas", "Rapide"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "La musique est faite de sons. Un son peut être grave ou aigu. Un son grave est un son bas, comme la voix d'un homme. Un son aigu est un son haut, comme la voix d'un enfant.",
+      "image": null,
+      "question": "Un son aigu est un son…",
+      "choix": ["Haut", "Bas", "Lent"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "La musique est faite de sons. Un son peut être grave ou aigu. Un son grave est un son bas, comme la voix d'un homme. Un son aigu est un son haut, comme la voix d'un enfant.",
+      "image": null,
+      "question": "La voix d'un enfant est plutôt…",
+      "choix": ["Grave", "Aiguë", "Silencieuse"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}
