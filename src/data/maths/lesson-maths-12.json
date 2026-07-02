@@ -1,0 +1,62 @@
+{
+  "id": "lesson-maths-12",
+  "theme": "maths",
+  "titre": "La multiplication (2)",
+  "description": "Entraîne-toi encore sur la multiplication",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Au judo, les enfants sont répartis en groupes. Il y a 4 groupes de 5 enfants.",
+      "question": "Quelle opération permet de trouver le nombre total d'enfants ?",
+      "choix": ["4 + 5", "4 x 5", "5 - 4"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Au judo, les enfants sont répartis en groupes. Il y a 4 groupes de 5 enfants.",
+      "question": "Combien y a-t-il d'enfants en tout ?",
+      "choix": ["9", "18", "20"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Au judo, les enfants sont répartis en groupes. Il y a 4 groupes de 5 enfants.",
+      "question": "Si chaque groupe avait 6 enfants au lieu de 5, combien y aurait-il d'enfants en tout ?",
+      "choix": ["20", "24", "26"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Clara achète 3 cahiers à 2 euros chacun.",
+      "question": "Quelle opération permet de trouver le prix total ?",
+      "choix": ["3 + 2", "3 x 2", "3 - 2"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Clara achète 3 cahiers à 2 euros chacun.",
+      "question": "Combien Clara paie-t-elle en tout ?",
+      "choix": ["5 euros", "6 euros", "7 euros"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Clara achète 3 cahiers à 2 euros chacun.",
+      "question": "Si les cahiers coûtaient 3 euros chacun, combien Clara paierait-elle en tout ?",
+      "choix": ["6 euros", "9 euros", "12 euros"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

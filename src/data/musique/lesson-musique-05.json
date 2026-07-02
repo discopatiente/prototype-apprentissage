@@ -1,0 +1,68 @@
+{
+  "id": "lesson-musique-05",
+  "theme": "musique",
+  "titre": "Mélodie et tempo",
+  "description": "Découvre la mélodie et le tempo",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "La mélodie, c'est la suite de notes que l'on retient d'une chanson. C'est ce que l'on chante ou que l'on siffle quand on se souvient d'une musique.",
+      "image": "musique/melodie.png",
+      "question": "Qu'est-ce que la mélodie ?",
+      "choix": ["Le rythme de la musique", "La suite de notes que l'on retient", "Le volume de la musique"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "La mélodie, c'est la suite de notes que l'on retient d'une chanson. C'est ce que l'on chante ou que l'on siffle quand on se souvient d'une musique.",
+      "image": "musique/melodie.png",
+      "question": "Que fait-on souvent avec la mélodie d'une chanson ?",
+      "choix": ["On la tape avec les mains", "On la siffle ou on la chante", "On la dessine"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "La mélodie, c'est la suite de notes que l'on retient d'une chanson. C'est ce que l'on chante ou que l'on siffle quand on se souvient d'une musique.",
+      "image": "musique/melodie.png",
+      "question": "La mélodie est faite de",
+      "choix": ["Notes", "Couleurs", "Mots"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Le tempo, c'est la vitesse de la musique. Une musique avec un tempo rapide va vite. Une musique avec un tempo lent va doucement.",
+      "image": null,
+      "question": "Qu'est-ce que le tempo ?",
+      "choix": ["La hauteur des sons", "La vitesse de la musique", "Le nombre d'instruments"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Le tempo, c'est la vitesse de la musique. Une musique avec un tempo rapide va vite. Une musique avec un tempo lent va doucement.",
+      "image": null,
+      "question": "Une musique de danse est plutôt",
+      "choix": ["À tempo lent", "À tempo rapide", "Sans tempo"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Le tempo, c'est la vitesse de la musique. Une musique avec un tempo rapide va vite. Une musique avec un tempo lent va doucement.",
+      "image": null,
+      "question": "Une berceuse pour s'endormir est plutôt",
+      "choix": ["À tempo rapide", "À tempo lent", "Très forte"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

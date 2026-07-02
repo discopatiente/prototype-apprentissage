@@ -1,0 +1,68 @@
+{
+  "id": "lesson-musique-06",
+  "theme": "musique",
+  "titre": "Instruments à vent et percussions",
+  "description": "Découvre les familles d'instruments à vent et les percussions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Les instruments à vent se divisent en deux familles. Les bois, comme la flûte et le hautbois. Les cuivres, comme la trompette et le trombone. Dans les deux cas, on souffle pour produire un son.",
+      "image": "musique/instruments-vent.png",
+      "question": "Pour jouer d'un instrument à vent, on",
+      "choix": ["Frappe dessus", "Souffle dedans", "Frotte les cordes"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Les instruments à vent se divisent en deux familles. Les bois, comme la flûte et le hautbois. Les cuivres, comme la trompette et le trombone. Dans les deux cas, on souffle pour produire un son.",
+      "image": "musique/instruments-vent.png",
+      "question": "La trompette fait partie de la famille",
+      "choix": ["Des bois", "Des cuivres", "Des cordes"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Les instruments à vent se divisent en deux familles. Les bois, comme la flûte et le hautbois. Les cuivres, comme la trompette et le trombone. Dans les deux cas, on souffle pour produire un son.",
+      "image": "musique/instruments-vent.png",
+      "question": "La flûte fait partie de la famille",
+      "choix": ["Des bois", "Des cuivres", "Des percussions"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Les percussions sont des instruments que l'on frappe. Il en existe de deux sortes. Les percussions à son déterminé, comme le xylophone, qui peuvent jouer des notes précises. Les percussions à son indéterminé, comme le tambour, qui produisent un bruit sans note précise.",
+      "image": "musique/percussions.png",
+      "question": "Comment joue-t-on des percussions ?",
+      "choix": ["On souffle dedans", "On frotte les cordes", "On frappe dessus"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Les percussions sont des instruments que l'on frappe. Il en existe de deux sortes. Les percussions à son déterminé, comme le xylophone, qui peuvent jouer des notes précises. Les percussions à son indéterminé, comme le tambour, qui produisent un bruit sans note précise.",
+      "image": "musique/percussions.png",
+      "question": "Le xylophone est une percussion",
+      "choix": ["À son indéterminé", "À son déterminé", "À vent"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Les percussions sont des instruments que l'on frappe. Il en existe de deux sortes. Les percussions à son déterminé, comme le xylophone, qui peuvent jouer des notes précises. Les percussions à son indéterminé, comme le tambour, qui produisent un bruit sans note précise.",
+      "image": "musique/percussions.png",
+      "question": "Le tambour est une percussion",
+      "choix": ["À son déterminé", "À son indéterminé", "À cordes"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

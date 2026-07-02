@@ -1,0 +1,62 @@
+{
+  "id": "lesson-maths-11",
+  "theme": "maths",
+  "titre": "La multiplication",
+  "description": "Découvre la multiplication et entraîne-toi",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Multiplier, c'est additionner plusieurs fois le même nombre. Par exemple, 3 x 4 veut dire qu'on additionne 3 quatre fois : 3 + 3 + 3 + 3 = 12.",
+      "question": "Que veut dire 2 x 3 ?",
+      "choix": ["2 + 3", "2 + 2 + 2", "3 + 3 + 3"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Multiplier, c'est additionner plusieurs fois le même nombre. Par exemple, 3 x 4 veut dire qu'on additionne 3 quatre fois : 3 + 3 + 3 + 3 = 12.",
+      "question": "Combien fait 2 x 3 ?",
+      "choix": ["5", "6", "8"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Multiplier, c'est additionner plusieurs fois le même nombre. Par exemple, 3 x 4 veut dire qu'on additionne 3 quatre fois : 3 + 3 + 3 + 3 = 12.",
+      "question": "Combien fait 4 x 2 ?",
+      "choix": ["6", "8", "10"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Sofia a 3 sacs. Dans chaque sac, il y a 4 pommes.",
+      "question": "Quelle opération permet de trouver le nombre total de pommes ?",
+      "choix": ["3 + 4", "3 x 4", "4 - 3"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Sofia a 3 sacs. Dans chaque sac, il y a 4 pommes.",
+      "question": "Combien y a-t-il de pommes en tout ?",
+      "choix": ["7", "10", "12"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Sofia a 3 sacs. Dans chaque sac, il y a 4 pommes.",
+      "question": "Si Sofia avait 5 sacs avec 4 pommes chacun, combien y aurait-il de pommes en tout ?",
+      "choix": ["9", "18", "20"],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

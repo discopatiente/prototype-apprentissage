@@ -1,0 +1,143 @@
+{
+  "id": "lesson-francais-13",
+  "theme": "francais",
+  "titre": "Synonymes et contraires (2)",
+  "description": "Trouve les synonymes et les contraires des mots",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Un synonyme est un mot qui veut dire la même chose. Choisir le bon synonyme permet de mieux s'exprimer et de ne pas répéter toujours le même mot.",
+      "question": "Quel est le synonyme de gentil ?",
+      "choix": ["Méchant", "Aimable", "Triste"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Un synonyme est un mot qui veut dire la même chose. Choisir le bon synonyme permet de mieux s'exprimer et de ne pas répéter toujours le même mot.",
+      "question": "Quel est le synonyme de regarder ?",
+      "choix": ["Écouter", "Observer", "Toucher"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Un synonyme est un mot qui veut dire la même chose. Choisir le bon synonyme permet de mieux s'exprimer et de ne pas répéter toujours le même mot.",
+      "question": "Quel est le synonyme de commencer ?",
+      "choix": ["Finir", "Continuer", "Démarrer"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Les contraires permettent d'exprimer des idées opposées. Connaître les contraires aide à mieux comprendre les textes et à mieux s'exprimer.",
+      "question": "Quel est le contraire de léger ?",
+      "choix": ["Doux", "Lourd", "Rapide"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Les contraires permettent d'exprimer des idées opposées. Connaître les contraires aide à mieux comprendre les textes et à mieux s'exprimer.",
+      "question": "Quel est le contraire de ancien ?",
+      "choix": ["Vieux", "Neuf", "Usé"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Les contraires permettent d'exprimer des idées opposées. Connaître les contraires aide à mieux comprendre les textes et à mieux s'exprimer.",
+      "question": "Quel est le contraire de bruyant ?",
+      "choix": ["Silencieux", "Agité", "Calme"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Certains mots décrivent des émotions. On peut les remplacer par des synonymes pour exprimer la même émotion avec des mots différents.",
+      "question": "Quel est le synonyme de en colère ?",
+      "choix": ["Apaisé", "Furieux", "Triste"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Certains mots décrivent des émotions. On peut les remplacer par des synonymes pour exprimer la même émotion avec des mots différents.",
+      "question": "Quel est le synonyme de surpris ?",
+      "choix": ["Ennuyé", "Étonné", "Fatigué"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Certains mots décrivent des émotions. On peut les remplacer par des synonymes pour exprimer la même émotion avec des mots différents.",
+      "question": "Quel est le contraire de calme ?",
+      "choix": ["Agité", "Doux", "Silencieux"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Les mots qui décrivent la nature peuvent aussi avoir des synonymes et des contraires. Cela permet de mieux décrire ce que l'on voit autour de soi.",
+      "question": "Quel est le synonyme de forêt ?",
+      "choix": ["Désert", "Bois", "Prairie"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "Les mots qui décrivent la nature peuvent aussi avoir des synonymes et des contraires. Cela permet de mieux décrire ce que l'on voit autour de soi.",
+      "question": "Quel est le contraire de sombre ?",
+      "choix": ["Froid", "Lumineux", "Humide"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "Les mots qui décrivent la nature peuvent aussi avoir des synonymes et des contraires. Cela permet de mieux décrire ce que l'on voit autour de soi.",
+      "question": "Quel est le synonyme de ruisseau ?",
+      "choix": ["Montagne", "Torrent", "Rivière"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-13",
+      "type": "qcm-texte",
+      "texte": "Le petit renard avance lentement dans la forêt obscure. Il est épuisé et inquiet. Soudain, il aperçoit une clairière lumineuse.",
+      "question": "Quel est le contraire de lentement ?",
+      "choix": ["Doucement", "Rapidement", "Silencieusement"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-14",
+      "type": "qcm-texte",
+      "texte": "Le petit renard avance lentement dans la forêt obscure. Il est épuisé et inquiet. Soudain, il aperçoit une clairière lumineuse.",
+      "question": "Quel est le synonyme de obscure ?",
+      "choix": ["Lumineuse", "Sombre", "Froide"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-15",
+      "type": "qcm-texte",
+      "texte": "Le petit renard avance lentement dans la forêt obscure. Il est épuisé et inquiet. Soudain, il aperçoit une clairière lumineuse.",
+      "question": "Quel est le synonyme de épuisé ?",
+      "choix": ["Reposé", "Joyeux", "Fatigué"],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

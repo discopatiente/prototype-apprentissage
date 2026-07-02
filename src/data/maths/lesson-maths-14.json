@@ -1,0 +1,62 @@
+{
+  "id": "lesson-maths-14",
+  "theme": "maths",
+  "titre": "La multiplication (4)",
+  "description": "Entraîne-toi encore sur la multiplication",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Léa range des livres dans des boîtes. Elle met 6 livres dans chaque boîte. Elle a 4 boîtes.",
+      "question": "Quelle opération permet de trouver le nombre total de livres ?",
+      "choix": ["6 + 4", "6 x 4", "6 - 4"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Léa range des livres dans des boîtes. Elle met 6 livres dans chaque boîte. Elle a 4 boîtes.",
+      "question": "Combien y a-t-il de livres en tout ?",
+      "choix": ["20", "22", "24"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Léa range des livres dans des boîtes. Elle met 6 livres dans chaque boîte. Elle a 4 boîtes.",
+      "question": "Si Léa avait 5 boîtes au lieu de 4, combien y aurait-il de livres en tout ?",
+      "choix": ["28", "30", "32"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Au marché, les oranges sont vendues par sachets de 5. Sofia achète 4 sachets.",
+      "question": "Quelle opération permet de trouver le nombre total d'oranges ?",
+      "choix": ["5 + 4", "5 x 4", "5 - 4"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Au marché, les oranges sont vendues par sachets de 5. Sofia achète 4 sachets.",
+      "question": "Combien Sofia a-t-elle d'oranges en tout ?",
+      "choix": ["18", "20", "22"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Au marché, les oranges sont vendues par sachets de 5. Sofia achète 4 sachets.",
+      "question": "Si chaque sachet contenait 6 oranges, combien y en aurait-il en tout ?",
+      "choix": ["22", "24", "26"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

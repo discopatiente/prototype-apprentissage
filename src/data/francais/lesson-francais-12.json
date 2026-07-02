@@ -1,0 +1,143 @@
+{
+  "id": "lesson-francais-12",
+  "theme": "francais",
+  "titre": "Synonymes et contraires",
+  "description": "Trouve les synonymes et les contraires des mots",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Un synonyme est un mot qui veut dire la même chose qu'un autre mot. Par exemple, content et joyeux sont des synonymes.",
+      "question": "Quel est le synonyme de rapide ?",
+      "choix": ["Lent", "Vif", "Lourd"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Un synonyme est un mot qui veut dire la même chose qu'un autre mot. Par exemple, content et joyeux sont des synonymes.",
+      "question": "Quel est le synonyme de fatigué ?",
+      "choix": ["Reposé", "Épuisé", "Joyeux"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Un synonyme est un mot qui veut dire la même chose qu'un autre mot. Par exemple, content et joyeux sont des synonymes.",
+      "question": "Quel est le synonyme de grand ?",
+      "choix": ["Petit", "Immense", "Léger"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Un contraire est un mot qui veut dire le contraire d'un autre mot. Par exemple, chaud et froid sont des contraires.",
+      "question": "Quel est le contraire de propre ?",
+      "choix": ["Joli", "Sale", "Doux"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Un contraire est un mot qui veut dire le contraire d'un autre mot. Par exemple, chaud et froid sont des contraires.",
+      "question": "Quel est le contraire de fort ?",
+      "choix": ["Faible", "Rapide", "Grand"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Un contraire est un mot qui veut dire le contraire d'un autre mot. Par exemple, chaud et froid sont des contraires.",
+      "question": "Quel est le contraire de triste ?",
+      "choix": ["Fatigué", "Calme", "Joyeux"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Parfois un mot peut avoir plusieurs synonymes. Par exemple, beau peut être remplacé par joli, magnifique ou splendide.",
+      "question": "Lequel de ces mots est un synonyme de courageux ?",
+      "choix": ["Peureux", "Brave", "Timide"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Parfois un mot peut avoir plusieurs synonymes. Par exemple, beau peut être remplacé par joli, magnifique ou splendide.",
+      "question": "Lequel de ces mots est un synonyme de parler ?",
+      "choix": ["Écouter", "Regarder", "Discuter"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Parfois un mot peut avoir plusieurs synonymes. Par exemple, beau peut être remplacé par joli, magnifique ou splendide.",
+      "question": "Lequel de ces mots est un synonyme de marcher ?",
+      "choix": ["Courir", "Avancer", "Sauter"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Pour trouver le contraire d'un mot, on peut parfois ajouter un préfixe comme in- ou im- devant le mot. Par exemple, possible devient impossible, connu devient inconnu.",
+      "question": "Quel est le contraire de patient ?",
+      "choix": ["Impatient", "Dépatient", "Repatient"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "Pour trouver le contraire d'un mot, on peut parfois ajouter un préfixe comme in- ou im- devant le mot. Par exemple, possible devient impossible, connu devient inconnu.",
+      "question": "Quel est le contraire de connu ?",
+      "choix": ["Connu", "Reconnu", "Inconnu"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "Pour trouver le contraire d'un mot, on peut parfois ajouter un préfixe comme in- ou im- devant le mot. Par exemple, possible devient impossible, connu devient inconnu.",
+      "question": "Quel est le contraire de utile ?",
+      "choix": ["Inutile", "Désutile", "Renutile"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-13",
+      "type": "qcm-texte",
+      "texte": "Sofia est une fille courageuse et rapide. Elle est toujours joyeuse et travaille avec soin.",
+      "question": "Quel est le synonyme de courageuse dans ce texte ?",
+      "choix": ["Timide", "Brave", "Fatiguée"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-14",
+      "type": "qcm-texte",
+      "texte": "Sofia est une fille courageuse et rapide. Elle est toujours joyeuse et travaille avec soin.",
+      "question": "Quel est le contraire de joyeuse ?",
+      "choix": ["Calme", "Triste", "Douce"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-15",
+      "type": "qcm-texte",
+      "texte": "Sofia est une fille courageuse et rapide. Elle est toujours joyeuse et travaille avec soin.",
+      "question": "Quel est le synonyme de soin ?",
+      "choix": ["Vitesse", "Application", "Bruit"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

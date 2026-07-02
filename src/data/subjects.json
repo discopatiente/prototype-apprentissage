@@ -21,13 +21,21 @@
       {
         "id": "niveau-2",
         "titre": "Niveau 2",
-        "nouveau": true,
         "lessons": [
           "lesson-francais-07",
           "lesson-francais-08",
           "lesson-francais-09",
           "lesson-francais-10",
           "lesson-francais-11"
+        ]
+      },
+      {
+        "id": "niveau-3",
+        "titre": "Niveau 3",
+        "nouveau": true,
+        "lessons": [
+          "lesson-francais-12",
+          "lesson-francais-13"
         ]
       }
     ]
@@ -53,13 +61,24 @@
       {
         "id": "niveau-2",
         "titre": "Niveau 2",
-        "nouveau": true,
         "lessons": [
           "lesson-maths-06",
           "lesson-maths-07",
           "lesson-maths-08",
           "lesson-maths-09",
           "lesson-maths-10"
+        ]
+      },
+      {
+        "id": "niveau-3",
+        "titre": "Niveau 3",
+        "nouveau": true,
+        "lessons": [
+          "lesson-maths-11",
+          "lesson-maths-12",
+          "lesson-maths-13",
+          "lesson-maths-14",
+          "lesson-maths-15"
         ]
       }
     ]
@@ -79,7 +98,10 @@
           "lesson-musique-01",
           "lesson-musique-02",
           "lesson-musique-03",
-          "lesson-musique-04"
+          "lesson-musique-04",
+          "lesson-musique-05",
+          "lesson-musique-06",
+          "lesson-musique-07"
         ]
       }
     ]

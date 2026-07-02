@@ -1,0 +1,62 @@
+{
+  "id": "lesson-maths-15",
+  "theme": "maths",
+  "titre": "La multiplication (5)",
+  "description": "Entraîne-toi encore sur la multiplication",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Un judoka s'entraîne 5 jours par semaine. Il fait 3 exercices différents par jour.",
+      "question": "Quelle opération permet de trouver le nombre total d'exercices par semaine ?",
+      "choix": ["5 + 3", "5 x 3", "5 - 3"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Un judoka s'entraîne 5 jours par semaine. Il fait 3 exercices différents par jour.",
+      "question": "Combien d'exercices fait-il en tout par semaine ?",
+      "choix": ["13", "15", "17"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Un judoka s'entraîne 5 jours par semaine. Il fait 3 exercices différents par jour.",
+      "question": "S'il faisait 4 exercices par jour, combien en ferait-il par semaine ?",
+      "choix": ["18", "20", "22"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Clara prépare des gâteaux pour ses amis. Elle fait 6 gâteaux et met 4 raisins sur chacun.",
+      "question": "Quelle opération permet de trouver le nombre total de raisins ?",
+      "choix": ["6 + 4", "6 x 4", "6 - 4"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Clara prépare des gâteaux pour ses amis. Elle fait 6 gâteaux et met 4 raisins sur chacun.",
+      "question": "Combien y a-t-il de raisins en tout ?",
+      "choix": ["22", "24", "26"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Clara prépare des gâteaux pour ses amis. Elle fait 6 gâteaux et met 4 raisins sur chacun.",
+      "question": "Si Clara mettait 5 raisins sur chaque gâteau, combien y en aurait-il en tout ?",
+      "choix": ["28", "30", "32"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

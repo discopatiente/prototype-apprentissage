@@ -1,0 +1,59 @@
+{
+  "id": "lesson-maths-13",
+  "theme": "maths",
+  "titre": "La multiplication (3)",
+  "description": "Entraîne-toi encore sur la multiplication",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Inès fait du sport 3 fois par semaine. Chaque séance dure 2 heures.",
+      "question": "Quelle opération permet de trouver le nombre total d'heures de sport par semaine ?",
+      "choix": ["3 + 2", "3 x 2", "3 - 2"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Inès fait du sport 3 fois par semaine. Chaque séance dure 2 heures.",
+      "question": "Combien d'heures de sport Inès fait-elle par semaine ?",
+      "choix": ["5 heures", "6 heures", "7 heures"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Inès fait du sport 3 fois par semaine. Chaque séance dure 2 heures.",
+      "question": "Si Inès faisait 4 séances par semaine, combien d'heures ferait-elle en tout ?",
+      "choix": ["6 heures", "8 heures", "10 heures"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Combien fait 3 x 4 ?",
+      "choix": ["9", "12", "15"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Combien fait 3 x 5 ?",
+      "choix": ["12", "15", "18"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Combien fait 3 x 6 ?",
+      "choix": ["15", "18", "21"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

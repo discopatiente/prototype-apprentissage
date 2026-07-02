@@ -1,0 +1,38 @@
+{
+  "id": "lesson-musique-07",
+  "theme": "musique",
+  "titre": "Bilan : les éléments de la musique",
+  "description": "Révise les éléments de la musique",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "La musique est faite de plusieurs éléments. Le rythme organise les sons dans le temps. La mélodie est la suite de notes que l'on retient. Le tempo est la vitesse de la musique. Le timbre permet de reconnaître un instrument.",
+      "image": null,
+      "question": "Quel élément permet de reconnaître un instrument ?",
+      "choix": ["Le tempo", "Le timbre", "Le rythme"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "La musique est faite de plusieurs éléments. Le rythme organise les sons dans le temps. La mélodie est la suite de notes que l'on retient. Le tempo est la vitesse de la musique. Le timbre permet de reconnaître un instrument.",
+      "image": null,
+      "question": "Quel élément correspond à la vitesse de la musique ?",
+      "choix": ["La mélodie", "Le rythme", "Le tempo"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "La musique est faite de plusieurs éléments. Le rythme organise les sons dans le temps. La mélodie est la suite de notes que l'on retient. Le tempo est la vitesse de la musique. Le timbre permet de reconnaître un instrument.",
+      "image": null,
+      "question": "Quel élément organise les sons dans le temps ?",
+      "choix": ["Le rythme", "Le timbre", "La mélodie"],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}
