@@ -74,6 +74,24 @@ Une leçon individuelle, un fichier par leçon (jamais regroupées dans un seul 
 ```
 Le chargement d'une leçon se fait par import dynamique selon l'id présent dans l'URL (`route.params.id`), pas par import fixe — voir `LessonView.vue` et son usage de `watchEffect` + `import(\`../data/${id}.json\`)`.
 
+### Leçon de type diaporama (explicative, sans QCM)
+
+Certaines notions (ex. la division) démarrent par une leçon explicative avant les exercices, pour introduire le concept en douceur (démarche concret → imagé → abstrait, plutôt qu'une évaluation). Ces leçons ont `"type": "diaporama"` et une forme différente, sans `exercices` :
+```json
+{
+  "id": "lesson-maths-16",
+  "theme": "maths",
+  "titre": "...",
+  "description": "...",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    { "id": "ecran-01", "texte": "...", "visuel": "🍬🍬🍬 | 🍬🍬🍬" }
+  ]
+}
+```
+`visuel` est optionnel ; les groupes séparés par `|` s'affichent chacun dans leur propre encadré (utile pour illustrer un partage ou un groupement). `points` est le score fixe attribué quand l'élève clique sur "Terminer la leçon" (pas de bonnes/mauvaises réponses). `LessonView.vue` branche sur `lesson.type` pour afficher `EcranDiaporama.vue` (navigation Précédent/Suivant) au lieu des composants `Exercise*`, mais réutilise le store et `LessonBilan.vue` sans les modifier.
+
 ## Store Pinia (`progressStore.js`)
 
 Logique de score volontairement non triviale — à respecter strictement :

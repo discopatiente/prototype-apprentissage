@@ -11,42 +11,60 @@
         <div class="progress-bar">
           <div class="progress-fill" :style="{ width: progressPct }"></div>
         </div>
-        <span class="progress-label">{{ currentIndex + 1 }} / {{ lesson.exercices.length }}</span>
+        <span class="progress-label">{{ currentIndex + 1 }} / {{ totalSteps }}</span>
       </div>
 
       <div v-if="!finished" class="lesson-content">
         <span class="lesson-label" :style="{ color: subjectColor }">{{ lesson.titre }}</span>
 
-        <ExerciseQCM
-          v-if="currentExercise.type === 'qcm'"
-          :key="`qcm-${currentExercise.id}`"
-          :exercise="currentExercise"
-          @answer-submitted="onAnswerSubmitted"
-        />
-        <ExerciseQCMTexte
-          v-else-if="currentExercise.type === 'qcm-texte'"
-          :key="`texte-${currentExercise.id}`"
-          :exercise="currentExercise"
-          @answer-submitted="onAnswerSubmitted"
-        />
-        <ExerciseReponseCorte
-          v-else-if="currentExercise.type === 'reponse-courte'"
-          :key="`courte-${currentExercise.id}`"
-          :exercise="currentExercise"
-          @answer-submitted="onAnswerSubmitted"
-        />
+        <template v-if="isDiaporama">
+          <EcranDiaporama :key="currentEcran.id" :ecran="currentEcran" />
 
-        <div v-if="showFeedback" class="feedback-zone">
-          <FeedbackMessage :correct="lastAnswerCorrect" />
-          <button class="btn-primary" @click="nextQuestion">
-            {{ isLastQuestion ? 'Voir mon bilan' : 'Question suivante' }}
-          </button>
-        </div>
+          <div class="diaporama-nav">
+            <button v-if="currentIndex > 0" class="btn-secondary" @click="prevEcran">
+              ‹ Précédent
+            </button>
+            <button v-if="!isLastEcran" class="btn-primary" @click="nextEcran">
+              Suivant
+            </button>
+            <button v-else class="btn-primary" @click="terminerDiaporama">
+              Terminer la leçon
+            </button>
+          </div>
+        </template>
+
+        <template v-else>
+          <ExerciseQCM
+            v-if="currentExercise.type === 'qcm'"
+            :key="`qcm-${currentExercise.id}`"
+            :exercise="currentExercise"
+            @answer-submitted="onAnswerSubmitted"
+          />
+          <ExerciseQCMTexte
+            v-else-if="currentExercise.type === 'qcm-texte'"
+            :key="`texte-${currentExercise.id}`"
+            :exercise="currentExercise"
+            @answer-submitted="onAnswerSubmitted"
+          />
+          <ExerciseReponseCorte
+            v-else-if="currentExercise.type === 'reponse-courte'"
+            :key="`courte-${currentExercise.id}`"
+            :exercise="currentExercise"
+            @answer-submitted="onAnswerSubmitted"
+          />
+
+          <div v-if="showFeedback" class="feedback-zone">
+            <FeedbackMessage :correct="lastAnswerCorrect" />
+            <button class="btn-primary" @click="nextQuestion">
+              {{ isLastQuestion ? 'Voir mon bilan' : 'Question suivante' }}
+            </button>
+          </div>
+        </template>
       </div>
 
       <LessonBilan
         v-else
-        :exercises="lesson.exercices"
+        :exercises="bilanExercises"
         :id-lesson="lesson.id"
         @restart="restart"
         @go-to-level="goToLevel"
@@ -65,6 +83,7 @@ import ExerciseQCMTexte from '../components/ExerciseQCMTexte.vue'
 import ExerciseReponseCorte from '../components/ExerciseReponseCorte.vue'
 import FeedbackMessage from '../components/FeedbackMessage.vue'
 import LessonBilan from '../components/LessonBilan.vue'
+import EcranDiaporama from '../components/EcranDiaporama.vue'
 import subjectsData from '../data/subjects.json'
 
 const route = useRoute()
@@ -95,17 +114,40 @@ watchEffect(async () => {
   }
 })
 
+const isDiaporama = computed(() => lesson.value?.type === 'diaporama')
+
 const currentExercise = computed(() => lesson.value.exercices[currentIndex.value])
 
 const isLastQuestion = computed(
   () => currentIndex.value === lesson.value.exercices.length - 1,
 )
 
+const currentEcran = computed(() => lesson.value.ecrans[currentIndex.value])
+
+const isLastEcran = computed(
+  () => currentIndex.value === lesson.value.ecrans.length - 1,
+)
+
+const totalSteps = computed(() => {
+  if (!lesson.value) return 0
+  return isDiaporama.value ? lesson.value.ecrans.length : lesson.value.exercices.length
+})
+
 const progressPct = computed(() => {
   if (!lesson.value) return '0%'
-  const total = lesson.value.exercices.length
-  const done = currentIndex.value + (showFeedback.value ? 1 : 0)
+  const total = totalSteps.value
+  const done = isDiaporama.value
+    ? currentIndex.value
+    : currentIndex.value + (showFeedback.value ? 1 : 0)
   return Math.round((done / total) * 100) + '%'
+})
+
+const bilanExercises = computed(() => {
+  if (!lesson.value) return []
+  if (isDiaporama.value) {
+    return [{ id: 'diaporama', question: lesson.value.titre, points: lesson.value.points }]
+  }
+  return lesson.value.exercices
 })
 
 const subjectColor = computed(() => {
@@ -128,6 +170,20 @@ function nextQuestion() {
     currentIndex.value++
     showFeedback.value = false
   }
+}
+
+function prevEcran() {
+  if (currentIndex.value > 0) currentIndex.value--
+}
+
+function nextEcran() {
+  if (!isLastEcran.value) currentIndex.value++
+}
+
+function terminerDiaporama() {
+  store.submitAnswer(lesson.value.id, 'diaporama', true, lesson.value.points)
+  store.finishLesson(lesson.value.id, lesson.value.titre, lesson.value.points)
+  finished.value = true
 }
 
 function restart() {
@@ -243,6 +299,28 @@ function goToMenu() {
 }
 
 .btn-primary:active { transform: scale(0.98); }
+
+.diaporama-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 16px;
+}
+
+.btn-secondary {
+  width: 100%;
+  height: 50px;
+  border: 2px solid #E8B79F;
+  border-radius: 25px;
+  background: #FFFDFB;
+  color: #C2855F;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-secondary:active { transform: scale(0.98); }
 
 .lesson-error {
   display: flex;

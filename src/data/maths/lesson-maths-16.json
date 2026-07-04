@@ -1,71 +1,49 @@
 {
   "id": "lesson-maths-16",
   "theme": "maths",
-  "titre": "La division",
-  "description": "Découvre la division et entraîne-toi",
-  "exercices": [
+  "titre": "Diviser, c'est partager",
+  "description": "Découvre ce que veut dire diviser, étape par étape, avant de t'entraîner",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
     {
-      "id": "ex-01",
-      "type": "qcm-texte",
-      "texte": "Diviser, c'est partager en parts égales. Par exemple, 8 ÷ 2 veut dire qu'on partage 8 objets en 2 groupes égaux : chaque groupe reçoit 4 objets.",
-      "question": "Que veut dire 8 ÷ 2 ?",
-      "choix": ["Partager 8 en 2 groupes égaux", "Ajouter 8 et 2", "Multiplier 8 par 2"],
-      "bonne_reponse": 0,
-      "points": 10
+      "id": "ecran-01",
+      "texte": "Aujourd'hui, on va découvrir la division. Diviser, c'est partager des objets pour que tout le monde en ait la même quantité."
     },
     {
-      "id": "ex-02",
-      "type": "qcm-texte",
-      "texte": "Diviser, c'est partager en parts égales. Par exemple, 8 ÷ 2 veut dire qu'on partage 8 objets en 2 groupes égaux : chaque groupe reçoit 4 objets.",
-      "question": "Combien fait 8 ÷ 2 ?",
-      "choix": ["2", "4", "6"],
-      "bonne_reponse": 1,
-      "points": 10
+      "id": "ecran-02",
+      "texte": "Léa a 6 bonbons. Elle veut les partager avec 2 amis, pour que chacun ait la même quantité.",
+      "visuel": "🍬🍬🍬🍬🍬🍬"
     },
     {
-      "id": "ex-03",
-      "type": "qcm-texte",
-      "texte": "Diviser, c'est partager en parts égales. Par exemple, 8 ÷ 2 veut dire qu'on partage 8 objets en 2 groupes égaux : chaque groupe reçoit 4 objets.",
-      "question": "Combien fait 10 ÷ 2 ?",
-      "choix": ["4", "5", "6"],
-      "bonne_reponse": 1,
-      "points": 10
+      "id": "ecran-03",
+      "texte": "Pour partager, on donne un bonbon à chaque ami, chacun son tour, jusqu'à ce qu'il n'y en ait plus.",
+      "visuel": "🍬🍬🍬🍬🍬🍬"
     },
     {
-      "id": "ex-04",
-      "type": "qcm-texte",
-      "texte": "Léa a 12 bonbons. Elle veut les partager entre 3 amis, à parts égales.",
-      "question": "Quelle opération permet de savoir combien de bonbons aura chaque ami ?",
-      "choix": ["12 + 3", "12 x 3", "12 ÷ 3"],
-      "bonne_reponse": 2,
-      "points": 10
+      "id": "ecran-04",
+      "texte": "Chaque ami a reçu 3 bonbons. Les deux tas sont égaux : le partage est juste !",
+      "visuel": "🍬🍬🍬 | 🍬🍬🍬"
     },
     {
-      "id": "ex-05",
-      "type": "qcm-texte",
-      "texte": "Léa a 12 bonbons. Elle veut les partager entre 3 amis, à parts égales.",
-      "question": "Pour savoir combien de bonbons aura chaque ami, il faut faire 12 ÷ 3. Combien fait 12 ÷ 3 ?",
-      "choix": ["3", "4", "5"],
-      "bonne_reponse": 1,
-      "points": 10
+      "id": "ecran-05",
+      "texte": "Ce partage s'écrit avec un signe spécial : ÷. On dit : 6 divisé par 2 égale 3.",
+      "visuel": "6 ÷ 2 = 3"
     },
     {
-      "id": "ex-06",
-      "type": "qcm-texte",
-      "texte": "Léa a 12 bonbons. Elle veut les partager entre 3 amis, à parts égales.",
-      "question": "Si Léa partageait ses 12 bonbons entre 4 amis, il faudrait faire 12 ÷ 4. Combien fait 12 ÷ 4 ?",
-      "choix": ["2", "3", "4"],
-      "bonne_reponse": 1,
-      "points": 10
+      "id": "ecran-06",
+      "texte": "Regarde un autre exemple. Tom a 8 images. Il les partage entre 4 amis.",
+      "visuel": "🖼️🖼️🖼️🖼️🖼️🖼️🖼️🖼️"
     },
     {
-      "id": "ex-07",
-      "type": "qcm-texte",
-      "texte": "Un panier contient 15 pommes. On veut les ranger dans des sachets de 5 pommes chacun.",
-      "question": "Pour savoir combien de sachets on peut remplir, il faut faire 15 ÷ 5. Combien fait 15 ÷ 5 ?",
-      "choix": ["2", "3", "4"],
-      "bonne_reponse": 1,
-      "points": 10
+      "id": "ecran-07",
+      "texte": "Chaque ami reçoit 2 images. On écrit : 8 divisé par 4 égale 2. Retiens bien : diviser, c'est partager en parts égales, et le signe ÷ veut dire partager.",
+      "visuel": "🖼️🖼️ | 🖼️🖼️ | 🖼️🖼️ | 🖼️🖼️"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
     }
   ]
 }

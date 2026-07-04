@@ -75,7 +75,10 @@ watchEffect(async () => {
   )
   lessons.value = loaded.map((lesson) => ({
     ...lesson,
-    maxScore: lesson.exercices.reduce((sum, ex) => sum + ex.points, 0),
+    maxScore:
+      lesson.type === 'diaporama'
+        ? lesson.points
+        : lesson.exercices.reduce((sum, ex) => sum + ex.points, 0),
   }))
 })
 </script>
