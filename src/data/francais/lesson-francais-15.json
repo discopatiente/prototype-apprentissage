@@ -1,0 +1,71 @@
+{
+  "id": "lesson-francais-15",
+  "theme": "francais",
+  "titre": "Comment il se sent ?",
+  "description": "Devine ce que ressentent les personnages grâce à ce qu'ils font",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Sofia pleure. Elle vient de faire tomber sa glace par terre.",
+      "question": "Comment se sent Sofia ?",
+      "choix": ["Elle est triste", "Elle est contente", "Elle a sommeil"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Sofia pleure. Elle vient de faire tomber sa glace par terre.",
+      "question": "Pourquoi Sofia pleure-t-elle ?",
+      "choix": ["Elle a fait tomber sa glace", "Elle a trop mangé", "Elle a peur du noir"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Tom rit aux éclats. Son ami vient de raconter une blague très drôle.",
+      "question": "Comment se sent Tom ?",
+      "choix": ["Il est content", "Il est fâché", "Il est fatigué"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Tom rit aux éclats. Son ami vient de raconter une blague très drôle.",
+      "question": "Pourquoi Tom rit-il ?",
+      "choix": ["Son ami a raconté une blague drôle", "Il a gagné une course", "Il a reçu un cadeau"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Le chien remue la queue très vite et court vers la porte. Son maître vient de rentrer à la maison.",
+      "question": "Comment se sent le chien ?",
+      "choix": ["Il est content", "Il a peur", "Il est triste"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Le chien remue la queue très vite et court vers la porte. Son maître vient de rentrer à la maison.",
+      "question": "Pourquoi le chien est-il content ?",
+      "choix": ["Son maître est rentré", "Il a mangé", "Il a fait une promenade"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Lucas baille et se frotte les yeux. Il est neuf heures du soir.",
+      "question": "Comment se sent Lucas ?",
+      "choix": ["Il a sommeil", "Il a faim", "Il est en colère"],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

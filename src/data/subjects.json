@@ -35,7 +35,10 @@
         "nouveau": true,
         "lessons": [
           "lesson-francais-12",
-          "lesson-francais-13"
+          "lesson-francais-13",
+          "lesson-francais-14",
+          "lesson-francais-15",
+          "lesson-francais-16"
         ]
       }
     ]
@@ -72,13 +75,20 @@
       {
         "id": "niveau-3",
         "titre": "Niveau 3",
-        "nouveau": true,
         "lessons": [
           "lesson-maths-11",
           "lesson-maths-12",
           "lesson-maths-13",
           "lesson-maths-14",
           "lesson-maths-15"
+        ]
+      },
+      {
+        "id": "niveau-4",
+        "titre": "Niveau 4",
+        "nouveau": true,
+        "lessons": [
+          "lesson-maths-16"
         ]
       }
     ]

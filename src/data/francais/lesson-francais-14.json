@@ -1,0 +1,71 @@
+{
+  "id": "lesson-francais-14",
+  "theme": "francais",
+  "titre": "Dans quel ordre ?",
+  "description": "Repère les événements dans le temps grâce aux connecteurs temporels",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Ce matin, Léo se prépare pour l'école. D'abord, il s'habille. Ensuite, il prend son petit-déjeuner. Puis il se brosse les dents. Enfin, il part à l'école avec son sac sur le dos.",
+      "question": "Que fait Léo en premier ce matin ?",
+      "choix": ["Il s'habille", "Il part à l'école", "Il se brosse les dents"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Ce matin, Léo se prépare pour l'école. D'abord, il s'habille. Ensuite, il prend son petit-déjeuner. Puis il se brosse les dents. Enfin, il part à l'école avec son sac sur le dos.",
+      "question": "Que fait Léo juste après s'être habillé ?",
+      "choix": ["Il se brosse les dents", "Il prend son petit-déjeuner", "Il part à l'école"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Ce matin, Léo se prépare pour l'école. D'abord, il s'habille. Ensuite, il prend son petit-déjeuner. Puis il se brosse les dents. Enfin, il part à l'école avec son sac sur le dos.",
+      "question": "Quelle est la dernière chose que fait Léo ?",
+      "choix": ["Il prend son petit-déjeuner", "Il s'habille", "Il part à l'école"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Ce matin, Léo se prépare pour l'école. D'abord, il s'habille. Ensuite, il prend son petit-déjeuner. Puis il se brosse les dents. Enfin, il part à l'école avec son sac sur le dos.",
+      "question": "Quel mot montre que c'est la troisième chose que fait Léo ?",
+      "choix": ["D'abord", "Puis", "Enfin"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Hier, il pleuvait toute la journée. Aujourd'hui, le soleil brille et le ciel est bleu. Demain, la météo annonce peut-être de la neige.",
+      "question": "Quel temps faisait-il hier ?",
+      "choix": ["Il pleuvait", "Il neigeait", "Le soleil brillait"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Hier, il pleuvait toute la journée. Aujourd'hui, le soleil brille et le ciel est bleu. Demain, la météo annonce peut-être de la neige.",
+      "question": "Quel mot désigne le jour qui vient après aujourd'hui ?",
+      "choix": ["Hier", "Aujourd'hui", "Demain"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Léa range sa chambre avant de dîner.",
+      "question": "D'après le mot avant, que fait Léa en premier ?",
+      "choix": ["Elle range sa chambre", "Elle dîne", "Elle se couche"],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

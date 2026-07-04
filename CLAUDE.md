@@ -103,6 +103,7 @@ Ne pas réintroduire un score qui se remettrait à zéro globalement — c'est u
 
 - Composition API uniquement, un composant par fichier, `<style scoped>` systématique.
 - Avant toute modification de fichier existant, vérifier son contenu réel (ne pas supposer).
-- Travailler sur la branche `feature/thematiques`, jamais directement sur `main`.
-- Faire des commits fréquents et descriptifs (`feat:`, `fix:`, `refactor:`, `init:`).
 - Le code doit rester compréhensible par un développeur junior en formation — éviter les abstractions ou patterns avancés non nécessaires à ce stade.
+
+# Programme scolaire 
+Le fichier `suivi_pedagogique_sofia.md` détaille le programme et permet de suivre quelles sont les notions à aborder dans les exercices à venir
