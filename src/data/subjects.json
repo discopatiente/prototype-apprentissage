@@ -43,7 +43,6 @@
       {
         "id": "niveau-4",
         "titre": "Niveau 4",
-        "nouveau": true,
         "lessons": [
           "lesson-francais-17",
           "lesson-francais-18",
@@ -53,6 +52,14 @@
           "lesson-francais-22",
           "lesson-francais-23",
           "lesson-francais-24"
+        ]
+      },
+      {
+        "id": "niveau-5",
+        "titre": "Niveau 5",
+        "nouveau": true,
+        "lessons": [
+          "lesson-francais-25"
         ]
       }
     ]
