@@ -1,0 +1,43 @@
+{
+  "id": "lesson-francais-23",
+  "theme": "francais",
+  "titre": "Souvent, ou juste une fois ?",
+  "description": "Découvre l'imparfait, pour raconter ce qu'on faisait souvent dans le passé",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Tu sais déjà que le passé composé sert à raconter une action qui s'est passée une fois et qui est terminée, comme j'ai joué. Aujourd'hui, on découvre un autre temps du passé : l'imparfait."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "L'imparfait sert à raconter ce qu'on faisait souvent, d'habitude, avant. Par exemple : avant, Sofia allait à l'école en bus tous les jours.",
+      "visuel": "🚌 Tous les jours"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Mais hier, exceptionnellement, Sofia est allée à l'école en vélo. C'est une seule fois, à un moment précis : on utilise le passé composé.",
+      "visuel": "🚲 Une seule fois, hier"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "L'imparfait sert aussi à décrire, à dire comment étaient les choses ou les gens dans le passé. Par exemple : le ciel était gris et il faisait froid.",
+      "visuel": "☁️ Une description"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Compare : je jouais raconte une habitude ou une description, et j'ai joué raconte une seule fois, à un moment précis. Les deux parlent du passé, mais pas de la même façon.",
+      "visuel": "je jouais | j'ai joué"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Cherche des mots comme tous les jours, souvent, d'habitude, chaque matin : ils annoncent l'imparfait. Des mots comme hier, un jour, soudain annoncent plutôt le passé composé."
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}
