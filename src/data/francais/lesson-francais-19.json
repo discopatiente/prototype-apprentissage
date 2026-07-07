@@ -18,8 +18,8 @@
       "type": "qcm-texte",
       "texte": "Léo a mangé beaucoup trop et il ne peut plus rien avaler. Sa maman lui dit en riant : tu as eu les yeux plus gros que le ventre !",
       "question": "Que veut dire avoir les yeux plus gros que le ventre ?",
-      "choix": ["Avoir de grands yeux", "Se servir plus qu'on ne peut manger", "Avoir mal au ventre"],
-      "bonne_reponse": 1,
+      "choix": ["Avoir de grands yeux", "Avoir mal au ventre", "Se servir plus qu'on ne peut manger"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -27,8 +27,8 @@
       "type": "qcm-texte",
       "texte": "Mia est très généreuse. Elle partage toujours ses affaires et aide ses amis. On dit qu'elle a le cœur sur la main.",
       "question": "Que veut dire avoir le cœur sur la main ?",
-      "choix": ["Être généreux", "Avoir mal au cœur", "Être fatigué"],
-      "bonne_reponse": 0,
+      "choix": ["Avoir mal au cœur", "Être généreux", "Être fatigué"],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
@@ -36,8 +36,8 @@
       "type": "qcm-texte",
       "texte": "Tom a une voix toute rauque ce matin, il a du mal à parler. Il dit qu'il a un chat dans la gorge.",
       "question": "Que veut dire avoir un chat dans la gorge ?",
-      "choix": ["Avoir avalé un chat", "Avoir la voix enrouée, du mal à parler", "Aimer les chats"],
-      "bonne_reponse": 1,
+      "choix": ["Avoir la voix enrouée, du mal à parler", "Avoir avalé un chat", "Aimer les chats"],
+      "bonne_reponse": 0,
       "points": 10
     },
     {
@@ -45,8 +45,8 @@
       "type": "qcm-texte",
       "texte": "Sofia avait rendez-vous avec son amie à 15 heures, mais son amie n'est jamais venue. Sofia dit qu'elle lui a posé un lapin.",
       "question": "Que veut dire poser un lapin à quelqu'un ?",
-      "choix": ["Offrir un lapin en cadeau", "Ne pas venir à un rendez-vous", "Jouer avec un animal"],
-      "bonne_reponse": 1,
+      "choix": ["Offrir un lapin en cadeau", "Jouer avec un animal", "Ne pas venir à un rendez-vous"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -63,8 +63,8 @@
       "type": "qcm-texte",
       "texte": "Depuis qu'il a repris le sport, Léo se sent plein d'énergie. Il dit qu'il a la pêche !",
       "question": "Que veut dire avoir la pêche ?",
-      "choix": ["Être en pleine forme, plein d'énergie", "Aimer manger des fruits", "Avoir sommeil"],
-      "bonne_reponse": 0,
+      "choix": ["Aimer manger des fruits", "Avoir sommeil", "Être en pleine forme, plein d'énergie"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -72,8 +72,8 @@
       "type": "qcm-texte",
       "texte": "Le petit frère de Mia n'arrête pas de la suivre partout et de lui poser plein de questions. Elle dit qu'il lui casse les pieds.",
       "question": "Que veut dire casser les pieds à quelqu'un ?",
-      "choix": ["Lui faire mal aux pieds", "L'embêter, l'énerver", "Lui apprendre à marcher"],
-      "bonne_reponse": 1,
+      "choix": ["L'embêter, l'énerver", "Lui faire mal aux pieds", "Lui apprendre à marcher"],
+      "bonne_reponse": 0,
       "points": 10
     },
     {
@@ -81,8 +81,8 @@
       "type": "qcm-texte",
       "texte": "On pose à Théo une question très difficile. Il réfléchit longtemps puis dit : je donne ma langue au chat !",
       "question": "Que veut dire donner sa langue au chat ?",
-      "choix": ["Renoncer à deviner, avouer qu'on ne sait pas", "Donner à manger à un chat", "Ne plus vouloir parler"],
-      "bonne_reponse": 0,
+      "choix": ["Donner à manger à un chat", "Renoncer à deviner, avouer qu'on ne sait pas", "Ne plus vouloir parler"],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
@@ -90,8 +90,8 @@
       "type": "qcm-texte",
       "texte": "Léa attend son amie depuis une heure au parc, mais son amie ne vient pas et ne répond pas au téléphone.",
       "question": "Quelle expression imagée décrit bien ce que vit Léa ?",
-      "choix": ["Elle a la tête dans les nuages", "On lui a posé un lapin", "Elle a le cœur sur la main"],
-      "bonne_reponse": 1,
+      "choix": ["On lui a posé un lapin", "Elle a la tête dans les nuages", "Elle a le cœur sur la main"],
+      "bonne_reponse": 0,
       "points": 10
     }
   ]

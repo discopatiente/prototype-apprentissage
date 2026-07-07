@@ -9,8 +9,8 @@
       "type": "qcm-texte",
       "texte": "Maintenant : je joue. Avant, hier : j'ai joué. Plus tard, demain : je jouerai. Le verbe change de forme selon le moment où l'action se passe.",
       "question": "Quand dit-on je jouerai ?",
-      "choix": ["Pour une action qui va se passer plus tard", "Pour une action qui se passe maintenant", "Pour une action déjà terminée"],
-      "bonne_reponse": 0,
+      "choix": ["Pour une action qui se passe maintenant", "Pour une action qui va se passer plus tard", "Pour une action déjà terminée"],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
@@ -18,8 +18,8 @@
       "type": "qcm-texte",
       "texte": "Maintenant : je joue. Avant, hier : j'ai joué. Plus tard, demain : je jouerai. Le verbe change de forme selon le moment où l'action se passe.",
       "question": "Quand dit-on j'ai joué ?",
-      "choix": ["Pour une action déjà terminée", "Pour une action qui se passe maintenant", "Pour une action qui va se passer plus tard"],
-      "bonne_reponse": 0,
+      "choix": ["Pour une action qui se passe maintenant", "Pour une action qui va se passer plus tard", "Pour une action déjà terminée"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -36,8 +36,8 @@
       "type": "qcm-texte",
       "texte": "Demain, Sofia mangera une pomme.",
       "question": "À quel moment se passe cette action ?",
-      "choix": ["Plus tard, dans le futur", "Maintenant, dans le présent", "Avant, dans le passé"],
-      "bonne_reponse": 0,
+      "choix": ["Maintenant, dans le présent", "Plus tard, dans le futur", "Avant, dans le passé"],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
@@ -45,8 +45,8 @@
       "type": "qcm-texte",
       "texte": "En ce moment, Sofia mange une pomme.",
       "question": "À quel moment se passe cette action ?",
-      "choix": ["Maintenant, dans le présent", "Avant, dans le passé", "Plus tard, dans le futur"],
-      "bonne_reponse": 0,
+      "choix": ["Avant, dans le passé", "Plus tard, dans le futur", "Maintenant, dans le présent"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -63,8 +63,8 @@
       "type": "qcm-texte",
       "texte": "Léo a fini ses devoirs. Maintenant, il regarde un dessin animé. Demain, il ira au cinéma avec ses parents.",
       "question": "Que fait Léo maintenant ?",
-      "choix": ["Il regarde un dessin animé", "Il finit ses devoirs", "Il va au cinéma"],
-      "bonne_reponse": 0,
+      "choix": ["Il finit ses devoirs", "Il regarde un dessin animé", "Il va au cinéma"],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
@@ -72,8 +72,8 @@
       "type": "qcm-texte",
       "texte": "Léo a fini ses devoirs. Maintenant, il regarde un dessin animé. Demain, il ira au cinéma avec ses parents.",
       "question": "Que fera Léo demain ?",
-      "choix": ["Il ira au cinéma", "Il regardera un dessin animé", "Il finira ses devoirs"],
-      "bonne_reponse": 0,
+      "choix": ["Il regardera un dessin animé", "Il finira ses devoirs", "Il ira au cinéma"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -90,8 +90,8 @@
       "type": "qcm-texte",
       "texte": "Hier, nous sommes allés à la piscine. Demain, nous irons à la piscine.",
       "question": "Quelle phrase parle d'une action déjà passée ?",
-      "choix": ["Hier, nous sommes allés à la piscine", "Demain, nous irons à la piscine", "Nous allons à la piscine maintenant"],
-      "bonne_reponse": 0,
+      "choix": ["Demain, nous irons à la piscine", "Hier, nous sommes allés à la piscine", "Nous allons à la piscine maintenant"],
+      "bonne_reponse": 1,
       "points": 10
     }
   ]

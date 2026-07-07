@@ -9,8 +9,8 @@
       "type": "qcm-texte",
       "texte": "Le chat voit le chien arriver et il prend ses jambes à son cou pour aller se cacher sous le lit.",
       "question": "Que veut dire prendre ses jambes à son cou ?",
-      "choix": ["S'enfuir en courant très vite", "Se blesser la jambe", "S'asseoir tranquillement"],
-      "bonne_reponse": 0,
+      "choix": ["Se blesser la jambe", "S'asseoir tranquillement", "S'enfuir en courant très vite"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -27,8 +27,8 @@
       "type": "qcm-texte",
       "texte": "Le grand-père de Théo a un magnifique jardin plein de fleurs et de légumes. Tout ce qu'il plante pousse à merveille. On dit qu'il a la main verte.",
       "question": "Que veut dire avoir la main verte ?",
-      "choix": ["Avoir la main sale de peinture", "Être doué pour le jardinage", "Avoir froid aux mains"],
-      "bonne_reponse": 1,
+      "choix": ["Être doué pour le jardinage", "Avoir la main sale de peinture", "Avoir froid aux mains"],
+      "bonne_reponse": 0,
       "points": 10
     },
     {
@@ -36,8 +36,8 @@
       "type": "qcm-texte",
       "texte": "Pendant la réunion de famille, le petit frère de Nina n'arrête pas de donner son avis sur tout, même quand on ne lui demande rien. Il adore mettre son grain de sel.",
       "question": "Que veut dire mettre son grain de sel ?",
-      "choix": ["Ajouter du sel dans la nourriture", "Donner son avis sans qu'on le demande", "Semer des graines"],
-      "bonne_reponse": 1,
+      "choix": ["Ajouter du sel dans la nourriture", "Semer des graines", "Donner son avis sans qu'on le demande"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -45,8 +45,8 @@
       "type": "qcm-texte",
       "texte": "Cette nouvelle console de jeux est magnifique, mais elle coûte les yeux de la tête !",
       "question": "Que veut dire coûter les yeux de la tête ?",
-      "choix": ["Être très cher", "Faire mal aux yeux", "Être gratuit"],
-      "bonne_reponse": 0,
+      "choix": ["Faire mal aux yeux", "Être très cher", "Être gratuit"],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
@@ -63,8 +63,8 @@
       "type": "qcm-texte",
       "texte": "Après la fête, Marc est parti sans dire au revoir à personne. Ses amis disent qu'il a filé à l'anglaise.",
       "question": "Que veut dire filer à l'anglaise ?",
-      "choix": ["Partir discrètement sans dire au revoir", "Parler anglais très vite", "Partir en Angleterre"],
-      "bonne_reponse": 0,
+      "choix": ["Parler anglais très vite", "Partir en Angleterre", "Partir discrètement sans dire au revoir"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -72,8 +72,8 @@
       "type": "qcm-texte",
       "texte": "Juste avant de monter sur scène pour son spectacle de danse, Emma a le ventre noué et les mains qui tremblent. Elle a le trac.",
       "question": "Que veut dire avoir le trac ?",
-      "choix": ["Être stressé avant de se produire devant les autres", "Avoir mal au ventre à cause d'un repas", "Être très content"],
-      "bonne_reponse": 0,
+      "choix": ["Avoir mal au ventre à cause d'un repas", "Être stressé avant de se produire devant les autres", "Être très content"],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
@@ -90,8 +90,8 @@
       "type": "qcm-texte",
       "texte": "Personne ne croit Tom quand il raconte ses histoires : il invente toujours des choses qui ne sont pas vraies. Ses amis disent qu'il raconte des salades.",
       "question": "Que veut dire raconter des salades ?",
-      "choix": ["Parler de légumes", "Dire des mensonges", "Bien cuisiner"],
-      "bonne_reponse": 1,
+      "choix": ["Parler de légumes", "Bien cuisiner", "Dire des mensonges"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -99,8 +99,8 @@
       "type": "qcm-texte",
       "texte": "Léo a très peur de monter sur scène pour réciter sa poésie devant toute l'école.",
       "question": "Quelle expression imagée correspond à ce que ressent Léo ?",
-      "choix": ["Il a le trac", "Il a la main verte", "Il fait la tête"],
-      "bonne_reponse": 0,
+      "choix": ["Il a la main verte", "Il a le trac", "Il fait la tête"],
+      "bonne_reponse": 1,
       "points": 10
     }
   ]

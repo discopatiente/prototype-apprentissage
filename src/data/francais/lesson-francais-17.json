@@ -9,8 +9,8 @@
       "type": "qcm-texte",
       "texte": "Léna se lave les mains avant de manger.",
       "question": "Que fait Léna avant de manger ?",
-      "choix": ["Elle se lave les mains", "Elle mange son dessert", "Elle range la table"],
-      "bonne_reponse": 0,
+      "choix": ["Elle mange son dessert", "Elle se lave les mains", "Elle range la table"],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
@@ -27,8 +27,8 @@
       "type": "qcm-texte",
       "texte": "Pendant que maman prépare le repas, Tom met la table.",
       "question": "Que fait Tom pendant que maman prépare le repas ?",
-      "choix": ["Il met la table", "Il fait ses devoirs", "Il regarde la télévision"],
-      "bonne_reponse": 0,
+      "choix": ["Il fait ses devoirs", "Il regarde la télévision", "Il met la table"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -45,8 +45,8 @@
       "type": "qcm-texte",
       "texte": "Après avoir fini ses devoirs, Emma va jouer dehors.",
       "question": "Que fait Emma après ses devoirs ?",
-      "choix": ["Elle va jouer dehors", "Elle fait ses devoirs", "Elle mange son goûter"],
-      "bonne_reponse": 0,
+      "choix": ["Elle fait ses devoirs", "Elle va jouer dehors", "Elle mange son goûter"],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
@@ -54,8 +54,8 @@
       "type": "qcm-texte",
       "texte": "Après avoir fini ses devoirs, Emma va jouer dehors.",
       "question": "Que fait Emma avant d'aller jouer dehors ?",
-      "choix": ["Ses devoirs", "Son goûter", "Sa toilette"],
-      "bonne_reponse": 0,
+      "choix": ["Son goûter", "Sa toilette", "Ses devoirs"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -72,8 +72,8 @@
       "type": "qcm-texte",
       "texte": "Au zoo, Nina regarde d'abord les lions. Ensuite, elle observe les singes. Pendant qu'elle regarde les singes, son frère achète des glaces. Enfin, ils rentrent à la maison.",
       "question": "Que fait le frère de Nina pendant qu'elle regarde les singes ?",
-      "choix": ["Il achète des glaces", "Il regarde les lions", "Il rentre à la maison"],
-      "bonne_reponse": 0,
+      "choix": ["Il regarde les lions", "Il achète des glaces", "Il rentre à la maison"],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
@@ -81,8 +81,8 @@
       "type": "qcm-texte",
       "texte": "Au zoo, Nina regarde d'abord les lions. Ensuite, elle observe les singes. Pendant qu'elle regarde les singes, son frère achète des glaces. Enfin, ils rentrent à la maison.",
       "question": "Quelle est la dernière chose qu'ils font ?",
-      "choix": ["Ils rentrent à la maison", "Ils regardent les singes", "Ils achètent des glaces"],
-      "bonne_reponse": 0,
+      "choix": ["Ils regardent les singes", "Ils achètent des glaces", "Ils rentrent à la maison"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {

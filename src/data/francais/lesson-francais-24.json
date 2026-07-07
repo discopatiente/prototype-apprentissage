@@ -9,8 +9,8 @@
       "type": "qcm-texte",
       "texte": "Avant, Sofia allait à l'école en bus tous les jours. Hier, elle est allée à l'école en vélo.",
       "question": "Quelle phrase raconte une habitude ?",
-      "choix": ["Avant, Sofia allait à l'école en bus tous les jours", "Hier, elle est allée à l'école en vélo", "Aucune des deux"],
-      "bonne_reponse": 0,
+      "choix": ["Hier, elle est allée à l'école en vélo", "Aucune des deux", "Avant, Sofia allait à l'école en bus tous les jours"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -18,8 +18,8 @@
       "type": "qcm-texte",
       "texte": "Avant, Sofia allait à l'école en bus tous les jours. Hier, elle est allée à l'école en vélo.",
       "question": "Quelle phrase raconte une action précise, une seule fois ?",
-      "choix": ["Hier, elle est allée à l'école en vélo", "Avant, Sofia allait à l'école en bus tous les jours", "Aucune des deux"],
-      "bonne_reponse": 0,
+      "choix": ["Avant, Sofia allait à l'école en bus tous les jours", "Hier, elle est allée à l'école en vélo", "Aucune des deux"],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
@@ -36,8 +36,8 @@
       "type": "qcm-texte",
       "texte": "Chaque été, Léo passait ses vacances chez ses grands-parents à la campagne.",
       "question": "Quel mot montre qu'il s'agit d'une habitude ?",
-      "choix": ["Chaque été", "Léo", "Grands-parents"],
-      "bonne_reponse": 0,
+      "choix": ["Léo", "Chaque été", "Grands-parents"],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
@@ -45,8 +45,8 @@
       "type": "qcm-texte",
       "texte": "Chaque été, Léo passait ses vacances chez ses grands-parents à la campagne.",
       "question": "Comment s'appelle ce temps qui raconte une habitude dans le passé ?",
-      "choix": ["L'imparfait", "Le futur", "Le passé composé"],
-      "bonne_reponse": 0,
+      "choix": ["Le futur", "Le passé composé", "L'imparfait"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -63,8 +63,8 @@
       "type": "qcm-texte",
       "texte": "Un jour, pendant les vacances, Léo a attrapé un gros poisson dans la rivière.",
       "question": "Quel temps utilise-t-on pour une action arrivée une seule fois et terminée ?",
-      "choix": ["Le passé composé", "L'imparfait", "Le présent"],
-      "bonne_reponse": 0,
+      "choix": ["L'imparfait", "Le passé composé", "Le présent"],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
@@ -72,8 +72,8 @@
       "type": "qcm-texte",
       "texte": "Quand j'étais petite, j'avais peur du noir. Un soir, j'ai réussi à dormir sans lumière pour la première fois.",
       "question": "Quelle phrase raconte une habitude ancienne ?",
-      "choix": ["Quand j'étais petite, j'avais peur du noir", "Un soir, j'ai réussi à dormir sans lumière", "Les deux racontent une seule fois"],
-      "bonne_reponse": 0,
+      "choix": ["Un soir, j'ai réussi à dormir sans lumière", "Les deux racontent une seule fois", "Quand j'étais petite, j'avais peur du noir"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -90,8 +90,8 @@
       "type": "qcm-texte",
       "texte": "Tous les dimanches, la famille se promenait au parc. Mais ce dimanche-là, il a plu toute la journée.",
       "question": "Quel verbe est à l'imparfait, pour parler d'une habitude ?",
-      "choix": ["Se promenait", "A plu", "Les deux"],
-      "bonne_reponse": 0,
+      "choix": ["A plu", "Se promenait", "Les deux"],
+      "bonne_reponse": 1,
       "points": 10
     }
   ]

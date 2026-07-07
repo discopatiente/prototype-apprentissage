@@ -9,8 +9,8 @@
       "type": "qcm-texte",
       "texte": "Certains mots reviennent très souvent à l'écrit. Il faut bien connaître leur orthographe, car on ne peut pas toujours la deviner en les entendant. Par exemple, beaucoup se termine par un p qu'on n'entend pas.",
       "question": "Comment écrit-on correctement le mot qui veut dire une grande quantité ?",
-      "choix": ["Beaucoup", "Beaucou", "Beaucoups"],
-      "bonne_reponse": 0,
+      "choix": ["Beaucou", "Beaucoup", "Beaucoups"],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
@@ -18,8 +18,8 @@
       "type": "qcm-texte",
       "texte": "Sofia joue encore dehors, même si la nuit tombe.",
       "question": "Comment s'écrit correctement le mot qui veut dire une nouvelle fois ?",
-      "choix": ["Encore", "Ancore", "Ancor"],
-      "bonne_reponse": 0,
+      "choix": ["Ancore", "Ancor", "Encore"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -36,8 +36,8 @@
       "type": "qcm-texte",
       "texte": "Aujourd'hui, il fait très beau dehors.",
       "question": "Comment s'écrit correctement le mot qui désigne le jour où on est ?",
-      "choix": ["Aujourd'hui", "Aujourdhui", "Aujourd'hu"],
-      "bonne_reponse": 0,
+      "choix": ["Aujourdhui", "Aujourd'hui", "Aujourd'hu"],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
@@ -45,8 +45,8 @@
       "type": "qcm-texte",
       "texte": "Mia n'a jamais mangé d'escargots.",
       "question": "Comment s'écrit correctement le mot qui veut dire à aucun moment ?",
-      "choix": ["Jamais", "Jammais", "Jamet"],
-      "bonne_reponse": 0,
+      "choix": ["Jammais", "Jamet", "Jamais"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -63,8 +63,8 @@
       "type": "qcm-texte",
       "texte": "Les enfants courent autour de la cour de récréation.",
       "question": "Comment s'écrit correctement le mot qui veut dire tout autour d'un endroit ?",
-      "choix": ["Autour", "Autoure", "Otour"],
-      "bonne_reponse": 0,
+      "choix": ["Autoure", "Autour", "Otour"],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
@@ -72,8 +72,8 @@
       "type": "qcm-texte",
       "texte": "Il y avait quelqu'un derrière la porte.",
       "question": "Comment s'écrit correctement le mot qui désigne une personne qu'on ne connaît pas ?",
-      "choix": ["Quelqu'un", "Quelqun", "Quelque un"],
-      "bonne_reponse": 0,
+      "choix": ["Quelqun", "Quelque un", "Quelqu'un"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -90,8 +90,8 @@
       "type": "qcm-texte",
       "texte": "Le chat se cache dehors quand il pleut.",
       "question": "Comment s'écrit correctement le mot qui veut dire à l'extérieur ?",
-      "choix": ["Dehors", "Deors", "Dehord"],
-      "bonne_reponse": 0,
+      "choix": ["Deors", "Dehors", "Dehord"],
+      "bonne_reponse": 1,
       "points": 10
     }
   ]

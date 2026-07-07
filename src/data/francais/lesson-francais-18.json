@@ -9,8 +9,8 @@
       "type": "qcm-texte",
       "texte": "Le sol est mouillé et il y a un parapluie ouvert dans l'entrée.",
       "question": "Qu'est-ce qui a dû se passer ?",
-      "choix": ["Il a plu", "Il a fait très chaud", "Il a neigé"],
-      "bonne_reponse": 0,
+      "choix": ["Il a fait très chaud", "Il a neigé", "Il a plu"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -18,8 +18,8 @@
       "type": "qcm-texte",
       "texte": "Le sol est mouillé et il y a un parapluie ouvert dans l'entrée.",
       "question": "Quel indice te permet de deviner qu'il a plu ?",
-      "choix": ["Le sol mouillé et le parapluie ouvert", "Il fait nuit dehors", "La fenêtre est ouverte"],
-      "bonne_reponse": 0,
+      "choix": ["Il fait nuit dehors", "Le sol mouillé et le parapluie ouvert", "La fenêtre est ouverte"],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
@@ -36,8 +36,8 @@
       "type": "qcm-texte",
       "texte": "Léo a les mains pleines de terre et un panier de légumes est posé à côté de lui.",
       "question": "Quel indice te permet de le deviner ?",
-      "choix": ["Ses mains pleines de terre", "Il porte des chaussures neuves", "Il a un livre à la main"],
-      "bonne_reponse": 0,
+      "choix": ["Il porte des chaussures neuves", "Il a un livre à la main", "Ses mains pleines de terre"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -45,8 +45,8 @@
       "type": "qcm-texte",
       "texte": "La table est mise avec quatre assiettes et des ballons sont accrochés au mur.",
       "question": "Que va-t-il probablement se passer ?",
-      "choix": ["Une fête ou un repas entre invités", "Une leçon de piano", "Une sieste"],
-      "bonne_reponse": 0,
+      "choix": ["Une leçon de piano", "Une fête ou un repas entre invités", "Une sieste"],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
@@ -63,8 +63,8 @@
       "type": "qcm-texte",
       "texte": "Le chat a le poil hérissé et il crache en regardant le chien.",
       "question": "Comment se sent le chat ?",
-      "choix": ["Il a peur ou il est énervé", "Il est content", "Il a sommeil"],
-      "bonne_reponse": 0,
+      "choix": ["Il est content", "Il a sommeil", "Il a peur ou il est énervé"],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -72,8 +72,8 @@
       "type": "qcm-texte",
       "texte": "Le chat a le poil hérissé et il crache en regardant le chien.",
       "question": "Que va sûrement faire le chat ?",
-      "choix": ["S'enfuir ou se défendre", "Aller dormir", "Manger tranquillement"],
-      "bonne_reponse": 0,
+      "choix": ["Aller dormir", "S'enfuir ou se défendre", "Manger tranquillement"],
+      "bonne_reponse": 1,
       "points": 10
     }
   ]
