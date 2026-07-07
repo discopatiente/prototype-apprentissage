@@ -1,0 +1,80 @@
+{
+  "id": "lesson-francais-18",
+  "theme": "francais",
+  "titre": "Qu'est-ce qui s'est passé ?",
+  "description": "Devine ce qui s'est passé ou ce qui va se passer, grâce aux indices du texte",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Le sol est mouillé et il y a un parapluie ouvert dans l'entrée.",
+      "question": "Qu'est-ce qui a dû se passer ?",
+      "choix": ["Il a plu", "Il a fait très chaud", "Il a neigé"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Le sol est mouillé et il y a un parapluie ouvert dans l'entrée.",
+      "question": "Quel indice te permet de deviner qu'il a plu ?",
+      "choix": ["Le sol mouillé et le parapluie ouvert", "Il fait nuit dehors", "La fenêtre est ouverte"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Léo a les mains pleines de terre et un panier de légumes est posé à côté de lui.",
+      "question": "Qu'a fait Léo ?",
+      "choix": ["Il a jardiné", "Il a dessiné", "Il a lu un livre"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Léo a les mains pleines de terre et un panier de légumes est posé à côté de lui.",
+      "question": "Quel indice te permet de le deviner ?",
+      "choix": ["Ses mains pleines de terre", "Il porte des chaussures neuves", "Il a un livre à la main"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "La table est mise avec quatre assiettes et des ballons sont accrochés au mur.",
+      "question": "Que va-t-il probablement se passer ?",
+      "choix": ["Une fête ou un repas entre invités", "Une leçon de piano", "Une sieste"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "La table est mise avec quatre assiettes et des ballons sont accrochés au mur.",
+      "question": "Quel indice montre qu'il y aura des invités ?",
+      "choix": ["Quatre assiettes sont mises sur la table", "Les ballons sont bleus", "La table est en bois"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Le chat a le poil hérissé et il crache en regardant le chien.",
+      "question": "Comment se sent le chat ?",
+      "choix": ["Il a peur ou il est énervé", "Il est content", "Il a sommeil"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Le chat a le poil hérissé et il crache en regardant le chien.",
+      "question": "Que va sûrement faire le chat ?",
+      "choix": ["S'enfuir ou se défendre", "Aller dormir", "Manger tranquillement"],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

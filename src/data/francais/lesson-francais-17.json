@@ -1,0 +1,98 @@
+{
+  "id": "lesson-francais-17",
+  "theme": "francais",
+  "titre": "Avant, pendant, après",
+  "description": "Repère les moments d'une histoire grâce aux mots avant, pendant et après",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Léna se lave les mains avant de manger.",
+      "question": "Que fait Léna avant de manger ?",
+      "choix": ["Elle se lave les mains", "Elle mange son dessert", "Elle range la table"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Léna se lave les mains avant de manger.",
+      "question": "D'après le mot avant, quelle action arrive en premier ?",
+      "choix": ["Se laver les mains", "Manger", "Les deux en même temps"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Pendant que maman prépare le repas, Tom met la table.",
+      "question": "Que fait Tom pendant que maman prépare le repas ?",
+      "choix": ["Il met la table", "Il fait ses devoirs", "Il regarde la télévision"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Pendant que maman prépare le repas, Tom met la table.",
+      "question": "Le mot pendant montre que...",
+      "choix": ["Les deux actions se passent en même temps", "Une action arrive après l'autre", "Une action arrive avant l'autre"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Après avoir fini ses devoirs, Emma va jouer dehors.",
+      "question": "Que fait Emma après ses devoirs ?",
+      "choix": ["Elle va jouer dehors", "Elle fait ses devoirs", "Elle mange son goûter"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Après avoir fini ses devoirs, Emma va jouer dehors.",
+      "question": "Que fait Emma avant d'aller jouer dehors ?",
+      "choix": ["Ses devoirs", "Son goûter", "Sa toilette"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Au zoo, Nina regarde d'abord les lions. Ensuite, elle observe les singes. Pendant qu'elle regarde les singes, son frère achète des glaces. Enfin, ils rentrent à la maison.",
+      "question": "Que fait Nina en premier au zoo ?",
+      "choix": ["Elle regarde les lions", "Elle regarde les singes", "Elle mange une glace"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Au zoo, Nina regarde d'abord les lions. Ensuite, elle observe les singes. Pendant qu'elle regarde les singes, son frère achète des glaces. Enfin, ils rentrent à la maison.",
+      "question": "Que fait le frère de Nina pendant qu'elle regarde les singes ?",
+      "choix": ["Il achète des glaces", "Il regarde les lions", "Il rentre à la maison"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Au zoo, Nina regarde d'abord les lions. Ensuite, elle observe les singes. Pendant qu'elle regarde les singes, son frère achète des glaces. Enfin, ils rentrent à la maison.",
+      "question": "Quelle est la dernière chose qu'ils font ?",
+      "choix": ["Ils rentrent à la maison", "Ils regardent les singes", "Ils achètent des glaces"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Quand la cloche sonne, les élèves sortent en récréation.",
+      "question": "D'après le mot quand, que se passe-t-il dès que la cloche sonne ?",
+      "choix": ["Les élèves sortent en récréation", "Les élèves rentrent en classe", "Les élèves mangent"],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}
