@@ -1,48 +1,61 @@
 {
   "id": "lesson-francais-21",
   "theme": "francais",
-  "titre": "Quand ça se passe ?",
-  "description": "Découvre comment les verbes changent selon le moment de l'action, avant de t'entraîner",
+  "titre": "Le temps qui passe",
+  "description": "Avant, maintenant, plus tard",
   "type": "diaporama",
   "points": 10,
   "ecrans": [
     {
       "id": "ecran-01",
-      "texte": "Aujourd'hui, on va découvrir comment les verbes changent selon le moment où l'action se passe : maintenant, avant, ou plus tard."
+      "type": "intro",
+      "frise": { "mots": ["Avant", "Maintenant", "Plus tard"], "gras": false },
+      "titre": "Léo joue au ballon",
+      "image": "francais/leo-ballon.png"
     },
     {
       "id": "ecran-02",
-      "texte": "Regarde Léo. En ce moment, il joue au ballon. C'est en train de se passer, maintenant : on dit qu'il joue au ballon.",
-      "visuel": "⚽ Maintenant"
+      "type": "split",
+      "frise": { "mots": ["Avant", "Maintenant"], "gras": true },
+      "gauche": {
+        "texte": [
+          { "t": "Hier", "surligne": true },
+          { "t": ", Léo " },
+          { "t": "a joué", "surligne": true },
+          { "t": " au ballon avec ses copains" }
+        ],
+        "image": "francais/leo-amis.png"
+      },
+      "droite": {
+        "image": "francais/leo-lit.png"
+      }
     },
     {
       "id": "ecran-03",
-      "texte": "Hier, Léo a joué au ballon avec ses copains. L'action est déjà terminée, elle s'est passée avant : on dit qu'il a joué au ballon.",
-      "visuel": "⚽ Avant, hier"
+      "type": "split",
+      "frise": { "mots": ["Maintenant", "Plus tard"], "gras": true },
+      "gauche": {
+        "image": "francais/leo-mange.png"
+      },
+      "droite": {
+        "texte": [
+          { "t": "Demain", "surligne": true },
+          { "t": ", Léo " },
+          { "t": "jouera", "surligne": true },
+          { "t": " au ballon avec ses copains" }
+        ],
+        "image": "francais/leo-amis.png"
+      }
     },
     {
       "id": "ecran-04",
-      "texte": "Demain, Léo jouera au ballon avec son papa. L'action n'a pas encore eu lieu, elle va se passer plus tard : on dit qu'il jouera au ballon.",
-      "visuel": "⚽ Plus tard, demain"
-    },
-    {
-      "id": "ecran-05",
-      "texte": "Tu vois : le verbe jouer change de forme selon le moment. Maintenant : je joue. Avant : j'ai joué. Plus tard : je jouerai.",
-      "visuel": "je joue | j'ai joué | je jouerai"
-    },
-    {
-      "id": "ecran-06",
-      "texte": "Regarde un autre exemple avec le verbe manger. Maintenant : je mange. Avant : j'ai mangé. Plus tard : je mangerai.",
-      "visuel": "je mange | j'ai mangé | je mangerai"
-    },
-    {
-      "id": "ecran-07",
-      "texte": "Pour savoir quand se passe une action, cherche des mots comme maintenant, hier, déjà pour le passé, ou demain, bientôt, plus tard pour le futur."
-    },
-    {
-      "id": "ecran-08",
-      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
-      "visuel": "🎉"
+      "type": "recap",
+      "frise": { "mots": ["Avant", "Maintenant", "Plus tard"], "gras": false },
+      "cartes": [
+        { "label": "Avant", "phrase": "Léo a joué au ballon" },
+        { "label": "Maintenant", "phrase": "Léo joue au ballon" },
+        { "label": "Plus tard", "phrase": "Léo jouera au ballon" }
+      ]
     }
   ]
 }
