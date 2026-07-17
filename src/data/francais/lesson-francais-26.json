@@ -1,0 +1,43 @@
+{
+  "id": "lesson-francais-26",
+  "theme": "francais",
+  "titre": "Un ou plusieurs ?",
+  "description": "Découvre comment on écrit les mots quand il y en a plusieurs",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Quand il y a une seule chose, elle est au singulier. Quand il y en a plusieurs, elles sont au pluriel."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Pour écrire un nom au pluriel, on ajoute presque toujours un -s à la fin.",
+      "visuel": "un chat | des chats"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "L'adjectif qui décrit le nom change aussi : il prend un -s pour aller avec le pluriel.",
+      "visuel": "un chat noir | des chats noirs"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Attention : on n'entend pas toujours le -s à l'oral, mais il faut quand même l'écrire !"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Le petit mot devant le nom change aussi : un ou le devient des ou les quand il y en a plusieurs.",
+      "visuel": "un chat, le chat | des chats, les chats"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Compare : un ballon rouge parle d'un seul ballon, des ballons rouges parle de plusieurs.",
+      "visuel": "un ballon rouge | des ballons rouges"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

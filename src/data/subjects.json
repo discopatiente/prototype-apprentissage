@@ -57,9 +57,23 @@
       {
         "id": "niveau-5",
         "titre": "Niveau 5",
+        "lessons": [
+          "lesson-francais-25",
+          "lesson-francais-26",
+          "lesson-francais-27",
+          "lesson-francais-28",
+          "lesson-francais-29",
+          "lesson-francais-30",
+          "lesson-francais-31"
+        ]
+      },
+      {
+        "id": "niveau-6",
+        "titre": "Niveau 6",
         "nouveau": true,
         "lessons": [
-          "lesson-francais-25"
+          "lesson-francais-32",
+          "lesson-francais-33"
         ]
       }
     ]

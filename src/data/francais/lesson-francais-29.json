@@ -1,0 +1,98 @@
+{
+  "id": "lesson-francais-29",
+  "theme": "francais",
+  "titre": "Grand ou grande ?",
+  "description": "Entraîne-toi à écrire les adjectifs au masculin et au féminin",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Léo est content de partir en vacances. Léa est contente aussi.",
+      "question": "Comment écrit-on correctement l'adjectif au féminin, pour Léa ?",
+      "choix": ["content", "contente", "contentes"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Tom est grand pour son âge. Sa sœur Nina est grande aussi.",
+      "question": "Comment écrit-on correctement l'adjectif au féminin, pour Nina ?",
+      "choix": ["grande", "grandes", "grand"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Hugo a un vélo bleu. Emma a une trottinette bleue.",
+      "question": "Comment écrit-on correctement l'adjectif au féminin, pour la trottinette d'Emma ?",
+      "choix": ["bleu", "bleus", "bleue"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Marc est petit mais rapide. Mia est petite mais rapide aussi.",
+      "question": "Comment écrit-on correctement l'adjectif au féminin, pour Mia ?",
+      "choix": ["petite", "petit", "petits"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Le chat de Théo est noir. La chatte de Sofia est noire.",
+      "question": "Comment écrit-on correctement l'adjectif au féminin, pour la chatte de Sofia ?",
+      "choix": ["noir", "noirs", "noire"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Léo est calme pendant la lecture. Léa est calme aussi.",
+      "question": "Que remarques-tu sur l'adjectif 'calme' au féminin ?",
+      "choix": ["Il ne change pas, il se termine déjà par un e", "Il perd son e", "Il faut ajouter deux e"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Ce gâteau est joli. Cette tarte est jolie.",
+      "question": "Comment écrit-on correctement l'adjectif au féminin, pour la tarte ?",
+      "choix": ["jolis", "joli", "jolie"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Hugo est fort en calcul. Nina est forte en lecture.",
+      "question": "Comment écrit-on correctement l'adjectif au féminin, pour Nina ?",
+      "choix": ["fort", "forte", "fortes"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Le renard est rapide. La gazelle est rapide aussi.",
+      "question": "Que remarques-tu sur l'adjectif 'rapide' au féminin, comme pour 'calme' ?",
+      "choix": ["Il ne change pas", "Il devient rapidee", "Il perd sa dernière lettre"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Marc est content de son dessin. Léa est contente du sien.",
+      "question": "Quelle lettre ajoute-t-on à la fin de l'adjectif pour former le féminin, la plupart du temps ?",
+      "choix": ["un s", "un e", "un t"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

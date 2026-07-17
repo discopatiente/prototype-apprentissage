@@ -1,0 +1,44 @@
+{
+  "id": "lesson-francais-28",
+  "theme": "francais",
+  "titre": "Un garçon ou une fille ?",
+  "description": "Découvre comment on écrit les adjectifs au féminin",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Un nom ou une personne peut être masculin (un, il) ou féminin (une, elle)."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Pour écrire un adjectif au féminin, on ajoute souvent un -e à la fin.",
+      "visuel": "il est grand | elle est grande"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Regarde un autre exemple : le -e change la fin du mot, mais pas le sens.",
+      "visuel": "petit | petite"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Ça marche aussi avec un nom et son adjectif : un vélo bleu, une trottinette bleue.",
+      "visuel": "un vélo bleu | une trottinette bleue"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Attention : si l'adjectif se termine déjà par un -e, il ne change pas ! Il est calme, elle est calme aussi.",
+      "visuel": "il est calme | elle est calme"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Compare : Léo est content. Léa est contente. Le -e à la fin montre que c'est au féminin.",
+      "visuel": "content | contente"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "lesson-francais-31",
+  "theme": "francais",
+  "titre": "Un enfant ou plusieurs enfants ?",
+  "description": "Entraîne-toi à accorder le verbe avec son sujet, seul ou plusieurs",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Léo joue dans le jardin. Léo et Théo jouent dans le jardin.",
+      "question": "Comment écrit-on correctement le verbe, quand Léo et Théo jouent ensemble ?",
+      "choix": ["joue", "jouons", "jouent"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Le chat dort sur le canapé. Les chats dorment sur le canapé.",
+      "question": "Comment écrit-on correctement le verbe, pour plusieurs chats ?",
+      "choix": ["dorment", "dort", "dors"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Sofia mange une pomme. Sofia et Mia mangent une pomme chacune.",
+      "question": "Quel mot montre qu'elles sont plusieurs à manger ?",
+      "choix": ["une pomme", "mangent", "Sofia"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Hugo chante une chanson. Hugo et Nina chantent une chanson.",
+      "question": "Comment écrit-on correctement le verbe, quand Hugo et Nina chantent ensemble ?",
+      "choix": ["chante", "chantons", "chantent"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "L'oiseau vole dans le ciel. Les oiseaux volent dans le ciel.",
+      "question": "Comment écrit-on correctement le verbe, pour plusieurs oiseaux ?",
+      "choix": ["vole", "volent", "volons"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Léa range sa chambre. Léa et ses sœurs rangent leur chambre.",
+      "question": "Quelles lettres ajoute-t-on souvent à la fin du verbe quand ils sont plusieurs à faire l'action ?",
+      "choix": ["-s", "-nt", "-ent seulement pour les filles"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Marc regarde un film. Marc et ses cousins regardent un film.",
+      "question": "Comment écrit-on correctement le verbe, quand Marc et ses cousins regardent ensemble ?",
+      "choix": ["regardent", "regarde", "regardont"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Le chien aboie fort. Les chiens aboient fort.",
+      "question": "Comment écrit-on correctement le verbe, pour plusieurs chiens ?",
+      "choix": ["aboie", "aboies", "aboient"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Emma dessine une fleur. Emma et Théo dessinent une fleur chacun.",
+      "question": "Quel mot de cette phrase montre qu'ils sont deux à dessiner ?",
+      "choix": ["dessinent", "une fleur", "Emma"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Tom saute à la corde. Tom et Léo sautent à la corde.",
+      "question": "Comment écrit-on correctement le verbe, quand Tom et Léo sautent ensemble ?",
+      "choix": ["saute", "sautent", "sautons"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

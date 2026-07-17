@@ -1,0 +1,43 @@
+{
+  "id": "lesson-francais-30",
+  "theme": "francais",
+  "titre": "Il joue ou ils jouent ?",
+  "description": "Découvre comment le verbe change selon qu'on est seul ou plusieurs",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Le verbe change parfois de forme selon que celui qui fait l'action est seul, ou qu'ils sont plusieurs."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Quand il y a une seule personne qui fait l'action, le verbe garde sa forme simple.",
+      "visuel": "Léo joue"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Quand il y a plusieurs personnes qui font l'action, le verbe prend souvent -nt à la fin.",
+      "visuel": "Léo et Théo jouent"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Compare : Léo joue dans le jardin. Léo et Théo jouent dans le jardin.",
+      "visuel": "il joue | ils jouent"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Attention : comme pour le nom, on n'entend pas toujours le -nt à l'oral, mais il faut quand même l'écrire !"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Encore un exemple : le chat dort sur le canapé. Les chats dorment sur le canapé.",
+      "visuel": "le chat dort | les chats dorment"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

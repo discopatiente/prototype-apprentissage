@@ -1,0 +1,98 @@
+{
+  "id": "lesson-francais-33",
+  "theme": "francais",
+  "titre": "Demain, tu vas...",
+  "description": "Entraîne-toi à utiliser le futur proche",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Demain, Léo va jouer au foot avec ses copains.",
+      "question": "Quel mot de cette phrase est le verbe aller conjugué ?",
+      "choix": ["jouer", "va", "copains"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Ce soir, Sofia va regarder un film avec sa famille.",
+      "question": "Comment écrit-on correctement le deuxième verbe, qui reste à l'infinitif ?",
+      "choix": ["regardait", "regardera", "regarder"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Nous allons manger une glace après l'école.",
+      "question": "Quelle est la forme correcte du verbe aller, pour 'nous' ?",
+      "choix": ["allons", "vais", "va"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Tu vas ranger ta chambre avant le dîner.",
+      "question": "Quelle est la forme correcte du verbe aller, pour 'tu' ?",
+      "choix": ["vais", "vas", "va"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Ils vont dessiner une grande fleur.",
+      "question": "Quelle est la forme correcte du verbe aller, pour 'ils' ?",
+      "choix": ["vont", "va", "allons"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Léo joue au foot maintenant. Léo va jouer au foot demain.",
+      "question": "Quelle phrase parle de quelque chose qui va bientôt se passer ?",
+      "choix": ["Léo joue au foot maintenant", "Les deux", "Léo va jouer au foot demain"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Demain, Théo va chanter à l'école.",
+      "question": "Comment s'appelle ce temps qui utilise 'aller' suivi d'un deuxième verbe ?",
+      "choix": ["Le futur proche", "Le passé composé", "L'imparfait"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Ce week-end, Mia va nager à la piscine.",
+      "question": "Le verbe 'nager' reste-t-il à l'infinitif dans le futur proche ?",
+      "choix": ["Non, il change toujours", "On ne sait pas", "Oui, il reste à l'infinitif"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Vous allez visiter le zoo la semaine prochaine.",
+      "question": "Quelle est la forme correcte du verbe aller, pour 'vous' ?",
+      "choix": ["allez", "allons", "vont"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Elle va lire une histoire ce soir.",
+      "question": "Quel verbe de cette phrase reste à l'infinitif ?",
+      "choix": ["va", "lire", "soir"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

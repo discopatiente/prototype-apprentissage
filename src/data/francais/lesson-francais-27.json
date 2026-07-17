@@ -1,0 +1,98 @@
+{
+  "id": "lesson-francais-27",
+  "theme": "francais",
+  "titre": "Un chat, des chats",
+  "description": "Entraîne-toi à écrire les noms et les adjectifs au pluriel",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Léo a un ballon rouge. Ses cousins ont trois ballons rouges.",
+      "question": "Comment écrit-on correctement le nom quand il y en a plusieurs ?",
+      "choix": ["ballons", "ballon", "ballonts"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Sofia a un chat noir. Ses voisins ont trois chats noirs.",
+      "question": "Comment écrit-on correctement l'adjectif quand il y a plusieurs chats ?",
+      "choix": ["noire", "noir", "noirs"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Il y a un livre sur la table. Il y a plusieurs livres sur l'étagère.",
+      "question": "Quel mot de cette phrase est écrit au pluriel ?",
+      "choix": ["la table", "livres", "un livre"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Théo range ses jouets : un camion bleu et deux camions verts.",
+      "question": "Comment écrit-on correctement 'camion' quand il y en a deux ?",
+      "choix": ["camion", "camions", "camionsm"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Nina a une pomme dans son sac. Ses amis ont des pommes dans leur sac.",
+      "question": "Quel petit mot devant 'pommes' montre qu'il y en a plusieurs ?",
+      "choix": ["des", "une", "la"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Léa a une jolie robe. Ses sœurs ont de jolies robes.",
+      "question": "Comment écrit-on correctement l'adjectif 'jolie' quand il y a plusieurs robes ?",
+      "choix": ["joly", "jolie", "jolies"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Hugo a un crayon jaune. Ses copains ont des crayons jaunes.",
+      "question": "Combien de crayons y a-t-il dans la deuxième phrase ?",
+      "choix": ["Plusieurs", "Un seul", "On ne sait pas"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Sur la table, il y a une orange et deux bananes.",
+      "question": "Quel mot de cette phrase est au pluriel ?",
+      "choix": ["la table", "une orange", "bananes"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Marc a un vélo neuf. Ses frères ont des vélos neufs.",
+      "question": "Comment écrit-on correctement 'vélo' quand il y en a plusieurs ?",
+      "choix": ["vélo", "vélos", "vélots"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Emma range un livre rouge et trois cahiers rouges.",
+      "question": "Comment écrit-on correctement l'adjectif 'rouge' pour les cahiers, puisqu'il y en a plusieurs ?",
+      "choix": ["rouges", "rouge", "rouge s"],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

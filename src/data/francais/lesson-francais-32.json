@@ -1,0 +1,44 @@
+{
+  "id": "lesson-francais-32",
+  "theme": "francais",
+  "titre": "Bientôt, je vais jouer",
+  "description": "Découvre le futur proche, pour parler de ce qui va bientôt arriver",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Pour parler de quelque chose qui va bientôt se passer, on peut utiliser le futur proche."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Le futur proche se construit avec le verbe aller au présent, suivi d'un deuxième verbe qui reste à l'infinitif.",
+      "visuel": "je vais | jouer"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Je vais jouer veut dire que je n'ai pas encore joué, mais que je vais le faire bientôt.",
+      "visuel": "je vais jouer"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Le verbe aller change selon la personne qui parle : je vais, tu vas, il va, nous allons, vous allez, ils vont.",
+      "visuel": "tu vas | il va | nous allons | ils vont"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Le deuxième verbe, lui, ne change jamais : il reste toujours à l'infinitif, comme dans le dictionnaire.",
+      "visuel": "il va manger | elle va manger | ils vont manger"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Compare : Léo joue maintenant, c'est le présent. Léo va jouer bientôt, c'est le futur proche.",
+      "visuel": "il joue | il va jouer"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}
