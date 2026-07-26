@@ -1,0 +1,74 @@
+{
+  "id": "lesson-maths-18",
+  "theme": "maths",
+  "titre": "Compléter jusqu'à 10",
+  "description": "Trouve combien il manque de carrés de chocolat pour arriver à 10",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "Combien manque-t-il de carrés de chocolat pour faire 10 ?",
+      "consigne": "Combien manque-t-il de carrés de chocolat pour faire 10 ?",
+      "carresDepart": 2,
+      "avant": "Il en manque ",
+      "apres": " pour faire 10.",
+      "reponse": 8,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "Combien manque-t-il de carrés de chocolat pour faire 10 ?",
+      "consigne": "Combien manque-t-il de carrés de chocolat pour faire 10 ?",
+      "carresDepart": 5,
+      "avant": "Il en manque ",
+      "apres": " pour faire 10.",
+      "reponse": 5,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "Combien manque-t-il de carrés de chocolat pour faire 10 ?",
+      "consigne": "Combien manque-t-il de carrés de chocolat pour faire 10 ?",
+      "carresDepart": 7,
+      "avant": "Il en manque ",
+      "apres": " pour faire 10.",
+      "reponse": 3,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "Combien manque-t-il de carrés de chocolat pour faire 10 ?",
+      "consigne": "Combien manque-t-il de carrés de chocolat pour faire 10 ?",
+      "carresDepart": 1,
+      "avant": "Il en manque ",
+      "apres": " pour faire 10.",
+      "reponse": 9,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "Combien manque-t-il de carrés de chocolat pour faire 10 ?",
+      "consigne": "Combien manque-t-il de carrés de chocolat pour faire 10 ?",
+      "carresDepart": 9,
+      "avant": "Il en manque ",
+      "apres": " pour faire 10.",
+      "reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "Combien manque-t-il de carrés de chocolat pour faire 10 ?",
+      "consigne": "Combien manque-t-il de carrés de chocolat pour faire 10 ?",
+      "carresDepart": 4,
+      "avant": "Il en manque ",
+      "apres": " pour faire 10.",
+      "reponse": 6,
+      "points": 10
+    }
+  ]
+}

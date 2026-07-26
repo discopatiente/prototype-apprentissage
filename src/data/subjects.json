@@ -70,10 +70,21 @@
       {
         "id": "niveau-6",
         "titre": "Niveau 6",
-        "nouveau": true,
         "lessons": [
           "lesson-francais-32",
           "lesson-francais-33"
+        ]
+      },
+      {
+        "id": "niveau-7",
+        "titre": "Niveau 7",
+        "nouveau": true,
+        "lessons": [
+          "lesson-francais-34",
+          "lesson-francais-35",
+          "lesson-francais-36",
+          "lesson-francais-37",
+          "lesson-francais-38"
         ]
       }
     ]
@@ -125,6 +136,17 @@
         "lessons": [
           "lesson-maths-16",
           "lesson-maths-17"
+        ]
+      },
+      {
+        "id": "niveau-5",
+        "titre": "Niveau 5",
+        "nouveau": true,
+        "lessons": [
+          "lesson-maths-18",
+          "lesson-maths-19",
+          "lesson-maths-20",
+          "lesson-maths-21"
         ]
       }
     ]

@@ -1,0 +1,116 @@
+{
+  "id": "lesson-francais-37",
+  "theme": "francais",
+  "titre": "Le ou la ?",
+  "description": "Entraîne-toi à choisir le bon article, le ou la",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "crayon",
+      "choix": ["le", "la"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "valise",
+      "choix": ["le", "la"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "jardin",
+      "choix": ["le", "la"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "montagne",
+      "choix": ["le", "la"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "tigre",
+      "choix": ["le", "la"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "rivière",
+      "choix": ["le", "la"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "bureau",
+      "choix": ["le", "la"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "chemise",
+      "choix": ["le", "la"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "poisson",
+      "choix": ["le", "la"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "cuisine",
+      "choix": ["le", "la"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "bateau",
+      "choix": ["le", "la"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "forêt",
+      "choix": ["le", "la"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

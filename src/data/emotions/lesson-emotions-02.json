@@ -1,0 +1,71 @@
+{
+  "id": "lesson-emotions-02",
+  "theme": "emotions",
+  "titre": "Les nuances de la colère",
+  "description": "Apprends à distinguer énervé, fâché et furieux",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Il existe plusieurs mots pour parler de la colère, plus ou moins forte : énervé (une colère légère), fâché (une colère plus marquée), furieux (une très grande colère).",
+      "question": "Quel mot exprime la colère la plus forte ?",
+      "choix": ["Énervé", "Fâché", "Furieux"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Il existe plusieurs mots pour parler de la colère, plus ou moins forte : énervé (une colère légère), fâché (une colère plus marquée), furieux (une très grande colère).",
+      "question": "Quel mot exprime une colère légère, un petit agacement ?",
+      "choix": ["Furieux", "Énervé", "Fâché"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Tom est énervé parce que son jeu vidéo met un peu de temps à charger. Nina est furieuse parce que son petit frère a cassé son dessin exprès.",
+      "question": "Qui ressent la colère la plus forte ?",
+      "choix": ["Nina", "Tom", "Les deux pareil"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Quand la colère devient très forte, presque incontrôlable, on peut dire qu'on est furieux.",
+      "question": "Complète : Léo a attendu son tour pendant une heure et on lui a pris sa place, il est …",
+      "choix": ["Énervé", "Content", "Furieux"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Il existe plusieurs mots pour parler de la colère, plus ou moins forte : énervé (une colère légère), fâché (une colère plus marquée), furieux (une très grande colère).",
+      "question": "Quel mot se situe entre énervé et furieux, une colère qu'on montre clairement ?",
+      "choix": ["Fâché", "Content", "Ravi"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Nina n'a pas eu le jouet qu'elle voulait, elle fronce les sourcils et croise les bras.",
+      "question": "Quel mot correspond le mieux à ce que ressent Nina ?",
+      "choix": ["Ravie", "Fâchée", "Furieuse"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Il existe plusieurs mots pour parler de la colère, plus ou moins forte : énervé (une colère légère), fâché (une colère plus marquée), furieux (une très grande colère).",
+      "question": "Entre énervé et furieux, lequel exprime la colère la plus intense ?",
+      "choix": ["Ils veulent dire pareil", "Énervé", "Furieux"],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "musique",
+    "titre": "Musique",
+    "icone": "🎵",
+    "color": "#7BAA8B",
+    "tint": "#DFF0E7",
+    "questions": [
+      { "id": "q1", "texte": "Ma musique préférée est…" },
+      { "id": "q2", "texte": "Mon chanteur préféré est…" },
+      { "id": "q3", "texte": "La chanson que j'aime écouter quand je suis contente…" },
+      { "id": "q4", "texte": "La musique que je n'aime pas…" }
+    ]
+  },
+  {
+    "id": "couleur",
+    "titre": "Couleur",
+    "icone": "🎨",
+    "color": "#D98A9E",
+    "tint": "#F9E3EA",
+    "questions": [
+      { "id": "q1", "texte": "Ma couleur préférée est…" },
+      { "id": "q2", "texte": "La couleur que je n'aime pas est…" }
+    ]
+  },
+  {
+    "id": "activite",
+    "titre": "Activité",
+    "icone": "🏃",
+    "color": "#6FA8B0",
+    "tint": "#DCEEF0",
+    "questions": [
+      { "id": "q1", "texte": "Mon activité préférée est…" },
+      { "id": "q2", "texte": "L'activité que je n'aime pas est…" },
+      { "id": "q3", "texte": "L'activité que j'aime faire avec ma famille est…" }
+    ]
+  },
+  {
+    "id": "nourriture",
+    "titre": "Nourriture",
+    "icone": "🍽️",
+    "color": "#D9A85F",
+    "tint": "#F7EAD2",
+    "questions": [
+      { "id": "q1", "texte": "Mon plat préféré est…" },
+      { "id": "q2", "texte": "La nourriture que je n'aime pas est…" },
+      { "id": "q3", "texte": "Le dessert que je préfère est…" }
+    ]
+  },
+  {
+    "id": "animaux",
+    "titre": "Animaux",
+    "icone": "🐾",
+    "color": "#9B84C4",
+    "tint": "#EAE3F5",
+    "questions": [
+      { "id": "q1", "texte": "Mon animal préféré est…" },
+      { "id": "q2", "texte": "L'animal que je n'aime pas est…" },
+      { "id": "q3", "texte": "Si je pouvais avoir un animal, ce serait…" }
+    ]
+  }
+]

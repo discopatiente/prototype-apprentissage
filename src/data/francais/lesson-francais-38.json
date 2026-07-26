@@ -1,0 +1,104 @@
+{
+  "id": "lesson-francais-38",
+  "theme": "francais",
+  "titre": "Le bon article, encore !",
+  "description": "Continue à t'entraîner à choisir le bon article devant chaque mot",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « ours » ?",
+      "choix": ["un ours", "une ours"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « étoile » ?",
+      "choix": ["un étoile", "une étoile"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « soleil » ?",
+      "choix": ["la soleil", "le soleil"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « lune » ?",
+      "choix": ["la lune", "le lune"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « mouton » ?",
+      "choix": ["une mouton", "un mouton"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « souris » ?",
+      "choix": ["une souris", "un souris"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « nuage » ?",
+      "choix": ["un nuage", "une nuage"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « plage » ?",
+      "choix": ["le plage", "la plage"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « papillon » ?",
+      "choix": ["le papillon", "la papillon"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « tasse » ?",
+      "choix": ["le tasse", "la tasse"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « miroir » ?",
+      "choix": ["une miroir", "un miroir"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « glace » ?",
+      "choix": ["une glace", "un glace"],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "lesson-francais-36",
+  "theme": "francais",
+  "titre": "Un ou une ?",
+  "description": "Continue à t'entraîner à choisir le bon article",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "stylo",
+      "choix": ["un", "une"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "table",
+      "choix": ["un", "une"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "chien",
+      "choix": ["un", "une"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "maison",
+      "choix": ["un", "une"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "livre",
+      "choix": ["un", "une"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "tortue",
+      "choix": ["un", "une"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "camion",
+      "choix": ["un", "une"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "image",
+      "choix": ["un", "une"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "chapeau",
+      "choix": ["un", "une"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "banane",
+      "choix": ["un", "une"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "robot",
+      "choix": ["un", "une"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "lampe",
+      "choix": ["un", "une"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

@@ -29,6 +29,11 @@
           {{ totalLessons(subject) }} leçon{{ totalLessons(subject) !== 1 ? 's' : '' }}
         </span>
       </button>
+
+      <button class="subject-card" @click="router.push('/preferences')">
+        <div class="subject-icon" :style="{ background: '#F3E7D6' }">📔</div>
+        <span class="subject-title">Mes préférences et mes goûts</span>
+      </button>
     </div>
 
     <div class="progress-row">

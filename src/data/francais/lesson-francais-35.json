@@ -1,0 +1,104 @@
+{
+  "id": "lesson-francais-35",
+  "theme": "francais",
+  "titre": "Le bon article",
+  "description": "Entraîne-toi à choisir le bon article devant chaque mot",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « ballon » ?",
+      "choix": ["un ballon", "une ballon"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « pomme » ?",
+      "choix": ["un pomme", "une pomme"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « vélo » ?",
+      "choix": ["la vélo", "le vélo"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « fleur » ?",
+      "choix": ["la fleur", "le fleur"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « avion » ?",
+      "choix": ["une avion", "un avion"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « voiture » ?",
+      "choix": ["une voiture", "un voiture"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « école » ?",
+      "choix": ["un école", "une école"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « escalier » ?",
+      "choix": ["un escalier", "une escalier"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « cahier » ?",
+      "choix": ["le cahier", "la cahier"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « chaise » ?",
+      "choix": ["le chaise", "la chaise"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « gâteau » ?",
+      "choix": ["une gâteau", "un gâteau"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Quel est le bon article pour le mot « guitare » ?",
+      "choix": ["la guitare", "le guitare"],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

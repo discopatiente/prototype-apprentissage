@@ -1,0 +1,78 @@
+{
+  "id": "lesson-maths-21",
+  "theme": "maths",
+  "titre": "Des soustractions qui font 10",
+  "description": "Complète les soustractions à trou pour qu'elles fassent 10",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "18 - ... = 10",
+      "consigne": "Complète la soustraction",
+      "avant": "18 - ",
+      "apres": " = 10",
+      "reponse": 8,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "15 - ... = 10",
+      "consigne": "Complète la soustraction",
+      "avant": "15 - ",
+      "apres": " = 10",
+      "reponse": 5,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "10 = 13 - ...",
+      "consigne": "Complète la soustraction",
+      "avant": "10 = 13 - ",
+      "apres": "",
+      "reponse": 3,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "... - 6 = 10",
+      "consigne": "Complète la soustraction",
+      "avant": "",
+      "apres": " - 6 = 10",
+      "reponse": 16,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "20 - ... = 10",
+      "consigne": "Complète la soustraction",
+      "avant": "20 - ",
+      "apres": " = 10",
+      "reponse": 10,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "10 = 19 - ...",
+      "consigne": "Complète la soustraction",
+      "avant": "10 = 19 - ",
+      "apres": "",
+      "reponse": 9,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "12 - ... = 10",
+      "consigne": "Complète la soustraction",
+      "avant": "12 - ",
+      "apres": " = 10",
+      "reponse": 2,
+      "points": 10
+    }
+  ]
+}

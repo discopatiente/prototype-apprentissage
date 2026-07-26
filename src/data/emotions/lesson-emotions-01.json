@@ -1,0 +1,71 @@
+{
+  "id": "lesson-emotions-01",
+  "theme": "emotions",
+  "titre": "Les nuances de la joie",
+  "description": "Découvre les différentes façons d'exprimer la joie, plus ou moins fort",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Il existe plusieurs mots pour parler de la joie, plus ou moins forte : content (une joie simple), joyeux (une joie qu'on montre par un sourire), ravi (une très grande joie).",
+      "question": "Quel mot exprime la joie la plus forte ?",
+      "choix": ["Content", "Joyeux", "Ravi"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Il existe plusieurs mots pour parler de la joie, plus ou moins forte : content (une joie simple), joyeux (une joie qu'on montre par un sourire), ravi (une très grande joie).",
+      "question": "Quel mot exprime une joie simple et discrète ?",
+      "choix": ["Content", "Ravi", "Joyeux"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Léo est content parce qu'il a fini son gâteau. Léa est ravie parce qu'elle a gagné le premier prix du concours de dessin.",
+      "question": "Qui ressent la joie la plus forte ?",
+      "choix": ["Léo", "Léa", "Les deux pareil"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Quand on est très heureux, presque surpris par une bonne nouvelle, on peut dire qu'on est ravi.",
+      "question": "Complète : Tom vient de gagner le jouet qu'il voulait depuis longtemps, il est …",
+      "choix": ["Content", "Triste", "Ravi"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Il existe plusieurs mots pour parler de la joie, plus ou moins forte : content (une joie simple), joyeux (une joie qu'on montre par un sourire), ravi (une très grande joie).",
+      "question": "Quel mot montre une joie qu'on peut voir sur le visage, avec un sourire ?",
+      "choix": ["Joyeux", "Fâché", "Content"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Léa a réussi son dessin toute seule, elle sourit doucement.",
+      "question": "Quel mot correspond le mieux à ce que ressent Léa ?",
+      "choix": ["Ravie", "Contente", "Triste"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Il existe plusieurs mots pour parler de la joie, plus ou moins forte : content (une joie simple), joyeux (une joie qu'on montre par un sourire), ravi (une très grande joie).",
+      "question": "Entre content et ravi, lequel exprime la joie la plus intense ?",
+      "choix": ["Content", "Ils veulent dire pareil", "Ravi"],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

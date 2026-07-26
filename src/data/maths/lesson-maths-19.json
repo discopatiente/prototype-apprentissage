@@ -1,0 +1,78 @@
+{
+  "id": "lesson-maths-19",
+  "theme": "maths",
+  "titre": "Des additions qui font 10",
+  "description": "Complète les additions à trou pour qu'elles fassent 10",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "6 + ... = 10",
+      "consigne": "Complète l'addition",
+      "avant": "6 + ",
+      "apres": " = 10",
+      "reponse": 4,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "... + 5 = 10",
+      "consigne": "Complète l'addition",
+      "avant": "",
+      "apres": " + 5 = 10",
+      "reponse": 5,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "10 = 3 + ...",
+      "consigne": "Complète l'addition",
+      "avant": "10 = 3 + ",
+      "apres": "",
+      "reponse": 7,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "2 + ... = 10",
+      "consigne": "Complète l'addition",
+      "avant": "2 + ",
+      "apres": " = 10",
+      "reponse": 8,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "10 = ... + 9",
+      "consigne": "Complète l'addition",
+      "avant": "10 = ",
+      "apres": " + 9",
+      "reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "8 + ... = 10",
+      "consigne": "Complète l'addition",
+      "avant": "8 + ",
+      "apres": " = 10",
+      "reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "... + 7 = 10",
+      "consigne": "Complète l'addition",
+      "avant": "",
+      "apres": " + 7 = 10",
+      "reponse": 3,
+      "points": 10
+    }
+  ]
+}

@@ -52,6 +52,12 @@
             :exercise="currentExercise"
             @answer-submitted="onAnswerSubmitted"
           />
+          <ExerciseTrouNumerique
+            v-else-if="currentExercise.type === 'trou-numerique'"
+            :key="`trou-${currentExercise.id}`"
+            :exercise="currentExercise"
+            @answer-submitted="onAnswerSubmitted"
+          />
 
           <div v-if="showFeedback" class="feedback-zone">
             <FeedbackMessage :correct="lastAnswerCorrect" />
@@ -81,6 +87,7 @@ import { useProgressStore } from '../stores/progressStore'
 import ExerciseQCM from '../components/ExerciseQCM.vue'
 import ExerciseQCMTexte from '../components/ExerciseQCMTexte.vue'
 import ExerciseReponseCorte from '../components/ExerciseReponseCorte.vue'
+import ExerciseTrouNumerique from '../components/ExerciseTrouNumerique.vue'
 import FeedbackMessage from '../components/FeedbackMessage.vue'
 import LessonBilan from '../components/LessonBilan.vue'
 import EcranDiaporama from '../components/EcranDiaporama.vue'

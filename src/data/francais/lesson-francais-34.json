@@ -1,0 +1,49 @@
+{
+  "id": "lesson-francais-34",
+  "theme": "francais",
+  "titre": "Masculin ou féminin ?",
+  "description": "Découvre comment reconnaître le genre des mots",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "En français, chaque mot qui désigne une chose, un animal ou une personne a un genre : masculin ou féminin."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "On reconnaît le genre grâce au petit mot placé juste devant : le et un pour le masculin, la et une pour le féminin.",
+      "visuel": "le crayon | la gomme"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Astuce n°1 : essaie de dire 'un' devant le mot. Si ça sonne juste, le mot est masculin.",
+      "visuel": "un ballon | un vélo"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Astuce n°2 : essaie de dire 'une' devant le mot. Si ça sonne juste, le mot est féminin.",
+      "visuel": "une pomme | une fleur"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Attention, certains mots sont des pièges : leur genre ne se devine pas, il faut l'apprendre par cœur en les répétant souvent.",
+      "visuel": "un avion | une voiture"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "D'autres mots pièges à bien mémoriser, car on pourrait se tromper.",
+      "visuel": "un escalier | une école"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Encore quelques exemples à connaître par cœur.",
+      "visuel": "un arbre | une échelle"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Bravo, tu as terminé cette leçon ! Reviens la revoir dès que tu as un doute sur le genre d'un mot.",
+      "visuel": "🎉"
+    }
+  ]
+}

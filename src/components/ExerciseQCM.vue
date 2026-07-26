@@ -1,6 +1,7 @@
 <template>
   <div class="exercice">
     <p class="question">{{ exercise.question }}</p>
+    <p v-if="exercise.mot" class="mot">{{ exercise.mot }}</p>
 
     <div class="choices">
       <button
@@ -57,6 +58,14 @@ function select(index) {
   font-weight: 800;
   color: #4A352B;
   line-height: 1.3;
+  margin: 0;
+}
+
+.mot {
+  font-size: 34px;
+  font-weight: 800;
+  color: #4A352B;
+  text-align: center;
   margin: 0;
 }
 

@@ -1,0 +1,116 @@
+{
+  "id": "lesson-maths-20",
+  "theme": "maths",
+  "titre": "Il reste combien de carrés ?",
+  "description": "Sofia partage ses carrés de chocolat avec Laura : combien lui en reste-t-il ?",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "Sofia donne 6 carrés à Laura, combien lui en reste-t-il ?",
+      "contexte": "Sofia a 10 carrés de chocolat. Elle veut en donner 6 à Laura, combien lui en reste-t-il ?",
+      "carresRestants": 4,
+      "carresDonnes": 6,
+      "avant": "Il lui reste ",
+      "apres": " carrés de chocolat.",
+      "reponse": 4,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "Sofia donne 2 carrés à Laura, combien lui en reste-t-il ?",
+      "contexte": "Sofia a 10 carrés de chocolat. Elle veut en donner 2 à Laura, combien lui en reste-t-il ?",
+      "carresRestants": 8,
+      "carresDonnes": 2,
+      "avant": "Il lui reste ",
+      "apres": " carrés de chocolat.",
+      "reponse": 8,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "Sofia donne 9 carrés à Laura, combien lui en reste-t-il ?",
+      "contexte": "Sofia a 10 carrés de chocolat. Elle veut en donner 9 à Laura, combien lui en reste-t-il ?",
+      "carresRestants": 1,
+      "carresDonnes": 9,
+      "avant": "Il lui reste ",
+      "apres": " carrés de chocolat.",
+      "reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "Sofia donne 4 carrés à Laura, combien lui en reste-t-il ?",
+      "contexte": "Sofia a 10 carrés de chocolat. Elle veut en donner 4 à Laura, combien lui en reste-t-il ?",
+      "carresRestants": 6,
+      "carresDonnes": 4,
+      "avant": "Il lui reste ",
+      "apres": " carrés de chocolat.",
+      "reponse": 6,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "Sofia donne 7 carrés à Laura, combien lui en reste-t-il ?",
+      "contexte": "Sofia a 10 carrés de chocolat. Elle veut en donner 7 à Laura, combien lui en reste-t-il ?",
+      "carresRestants": 3,
+      "carresDonnes": 7,
+      "avant": "Il lui reste ",
+      "apres": " carrés de chocolat.",
+      "reponse": 3,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "Sofia donne 1 carré à Laura, combien lui en reste-t-il ?",
+      "contexte": "Sofia a 10 carrés de chocolat. Elle veut en donner 1 à Laura, combien lui en reste-t-il ?",
+      "carresRestants": 9,
+      "carresDonnes": 1,
+      "avant": "Il lui reste ",
+      "apres": " carrés de chocolat.",
+      "reponse": 9,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "Sofia donne 5 carrés à Laura, combien lui en reste-t-il ?",
+      "contexte": "Sofia a 10 carrés de chocolat. Elle veut en donner 5 à Laura, combien lui en reste-t-il ?",
+      "carresRestants": 5,
+      "carresDonnes": 5,
+      "avant": "Il lui reste ",
+      "apres": " carrés de chocolat.",
+      "reponse": 5,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "Sofia donne 8 carrés à Laura, combien lui en reste-t-il ?",
+      "contexte": "Sofia a 10 carrés de chocolat. Elle veut en donner 8 à Laura, combien lui en reste-t-il ?",
+      "carresRestants": 2,
+      "carresDonnes": 8,
+      "avant": "Il lui reste ",
+      "apres": " carrés de chocolat.",
+      "reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "Sofia donne 3 carrés à Laura, combien lui en reste-t-il ?",
+      "contexte": "Sofia a 10 carrés de chocolat. Elle veut en donner 3 à Laura, combien lui en reste-t-il ?",
+      "carresRestants": 7,
+      "carresDonnes": 3,
+      "avant": "Il lui reste ",
+      "apres": " carrés de chocolat.",
+      "reponse": 7,
+      "points": 10
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import SubjectView from '../views/SubjectView.vue'
 import LevelView from '../views/LevelView.vue'
 import LessonView from '../views/LessonView.vue'
 import ProgressView from '../views/ProgressView.vue'
+import PreferencesView from '../views/PreferencesView.vue'
 import AdminLoginView from '../views/AdminLoginView.vue'
 import AdminView from '../views/AdminView.vue'
 import { useAuthStore } from '../stores/authStore'
@@ -35,6 +36,11 @@ const router = createRouter({
       path: '/progress',
       name: 'progress',
       component: ProgressView,
+    },
+    {
+      path: '/preferences',
+      name: 'preferences',
+      component: PreferencesView,
     },
     {
       path: '/admin/login',

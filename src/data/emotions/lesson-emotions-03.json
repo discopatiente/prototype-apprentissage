@@ -1,0 +1,71 @@
+{
+  "id": "lesson-emotions-03",
+  "theme": "emotions",
+  "titre": "Les nuances de la tristesse et de la peur",
+  "description": "Découvre les différentes intensités de la tristesse et de la peur",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Il existe plusieurs mots pour parler de la tristesse, plus ou moins forte : déçu (une petite tristesse, quand quelque chose ne se passe pas comme prévu), triste (une tristesse plus profonde), abattu (une très grande tristesse, quand on n'a plus d'énergie).",
+      "question": "Quel mot exprime la tristesse la plus forte ?",
+      "choix": ["Déçu", "Triste", "Abattu"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Il existe plusieurs mots pour parler de la tristesse, plus ou moins forte : déçu (une petite tristesse, quand quelque chose ne se passe pas comme prévu), triste (une tristesse plus profonde), abattu (une très grande tristesse, quand on n'a plus d'énergie).",
+      "question": "Quel mot exprime une petite tristesse, par exemple quand un jeu est annulé ?",
+      "choix": ["Déçu", "Abattu", "Triste"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Léa voulait aller au parc mais il pleut, elle fait la moue. Léo a perdu son doudou préféré depuis plusieurs jours, il ne veut plus jouer et reste allongé sans rien faire.",
+      "question": "Qui ressent la tristesse la plus forte ?",
+      "choix": ["Léa", "Léo", "Les deux pareil"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Il existe plusieurs mots pour parler de la tristesse, plus ou moins forte : déçu (une petite tristesse, quand quelque chose ne se passe pas comme prévu), triste (une tristesse plus profonde), abattu (une très grande tristesse, quand on n'a plus d'énergie).",
+      "question": "Complète : Le match de foot de Tom a été annulé à cause de la pluie, il est un peu …",
+      "choix": ["Déçu", "Abattu", "Furieux"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Il existe plusieurs mots pour parler de la peur, plus ou moins forte : inquiet (une peur légère, on se fait un peu de souci), effrayé (une peur plus forte), terrifié (une très grande peur, on est comme paralysé).",
+      "question": "Quel mot exprime la peur la plus forte ?",
+      "choix": ["Inquiet", "Effrayé", "Terrifié"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Il existe plusieurs mots pour parler de la peur, plus ou moins forte : inquiet (une peur légère, on se fait un peu de souci), effrayé (une peur plus forte), terrifié (une très grande peur, on est comme paralysé).",
+      "question": "Quel mot exprime une peur légère, un petit souci ?",
+      "choix": ["Inquiet", "Terrifié", "Effrayé"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Nina entend un bruit bizarre dans le noir et n'ose plus bouger du tout, le cœur battant très fort.",
+      "question": "Quel mot correspond le mieux à ce que ressent Nina ?",
+      "choix": ["Inquiète", "Terrifiée", "Effrayée"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}
