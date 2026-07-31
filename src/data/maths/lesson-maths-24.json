@@ -1,0 +1,108 @@
+{
+  "id": "lesson-maths-24",
+  "theme": "maths",
+  "titre": "Retour à la dizaine",
+  "description": "Retire la dizaine ou les unités pour retrouver l'autre nombre",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "13 - 10 = ...",
+      "consigne": "Calcule",
+      "avant": "13 - 10 = ",
+      "apres": "",
+      "reponse": 3,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "13 - 3 = ...",
+      "consigne": "Calcule",
+      "avant": "13 - 3 = ",
+      "apres": "",
+      "reponse": 10,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "17 - 10 = ...",
+      "consigne": "Calcule",
+      "avant": "17 - 10 = ",
+      "apres": "",
+      "reponse": 7,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "17 - 7 = ...",
+      "consigne": "Calcule",
+      "avant": "17 - 7 = ",
+      "apres": "",
+      "reponse": 10,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "15 - 10 = ...",
+      "consigne": "Calcule",
+      "avant": "15 - 10 = ",
+      "apres": "",
+      "reponse": 5,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "15 - 5 = ...",
+      "consigne": "Calcule",
+      "avant": "15 - 5 = ",
+      "apres": "",
+      "reponse": 10,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "18 - 10 = ...",
+      "consigne": "Calcule",
+      "avant": "18 - 10 = ",
+      "apres": "",
+      "reponse": 8,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "18 - 8 = ...",
+      "consigne": "Calcule",
+      "avant": "18 - 8 = ",
+      "apres": "",
+      "reponse": 10,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "12 - 10 = ...",
+      "consigne": "Calcule",
+      "avant": "12 - 10 = ",
+      "apres": "",
+      "reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "12 - 2 = ...",
+      "consigne": "Calcule",
+      "avant": "12 - 2 = ",
+      "apres": "",
+      "reponse": 10,
+      "points": 10
+    }
+  ]
+}

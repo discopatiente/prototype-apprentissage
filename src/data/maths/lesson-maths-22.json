@@ -1,0 +1,108 @@
+{
+  "id": "lesson-maths-22",
+  "theme": "maths",
+  "titre": "Addition ou soustraction, ça fait 10 !",
+  "description": "Mélange d'additions et de soustractions autour du nombre 10",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "6 + ... = 10",
+      "consigne": "Trouve le nombre qui manque",
+      "avant": "6 + ",
+      "apres": " = 10",
+      "reponse": 4,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "10 - 3 = ...",
+      "consigne": "Trouve le nombre qui manque",
+      "avant": "10 - 3 = ",
+      "apres": "",
+      "reponse": 7,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "... + 5 = 10",
+      "consigne": "Trouve le nombre qui manque",
+      "avant": "",
+      "apres": " + 5 = 10",
+      "reponse": 5,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "10 - ... = 6",
+      "consigne": "Trouve le nombre qui manque",
+      "avant": "10 - ",
+      "apres": " = 6",
+      "reponse": 4,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "2 + ... = 10",
+      "consigne": "Trouve le nombre qui manque",
+      "avant": "2 + ",
+      "apres": " = 10",
+      "reponse": 8,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "10 - 7 = ...",
+      "consigne": "Trouve le nombre qui manque",
+      "avant": "10 - 7 = ",
+      "apres": "",
+      "reponse": 3,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "10 = ... + 9",
+      "consigne": "Trouve le nombre qui manque",
+      "avant": "10 = ",
+      "apres": " + 9",
+      "reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "10 - ... = 2",
+      "consigne": "Trouve le nombre qui manque",
+      "avant": "10 - ",
+      "apres": " = 2",
+      "reponse": 8,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "8 + ... = 10",
+      "consigne": "Trouve le nombre qui manque",
+      "avant": "8 + ",
+      "apres": " = 10",
+      "reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "10 - 9 = ...",
+      "consigne": "Trouve le nombre qui manque",
+      "avant": "10 - 9 = ",
+      "apres": "",
+      "reponse": 1,
+      "points": 10
+    }
+  ]
+}

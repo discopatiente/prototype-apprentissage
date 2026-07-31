@@ -1,0 +1,104 @@
+{
+  "id": "lesson-francais-40",
+  "theme": "francais",
+  "titre": "Le bon pluriel",
+  "description": "Entraîne-toi à trouver la bonne forme au pluriel",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « chat » ?",
+      "choix": ["chats", "chat"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « fleur » ?",
+      "choix": ["fleur", "fleurs"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « ballon » ?",
+      "choix": ["ballons", "ballon"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « maison » ?",
+      "choix": ["maison", "maisons"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « souris » ?",
+      "choix": ["souris", "souriss"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « nez » ?",
+      "choix": ["nezs", "nez"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « gâteau » ?",
+      "choix": ["gâteaus", "gâteaux"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « jeu » ?",
+      "choix": ["jeux", "jeus"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « cheval » ?",
+      "choix": ["chevaux", "chevals"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « animal » ?",
+      "choix": ["animals", "animaux"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « bateau » ?",
+      "choix": ["bateaux", "bateaus"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « chapeau » ?",
+      "choix": ["chapeaus", "chapeaux"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

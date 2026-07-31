@@ -1,0 +1,104 @@
+{
+  "id": "lesson-francais-43",
+  "theme": "francais",
+  "titre": "Le bon pluriel, encore !",
+  "description": "Continue à t'entraîner à trouver la bonne forme au pluriel",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « oiseau » ?",
+      "choix": ["oiseaux", "oiseaus"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « journal » ?",
+      "choix": ["journals", "journaux"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « château » ?",
+      "choix": ["châteaus", "châteaux"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « cadeau » ?",
+      "choix": ["cadeaux", "cadeaus"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « cheveu » ?",
+      "choix": ["cheveus", "cheveux"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « croix » ?",
+      "choix": ["croix", "croixs"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « nez » ?",
+      "choix": ["nezs", "nez"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « souris » ?",
+      "choix": ["souriss", "souris"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « livre » ?",
+      "choix": ["livre", "livres"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « tortue » ?",
+      "choix": ["tortues", "tortue"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « robot » ?",
+      "choix": ["robots", "robot"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Quel est le pluriel du mot « lampe » ?",
+      "choix": ["lampe", "lampes"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

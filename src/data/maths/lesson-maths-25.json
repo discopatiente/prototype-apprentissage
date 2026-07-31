@@ -1,0 +1,128 @@
+{
+  "id": "lesson-maths-25",
+  "theme": "maths",
+  "titre": "Mélange dizaine et unités",
+  "description": "Toutes les astuces sur la dizaine mélangées pour s'entraîner",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "7 + ... = 10",
+      "consigne": "Trouve le nombre qui manque",
+      "avant": "7 + ",
+      "apres": " = 10",
+      "reponse": 3,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "10 + 6 = ...",
+      "consigne": "Calcule",
+      "avant": "10 + 6 = ",
+      "apres": "",
+      "reponse": 16,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "14 - 10 = ...",
+      "consigne": "Calcule",
+      "avant": "14 - 10 = ",
+      "apres": "",
+      "reponse": 4,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "10 - ... = 5",
+      "consigne": "Trouve le nombre qui manque",
+      "avant": "10 - ",
+      "apres": " = 5",
+      "reponse": 5,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "19 - 9 = ...",
+      "consigne": "Calcule",
+      "avant": "19 - 9 = ",
+      "apres": "",
+      "reponse": 10,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "... + 9 = 10",
+      "consigne": "Trouve le nombre qui manque",
+      "avant": "",
+      "apres": " + 9 = 10",
+      "reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "10 + 2 = ...",
+      "consigne": "Calcule",
+      "avant": "10 + 2 = ",
+      "apres": "",
+      "reponse": 12,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "16 - 6 = ...",
+      "consigne": "Calcule",
+      "avant": "16 - 6 = ",
+      "apres": "",
+      "reponse": 10,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "10 - ... = 6",
+      "consigne": "Trouve le nombre qui manque",
+      "avant": "10 - ",
+      "apres": " = 6",
+      "reponse": 4,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "15 - 10 = ...",
+      "consigne": "Calcule",
+      "avant": "15 - 10 = ",
+      "apres": "",
+      "reponse": 5,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "trou-numerique",
+      "question": "3 + 10 = ...",
+      "consigne": "Calcule",
+      "avant": "3 + 10 = ",
+      "apres": "",
+      "reponse": 13,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "trou-numerique",
+      "question": "10 = ... + 4",
+      "consigne": "Trouve le nombre qui manque",
+      "avant": "10 = ",
+      "apres": " + 4",
+      "reponse": 6,
+      "points": 10
+    }
+  ]
+}

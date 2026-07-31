@@ -1,0 +1,116 @@
+{
+  "id": "lesson-francais-42",
+  "theme": "francais",
+  "titre": "Le, la ou les ?",
+  "description": "Entraîne-toi à choisir le bon article selon le genre et le nombre",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "crayon",
+      "choix": ["le", "la", "les"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "crayons",
+      "choix": ["le", "la", "les"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "chaise",
+      "choix": ["le", "la", "les"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "chaises",
+      "choix": ["le", "la", "les"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "vélo",
+      "choix": ["le", "la", "les"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "vélos",
+      "choix": ["le", "la", "les"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "fleur",
+      "choix": ["le", "la", "les"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "fleurs",
+      "choix": ["le", "la", "les"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "gâteau",
+      "choix": ["le", "la", "les"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "gâteaux",
+      "choix": ["le", "la", "les"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "table",
+      "choix": ["le", "la", "les"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "tables",
+      "choix": ["le", "la", "les"],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

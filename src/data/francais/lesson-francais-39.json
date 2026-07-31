@@ -1,0 +1,45 @@
+{
+  "id": "lesson-francais-39",
+  "theme": "francais",
+  "titre": "Singulier ou pluriel ?",
+  "description": "Découvre comment reconnaître un mot au singulier et au pluriel",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Un mot peut parler d'une seule chose : c'est le singulier. Ou de plusieurs choses : c'est le pluriel.",
+      "visuel": "🍎 | 🍎🍎🍎"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Le plus souvent, on ajoute un -s à la fin du mot pour former le pluriel.",
+      "visuel": "un chat | des chats"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Les petits mots devant changent aussi : le, la, un, une pour le singulier ; les, des pour le pluriel.",
+      "visuel": "la fleur | les fleurs"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Attention, certains mots se terminent déjà par -s, -x ou -z au singulier : ils ne changent pas du tout au pluriel !",
+      "visuel": "une souris | des souris"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Les mots qui se terminent par -eau ou -eu prennent un -x au pluriel, pas un -s.",
+      "visuel": "un gâteau | des gâteaux"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Les mots qui se terminent par -al se transforment souvent en -aux au pluriel.",
+      "visuel": "un cheval | des chevaux"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Bravo, tu as terminé cette leçon ! Reviens la revoir si tu as un doute sur le singulier ou le pluriel.",
+      "visuel": "🎉"
+    }
+  ]
+}

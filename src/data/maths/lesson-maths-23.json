@@ -1,0 +1,108 @@
+{
+  "id": "lesson-maths-23",
+  "theme": "maths",
+  "titre": "10 plus un nombre",
+  "description": "Calcule en ajoutant à la dizaine pour trouver les nombres de 11 à 20",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "10 + 3 = ...",
+      "consigne": "Calcule",
+      "avant": "10 + 3 = ",
+      "apres": "",
+      "reponse": 13,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "10 + 7 = ...",
+      "consigne": "Calcule",
+      "avant": "10 + 7 = ",
+      "apres": "",
+      "reponse": 17,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "... = 10 + 5",
+      "consigne": "Calcule",
+      "avant": "",
+      "apres": " = 10 + 5",
+      "reponse": 15,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "10 + 8 = ...",
+      "consigne": "Calcule",
+      "avant": "10 + 8 = ",
+      "apres": "",
+      "reponse": 18,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "2 + 10 = ...",
+      "consigne": "Calcule",
+      "avant": "2 + 10 = ",
+      "apres": "",
+      "reponse": 12,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "10 + 1 = ...",
+      "consigne": "Calcule",
+      "avant": "10 + 1 = ",
+      "apres": "",
+      "reponse": 11,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "6 + 10 = ...",
+      "consigne": "Calcule",
+      "avant": "6 + 10 = ",
+      "apres": "",
+      "reponse": 16,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "... = 10 + 9",
+      "consigne": "Calcule",
+      "avant": "",
+      "apres": " = 10 + 9",
+      "reponse": 19,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "10 + 4 = ...",
+      "consigne": "Calcule",
+      "avant": "10 + 4 = ",
+      "apres": "",
+      "reponse": 14,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "10 + 10 = ...",
+      "consigne": "Calcule",
+      "avant": "10 + 10 = ",
+      "apres": "",
+      "reponse": 20,
+      "points": 10
+    }
+  ]
+}

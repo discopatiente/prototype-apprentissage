@@ -1,0 +1,116 @@
+{
+  "id": "lesson-francais-41",
+  "theme": "francais",
+  "titre": "Un ou des ?",
+  "description": "Entraîne-toi à choisir le bon article selon le singulier ou le pluriel",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "ballons",
+      "choix": ["un", "des"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "chien",
+      "choix": ["un", "des"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "pommes",
+      "choix": ["une", "des"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "gâteau",
+      "choix": ["un", "des"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "chevaux",
+      "choix": ["un", "des"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "voiture",
+      "choix": ["une", "des"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "chiens",
+      "choix": ["un", "des"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "pomme",
+      "choix": ["une", "des"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "gâteaux",
+      "choix": ["un", "des"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "ballon",
+      "choix": ["un", "des"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "voitures",
+      "choix": ["une", "des"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Choisis le bon article pour le mot :",
+      "mot": "cheval",
+      "choix": ["un", "des"],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}
