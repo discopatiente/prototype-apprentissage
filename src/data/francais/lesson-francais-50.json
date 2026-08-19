@@ -1,0 +1,60 @@
+{
+  "id": "lesson-francais-50",
+  "theme": "francais",
+  "titre": "Je jouerai, tu joueras",
+  "description": "Découvre comment on forme le futur simple",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Le futur simple sert aussi à parler de ce qui va se passer plus tard, mais on l'écrit autrement que le futur proche.",
+      "visuel": "🔮 Plus tard"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Pour le former, on garde tout l'infinitif du verbe et on ajoute une terminaison qui change selon qui parle.",
+      "visuel": "jouer + terminaison"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Quand c'est moi qui parle, je dis je jouerai.",
+      "visuel": "je jouerai"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Quand je parle à quelqu'un, je dis tu joueras.",
+      "visuel": "tu joueras"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Quand je parle d'une autre personne, je dis il jouera ou elle jouera.",
+      "visuel": "il jouera | elle jouera"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Quand on est plusieurs, y compris moi, je dis nous jouerons.",
+      "visuel": "nous jouerons"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Quand je parle à plusieurs personnes, je dis vous jouerez.",
+      "visuel": "vous jouerez"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Quand je parle de plusieurs personnes, je dis ils joueront ou elles joueront.",
+      "visuel": "ils joueront | elles joueront"
+    },
+    {
+      "id": "ecran-09",
+      "texte": "Tu vas jouer et tu joueras veulent dire presque la même chose : les deux parlent du futur !",
+      "visuel": "tu vas jouer | tu joueras"
+    },
+    {
+      "id": "ecran-10",
+      "texte": "Bravo, tu as terminé cette leçon ! Reviens la revoir si tu as un doute sur le futur simple.",
+      "visuel": "🎉"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "lesson-francais-44",
+  "theme": "francais",
+  "titre": "Je joue, tu joues, il joue",
+  "description": "Découvre comment un verbe change selon qui fait l'action, au présent",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Le présent sert à parler de ce qui se passe maintenant, en ce moment.",
+      "visuel": "⏰ Maintenant"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Un verbe comme jouer change de fin selon qui fait l'action.",
+      "visuel": "jouer"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Quand c'est moi qui parle, je dis je joue.",
+      "visuel": "je joue"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Quand je parle à quelqu'un, je dis tu joues.",
+      "visuel": "tu joues"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Quand je parle d'une autre personne, je dis il joue ou elle joue.",
+      "visuel": "il joue | elle joue"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Quand on est plusieurs, y compris moi, je dis nous jouons.",
+      "visuel": "nous jouons"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Quand je parle à plusieurs personnes, je dis vous jouez.",
+      "visuel": "vous jouez"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Quand je parle de plusieurs personnes, je dis ils jouent ou elles jouent.",
+      "visuel": "ils jouent | elles jouent"
+    },
+    {
+      "id": "ecran-09",
+      "texte": "Bravo, tu as terminé cette leçon ! Reviens la revoir si tu as un doute sur la conjugaison au présent.",
+      "visuel": "🎉"
+    }
+  ]
+}

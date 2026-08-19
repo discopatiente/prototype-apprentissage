@@ -89,13 +89,27 @@
       {
         "id": "niveau-8",
         "titre": "Niveau 8",
-        "nouveau": true,
         "lessons": [
           "lesson-francais-39",
           "lesson-francais-40",
           "lesson-francais-41",
           "lesson-francais-42",
           "lesson-francais-43"
+        ]
+      },
+      {
+        "id": "niveau-9",
+        "titre": "Niveau 9",
+        "nouveau": true,
+        "lessons": [
+          "lesson-francais-44",
+          "lesson-francais-45",
+          "lesson-francais-46",
+          "lesson-francais-47",
+          "lesson-francais-48",
+          "lesson-francais-49",
+          "lesson-francais-50",
+          "lesson-francais-51"
         ]
       }
     ]

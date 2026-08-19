@@ -1,0 +1,98 @@
+{
+  "id": "lesson-francais-45",
+  "theme": "francais",
+  "titre": "Le bon présent",
+  "description": "Entraîne-toi à conjuguer un verbe au présent",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Le matin, je ___ dans le jardin.",
+      "question": "Quelle est la bonne forme du verbe jouer, pour 'je' ?",
+      "choix": ["joue", "jouons", "jouez"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Et toi, est-ce que tu ___ au foot ?",
+      "question": "Quelle est la bonne forme du verbe jouer, pour 'tu' ?",
+      "choix": ["joue", "joues", "jouent"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Léo ___ avec son chien tous les soirs.",
+      "question": "Quelle est la bonne forme du verbe jouer, pour 'il' ?",
+      "choix": ["jouons", "jouent", "joue"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Nous ___ à cache-cache avec nos cousins.",
+      "question": "Quelle est la bonne forme du verbe jouer, pour 'nous' ?",
+      "choix": ["joue", "jouons", "jouez"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Vous ___ très bien de la guitare !",
+      "question": "Quelle est la bonne forme du verbe jouer, pour 'vous' ?",
+      "choix": ["jouez", "jouent", "joues"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Mia et Théo ___ dans la cour de récréation.",
+      "question": "Quelle est la bonne forme du verbe jouer, pour 'ils' ?",
+      "choix": ["joue", "jouons", "jouent"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "À midi, tu ___ à la cantine avec tes copains.",
+      "question": "Quelle est la bonne forme du verbe manger, pour 'tu' ?",
+      "choix": ["mange", "manges", "mangez"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Le soir, nous ___ tous ensemble à table.",
+      "question": "Quelle est la bonne forme du verbe manger, pour 'nous' ?",
+      "choix": ["mange", "mangent", "mangeons"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Je joue, tu joues, il joue, nous jouons, vous jouez, ils jouent.",
+      "question": "Qu'est-ce qui change dans le verbe jouer selon la phrase ?",
+      "choix": ["La fin du mot", "Le début du mot", "Rien, le verbe ne change jamais"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Théo range sa chambre avant de sortir.",
+      "question": "À quel moment se passe cette action ?",
+      "choix": ["Elle s'est déjà passée, avant", "Elle se passe maintenant, au présent", "Elle va bientôt se passer"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

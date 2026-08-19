@@ -1,0 +1,55 @@
+{
+  "id": "lesson-francais-48",
+  "theme": "francais",
+  "titre": "Je jouais, tu jouais",
+  "description": "Découvre comment on forme l'imparfait",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "L'imparfait sert à raconter ce qu'on faisait souvent, avant, dans le passé.",
+      "visuel": "🔁 Avant, souvent"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Pour le former, on part du début du verbe et on ajoute une terminaison qui change selon qui parle.",
+      "visuel": "jou-"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Quand c'est moi qui parle, je dis je jouais.",
+      "visuel": "je jouais"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Quand je parle à quelqu'un, je dis tu jouais.",
+      "visuel": "tu jouais"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Quand je parle d'une autre personne, je dis il jouait ou elle jouait.",
+      "visuel": "il jouait | elle jouait"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Quand on est plusieurs, y compris moi, je dis nous jouions.",
+      "visuel": "nous jouions"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Quand je parle à plusieurs personnes, je dis vous jouiez.",
+      "visuel": "vous jouiez"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Quand je parle de plusieurs personnes, je dis ils jouaient ou elles jouaient.",
+      "visuel": "ils jouaient | elles jouaient"
+    },
+    {
+      "id": "ecran-09",
+      "texte": "Bravo, tu as terminé cette leçon ! Reviens la revoir si tu as un doute sur l'imparfait.",
+      "visuel": "🎉"
+    }
+  ]
+}

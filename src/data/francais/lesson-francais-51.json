@@ -1,0 +1,98 @@
+{
+  "id": "lesson-francais-51",
+  "theme": "francais",
+  "titre": "Le bon futur",
+  "description": "Entraîne-toi à conjuguer un verbe au futur simple",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Demain, je ___ au parc avec mes amis.",
+      "question": "Quelle est la bonne forme du verbe jouer au futur simple, pour 'je' ?",
+      "choix": ["jouerai", "joueras", "jouais"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Bientôt, tu ___ dans l'équipe de foot.",
+      "question": "Quelle est la bonne forme du verbe jouer au futur simple, pour 'tu' ?",
+      "choix": ["jouera", "joueras", "jouerai"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "L'année prochaine, Léo ___ dans un grand tournoi.",
+      "question": "Quelle est la bonne forme du verbe jouer au futur simple, pour 'il' ?",
+      "choix": ["jouerons", "joueront", "jouera"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Plus tard, nous ___ ensemble dans le jardin.",
+      "question": "Quelle est la bonne forme du verbe jouer au futur simple, pour 'nous' ?",
+      "choix": ["jouerons", "jouerez", "joueront"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Un jour, vous ___ tous très bien de la guitare.",
+      "question": "Quelle est la bonne forme du verbe jouer au futur simple, pour 'vous' ?",
+      "choix": ["joueront", "jouerez", "jouerai"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Mia et Théo ___ ensemble à la prochaine récréation.",
+      "question": "Quelle est la bonne forme du verbe jouer au futur simple, pour 'ils' ?",
+      "choix": ["jouera", "jouerons", "joueront"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Demain, tu ___ une pomme au goûter.",
+      "question": "Quelle est la bonne forme du verbe manger au futur simple, pour 'tu' ?",
+      "choix": ["mangeras", "mangeait", "manges"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Dimanche prochain, nous ___ tous ensemble chez mamie.",
+      "question": "Quelle est la bonne forme du verbe manger au futur simple, pour 'nous' ?",
+      "choix": ["mangions", "mangerons", "mangeront"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Je jouerai, tu joueras, il jouera...",
+      "question": "Quand se passe une action au futur simple ?",
+      "choix": ["Elle s'est déjà passée", "Elle se passe maintenant", "Elle va se passer plus tard"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Tu vas jouer. Tu joueras.",
+      "question": "Ces deux phrases parlent-elles du futur ?",
+      "choix": ["Non, l'une parle du passé", "Oui, toutes les deux parlent du futur", "Non, l'une parle du présent"],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "lesson-francais-49",
+  "theme": "francais",
+  "titre": "Le bon imparfait",
+  "description": "Entraîne-toi à conjuguer un verbe à l'imparfait",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Avant, je ___ tous les jours dans le jardin.",
+      "question": "Quelle est la bonne forme du verbe jouer à l'imparfait, pour 'je' ?",
+      "choix": ["joue", "jouais", "jouerai"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Quand tu étais petit, tu ___ souvent avec ton chien.",
+      "question": "Quelle est la bonne forme du verbe jouer à l'imparfait, pour 'tu' ?",
+      "choix": ["jouais", "joues", "jouait"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Léo ___ au ballon chaque après-midi, avant de déménager.",
+      "question": "Quelle est la bonne forme du verbe jouer à l'imparfait, pour 'il' ?",
+      "choix": ["jouons", "jouiez", "jouait"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Nous ___ à cache-cache tous les dimanches.",
+      "question": "Quelle est la bonne forme du verbe jouer à l'imparfait, pour 'nous' ?",
+      "choix": ["jouions", "jouiez", "jouaient"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Vous ___ souvent de la guitare, quand vous étiez au collège.",
+      "question": "Quelle est la bonne forme du verbe jouer à l'imparfait, pour 'vous' ?",
+      "choix": ["jouaient", "jouiez", "jouais"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Mia et Théo ___ dans la cour, chaque récréation.",
+      "question": "Quelle est la bonne forme du verbe jouer à l'imparfait, pour 'ils' ?",
+      "choix": ["jouait", "jouions", "jouaient"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Avant, tu ___ des légumes du jardin de mamie.",
+      "question": "Quelle est la bonne forme du verbe manger à l'imparfait, pour 'tu' ?",
+      "choix": ["mangeais", "mangais", "mangeait"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Chaque dimanche, nous ___ tous ensemble en famille.",
+      "question": "Quelle est la bonne forme du verbe manger à l'imparfait, pour 'nous' ?",
+      "choix": ["mangions", "mangeions", "mangeaient"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Je jouais, tu jouais, il jouait, nous jouions...",
+      "question": "Que raconte l'imparfait ?",
+      "choix": ["Une action qui va bientôt arriver", "Ce qu'on faisait souvent, avant", "Une action précise, une seule fois"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Léo jouait au ballon tous les jours quand il était petit.",
+      "question": "Cette phrase raconte-t-elle une habitude ou une seule fois ?",
+      "choix": ["Une seule fois", "On ne sait pas", "Une habitude"],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

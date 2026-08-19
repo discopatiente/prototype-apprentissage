@@ -1,0 +1,98 @@
+{
+  "id": "lesson-francais-47",
+  "theme": "francais",
+  "titre": "Le bon passé composé",
+  "description": "Entraîne-toi à conjuguer un verbe au passé composé",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Hier, j'___ joué au ballon avec mes copains.",
+      "question": "Quelle est la bonne forme du verbe avoir, pour 'je' ?",
+      "choix": ["ai", "as", "a"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Et toi, est-ce que tu ___ joué au foot hier ?",
+      "question": "Quelle est la bonne forme du verbe avoir, pour 'tu' ?",
+      "choix": ["ai", "as", "avons"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Léo ___ joué toute la journée avec son chien.",
+      "question": "Quelle est la bonne forme du verbe avoir, pour 'il' ?",
+      "choix": ["avez", "ont", "a"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Nous ___ joué à cache-cache avec nos cousins.",
+      "question": "Quelle est la bonne forme du verbe avoir, pour 'nous' ?",
+      "choix": ["ai", "avons", "ont"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Vous ___ très bien joué de la guitare hier soir !",
+      "question": "Quelle est la bonne forme du verbe avoir, pour 'vous' ?",
+      "choix": ["avez", "as", "a"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Mia et Théo ___ joué dans la cour toute la récréation.",
+      "question": "Quelle est la bonne forme du verbe avoir, pour 'ils' ?",
+      "choix": ["a", "avons", "ont"],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "À midi, tu as ___ à la cantine avec tes copains.",
+      "question": "Quel est le participe passé du verbe manger ?",
+      "choix": ["mangeait", "mangé", "manger"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Hier soir, nous avons ___ un bon dessin animé.",
+      "question": "Quel est le participe passé du verbe regarder ?",
+      "choix": ["regardé", "regardant", "regarde"],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "J'ai joué, tu as joué, il a joué.",
+      "question": "Avec quel verbe forme-t-on le passé composé de jouer ?",
+      "choix": ["Être", "Avoir", "Aller"],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Léo a mangé une pomme.",
+      "question": "Quand cette action s'est-elle passée ?",
+      "choix": ["Elle va bientôt se passer", "Elle se passe maintenant", "Elle s'est déjà passée, avant"],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

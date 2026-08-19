@@ -1,0 +1,60 @@
+{
+  "id": "lesson-francais-46",
+  "theme": "francais",
+  "titre": "J'ai joué, tu as joué",
+  "description": "Découvre comment on forme le passé composé avec avoir",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Le passé composé sert à raconter une action qui s'est passée une fois et qui est déjà terminée.",
+      "visuel": "✅ Déjà fait"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Pour le former, on utilise le verbe avoir conjugué, suivi du participe passé du verbe.",
+      "visuel": "avoir + participe passé"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Pour un verbe en -er comme jouer, le participe passé se termine par -é.",
+      "visuel": "jouer → joué"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Quand c'est moi qui parle, je dis j'ai joué.",
+      "visuel": "j'ai joué"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Quand je parle à quelqu'un, je dis tu as joué.",
+      "visuel": "tu as joué"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Quand je parle d'une autre personne, je dis il a joué ou elle a joué.",
+      "visuel": "il a joué | elle a joué"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Quand on est plusieurs, y compris moi, je dis nous avons joué.",
+      "visuel": "nous avons joué"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Quand je parle à plusieurs personnes, je dis vous avez joué.",
+      "visuel": "vous avez joué"
+    },
+    {
+      "id": "ecran-09",
+      "texte": "Quand je parle de plusieurs personnes, je dis ils ont joué ou elles ont joué.",
+      "visuel": "ils ont joué | elles ont joué"
+    },
+    {
+      "id": "ecran-10",
+      "texte": "Bravo, tu as terminé cette leçon ! Reviens la revoir si tu as un doute sur le passé composé.",
+      "visuel": "🎉"
+    }
+  ]
+}

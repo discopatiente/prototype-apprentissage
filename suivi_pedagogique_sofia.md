@@ -13,10 +13,10 @@ Domaines du socle : D1 langages pour penser et communiquer, D3 formation de la p
 | Compréhension, inférence facile (semaine 2) | Comprendre l'implicite, déduire un sentiment ou une cause | C3 | D1 | EC |
 | Synonymes et contraires, série 1 | Construire le sens des mots, relations de synonymie et d'antonymie, préfixes in et im | C3 | D1 | |
 | Enrichissement du lexique, série 2 | Enrichir son vocabulaire, émotions et nature | C3 | D1 | |
-| Expressions imagées (à venir) | Comprendre le sens figuré | C3 | D1 | |
-| Conjugaison des temps de base (à venir) | Le verbe, présent, passé composé, imparfait, futur | C2 vers C3 | D1 | |
-| Orthographe des mots fréquents (à venir) | Orthographe lexicale | C2 vers C3 | D1 | |
-| Accords simples (à venir) | Orthographe grammaticale | C3 | D1 | |
+| Expressions imagées | Comprendre le sens figuré | C3 | D1 | |
+| Conjugaison des temps de base | Le verbe, présent, passé composé, imparfait, futur | C2 vers C3 | D1 | |
+| Orthographe des mots fréquents | Orthographe lexicale | C2 vers C3 | D1 | |
+| Accords simples | Orthographe grammaticale | C3 | D1 | |
 | Production d'écrit courte et guidée (à venir) | Rédiger un texte court avec accompagnement | C3 | D1 | |
 
 ## Mathématiques
