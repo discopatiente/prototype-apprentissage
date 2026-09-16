@@ -1,0 +1,132 @@
+{
+  "id": "lesson-francais-55",
+  "theme": "francais",
+  "titre": "Tout s'accorde",
+  "description": "Masculin ou féminin, un ou plusieurs, le verbe et son sujet : tout à la fois",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Les petites filles ___ dans la cour.",
+      "question": "Quelle est la bonne forme du verbe jouer ?",
+      "choix": [
+        "jouent",
+        "joue"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Sofia habite dans une ___ maison.",
+      "question": "Quelle est la bonne forme de l'adjectif grand ?",
+      "choix": [
+        "grand",
+        "grande"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Le ___ chien dort dans son panier.",
+      "question": "Quelle est la bonne forme de l'adjectif petit ?",
+      "choix": [
+        "petit",
+        "petite",
+        "petits"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Inès a mangé deux ___.",
+      "question": "Quelle est la bonne forme du mot pomme ?",
+      "choix": [
+        "pommes",
+        "pomme"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Le chat ___ sur le canapé.",
+      "question": "Quelle est la bonne forme du verbe dormir ?",
+      "choix": [
+        "dorment",
+        "dort"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Clara a une ___ sœur.",
+      "question": "Quelle est la bonne forme de l'adjectif petit ?",
+      "choix": [
+        "petit",
+        "petits",
+        "petite"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Les enfants ___ une chanson.",
+      "question": "Quelle est la bonne forme du verbe chanter ?",
+      "choix": [
+        "chantent",
+        "chante"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Léo a un ___ ballon.",
+      "question": "Quelle est la bonne forme de l'adjectif rouge ?",
+      "choix": [
+        "rouge",
+        "rouges"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Les chats ___ jouent avec la balle.",
+      "question": "Quelle est la bonne forme de l'adjectif noir ?",
+      "choix": [
+        "noire",
+        "noirs",
+        "noires"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Ma voisine est très ___.",
+      "question": "Quelle est la bonne forme de l'adjectif gentil ?",
+      "choix": [
+        "gentil",
+        "gentils",
+        "gentille"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "lesson-maths-26",
+  "theme": "maths",
+  "titre": "Passer par 10",
+  "description": "Découvre une astuce pour additionner quand le résultat dépasse 10",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Aujourd'hui, on va apprendre une astuce pour additionner quand le résultat dépasse 10. L'astuce, c'est de passer par 10."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Léa a 8 bonbons dans sa boîte. La boîte peut en contenir 10. Inès lui donne 5 bonbons de plus. Combien Léa a-t-elle de bonbons en tout ?",
+      "visuel": "🍬🍬🍬🍬🍬🍬🍬🍬 | 🍬🍬🍬🍬🍬"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Pour remplir la boîte, il manque 2 bonbons. Léa prend 2 bonbons dans le tas d'Inès et les met dans la boîte. La boîte est pleine : il y a 10 bonbons dedans !",
+      "visuel": "🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬 | 🍬🍬🍬"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Il reste 3 bonbons à côté de la boîte pleine. 10 et 3, ça fait 13. Donc 8 + 5 = 13 !",
+      "visuel": "10 + 3 = 13"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Regarde ce qu'on a fait : on a coupé le 5 en deux morceaux. 2 pour aller jusqu'à 10, et 3 qu'on ajoute ensuite.",
+      "visuel": "8 + 5 | 8 + 2 + 3 | 10 + 3 = 13"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Un autre exemple : 9 + 4. Clara a 9 pommes, il lui en manque 1 pour arriver à 10. On coupe le 4 en 1 et 3.",
+      "visuel": "🍎🍎🍎🍎🍎🍎🍎🍎🍎 | 🍎🍎🍎🍎"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "9 + 1 = 10, puis 10 + 3 = 13. Donc 9 + 4 = 13.",
+      "visuel": "9 + 1 + 3 | 10 + 3 = 13"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Retiens l'astuce : d'abord je complète jusqu'à 10, ensuite j'ajoute ce qui reste. Tu connais déjà les compléments à 10, c'est le moment de t'en servir !",
+      "visuel": "🎯 10"
+    },
+    {
+      "id": "ecran-09",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

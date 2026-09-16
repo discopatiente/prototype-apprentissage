@@ -1,0 +1,54 @@
+{
+  "id": "lesson-maths-31",
+  "theme": "maths",
+  "titre": "Lire l'heure",
+  "description": "Découvre comment lire les heures pile et les demies sur une horloge",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Aujourd'hui, on va apprendre à lire l'heure sur une horloge. Savoir lire l'heure, c'est savoir quand c'est l'heure du judo ou du goûter !"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Sur une horloge, il y a des nombres de 1 à 12, et deux aiguilles. La petite aiguille montre les heures. La grande aiguille montre les minutes.",
+      "visuel": "🕐"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Quand la grande aiguille est tout en haut, sur le 12, c'est une heure pile. La petite aiguille dit laquelle. Ici, la petite aiguille est sur le 3 : il est 3 heures.",
+      "visuel": "🕒 | 3 heures"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Regarde : la petite aiguille est sur le 8 et la grande sur le 12. Il est 8 heures, l'heure de partir à l'école.",
+      "visuel": "🕗 | 8 heures"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Quand la grande aiguille est tout en bas, sur le 6, une demi-heure est passée. On dit « et demie ». La petite aiguille est alors entre deux nombres : c'est le plus petit qui compte.",
+      "visuel": "🕞 | 3 heures et demie"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Ici, la petite aiguille est entre le 5 et le 6, et la grande aiguille est sur le 6. Il est 5 heures et demie : l'heure du judo !",
+      "visuel": "🕠 | 5 heures et demie"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Encore un : la petite aiguille est entre le 12 et le 1, la grande est sur le 6. Il est midi et demi, l'heure du repas.",
+      "visuel": "🕧 | midi et demi"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Retiens : grande aiguille en haut sur le 12, c'est une heure pile. Grande aiguille en bas sur le 6, c'est « et demie ».",
+      "visuel": "🕒 pile | 🕞 et demie"
+    },
+    {
+      "id": "ecran-09",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

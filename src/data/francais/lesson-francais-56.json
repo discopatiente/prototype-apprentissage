@@ -1,0 +1,49 @@
+{
+  "id": "lesson-francais-56",
+  "theme": "francais",
+  "titre": "Les mots de la nature",
+  "description": "Découvre les mots de la forêt, de la météo et des saisons",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Aujourd'hui, on va apprendre des mots pour parler de la nature : la forêt, le temps qu'il fait et les saisons. Tu les retrouveras dans la prochaine histoire."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Dans la forêt, il y a des arbres. Un arbre a un tronc, des branches et des feuilles. Sous les arbres, on trouve de la mousse et des champignons.",
+      "visuel": "🌳 | 🍂 | 🍄"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "La météo, c'est le temps qu'il fait. Quand le soleil brille, il fait beau. Quand il pleut, on dit qu'il y a de la pluie. Quand on ne voit pas loin à cause d'un nuage au ras du sol, c'est le brouillard.",
+      "visuel": "☀️ | 🌧️ | 🌫️"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Le vent souffle et fait bouger les branches. Quand le vent est très fort, c'est une tempête. En hiver, il peut neiger : la neige recouvre tout de blanc.",
+      "visuel": "💨 | ❄️"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Il y a quatre saisons. Au printemps, les bourgeons s'ouvrent et les fleurs poussent. En été, il fait chaud et les journées sont longues.",
+      "visuel": "🌱🌸 | ☀️🏖️"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "En automne, les feuilles deviennent jaunes et rouges, puis elles tombent. En hiver, il fait froid, les arbres sont nus et parfois il neige.",
+      "visuel": "🍁🍂 | ❄️⛄"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Retiens ces mots : tronc, branche, feuille, mousse, pluie, brouillard, tempête, bourgeon. Ils vont te servir dans la prochaine leçon !",
+      "visuel": "🌳 🌧️ 🌱"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

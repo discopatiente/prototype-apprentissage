@@ -1,0 +1,128 @@
+{
+  "id": "lesson-maths-29",
+  "theme": "maths",
+  "titre": "Multiplier et diviser",
+  "description": "Une multiplication, puis la division qui va avec : entraîne-toi sur les tables de 2, 3, 4, 5 et 10",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "3 x 4 = ...",
+      "consigne": "Calcule la multiplication",
+      "avant": "3 x 4 = ",
+      "apres": "",
+      "reponse": 12,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "12 ÷ 3 = ...",
+      "consigne": "Calcule la division, aide-toi de la multiplication d'avant",
+      "avant": "12 ÷ 3 = ",
+      "apres": "",
+      "reponse": 4,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "2 x 5 = ...",
+      "consigne": "Calcule la multiplication",
+      "avant": "2 x 5 = ",
+      "apres": "",
+      "reponse": 10,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "10 ÷ 2 = ...",
+      "consigne": "Calcule la division, aide-toi de la multiplication d'avant",
+      "avant": "10 ÷ 2 = ",
+      "apres": "",
+      "reponse": 5,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "4 x 5 = ...",
+      "consigne": "Calcule la multiplication",
+      "avant": "4 x 5 = ",
+      "apres": "",
+      "reponse": 20,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "20 ÷ 4 = ...",
+      "consigne": "Calcule la division, aide-toi de la multiplication d'avant",
+      "avant": "20 ÷ 4 = ",
+      "apres": "",
+      "reponse": 5,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "3 x 3 = ...",
+      "consigne": "Calcule la multiplication",
+      "avant": "3 x 3 = ",
+      "apres": "",
+      "reponse": 9,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "9 ÷ 3 = ...",
+      "consigne": "Calcule la division, aide-toi de la multiplication d'avant",
+      "avant": "9 ÷ 3 = ",
+      "apres": "",
+      "reponse": 3,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "5 x 5 = ...",
+      "consigne": "Calcule la multiplication",
+      "avant": "5 x 5 = ",
+      "apres": "",
+      "reponse": 25,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "25 ÷ 5 = ...",
+      "consigne": "Calcule la division, aide-toi de la multiplication d'avant",
+      "avant": "25 ÷ 5 = ",
+      "apres": "",
+      "reponse": 5,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "trou-numerique",
+      "question": "10 x 3 = ...",
+      "consigne": "Calcule la multiplication",
+      "avant": "10 x 3 = ",
+      "apres": "",
+      "reponse": 30,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "trou-numerique",
+      "question": "30 ÷ 10 = ...",
+      "consigne": "Calcule la division, aide-toi de la multiplication d'avant",
+      "avant": "30 ÷ 10 = ",
+      "apres": "",
+      "reponse": 3,
+      "points": 10
+    }
+  ]
+}

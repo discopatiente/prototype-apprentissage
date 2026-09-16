@@ -1,0 +1,99 @@
+{
+  "id": "lesson-svt-02",
+  "theme": "svt",
+  "titre": "Le corps en mouvement",
+  "description": "Comprends ce qui se passe dans ton corps pendant et après l'effort",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Quand tu fais du sport, ton corps a besoin de plus d'énergie. Ton cœur bat plus vite pour envoyer le sang dans tout le corps, et tu respires plus vite pour faire entrer plus d'air.",
+      "question": "Pendant l'effort, le cœur bat…",
+      "choix": [
+        "Moins vite",
+        "Plus vite",
+        "Pareil que d'habitude"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Quand tu fais du sport, ton corps a besoin de plus d'énergie. Ton cœur bat plus vite pour envoyer le sang dans tout le corps, et tu respires plus vite pour faire entrer plus d'air.",
+      "question": "Pourquoi respire-t-on plus vite quand on court ?",
+      "choix": [
+        "Pour faire entrer plus d'air",
+        "Parce qu'on a froid",
+        "Pour faire du bruit"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Après un entraînement de judo, tu as chaud et tu transpires. La transpiration, c'est de l'eau qui sort de ta peau pour rafraîchir ton corps. Il faut boire de l'eau pour remplacer celle que tu as perdue.",
+      "question": "À quoi sert la transpiration ?",
+      "choix": [
+        "À salir le kimono",
+        "À faire grandir les muscles",
+        "À rafraîchir le corps"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Après un entraînement de judo, tu as chaud et tu transpires. La transpiration, c'est de l'eau qui sort de ta peau pour rafraîchir ton corps. Il faut boire de l'eau pour remplacer celle que tu as perdue.",
+      "question": "Que faut-il faire après avoir transpiré ?",
+      "choix": [
+        "Boire de l'eau",
+        "Manger des bonbons",
+        "Ne rien faire"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Après l'effort, il faut se reposer. Pendant le repos, les muscles se réparent et deviennent plus forts. Dormir assez la nuit est très important pour ça.",
+      "question": "Quand est-ce que les muscles deviennent plus forts ?",
+      "choix": [
+        "Seulement pendant l'effort",
+        "Pendant le repos, après l'effort",
+        "Jamais"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Après l'effort, il faut se reposer. Pendant le repos, les muscles se réparent et deviennent plus forts. Dormir assez la nuit est très important pour ça.",
+      "question": "Pourquoi faut-il bien dormir ?",
+      "choix": [
+        "Pour que les muscles se réparent",
+        "Pour avoir plus faim",
+        "Pour courir moins vite"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Avant de commencer le judo, on fait un échauffement : on court doucement, on bouge les bras et les jambes. Cela prépare les muscles et les articulations, et évite de se faire mal.",
+      "question": "À quoi sert l'échauffement ?",
+      "choix": [
+        "À gagner le combat",
+        "À se fatiguer",
+        "À préparer les muscles et éviter de se faire mal"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

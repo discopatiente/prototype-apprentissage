@@ -100,7 +100,6 @@
       {
         "id": "niveau-9",
         "titre": "Niveau 9",
-        "nouveau": true,
         "lessons": [
           "lesson-francais-44",
           "lesson-francais-45",
@@ -110,6 +109,27 @@
           "lesson-francais-49",
           "lesson-francais-50",
           "lesson-francais-51"
+        ]
+      },
+      {
+        "id": "niveau-10",
+        "titre": "Niveau 10",
+        "nouveau": true,
+        "lessons": [
+          "lesson-francais-52",
+          "lesson-francais-53",
+          "lesson-francais-54",
+          "lesson-francais-55"
+        ]
+      },
+      {
+        "id": "niveau-11",
+        "titre": "Niveau 11",
+        "nouveau": true,
+        "lessons": [
+          "lesson-francais-56",
+          "lesson-francais-57",
+          "lesson-francais-58"
         ]
       }
     ]
@@ -157,7 +177,6 @@
       {
         "id": "niveau-4",
         "titre": "Niveau 4",
-        "nouveau": true,
         "lessons": [
           "lesson-maths-16",
           "lesson-maths-17"
@@ -176,12 +195,32 @@
       {
         "id": "niveau-6",
         "titre": "Niveau 6",
-        "nouveau": true,
         "lessons": [
           "lesson-maths-22",
           "lesson-maths-23",
           "lesson-maths-24",
           "lesson-maths-25"
+        ]
+      },
+      {
+        "id": "niveau-7",
+        "titre": "Niveau 7",
+        "nouveau": true,
+        "lessons": [
+          "lesson-maths-26",
+          "lesson-maths-27",
+          "lesson-maths-28",
+          "lesson-maths-29"
+        ]
+      },
+      {
+        "id": "niveau-8",
+        "titre": "Niveau 8",
+        "nouveau": true,
+        "lessons": [
+          "lesson-maths-30",
+          "lesson-maths-31",
+          "lesson-maths-32"
         ]
       }
     ]
@@ -196,7 +235,6 @@
       {
         "id": "niveau-1",
         "titre": "Niveau 1",
-        "nouveau": true,
         "lessons": [
           "lesson-musique-01",
           "lesson-musique-02",
@@ -205,6 +243,35 @@
           "lesson-musique-05",
           "lesson-musique-06",
           "lesson-musique-07"
+        ]
+      },
+      {
+        "id": "niveau-2",
+        "titre": "Niveau 2",
+        "nouveau": true,
+        "lessons": [
+          "lesson-musique-08",
+          "lesson-musique-09"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "svt",
+    "titre": "Sciences",
+    "icone": "🌿",
+    "color": "#6FA8B0",
+    "tint": "#DCEEF0",
+    "niveaux": [
+      {
+        "id": "niveau-1",
+        "titre": "Niveau 1",
+        "nouveau": true,
+        "lessons": [
+          "lesson-svt-01",
+          "lesson-svt-02",
+          "lesson-svt-03",
+          "lesson-svt-04"
         ]
       }
     ]

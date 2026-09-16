@@ -1,0 +1,86 @@
+{
+  "id": "lesson-musique-08",
+  "theme": "musique",
+  "titre": "Cordes et cuivres",
+  "description": "Découvre la famille des cordes et celle des cuivres",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Les instruments à cordes ont des fils tendus qu'on appelle des cordes. On peut les frotter avec un archet, comme le violon, ou les pincer avec les doigts, comme la guitare et la harpe. Le piano aussi a des cordes : quand on appuie sur une touche, un petit marteau frappe la corde.",
+      "question": "Pour jouer de la guitare, on…",
+      "choix": [
+        "Pince les cordes",
+        "Souffle dedans",
+        "Frappe avec une baguette"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Les instruments à cordes ont des fils tendus qu'on appelle des cordes. On peut les frotter avec un archet, comme le violon, ou les pincer avec les doigts, comme la guitare et la harpe. Le piano aussi a des cordes : quand on appuie sur une touche, un petit marteau frappe la corde.",
+      "question": "Quel instrument a des cordes frappées par des petits marteaux ?",
+      "choix": [
+        "La flûte",
+        "Le piano",
+        "Le tambour"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Les instruments à cordes ont des fils tendus qu'on appelle des cordes. On peut les frotter avec un archet, comme le violon, ou les pincer avec les doigts, comme la guitare et la harpe. Le piano aussi a des cordes : quand on appuie sur une touche, un petit marteau frappe la corde.",
+      "question": "Le violon et la harpe font partie de la famille…",
+      "choix": [
+        "Des percussions",
+        "Des vents",
+        "Des cordes"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Les cuivres sont des instruments à vent en métal brillant : la trompette, le trombone, le cor. Pour en jouer, on fait vibrer ses lèvres dans l'embouchure. Leur son est fort et éclatant, on les entend dans les fanfares.",
+      "question": "En quoi sont faits les cuivres ?",
+      "choix": [
+        "En bois",
+        "En métal",
+        "En plastique"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Les cuivres sont des instruments à vent en métal brillant : la trompette, le trombone, le cor. Pour en jouer, on fait vibrer ses lèvres dans l'embouchure. Leur son est fort et éclatant, on les entend dans les fanfares.",
+      "question": "Pour jouer de la trompette, on…",
+      "choix": [
+        "Fait vibrer ses lèvres dans l'embouchure",
+        "Frotte un archet",
+        "Appuie sur des touches"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Les cuivres sont des instruments à vent en métal brillant : la trompette, le trombone, le cor. Pour en jouer, on fait vibrer ses lèvres dans l'embouchure. Leur son est fort et éclatant, on les entend dans les fanfares.",
+      "question": "Où entend-on souvent les cuivres ?",
+      "choix": [
+        "Dans une bibliothèque",
+        "Dans une piscine",
+        "Dans une fanfare"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

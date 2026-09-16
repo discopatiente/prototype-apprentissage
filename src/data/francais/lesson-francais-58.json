@@ -1,0 +1,98 @@
+{
+  "id": "lesson-francais-58",
+  "theme": "francais",
+  "titre": "Remets les mots dans l'ordre",
+  "description": "Écris des phrases en remettant les mots dans le bon ordre",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "reponse-courte",
+      "texte": "Les mots sont mélangés. Remets-les dans le bon ordre pour faire une phrase, et écris-la. chat / le / dort",
+      "question": "Écris la phrase dans le bon ordre.",
+      "bonnes_reponses": [
+        "le chat dort",
+        "le chat dort."
+      ],
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "reponse-courte",
+      "texte": "mange / Sofia / pomme / une",
+      "question": "Écris la phrase dans le bon ordre.",
+      "bonnes_reponses": [
+        "Sofia mange une pomme",
+        "Sofia mange une pomme."
+      ],
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "reponse-courte",
+      "texte": "au / joue / Léo / ballon",
+      "question": "Écris la phrase dans le bon ordre.",
+      "bonnes_reponses": [
+        "Léo joue au ballon",
+        "Léo joue au ballon."
+      ],
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "reponse-courte",
+      "texte": "chien / le / court / vite",
+      "question": "Écris la phrase dans le bon ordre.",
+      "bonnes_reponses": [
+        "le chien court vite",
+        "le chien court vite."
+      ],
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "reponse-courte",
+      "texte": "Clara / judo / du / fait",
+      "question": "Écris la phrase dans le bon ordre.",
+      "bonnes_reponses": [
+        "Clara fait du judo",
+        "Clara fait du judo."
+      ],
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "reponse-courte",
+      "texte": "les / chantent / enfants / bien / très",
+      "question": "Écris la phrase dans le bon ordre.",
+      "bonnes_reponses": [
+        "les enfants chantent très bien",
+        "les enfants chantent très bien."
+      ],
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "reponse-courte",
+      "texte": "renard / la / le / traverse / forêt",
+      "question": "Écris la phrase dans le bon ordre.",
+      "bonnes_reponses": [
+        "le renard traverse la forêt",
+        "le renard traverse la forêt."
+      ],
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "reponse-courte",
+      "texte": "boit / Inès / de l'eau / le judo / après",
+      "question": "Écris la phrase dans le bon ordre.",
+      "bonnes_reponses": [
+        "Inès boit de l'eau après le judo",
+        "Inès boit de l'eau après le judo.",
+        "Inès boit de l’eau après le judo",
+        "Inès boit de l’eau après le judo."
+      ],
+      "points": 10
+    }
+  ]
+}

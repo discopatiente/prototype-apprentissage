@@ -1,0 +1,112 @@
+{
+  "id": "lesson-maths-30",
+  "theme": "maths",
+  "titre": "Quelle opération ?",
+  "description": "Lis le problème, choisis la bonne opération, puis trouve le résultat",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Léa a 7 billes. Inès lui en donne 5. Combien Léa a-t-elle de billes maintenant ?",
+      "question": "Quelle opération faut-il faire ?",
+      "choix": [
+        "Une addition : 7 + 5",
+        "Une soustraction : 7 - 5",
+        "Une multiplication : 7 x 5"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Léa a 7 billes. Inès lui en donne 5. Combien Léa a-t-elle de billes maintenant ?",
+      "question": "Combien Léa a-t-elle de billes maintenant ?",
+      "choix": [
+        "11",
+        "12",
+        "13"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Clara a 15 cartes. Elle en donne 6 à Laura. Combien de cartes reste-t-il à Clara ?",
+      "question": "Quelle opération faut-il faire ?",
+      "choix": [
+        "Une addition : 15 + 6",
+        "Une multiplication : 15 x 6",
+        "Une soustraction : 15 - 6"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Clara a 15 cartes. Elle en donne 6 à Laura. Combien de cartes reste-t-il à Clara ?",
+      "question": "Combien de cartes reste-t-il à Clara ?",
+      "choix": [
+        "8",
+        "10",
+        "9"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Au club de judo, il y a 4 tapis. Sur chaque tapis, il y a 5 enfants. Combien d'enfants y a-t-il en tout ?",
+      "question": "Quelle opération faut-il faire ?",
+      "choix": [
+        "Une soustraction : 5 - 4",
+        "Une multiplication : 4 x 5",
+        "Une addition : 4 + 5"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Au club de judo, il y a 4 tapis. Sur chaque tapis, il y a 5 enfants. Combien d'enfants y a-t-il en tout ?",
+      "question": "Combien d'enfants y a-t-il en tout ?",
+      "choix": [
+        "9",
+        "25",
+        "20"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Sofia a 12 carrés de chocolat. Elle les partage en parts égales entre 3 amies. Combien de carrés reçoit chaque amie ?",
+      "question": "Quelle opération faut-il faire ?",
+      "choix": [
+        "Une division : 12 ÷ 3",
+        "Une addition : 12 + 3",
+        "Une soustraction : 12 - 3"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Sofia a 12 carrés de chocolat. Elle les partage en parts égales entre 3 amies. Combien de carrés reçoit chaque amie ?",
+      "question": "Combien de carrés reçoit chaque amie ?",
+      "choix": [
+        "4",
+        "3",
+        "9"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

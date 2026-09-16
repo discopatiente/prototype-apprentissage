@@ -1,0 +1,90 @@
+{
+  "id": "lesson-francais-57",
+  "theme": "francais",
+  "titre": "Une promenade en forêt",
+  "description": "Lis l'histoire et réponds aux questions, même à celles dont la réponse n'est pas écrite",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Dimanche matin, Sofia et sa maman sont allées se promener dans la forêt. Il y avait du brouillard, on ne voyait pas très loin. Sofia a mis ses bottes, car le chemin était plein de boue. Sous les grands arbres, elle a trouvé de la mousse et des champignons. Elle a ramassé une feuille rouge pour la mettre dans son cahier. Tout à coup, un renard a traversé le chemin ! Sofia a serré très fort la main de sa maman. Puis le renard a disparu derrière un tronc. En rentrant, Sofia avait les joues toutes rouges et un grand sourire.",
+      "question": "Quand Sofia est-elle allée dans la forêt ?",
+      "choix": [
+        "Dimanche matin",
+        "Mercredi après-midi",
+        "Samedi soir"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Dimanche matin, Sofia et sa maman sont allées se promener dans la forêt. Il y avait du brouillard, on ne voyait pas très loin. Sofia a mis ses bottes, car le chemin était plein de boue. Sous les grands arbres, elle a trouvé de la mousse et des champignons. Elle a ramassé une feuille rouge pour la mettre dans son cahier. Tout à coup, un renard a traversé le chemin ! Sofia a serré très fort la main de sa maman. Puis le renard a disparu derrière un tronc. En rentrant, Sofia avait les joues toutes rouges et un grand sourire.",
+      "question": "Quel temps faisait-il ?",
+      "choix": [
+        "Il neigeait",
+        "Il y avait du brouillard",
+        "Il faisait très chaud"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Dimanche matin, Sofia et sa maman sont allées se promener dans la forêt. Il y avait du brouillard, on ne voyait pas très loin. Sofia a mis ses bottes, car le chemin était plein de boue. Sous les grands arbres, elle a trouvé de la mousse et des champignons. Elle a ramassé une feuille rouge pour la mettre dans son cahier. Tout à coup, un renard a traversé le chemin ! Sofia a serré très fort la main de sa maman. Puis le renard a disparu derrière un tronc. En rentrant, Sofia avait les joues toutes rouges et un grand sourire.",
+      "question": "Pourquoi Sofia a-t-elle mis ses bottes ?",
+      "choix": [
+        "Parce qu'il faisait froid",
+        "Parce que le chemin était plein de boue",
+        "Parce qu'elle allait à la piscine"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Dimanche matin, Sofia et sa maman sont allées se promener dans la forêt. Il y avait du brouillard, on ne voyait pas très loin. Sofia a mis ses bottes, car le chemin était plein de boue. Sous les grands arbres, elle a trouvé de la mousse et des champignons. Elle a ramassé une feuille rouge pour la mettre dans son cahier. Tout à coup, un renard a traversé le chemin ! Sofia a serré très fort la main de sa maman. Puis le renard a disparu derrière un tronc. En rentrant, Sofia avait les joues toutes rouges et un grand sourire.",
+      "question": "À ton avis, en quelle saison se passe l'histoire ?",
+      "choix": [
+        "En été",
+        "Au printemps",
+        "En automne"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Dimanche matin, Sofia et sa maman sont allées se promener dans la forêt. Il y avait du brouillard, on ne voyait pas très loin. Sofia a mis ses bottes, car le chemin était plein de boue. Sous les grands arbres, elle a trouvé de la mousse et des champignons. Elle a ramassé une feuille rouge pour la mettre dans son cahier. Tout à coup, un renard a traversé le chemin ! Sofia a serré très fort la main de sa maman. Puis le renard a disparu derrière un tronc. En rentrant, Sofia avait les joues toutes rouges et un grand sourire.",
+      "question": "Que ressent Sofia quand le renard traverse le chemin ?",
+      "choix": [
+        "Elle a un peu peur",
+        "Elle s'ennuie",
+        "Elle est en colère"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "reponse-courte",
+      "texte": "Dimanche matin, Sofia et sa maman sont allées se promener dans la forêt. Il y avait du brouillard, on ne voyait pas très loin. Sofia a mis ses bottes, car le chemin était plein de boue. Sous les grands arbres, elle a trouvé de la mousse et des champignons. Elle a ramassé une feuille rouge pour la mettre dans son cahier. Tout à coup, un renard a traversé le chemin ! Sofia a serré très fort la main de sa maman. Puis le renard a disparu derrière un tronc. En rentrant, Sofia avait les joues toutes rouges et un grand sourire.",
+      "question": "Quel animal a traversé le chemin ? Écris ta réponse.",
+      "bonnes_reponses": [
+        "renard",
+        "un renard",
+        "le renard",
+        "renard.",
+        "un renard.",
+        "le renard.",
+        "c'est un renard",
+        "c'est un renard."
+      ],
+      "points": 10
+    }
+  ]
+}

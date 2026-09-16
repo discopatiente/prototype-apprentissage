@@ -1,0 +1,49 @@
+{
+  "id": "lesson-musique-09",
+  "theme": "musique",
+  "titre": "Frappe le rythme",
+  "description": "À toi de faire la musique : frappe des rythmes dans tes mains",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Aujourd'hui, ce n'est pas toi qui écoutes : c'est toi qui fais la musique ! On va frapper des rythmes dans les mains. 👏 veut dire : je frappe. 🤫 veut dire : je fais silence, sans frapper."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Commençons doucement. Frappe quatre fois, bien régulièrement, comme un cœur qui bat. Compte dans ta tête : 1, 2, 3, 4.",
+      "visuel": "👏 👏 👏 👏"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Maintenant, on ajoute un silence. Frappe, frappe, silence, frappe. Recommence trois fois.",
+      "visuel": "👏 👏 🤫 👏"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Un rythme un peu plus difficile : deux frappes rapides, puis une frappe lente. Dis « ta-ta taaa » en même temps.",
+      "visuel": "👏👏 👏"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Change de timbre ! Frappe sur tes genoux, puis dans les mains. Le son n'est pas le même : c'est ce qu'on appelle le timbre.",
+      "visuel": "🦵 🦵 👏 👏"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Joue avec le tempo : frappe ce rythme d'abord lentement, puis de plus en plus vite.",
+      "visuel": "👏 🤫 👏 🤫"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "À toi d'inventer ! Choisis un rythme avec des frappes et des silences, et fais-le écouter à quelqu'un. Il doit essayer de le refaire.",
+      "visuel": "👏 ❓ ❓ ❓"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la refaire quand tu veux, en inventant de nouveaux rythmes.",
+      "visuel": "🎉"
+    }
+  ]
+}

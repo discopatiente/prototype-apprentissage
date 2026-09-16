@@ -1,0 +1,99 @@
+{
+  "id": "lesson-svt-03",
+  "theme": "svt",
+  "titre": "Bien manger pour bien bouger",
+  "description": "Découvre les familles d'aliments et ce dont ton corps a besoin",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Pour bouger, grandir et réfléchir, ton corps a besoin d'énergie. Cette énergie vient de ce que tu manges. Il y a plusieurs familles d'aliments : les fruits et légumes, les féculents comme le pain, les pâtes et le riz, les produits laitiers comme le lait et le fromage, et les protéines comme la viande, le poisson et les œufs.",
+      "question": "D'où vient l'énergie de ton corps ?",
+      "choix": [
+        "De la télévision",
+        "De ce que tu manges",
+        "Du soleil"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Pour bouger, grandir et réfléchir, ton corps a besoin d'énergie. Cette énergie vient de ce que tu manges. Il y a plusieurs familles d'aliments : les fruits et légumes, les féculents comme le pain, les pâtes et le riz, les produits laitiers comme le lait et le fromage, et les protéines comme la viande, le poisson et les œufs.",
+      "question": "Le pain et les pâtes font partie de la famille…",
+      "choix": [
+        "Des féculents",
+        "Des fruits et légumes",
+        "Des produits laitiers"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Pour bouger, grandir et réfléchir, ton corps a besoin d'énergie. Cette énergie vient de ce que tu manges. Il y a plusieurs familles d'aliments : les fruits et légumes, les féculents comme le pain, les pâtes et le riz, les produits laitiers comme le lait et le fromage, et les protéines comme la viande, le poisson et les œufs.",
+      "question": "Le fromage fait partie de la famille…",
+      "choix": [
+        "Des protéines",
+        "Des féculents",
+        "Des produits laitiers"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Le petit-déjeuner est un repas important : il donne de l'énergie pour toute la matinée. Les bonbons et les gâteaux donnent de l'énergie très vite, mais elle ne dure pas longtemps. C'est pour ça qu'il faut en manger seulement de temps en temps.",
+      "question": "Pourquoi le petit-déjeuner est-il important ?",
+      "choix": [
+        "Il donne de l'énergie pour la matinée",
+        "Il fait dormir",
+        "Il n'est pas important"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Le petit-déjeuner est un repas important : il donne de l'énergie pour toute la matinée. Les bonbons et les gâteaux donnent de l'énergie très vite, mais elle ne dure pas longtemps. C'est pour ça qu'il faut en manger seulement de temps en temps.",
+      "question": "Les bonbons, il faut en manger…",
+      "choix": [
+        "À tous les repas",
+        "De temps en temps",
+        "Jamais, c'est interdit"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Ton corps est fait en grande partie d'eau. Chaque jour, tu en perds en transpirant et en allant aux toilettes. Il faut donc boire de l'eau régulièrement, surtout quand il fait chaud ou quand tu fais du sport.",
+      "question": "Quelle boisson faut-il boire régulièrement ?",
+      "choix": [
+        "Du soda",
+        "Du jus de fruits",
+        "De l'eau"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Ton corps est fait en grande partie d'eau. Chaque jour, tu en perds en transpirant et en allant aux toilettes. Il faut donc boire de l'eau régulièrement, surtout quand il fait chaud ou quand tu fais du sport.",
+      "question": "Quand faut-il boire encore plus ?",
+      "choix": [
+        "Quand il fait chaud ou après le sport",
+        "Quand on regarde la télévision",
+        "Quand on dort"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

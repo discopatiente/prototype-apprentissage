@@ -1,0 +1,49 @@
+{
+  "id": "lesson-svt-01",
+  "theme": "svt",
+  "titre": "Mon corps bouge",
+  "description": "Découvre les os, les articulations et les muscles qui te font bouger au judo",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Aujourd'hui, on va découvrir comment ton corps bouge. Au judo, tu plies, tu tires, tu pousses : tout ça, c'est grâce à ton squelette et à tes muscles."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Sous ta peau, il y a des os. Tous les os ensemble forment le squelette. Le squelette tient ton corps droit, comme les poteaux tiennent une tente.",
+      "visuel": "🦴"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Les endroits où deux os se rejoignent s'appellent des articulations. Le genou, le coude et l'épaule sont des articulations. C'est là que ton corps peut se plier.",
+      "visuel": "🦵 | 💪"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Les muscles sont attachés aux os. Quand un muscle se contracte, il devient plus court et il tire sur l'os. C'est comme ça que ton bras se plie.",
+      "visuel": "💪"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Au judo, quand tu tires sur le kimono de ton adversaire, ce sont les muscles de tes bras qui travaillent. Quand tu fais une chute, ce sont tes articulations qui plient pour t'amortir.",
+      "visuel": "🥋"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Plus tu t'entraînes, plus tes muscles deviennent forts. Mais ils ont aussi besoin de repos pour grandir.",
+      "visuel": "🏋️ | 😴"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Retiens : les os forment le squelette, les articulations permettent de plier, et les muscles tirent sur les os pour faire bouger le corps.",
+      "visuel": "🦴 | 🦵 | 💪"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

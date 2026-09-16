@@ -1,0 +1,108 @@
+{
+  "id": "lesson-maths-27",
+  "theme": "maths",
+  "titre": "Additions qui passent la dizaine",
+  "description": "Entraîne-toi à additionner en passant par 10, avec des résultats entre 11 et 18",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "8 + 5 = ...",
+      "consigne": "Pense à passer par 10",
+      "avant": "8 + 5 = ",
+      "apres": "",
+      "reponse": 13,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "9 + 3 = ...",
+      "consigne": "Pense à passer par 10",
+      "avant": "9 + 3 = ",
+      "apres": "",
+      "reponse": 12,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "7 + 5 = ...",
+      "consigne": "Pense à passer par 10",
+      "avant": "7 + 5 = ",
+      "apres": "",
+      "reponse": 12,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "... = 8 + 6",
+      "consigne": "Pense à passer par 10",
+      "avant": "",
+      "apres": " = 8 + 6",
+      "reponse": 14,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "9 + 6 = ...",
+      "consigne": "Pense à passer par 10",
+      "avant": "9 + 6 = ",
+      "apres": "",
+      "reponse": 15,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "6 + 7 = ...",
+      "consigne": "Pense à passer par 10",
+      "avant": "6 + 7 = ",
+      "apres": "",
+      "reponse": 13,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "... = 7 + 7",
+      "consigne": "Pense à passer par 10",
+      "avant": "",
+      "apres": " = 7 + 7",
+      "reponse": 14,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "8 + 8 = ...",
+      "consigne": "Pense à passer par 10",
+      "avant": "8 + 8 = ",
+      "apres": "",
+      "reponse": 16,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "9 + 8 = ...",
+      "consigne": "Pense à passer par 10",
+      "avant": "9 + 8 = ",
+      "apres": "",
+      "reponse": 17,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "... = 9 + 9",
+      "consigne": "Pense à passer par 10",
+      "avant": "",
+      "apres": " = 9 + 9",
+      "reponse": 18,
+      "points": 10
+    }
+  ]
+}

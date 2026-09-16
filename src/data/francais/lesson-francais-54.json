@@ -1,0 +1,138 @@
+{
+  "id": "lesson-francais-54",
+  "theme": "francais",
+  "titre": "Les mots qu'on écrit souvent (2)",
+  "description": "Deuxième série de mots fréquents du quotidien à bien orthographier",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Certains mots reviennent très souvent à l'écrit. Il faut bien connaître leur orthographe, car on ne peut pas toujours la deviner en les entendant. Sofia et Léa jouent toujours ensemble à la récréation.",
+      "question": "Comment s'écrit correctement le mot qui veut dire l'une avec l'autre ?",
+      "choix": [
+        "Ensemble",
+        "Ansemble",
+        "Ensanble"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Aujourd'hui, c'est mercredi : il y a judo.",
+      "question": "Comment s'écrit correctement le mot qui veut dire ce jour-ci ?",
+      "choix": [
+        "Aujourdui",
+        "Aujourd'hui",
+        "Ojourd'hui"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Inès mange un carré de chocolat après le repas.",
+      "question": "Comment s'écrit correctement le mot qui veut dire cette friandise marron ?",
+      "choix": [
+        "Chocola",
+        "Chokolat",
+        "Chocolat"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Maintenant, il faut ranger les affaires.",
+      "question": "Comment s'écrit correctement le mot qui veut dire en ce moment ?",
+      "choix": [
+        "Maintenant",
+        "Maintenan",
+        "Mintenant"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Clara a toujours son sac de judo avec elle.",
+      "question": "Comment s'écrit correctement le mot qui veut dire tout le temps ?",
+      "choix": [
+        "Toujour",
+        "Toujours",
+        "Tousjours"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Le chien de Léa est très gentil.",
+      "question": "Comment s'écrit correctement le mot qui veut dire beaucoup ?",
+      "choix": [
+        "Trè",
+        "Trés",
+        "Très"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Rex dort dans son panier, dans la maison.",
+      "question": "Comment s'écrit correctement le mot qui veut dire l'endroit où on habite ?",
+      "choix": [
+        "Maison",
+        "Mézon",
+        "Maizon"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Léo va à l'école tous les matins.",
+      "question": "Comment s'écrit correctement le mot qui veut dire l'endroit où on apprend ?",
+      "choix": [
+        "Écolle",
+        "École",
+        "Écaule"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Il n'y a jamais de judo le dimanche.",
+      "question": "Comment s'écrit correctement le mot qui veut dire à aucun moment ?",
+      "choix": [
+        "Jamé",
+        "Jamès",
+        "Jamais"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Sofia aime bien le chocolat, mais elle préfère les pommes.",
+      "question": "Comment s'écrit correctement le mot qui veut dire pourtant, sauf que ?",
+      "choix": [
+        "Mais",
+        "Mès",
+        "Mai"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

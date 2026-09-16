@@ -1,0 +1,108 @@
+{
+  "id": "lesson-maths-28",
+  "theme": "maths",
+  "titre": "Soustractions qui passent la dizaine",
+  "description": "Entraîne-toi à soustraire en repassant par 10, à partir de nombres entre 11 et 18",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "13 - 5 = ...",
+      "consigne": "Pense à passer par 10",
+      "avant": "13 - 5 = ",
+      "apres": "",
+      "reponse": 8,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "12 - 3 = ...",
+      "consigne": "Pense à passer par 10",
+      "avant": "12 - 3 = ",
+      "apres": "",
+      "reponse": 9,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "15 - 7 = ...",
+      "consigne": "Pense à passer par 10",
+      "avant": "15 - 7 = ",
+      "apres": "",
+      "reponse": 8,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "... = 11 - 4",
+      "consigne": "Pense à passer par 10",
+      "avant": "",
+      "apres": " = 11 - 4",
+      "reponse": 7,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "14 - 6 = ...",
+      "consigne": "Pense à passer par 10",
+      "avant": "14 - 6 = ",
+      "apres": "",
+      "reponse": 8,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "16 - 9 = ...",
+      "consigne": "Pense à passer par 10",
+      "avant": "16 - 9 = ",
+      "apres": "",
+      "reponse": 7,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "... = 13 - 6",
+      "consigne": "Pense à passer par 10",
+      "avant": "",
+      "apres": " = 13 - 6",
+      "reponse": 7,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "17 - 8 = ...",
+      "consigne": "Pense à passer par 10",
+      "avant": "17 - 8 = ",
+      "apres": "",
+      "reponse": 9,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "14 - 5 = ...",
+      "consigne": "Pense à passer par 10",
+      "avant": "14 - 5 = ",
+      "apres": "",
+      "reponse": 9,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "... = 18 - 9",
+      "consigne": "Pense à passer par 10",
+      "avant": "",
+      "apres": " = 18 - 9",
+      "reponse": 9,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "lesson-francais-52",
+  "theme": "francais",
+  "titre": "Quel temps ?",
+  "description": "Reconnais si le verbe est au présent, au passé composé, à l'imparfait ou au futur",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Rappel : maintenant, c'est le présent (je joue). Hier, c'est le passé composé (j'ai joué). Souvent, avant, c'est l'imparfait (je jouais). Demain, c'est le futur simple (je jouerai). Maintenant, Sofia joue au ballon dans le jardin.",
+      "question": "À quel temps est le verbe « joue » ?",
+      "choix": [
+        "Présent",
+        "Passé composé",
+        "Imparfait",
+        "Futur simple"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Hier, Léo a mangé une pomme après le judo.",
+      "question": "À quel temps est le verbe « a mangé » ?",
+      "choix": [
+        "Présent",
+        "Passé composé",
+        "Imparfait",
+        "Futur simple"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Quand elle était petite, Clara chantait tous les soirs.",
+      "question": "À quel temps est le verbe « chantait » ?",
+      "choix": [
+        "Présent",
+        "Passé composé",
+        "Imparfait",
+        "Futur simple"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Demain, nous jouerons au parc avec nos amis.",
+      "question": "À quel temps est le verbe « jouerons » ?",
+      "choix": [
+        "Présent",
+        "Passé composé",
+        "Imparfait",
+        "Futur simple"
+      ],
+      "bonne_reponse": 3,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Avant, je regardais souvent les nuages dans le ciel.",
+      "question": "À quel temps est le verbe « regardais » ?",
+      "choix": [
+        "Présent",
+        "Passé composé",
+        "Imparfait",
+        "Futur simple"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Tu as chanté très fort à la fête de l'école.",
+      "question": "À quel temps est le verbe « as chanté » ?",
+      "choix": [
+        "Présent",
+        "Passé composé",
+        "Imparfait",
+        "Futur simple"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "L'année prochaine, Inès jouera dans un grand tournoi de judo.",
+      "question": "À quel temps est le verbe « jouera » ?",
+      "choix": [
+        "Présent",
+        "Passé composé",
+        "Imparfait",
+        "Futur simple"
+      ],
+      "bonne_reponse": 3,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "En ce moment, les enfants mangent leur goûter.",
+      "question": "À quel temps est le verbe « mangent » ?",
+      "choix": [
+        "Présent",
+        "Passé composé",
+        "Imparfait",
+        "Futur simple"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Ce matin, tu as joué avec ton chien dans le parc.",
+      "question": "À quel temps est le verbe « as joué » ?",
+      "choix": [
+        "Présent",
+        "Passé composé",
+        "Imparfait",
+        "Futur simple"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Bientôt, vous chanterez devant toute l'école.",
+      "question": "À quel temps est le verbe « chanterez » ?",
+      "choix": [
+        "Présent",
+        "Passé composé",
+        "Imparfait",
+        "Futur simple"
+      ],
+      "bonne_reponse": 3,
+      "points": 10
+    }
+  ]
+}

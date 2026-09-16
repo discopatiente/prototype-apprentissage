@@ -1,0 +1,138 @@
+{
+  "id": "lesson-francais-53",
+  "theme": "francais",
+  "titre": "Le bon temps",
+  "description": "Choisis la bonne forme du verbe selon le moment : hier, maintenant ou demain",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Rappel : hier, c'est le passé composé. Maintenant, tous les jours, c'est le présent. Avant, souvent, c'est l'imparfait. Demain, bientôt, c'est le futur simple. Hier, Sofia ___ une pomme après le judo.",
+      "question": "Quelle est la bonne forme du verbe manger ?",
+      "choix": [
+        "a mangé",
+        "mange",
+        "mangera"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Demain, nous ___ au parc avec nos amis.",
+      "question": "Quelle est la bonne forme du verbe jouer ?",
+      "choix": [
+        "jouons",
+        "jouerons",
+        "avons joué"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Tous les jours, Léo ___ avec son chien.",
+      "question": "Quelle est la bonne forme du verbe jouer ?",
+      "choix": [
+        "a joué",
+        "jouera",
+        "joue"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Quand j'étais petite, je ___ tous les soirs.",
+      "question": "Quelle est la bonne forme du verbe chanter ?",
+      "choix": [
+        "chantais",
+        "chanterai",
+        "chante"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "En ce moment, les enfants ___ leur goûter.",
+      "question": "Quelle est la bonne forme du verbe manger ?",
+      "choix": [
+        "mangeront",
+        "mangent",
+        "ont mangé"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "L'année prochaine, tu ___ dans un grand tournoi.",
+      "question": "Quelle est la bonne forme du verbe jouer ?",
+      "choix": [
+        "jouais",
+        "as joué",
+        "joueras"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Ce matin, vous ___ très fort à la fête.",
+      "question": "Quelle est la bonne forme du verbe chanter ?",
+      "choix": [
+        "chanterez",
+        "avez chanté",
+        "chantez"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Avant, Clara ___ souvent les nuages.",
+      "question": "Quelle est la bonne forme du verbe regarder ?",
+      "choix": [
+        "regardait",
+        "regardera",
+        "regarde"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Bientôt, je ___ devant toute l'école.",
+      "question": "Quelle est la bonne forme du verbe chanter ?",
+      "choix": [
+        "chante",
+        "ai chanté",
+        "chanterai"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Maintenant, tu ___ au ballon dans le jardin.",
+      "question": "Quelle est la bonne forme du verbe jouer ?",
+      "choix": [
+        "joues",
+        "as joué",
+        "jouais"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}
