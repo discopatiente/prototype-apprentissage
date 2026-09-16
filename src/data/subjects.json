@@ -210,17 +210,8 @@
           "lesson-maths-26",
           "lesson-maths-27",
           "lesson-maths-28",
-          "lesson-maths-29"
-        ]
-      },
-      {
-        "id": "niveau-8",
-        "titre": "Niveau 8",
-        "nouveau": true,
-        "lessons": [
-          "lesson-maths-30",
-          "lesson-maths-31",
-          "lesson-maths-32"
+          "lesson-maths-29",
+          "lesson-maths-30"
         ]
       }
     ]
@@ -270,8 +261,7 @@
         "lessons": [
           "lesson-svt-01",
           "lesson-svt-02",
-          "lesson-svt-03",
-          "lesson-svt-04"
+          "lesson-svt-03"
         ]
       }
     ]

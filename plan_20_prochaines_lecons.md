@@ -26,16 +26,18 @@ Planifié le 16 septembre 2026, à partir de l'état du contenu (51 leçons de f
 | 10 | lesson-musique-08 | Musique | Cordes et cuivres | qcm-texte | Nouveauté | Familles d'instruments, série 2 |
 | 11 | lesson-francais-55 | Français | Tout s'accorde | qcm-texte | Consolidation | Accords simples |
 | 12 | lesson-maths-30 | Maths | Quelle opération ? | qcm-texte | Nouveauté | Résolution de problèmes du quotidien |
-| 13 | lesson-svt-03 | SVT | Bien manger pour bien bouger | qcm-texte | Nouveauté | Alimentation et besoins du corps |
+| 13 | ~~lesson-svt-03~~ | SVT | Bien manger pour bien bouger | qcm-texte | **Reportée** | Alimentation et besoins du corps |
 | 14 | lesson-francais-56 | Français | Les mots de la nature | diaporama | Nouveauté | Enrichissement du lexique, série 2 |
 | 15 | lesson-francais-57 | Français | Une promenade en forêt | qcm-texte + reponse-courte | Consolidation | Compréhension explicite et inférence |
-| 16 | lesson-svt-04 | SVT | Les quatre saisons | qcm-texte | Nouveauté | Écologie simple, saisons |
-| 17 | lesson-maths-31 | Maths | Lire l'heure | diaporama | Nouveauté | Grandeurs et mesures, heure |
-| 18 | lesson-maths-32 | Maths | Quelle heure est-il ? | qcm | Entraînement | Grandeurs et mesures, heure |
+| 16 | lesson-svt-03 | SVT | Les quatre saisons | qcm-texte | Nouveauté | Écologie simple, saisons |
+| 17 | ~~lesson-maths-31~~ | Maths | Lire l'heure | diaporama | **Reportée** | Grandeurs et mesures, heure |
+| 18 | ~~lesson-maths-32~~ | Maths | Quelle heure est-il ? | qcm | **Reportée** | Grandeurs et mesures, heure |
 | 19 | lesson-francais-58 | Français | Remets les mots dans l'ordre | reponse-courte | Nouveauté | Production d'écrit courte et guidée |
 | 20 | lesson-musique-09 | Musique | Frappe le rythme | diaporama | Ouverture | Produire un rythme simple |
 
 Bilan : 7 maths, 7 français, 4 SVT, 2 musique. 7 leçons de consolidation, 13 de nouveauté ou d'entraînement d'une notion nouvelle.
+
+**Mise à jour du 16 septembre 2026** : les leçons 13 (alimentation), 17 et 18 (heure) sont reportées à une session ultérieure, à la demande du responsable pédagogique. Dix-sept leçons ont été créées. La leçon sur les saisons porte l'id `lesson-svt-03`.
 
 ## Détail par leçon
 
@@ -55,7 +57,7 @@ Découvrir la stratégie 8 + 5 = 8 + 2 + 3. Écrans : des bonbons qu'on regroupe
 **29. Multiplier et diviser** (trou-numerique, 12 exercices)
 Consolidation double : la division est encore « EC » dans le suivi, et la mémorisation des tables (série 2) n'a pas encore eu de leçon dédiée. Présenter les faits par paires : 3 × 4 = …, puis 12 ÷ 3 = …. Tables de 2, 3, 4, 5 et 10.
 
-### Maths — Niveau 8 « Problèmes et mesures » (30 à 32)
+### Maths — Niveau 8 « Problèmes et mesures » (30 à 32) — la leçon 30 a finalement rejoint le niveau 7
 
 **30. Quelle opération ?** (qcm-texte, 8 exercices)
 Petits problèmes du quotidien avec les personnages habituels (Léa, Inès, Clara, Laura). Première question : « Quelle opération faut-il faire ? » (choix : addition, soustraction, multiplication, division). Deuxième question : le résultat. Cela travaille le sens des opérations plutôt que le calcul seul.

@@ -30,7 +30,7 @@ Domaines du socle : D1 langages pour penser et communiquer, D3 formation de la p
 | Multiplication, table, série 2 | Mémoriser et mobiliser des faits multiplicatifs | C2 vers C3 | D1, D4 | EC |
 | Division simple | Comprendre le sens de la division | C3 | D1, D4 | EC |
 | Résolution de problèmes du quotidien | Résoudre des problèmes, compétence transversale | C2 vers C3 | D1, D4 | EC |
-| Grandeurs et mesures, heure, monnaie, longueurs | Mesurer et comparer des grandeurs | C2 vers C3 | D4 | EC (heure) |
+| Grandeurs et mesures, heure, monnaie, longueurs (à venir) | Mesurer et comparer des grandeurs | C2 vers C3 | D4 | |
 | Repères de géométrie (à venir) | Reconnaître et nommer des figures, se repérer dans l'espace | C2 vers C3 | D4 | |
 
 ## SVT
@@ -40,7 +40,7 @@ Domaines du socle : D1 langages pour penser et communiquer, D3 formation de la p
 | Corps humain, mouvement et effort, lien judo | Corps humain et santé, mouvement, effort, récupération | C3, ouverture C4 | D4 | EC |
 | Fonctions de nutrition, respiration, circulation, digestion | Relier l'approvisionnement des organes aux fonctions de nutrition | C3 | D4 | |
 | Le vivant et son environnement, animaux et végétaux | Classer le vivant, relations entre un être vivant et son milieu | C3 | D4 | |
-| Alimentation et besoins du corps | Besoins alimentaires, qualité et quantité, hygiène alimentaire | C3 | D4 | EC |
+| Alimentation et besoins du corps (à venir) | Besoins alimentaires, qualité et quantité, hygiène alimentaire | C3 | D4 | |
 | Écologie simple, cycle de l'eau, saisons | La planète Terre lieu de vie, rythmes du vivant | C3 | D4 | EC (saisons) |
 
 ## Musique
@@ -59,4 +59,4 @@ Une notion peut rester en EC plusieurs séances avant de passer en A. Il est nor
 
 ## Leçons du 16 septembre 2026
 
-Vingt leçons ajoutées selon `plan_20_prochaines_lecons.md` : maths 26 à 32, français 52 à 58, sciences 01 à 04 (nouvelle matière), musique 08 et 09. Les notions passées en EC ci-dessus correspondent à ces leçons.
+Dix-sept leçons ajoutées selon `plan_20_prochaines_lecons.md` : maths 26 à 30, français 52 à 58, sciences 01 à 03 (nouvelle matière), musique 08 et 09. Les leçons sur l'heure et sur l'alimentation, prévues au plan, sont reportées. Les notions passées en EC ci-dessus correspondent à ces leçons.

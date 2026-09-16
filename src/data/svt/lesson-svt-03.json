@@ -1,18 +1,18 @@
 {
   "id": "lesson-svt-03",
   "theme": "svt",
-  "titre": "Bien manger pour bien bouger",
-  "description": "Découvre les familles d'aliments et ce dont ton corps a besoin",
+  "titre": "Les quatre saisons",
+  "description": "Découvre ce qui change dans la nature et chez les animaux à chaque saison",
   "exercices": [
     {
       "id": "ex-01",
       "type": "qcm-texte",
-      "texte": "Pour bouger, grandir et réfléchir, ton corps a besoin d'énergie. Cette énergie vient de ce que tu manges. Il y a plusieurs familles d'aliments : les fruits et légumes, les féculents comme le pain, les pâtes et le riz, les produits laitiers comme le lait et le fromage, et les protéines comme la viande, le poisson et les œufs.",
-      "question": "D'où vient l'énergie de ton corps ?",
+      "texte": "Une année est divisée en quatre saisons : le printemps, l'été, l'automne et l'hiver. Elles reviennent toujours dans le même ordre. Chaque saison dure environ trois mois.",
+      "question": "Combien y a-t-il de saisons dans une année ?",
       "choix": [
-        "De la télévision",
-        "De ce que tu manges",
-        "Du soleil"
+        "Deux",
+        "Quatre",
+        "Douze"
       ],
       "bonne_reponse": 1,
       "points": 10
@@ -20,12 +20,12 @@
     {
       "id": "ex-02",
       "type": "qcm-texte",
-      "texte": "Pour bouger, grandir et réfléchir, ton corps a besoin d'énergie. Cette énergie vient de ce que tu manges. Il y a plusieurs familles d'aliments : les fruits et légumes, les féculents comme le pain, les pâtes et le riz, les produits laitiers comme le lait et le fromage, et les protéines comme la viande, le poisson et les œufs.",
-      "question": "Le pain et les pâtes font partie de la famille…",
+      "texte": "Une année est divisée en quatre saisons : le printemps, l'été, l'automne et l'hiver. Elles reviennent toujours dans le même ordre. Chaque saison dure environ trois mois.",
+      "question": "Quelle saison vient juste après l'été ?",
       "choix": [
-        "Des féculents",
-        "Des fruits et légumes",
-        "Des produits laitiers"
+        "L'automne",
+        "Le printemps",
+        "L'hiver"
       ],
       "bonne_reponse": 0,
       "points": 10
@@ -33,12 +33,12 @@
     {
       "id": "ex-03",
       "type": "qcm-texte",
-      "texte": "Pour bouger, grandir et réfléchir, ton corps a besoin d'énergie. Cette énergie vient de ce que tu manges. Il y a plusieurs familles d'aliments : les fruits et légumes, les féculents comme le pain, les pâtes et le riz, les produits laitiers comme le lait et le fromage, et les protéines comme la viande, le poisson et les œufs.",
-      "question": "Le fromage fait partie de la famille…",
+      "texte": "Au printemps, il fait plus doux, les bourgeons s'ouvrent et beaucoup d'animaux ont leurs petits. En été, les journées sont longues et chaudes, et les fruits mûrissent.",
+      "question": "À quelle saison les bourgeons s'ouvrent-ils ?",
       "choix": [
-        "Des protéines",
-        "Des féculents",
-        "Des produits laitiers"
+        "En hiver",
+        "En été",
+        "Au printemps"
       ],
       "bonne_reponse": 2,
       "points": 10
@@ -46,53 +46,53 @@
     {
       "id": "ex-04",
       "type": "qcm-texte",
-      "texte": "Le petit-déjeuner est un repas important : il donne de l'énergie pour toute la matinée. Les bonbons et les gâteaux donnent de l'énergie très vite, mais elle ne dure pas longtemps. C'est pour ça qu'il faut en manger seulement de temps en temps.",
-      "question": "Pourquoi le petit-déjeuner est-il important ?",
+      "texte": "Au printemps, il fait plus doux, les bourgeons s'ouvrent et beaucoup d'animaux ont leurs petits. En été, les journées sont longues et chaudes, et les fruits mûrissent.",
+      "question": "En été, les journées sont…",
       "choix": [
-        "Il donne de l'énergie pour la matinée",
-        "Il fait dormir",
-        "Il n'est pas important"
-      ],
-      "bonne_reponse": 0,
-      "points": 10
-    },
-    {
-      "id": "ex-05",
-      "type": "qcm-texte",
-      "texte": "Le petit-déjeuner est un repas important : il donne de l'énergie pour toute la matinée. Les bonbons et les gâteaux donnent de l'énergie très vite, mais elle ne dure pas longtemps. C'est pour ça qu'il faut en manger seulement de temps en temps.",
-      "question": "Les bonbons, il faut en manger…",
-      "choix": [
-        "À tous les repas",
-        "De temps en temps",
-        "Jamais, c'est interdit"
+        "Courtes et froides",
+        "Longues et chaudes",
+        "Toujours pluvieuses"
       ],
       "bonne_reponse": 1,
       "points": 10
     },
     {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "En automne, les feuilles des arbres changent de couleur et tombent. Certains animaux, comme l'écureuil, font des réserves de nourriture pour l'hiver. En hiver, il fait froid et les journées sont courtes. Certains animaux dorment tout l'hiver : on dit qu'ils hibernent, comme le hérisson.",
+      "question": "Que font les feuilles en automne ?",
+      "choix": [
+        "Elles changent de couleur et tombent",
+        "Elles poussent",
+        "Elles deviennent bleues"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
       "id": "ex-06",
       "type": "qcm-texte",
-      "texte": "Ton corps est fait en grande partie d'eau. Chaque jour, tu en perds en transpirant et en allant aux toilettes. Il faut donc boire de l'eau régulièrement, surtout quand il fait chaud ou quand tu fais du sport.",
-      "question": "Quelle boisson faut-il boire régulièrement ?",
+      "texte": "En automne, les feuilles des arbres changent de couleur et tombent. Certains animaux, comme l'écureuil, font des réserves de nourriture pour l'hiver. En hiver, il fait froid et les journées sont courtes. Certains animaux dorment tout l'hiver : on dit qu'ils hibernent, comme le hérisson.",
+      "question": "Que fait le hérisson en hiver ?",
       "choix": [
-        "Du soda",
-        "Du jus de fruits",
-        "De l'eau"
+        "Il part en vacances",
+        "Il dort tout l'hiver",
+        "Il fait des réserves"
       ],
-      "bonne_reponse": 2,
+      "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-07",
       "type": "qcm-texte",
-      "texte": "Ton corps est fait en grande partie d'eau. Chaque jour, tu en perds en transpirant et en allant aux toilettes. Il faut donc boire de l'eau régulièrement, surtout quand il fait chaud ou quand tu fais du sport.",
-      "question": "Quand faut-il boire encore plus ?",
+      "texte": "En automne, les feuilles des arbres changent de couleur et tombent. Certains animaux, comme l'écureuil, font des réserves de nourriture pour l'hiver. En hiver, il fait froid et les journées sont courtes. Certains animaux dorment tout l'hiver : on dit qu'ils hibernent, comme le hérisson.",
+      "question": "Pourquoi l'écureuil fait-il des réserves en automne ?",
       "choix": [
-        "Quand il fait chaud ou après le sport",
-        "Quand on regarde la télévision",
-        "Quand on dort"
+        "Pour jouer",
+        "Pour décorer son nid",
+        "Pour avoir à manger en hiver"
       ],
-      "bonne_reponse": 0,
+      "bonne_reponse": 2,
       "points": 10
     }
   ]
