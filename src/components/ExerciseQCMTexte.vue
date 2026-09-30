@@ -12,6 +12,8 @@
       class="exercise-image"
     />
 
+    <ImageRow v-if="exercise.images" :images="exercise.images" />
+
     <p class="question">{{ exercise.question }}</p>
 
     <div class="choices">
@@ -35,6 +37,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import ImageRow from './ImageRow.vue'
 
 const props = defineProps({
   exercise: { type: Object, required: true },

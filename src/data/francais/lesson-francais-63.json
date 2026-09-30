@@ -1,0 +1,164 @@
+{
+  "id": "lesson-francais-63",
+  "theme": "francais",
+  "titre": "Synonymes, contraires et in-/im-",
+  "description": "Entraîne-toi à trouver des synonymes, des contraires, et à fabriquer un contraire avec in- ou im-",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Trouve un synonyme de « content » :",
+      "mot": "content",
+      "choix": [
+        "joyeux",
+        "triste",
+        "grand"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Trouve un synonyme de « beau » :",
+      "mot": "beau",
+      "choix": [
+        "laid",
+        "joli",
+        "petit"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Trouve un synonyme de « grand » :",
+      "mot": "grand",
+      "choix": [
+        "petit",
+        "rapide",
+        "immense"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Trouve un synonyme de « fatigué » :",
+      "mot": "fatigué",
+      "choix": [
+        "épuisé",
+        "content",
+        "rapide"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Trouve le contraire de « chaud » :",
+      "mot": "chaud",
+      "choix": [
+        "grand",
+        "froid",
+        "joli"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Trouve le contraire de « jour » :",
+      "mot": "jour",
+      "choix": [
+        "matin",
+        "semaine",
+        "nuit"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Trouve le contraire de « plein » :",
+      "mot": "plein",
+      "choix": [
+        "vide",
+        "lourd",
+        "propre"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Trouve le contraire de « rapide » :",
+      "mot": "rapide",
+      "choix": [
+        "fort",
+        "lent",
+        "joli"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Quel est le contraire de « possible », avec in- ou im- ?",
+      "mot": "possible",
+      "choix": [
+        "inpossible",
+        "empossible",
+        "impossible"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Quel est le contraire de « patient », avec in- ou im- ?",
+      "mot": "patient",
+      "choix": [
+        "impatient",
+        "inpatient",
+        "patientable"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Quel est le contraire de « utile », avec in- ou im- ?",
+      "mot": "utile",
+      "choix": [
+        "imutile",
+        "inutile",
+        "utilement"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Quel est le contraire de « capable », avec in- ou im- ?",
+      "mot": "capable",
+      "choix": [
+        "imcapable",
+        "capablement",
+        "incapable"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

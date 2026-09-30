@@ -55,6 +55,8 @@
     </template>
 
     <template v-else>
+      <ImageRow v-if="ecran.images" :images="ecran.images" />
+
       <div v-if="groupes.length" class="visuel">
         <div v-for="(groupe, index) in groupes" :key="index" class="groupe">
           {{ groupe }}
@@ -68,6 +70,7 @@
 
 <script setup>
 import { computed } from 'vue'
+import ImageRow from './ImageRow.vue'
 
 const props = defineProps({
   ecran: { type: Object, required: true },

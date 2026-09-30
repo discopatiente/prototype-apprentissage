@@ -9,8 +9,12 @@
       "type": "qcm-texte",
       "texte": "Léo serre les poings et fronce les sourcils. Sa sœur vient de prendre son jouet préféré sans lui demander. Il claque la porte de sa chambre.",
       "question": "Comment se sent Léo ?",
-      "choix": ["Il est content", "Il est en colère", "Il est fatigué"],
-      "bonne_reponse": 1,
+      "choix": [
+        "Il est content",
+        "Il est fatigué",
+        "Il est en colère"
+      ],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -18,8 +22,12 @@
       "type": "qcm-texte",
       "texte": "Léo serre les poings et fronce les sourcils. Sa sœur vient de prendre son jouet préféré sans lui demander. Il claque la porte de sa chambre.",
       "question": "Pourquoi Léo réagit-il ainsi ?",
-      "choix": ["Parce qu'il a faim", "Parce qu'il est fatigué", "Parce que sa sœur a pris son jouet sans demander"],
-      "bonne_reponse": 2,
+      "choix": [
+        "Parce que sa sœur a pris son jouet sans demander",
+        "Parce qu'il a faim",
+        "Parce qu'il est fatigué"
+      ],
+      "bonne_reponse": 0,
       "points": 10
     },
     {
@@ -27,8 +35,12 @@
       "type": "qcm-texte",
       "texte": "Mia sourit de toutes ses dents. Elle saute partout dans le salon en tenant une lettre dans sa main. Elle vient d'apprendre qu'elle a gagné le concours de dessin.",
       "question": "Comment se sent Mia ?",
-      "choix": ["Elle est heureuse", "Elle est inquiète", "Elle est en colère"],
-      "bonne_reponse": 0,
+      "choix": [
+        "Elle est inquiète",
+        "Elle est heureuse",
+        "Elle est en colère"
+      ],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
@@ -36,8 +48,12 @@
       "type": "qcm-texte",
       "texte": "Mia sourit de toutes ses dents. Elle saute partout dans le salon en tenant une lettre dans sa main. Elle vient d'apprendre qu'elle a gagné le concours de dessin.",
       "question": "Pourquoi Mia est-elle si contente ?",
-      "choix": ["Elle a gagné un concours de dessin", "Elle a reçu un cadeau", "Elle part en vacances"],
-      "bonne_reponse": 0,
+      "choix": [
+        "Elle a reçu un cadeau",
+        "Elle part en vacances",
+        "Elle a gagné un concours de dessin"
+      ],
+      "bonne_reponse": 2,
       "points": 10
     },
     {
@@ -45,7 +61,11 @@
       "type": "qcm-texte",
       "texte": "Le petit chat est caché sous le canapé. Ses oreilles sont couchées en arrière et il ne bouge pas quand la porte claque fort dehors.",
       "question": "Comment se sent le chat ?",
-      "choix": ["Il a peur", "Il a sommeil", "Il a faim"],
+      "choix": [
+        "Il a peur",
+        "Il a sommeil",
+        "Il a faim"
+      ],
       "bonne_reponse": 0,
       "points": 10
     },
@@ -54,8 +74,12 @@
       "type": "qcm-texte",
       "texte": "Le petit chat est caché sous le canapé. Ses oreilles sont couchées en arrière et il ne bouge pas quand la porte claque fort dehors.",
       "question": "Qu'est-ce qui a effrayé le chat ?",
-      "choix": ["Le bruit de la porte", "La lumière du salon", "Le repas du soir"],
-      "bonne_reponse": 0,
+      "choix": [
+        "La lumière du salon",
+        "Le bruit de la porte",
+        "Le repas du soir"
+      ],
+      "bonne_reponse": 1,
       "points": 10
     },
     {
@@ -63,8 +87,12 @@
       "type": "qcm-texte",
       "texte": "Théo regarde sa montre toutes les deux minutes. Il tape du pied et regarde sans cesse vers la porte de l'école.",
       "question": "Que peut-on deviner sur Théo ?",
-      "choix": ["Il est impatient d'attendre quelqu'un", "Il est content de rester seul", "Il n'aime pas l'école"],
-      "bonne_reponse": 0,
+      "choix": [
+        "Il est content de rester seul",
+        "Il n'aime pas l'école",
+        "Il est impatient d'attendre quelqu'un"
+      ],
+      "bonne_reponse": 2,
       "points": 10
     }
   ]

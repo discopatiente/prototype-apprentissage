@@ -1,0 +1,52 @@
+{
+  "id": "lesson-francais-62",
+  "theme": "francais",
+  "titre": "Synonymes et contraires",
+  "description": "Découvre les mots qui veulent dire la même chose, et ceux qui veulent dire le contraire",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Aujourd'hui, on va parler de deux sortes de mots : les synonymes et les contraires. On va aussi apprendre une astuce pour fabriquer un contraire avec un petit bout de mot."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Un synonyme, c'est un mot qui veut dire presque la même chose qu'un autre mot. « Content » et « joyeux », c'est presque pareil !",
+      "visuel": "content 😊 | joyeux 😊"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Encore un exemple : « beau » et « joli » veulent dire presque la même chose. On peut remplacer l'un par l'autre dans une phrase, le sens ne change presque pas.",
+      "visuel": "beau ✨ | joli ✨"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Un contraire, c'est tout l'inverse ! C'est un mot qui veut dire exactement le contraire d'un autre mot. « Chaud » et « froid », ce n'est pas du tout pareil.",
+      "visuel": "chaud 🔥 | froid ❄️"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "D'autres contraires : « jour » et « nuit », « plein » et « vide », « rapide » et « lent ». À chaque fois, c'est tout l'opposé.",
+      "visuel": "☀️ | 🌙"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Il existe une astuce pour fabriquer le contraire de certains mots : on ajoute juste « in- » ou « im- » devant. « Capable » devient « incapable ». « Utile » devient « inutile »."
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Attention, devant certaines lettres (b, m, p), on utilise « im- » au lieu de « in- », parce que c'est plus facile à dire. « Patient » devient « impatient », « possible » devient « impossible ».",
+      "visuel": "in- + patient ➜ impatient"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Retiens bien la différence : un synonyme dit presque la même chose (content = joyeux), un contraire dit l'inverse (chaud ≠ froid). Et pour certains mots, on fabrique le contraire avec in- ou im- !"
+    },
+    {
+      "id": "ecran-09",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

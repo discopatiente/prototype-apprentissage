@@ -7,108 +7,156 @@
     {
       "id": "ex-01",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « crayon » :",
       "mot": "crayon",
-      "choix": ["le", "la", "les"],
+      "choix": [
+        "le",
+        "la",
+        "les"
+      ],
       "bonne_reponse": 0,
       "points": 10
     },
     {
       "id": "ex-02",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « crayons » :",
       "mot": "crayons",
-      "choix": ["le", "la", "les"],
+      "choix": [
+        "le",
+        "la",
+        "les"
+      ],
       "bonne_reponse": 2,
       "points": 10
     },
     {
       "id": "ex-03",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « chaise » :",
       "mot": "chaise",
-      "choix": ["le", "la", "les"],
+      "choix": [
+        "le",
+        "la",
+        "les"
+      ],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-04",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « chaises » :",
       "mot": "chaises",
-      "choix": ["le", "la", "les"],
+      "choix": [
+        "le",
+        "la",
+        "les"
+      ],
       "bonne_reponse": 2,
       "points": 10
     },
     {
       "id": "ex-05",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « vélo » :",
       "mot": "vélo",
-      "choix": ["le", "la", "les"],
+      "choix": [
+        "le",
+        "la",
+        "les"
+      ],
       "bonne_reponse": 0,
       "points": 10
     },
     {
       "id": "ex-06",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « vélos » :",
       "mot": "vélos",
-      "choix": ["le", "la", "les"],
+      "choix": [
+        "le",
+        "la",
+        "les"
+      ],
       "bonne_reponse": 2,
       "points": 10
     },
     {
       "id": "ex-07",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « fleur » :",
       "mot": "fleur",
-      "choix": ["le", "la", "les"],
+      "choix": [
+        "le",
+        "la",
+        "les"
+      ],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-08",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « fleurs » :",
       "mot": "fleurs",
-      "choix": ["le", "la", "les"],
+      "choix": [
+        "le",
+        "la",
+        "les"
+      ],
       "bonne_reponse": 2,
       "points": 10
     },
     {
       "id": "ex-09",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « gâteau » :",
       "mot": "gâteau",
-      "choix": ["le", "la", "les"],
+      "choix": [
+        "le",
+        "la",
+        "les"
+      ],
       "bonne_reponse": 0,
       "points": 10
     },
     {
       "id": "ex-10",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « gâteaux » :",
       "mot": "gâteaux",
-      "choix": ["le", "la", "les"],
+      "choix": [
+        "le",
+        "la",
+        "les"
+      ],
       "bonne_reponse": 2,
       "points": 10
     },
     {
       "id": "ex-11",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « table » :",
       "mot": "table",
-      "choix": ["le", "la", "les"],
+      "choix": [
+        "le",
+        "la",
+        "les"
+      ],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-12",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « tables » :",
       "mot": "tables",
-      "choix": ["le", "la", "les"],
+      "choix": [
+        "le",
+        "la",
+        "les"
+      ],
       "bonne_reponse": 2,
       "points": 10
     }

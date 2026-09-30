@@ -3,6 +3,8 @@
     <p class="question">{{ exercise.question }}</p>
     <p v-if="exercise.mot" class="mot">{{ exercise.mot }}</p>
 
+    <ImageRow v-if="exercise.images" :images="exercise.images" />
+
     <div class="choices">
       <button
         v-for="(option, index) in exercise.choix"
@@ -24,6 +26,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import ImageRow from './ImageRow.vue'
 
 const props = defineProps({
   exercise: { type: Object, required: true },

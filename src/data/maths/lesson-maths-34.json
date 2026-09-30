@@ -1,0 +1,190 @@
+{
+  "id": "lesson-maths-34",
+  "theme": "maths",
+  "titre": "Rendre la monnaie",
+  "description": "Lis la situation, calcule ce que la marchande doit rendre",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "une gomme à 4 €, 5 € donnés → rend 1 €",
+      "contexte": "Léa achète une gomme qui coûte 4 €. Elle donne un billet de 5 €.",
+      "consigne": "Combien la marchande lui rend-elle ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-5-euros.svg",
+          "alt": "billet de 5 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "une peluche à 8 €, 10 € donnés → rend 2 €",
+      "contexte": "Inès achète une peluche qui coûte 8 €. Elle donne un billet de 10 €.",
+      "consigne": "Combien la marchande lui rend-elle ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "un ballon à 7 €, 10 € donnés → rend 3 €",
+      "contexte": "Clara achète un ballon qui coûte 7 €. Elle donne un billet de 10 €.",
+      "consigne": "Combien la marchande lui rend-elle ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 3,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "un livre à 6 €, 10 € donnés → rend 4 €",
+      "contexte": "Laura achète un livre qui coûte 6 €. Elle donne un billet de 10 €.",
+      "consigne": "Combien la marchande lui rend-elle ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 4,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "un puzzle à 5 €, 10 € donnés → rend 5 €",
+      "contexte": "Léa achète un puzzle qui coûte 5 €. Elle donne 10 € en plusieurs pièces et billets.",
+      "consigne": "Combien la marchande lui rend-elle ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-5-euros.svg",
+          "alt": "billet de 5 euros"
+        },
+        {
+          "src": "maths/monnaie/piece-2-euros.svg",
+          "alt": "pièce de 2 euros"
+        },
+        {
+          "src": "maths/monnaie/piece-2-euros.svg",
+          "alt": "pièce de 2 euros"
+        },
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 5,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "un jeu de cartes à 14 €, 20 € donnés → rend 6 €",
+      "contexte": "Inès achète un jeu de cartes qui coûte 14 €. Elle donne un billet de 20 €.",
+      "consigne": "Combien la marchande lui rend-elle ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 6,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "une trottinette jouet à 13 €, 20 € donnés → rend 7 €",
+      "contexte": "Clara achète une trottinette jouet qui coûte 13 €. Elle donne un billet de 20 €.",
+      "consigne": "Combien la marchande lui rend-elle ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 7,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "un jeu de société à 12 €, 20 € donnés → rend 8 €",
+      "contexte": "Laura achète un jeu de société qui coûte 12 €. Elle donne un billet de 20 €.",
+      "consigne": "Combien la marchande lui rend-elle ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 8,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "un ballon de basket à 11 €, 20 € donnés → rend 9 €",
+      "contexte": "Léa achète un ballon de basket qui coûte 11 €. Elle donne un billet de 20 €.",
+      "consigne": "Combien la marchande lui rend-elle ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 9,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "un vélo miniature à 10 €, 20 € donnés → rend 10 €",
+      "contexte": "Inès achète un vélo miniature qui coûte 10 €. Elle donne un billet de 20 €.",
+      "consigne": "Combien la marchande lui rend-elle ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 10,
+      "points": 10
+    }
+  ]
+}

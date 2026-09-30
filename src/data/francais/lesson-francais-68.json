@@ -1,0 +1,160 @@
+{
+  "id": "lesson-francais-68",
+  "theme": "francais",
+  "titre": "Point, point d'interrogation, point d'exclamation, virgule",
+  "description": "Choisis la bonne ponctuation dans chaque phrase",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Léa joue dans le jardin",
+      "question": "Quelle ponctuation faut-il mettre à la fin de « Léa joue dans le jardin » ?",
+      "choix": [
+        ".",
+        "?",
+        "!"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Est-ce que tu viens au parc",
+      "question": "Quelle ponctuation faut-il mettre à la fin de « Est-ce que tu viens au parc » ?",
+      "choix": [
+        ".",
+        "?",
+        "!"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Quelle surprise",
+      "question": "Quelle ponctuation faut-il mettre à la fin de « Quelle surprise » ?",
+      "choix": [
+        ".",
+        "?",
+        "!"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Le chat dort sur le canapé",
+      "question": "Quelle ponctuation faut-il mettre à la fin de « Le chat dort sur le canapé » ?",
+      "choix": [
+        ".",
+        "?",
+        "!"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Où as-tu mis mes clés",
+      "question": "Quelle ponctuation faut-il mettre à la fin de « Où as-tu mis mes clés » ?",
+      "choix": [
+        ".",
+        "?",
+        "!"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Attention, la voiture arrive",
+      "question": "Quelle ponctuation faut-il mettre à la fin de « Attention, la voiture arrive » ?",
+      "choix": [
+        ".",
+        "?",
+        "!"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Sofia range sa chambre",
+      "question": "Quelle ponctuation faut-il mettre à la fin de « Sofia range sa chambre » ?",
+      "choix": [
+        ".",
+        "?",
+        "!"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Veux-tu un bonbon",
+      "question": "Quelle ponctuation faut-il mettre à la fin de « Veux-tu un bonbon » ?",
+      "choix": [
+        ".",
+        "?",
+        "!"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Laquelle de ces deux phrases est bien ponctuée ?",
+      "question": "Quelle phrase sur le cartable de Léa est correctement ponctuée ?",
+      "choix": [
+        "Dans son cartable, il y a un livre, un stylo et une trousse.",
+        "Dans son cartable, il y a un livre un stylo et une trousse."
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Laquelle de ces deux phrases est bien ponctuée ?",
+      "question": "Quelle phrase sur les animaux préférés de Léa est correctement ponctuée ?",
+      "choix": [
+        "Léa aime les chats les chiens et les lapins.",
+        "Léa aime les chats, les chiens et les lapins."
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "Laquelle de ces deux phrases est bien ponctuée ?",
+      "question": "Quelle phrase sur le goûter est correctement ponctuée ?",
+      "choix": [
+        "Pour le goûter, on prend du pain, du beurre et de la confiture.",
+        "Pour le goûter, on prend du pain du beurre et de la confiture."
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "Laquelle de ces deux phrases est bien ponctuée ?",
+      "question": "Quelle phrase sur la visite au zoo est correctement ponctuée ?",
+      "choix": [
+        "Au zoo, on a vu un lion un singe et une girafe.",
+        "Au zoo, on a vu un lion, un singe et une girafe."
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

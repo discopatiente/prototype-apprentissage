@@ -7,108 +7,144 @@
     {
       "id": "ex-01",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « crayon » :",
       "mot": "crayon",
-      "choix": ["le", "la"],
+      "choix": [
+        "le",
+        "la"
+      ],
       "bonne_reponse": 0,
       "points": 10
     },
     {
       "id": "ex-02",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « valise » :",
       "mot": "valise",
-      "choix": ["le", "la"],
+      "choix": [
+        "le",
+        "la"
+      ],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-03",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « jardin » :",
       "mot": "jardin",
-      "choix": ["le", "la"],
+      "choix": [
+        "le",
+        "la"
+      ],
       "bonne_reponse": 0,
       "points": 10
     },
     {
       "id": "ex-04",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « montagne » :",
       "mot": "montagne",
-      "choix": ["le", "la"],
+      "choix": [
+        "le",
+        "la"
+      ],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-05",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « tigre » :",
       "mot": "tigre",
-      "choix": ["le", "la"],
+      "choix": [
+        "le",
+        "la"
+      ],
       "bonne_reponse": 0,
       "points": 10
     },
     {
       "id": "ex-06",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « rivière » :",
       "mot": "rivière",
-      "choix": ["le", "la"],
+      "choix": [
+        "le",
+        "la"
+      ],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-07",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « bureau » :",
       "mot": "bureau",
-      "choix": ["le", "la"],
+      "choix": [
+        "le",
+        "la"
+      ],
       "bonne_reponse": 0,
       "points": 10
     },
     {
       "id": "ex-08",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « chemise » :",
       "mot": "chemise",
-      "choix": ["le", "la"],
+      "choix": [
+        "le",
+        "la"
+      ],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-09",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « poisson » :",
       "mot": "poisson",
-      "choix": ["le", "la"],
+      "choix": [
+        "le",
+        "la"
+      ],
       "bonne_reponse": 0,
       "points": 10
     },
     {
       "id": "ex-10",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « cuisine » :",
       "mot": "cuisine",
-      "choix": ["le", "la"],
+      "choix": [
+        "le",
+        "la"
+      ],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-11",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « bateau » :",
       "mot": "bateau",
-      "choix": ["le", "la"],
+      "choix": [
+        "le",
+        "la"
+      ],
       "bonne_reponse": 0,
       "points": 10
     },
     {
       "id": "ex-12",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « forêt » :",
       "mot": "forêt",
-      "choix": ["le", "la"],
+      "choix": [
+        "le",
+        "la"
+      ],
       "bonne_reponse": 1,
       "points": 10
     }

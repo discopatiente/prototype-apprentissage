@@ -1,0 +1,97 @@
+{
+  "id": "lesson-maths-31",
+  "theme": "maths",
+  "titre": "Les pièces et les billets",
+  "description": "Découvre l'argent : les pièces, les billets, et comment compter ce qu'on a",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Aujourd'hui, on va apprendre à reconnaître l'argent. En France, on paye en euros. L'euro s'écrit avec ce petit signe : €",
+      "visuel": "€"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Il y a deux sortes d'argent. Les pièces, qui sont rondes et en métal. Et les billets, qui sont en papier.",
+      "images": [
+        { "src": "maths/monnaie/piece-1-euro.svg", "alt": "pièce de 1 euro" },
+        { "src": "maths/monnaie/billet-10-euros.svg", "alt": "billet de 10 euros" }
+      ]
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Voici les deux pièces que tu utiliseras le plus souvent : la pièce de 1 euro et la pièce de 2 euros. Regarde bien : elles ont deux couleurs.",
+      "images": [
+        { "src": "maths/monnaie/piece-1-euro.svg", "alt": "pièce de 1 euro" },
+        { "src": "maths/monnaie/piece-2-euros.svg", "alt": "pièce de 2 euros" }
+      ]
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Il existe aussi des pièces plus petites que 1 euro : les centimes. Elles sont dorées ou cuivrées. Dans 1 euro, il y a 100 centimes.",
+      "images": [
+        { "src": "maths/monnaie/piece-50-centimes.svg", "alt": "pièce de 50 centimes" },
+        { "src": "maths/monnaie/piece-20-centimes.svg", "alt": "pièce de 20 centimes" },
+        { "src": "maths/monnaie/piece-10-centimes.svg", "alt": "pièce de 10 centimes" }
+      ]
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Pour les grosses sommes, on utilise des billets. Chaque billet a sa couleur : le 5 euros est gris, le 10 euros est rouge, le 20 euros est bleu.",
+      "images": [
+        { "src": "maths/monnaie/billet-5-euros.svg", "alt": "billet de 5 euros" },
+        { "src": "maths/monnaie/billet-10-euros.svg", "alt": "billet de 10 euros" },
+        { "src": "maths/monnaie/billet-20-euros.svg", "alt": "billet de 20 euros" }
+      ]
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Léa a trois pièces dans sa poche. Combien a-t-elle d'argent en tout ?",
+      "images": [
+        { "src": "maths/monnaie/piece-2-euros.svg", "alt": "pièce de 2 euros" },
+        { "src": "maths/monnaie/piece-2-euros.svg", "alt": "pièce de 2 euros" },
+        { "src": "maths/monnaie/piece-1-euro.svg", "alt": "pièce de 1 euro" }
+      ]
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Pour le savoir, on additionne la valeur de chaque pièce : 2 + 2 + 1 = 5. Léa a 5 € dans sa poche.",
+      "visuel": "2 + 2 + 1 = 5"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Une même somme peut se faire de plusieurs façons. Pour avoir 5 €, on peut prendre un seul billet de 5 €, ou bien deux pièces de 2 € et une pièce de 1 €. C'est exactement pareil !",
+      "images": [
+        { "src": "maths/monnaie/billet-5-euros.svg", "alt": "billet de 5 euros" },
+        { "src": "maths/monnaie/piece-2-euros.svg", "alt": "pièce de 2 euros" },
+        { "src": "maths/monnaie/piece-2-euros.svg", "alt": "pièce de 2 euros" },
+        { "src": "maths/monnaie/piece-1-euro.svg", "alt": "pièce de 1 euro" }
+      ],
+      "visuel": "5 € = 2 € + 2 € + 1 €"
+    },
+    {
+      "id": "ecran-09",
+      "texte": "Quand tu achètes quelque chose, tu donnes ton argent au marchand. Si tu as donné plus que le prix, le marchand te rend la différence : c'est ce qu'on appelle rendre la monnaie.",
+      "visuel": "🛒"
+    },
+    {
+      "id": "ecran-10",
+      "texte": "Inès donne ce billet pour acheter un livre qui coûte 7 €. La marchande lui rend 3 €, parce que 10 - 7 = 3.",
+      "images": [
+        { "src": "maths/monnaie/billet-10-euros.svg", "alt": "billet de 10 euros" }
+      ],
+      "visuel": "10 - 7 = 3"
+    },
+    {
+      "id": "ecran-11",
+      "texte": "Retiens bien les deux astuces. Pour savoir combien j'ai : j'additionne mes pièces et mes billets. Pour savoir combien on me rend : je soustrais le prix de ce que j'ai donné.",
+      "visuel": "➕ | ➖"
+    },
+    {
+      "id": "ecran-12",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

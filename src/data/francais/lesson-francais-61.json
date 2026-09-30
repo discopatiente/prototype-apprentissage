@@ -1,0 +1,86 @@
+{
+  "id": "lesson-francais-61",
+  "theme": "francais",
+  "titre": "Sofia et les expressions",
+  "description": "Lis l'histoire et retrouve le sens des expressions imagées qu'elle contient",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Ce matin, Sofia n'a pas école. Elle traîne un peu dans son lit, la tête dans les nuages, à rêvasser tranquillement. Sa maman l'appelle pour le petit-déjeuner, mais Sofia ne répond presque pas : elle a un chat dans la gorge et n'arrive plus très bien à parler. Après un grand verre d'eau, ça va beaucoup mieux ! À midi, elles vont au marché ensemble. Sofia voit un beau vélo rouge dans une vitrine, mais il coûte les yeux de la tête : elles ne peuvent pas l'acheter aujourd'hui. L'après-midi, Sofia devait retrouver son amie Léa au parc, mais Léa lui a posé un lapin : elle n'est jamais venue. Sofia est un peu triste, mais elle sait que sa maman a le cœur sur la main, et celle-ci lui prépare vite un bon goûter pour la consoler.",
+      "question": "Que veut dire « elle a la tête dans les nuages » ?",
+      "choix": [
+        "Elle est distraite, elle rêvasse",
+        "Elle est dans les nuages en avion",
+        "Elle a très froid"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Ce matin, Sofia n'a pas école. Elle traîne un peu dans son lit, la tête dans les nuages, à rêvasser tranquillement. Sa maman l'appelle pour le petit-déjeuner, mais Sofia ne répond presque pas : elle a un chat dans la gorge et n'arrive plus très bien à parler. Après un grand verre d'eau, ça va beaucoup mieux ! À midi, elles vont au marché ensemble. Sofia voit un beau vélo rouge dans une vitrine, mais il coûte les yeux de la tête : elles ne peuvent pas l'acheter aujourd'hui. L'après-midi, Sofia devait retrouver son amie Léa au parc, mais Léa lui a posé un lapin : elle n'est jamais venue. Sofia est un peu triste, mais elle sait que sa maman a le cœur sur la main, et celle-ci lui prépare vite un bon goûter pour la consoler.",
+      "question": "Que veut dire « elle a un chat dans la gorge » ?",
+      "choix": [
+        "Elle a avalé un vrai chat",
+        "Elle a du mal à parler",
+        "Elle adore les chats"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Ce matin, Sofia n'a pas école. Elle traîne un peu dans son lit, la tête dans les nuages, à rêvasser tranquillement. Sa maman l'appelle pour le petit-déjeuner, mais Sofia ne répond presque pas : elle a un chat dans la gorge et n'arrive plus très bien à parler. Après un grand verre d'eau, ça va beaucoup mieux ! À midi, elles vont au marché ensemble. Sofia voit un beau vélo rouge dans une vitrine, mais il coûte les yeux de la tête : elles ne peuvent pas l'acheter aujourd'hui. L'après-midi, Sofia devait retrouver son amie Léa au parc, mais Léa lui a posé un lapin : elle n'est jamais venue. Sofia est un peu triste, mais elle sait que sa maman a le cœur sur la main, et celle-ci lui prépare vite un bon goûter pour la consoler.",
+      "question": "Où vont Sofia et sa maman à midi ?",
+      "choix": [
+        "À l'école",
+        "À la piscine",
+        "Au marché"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Ce matin, Sofia n'a pas école. Elle traîne un peu dans son lit, la tête dans les nuages, à rêvasser tranquillement. Sa maman l'appelle pour le petit-déjeuner, mais Sofia ne répond presque pas : elle a un chat dans la gorge et n'arrive plus très bien à parler. Après un grand verre d'eau, ça va beaucoup mieux ! À midi, elles vont au marché ensemble. Sofia voit un beau vélo rouge dans une vitrine, mais il coûte les yeux de la tête : elles ne peuvent pas l'acheter aujourd'hui. L'après-midi, Sofia devait retrouver son amie Léa au parc, mais Léa lui a posé un lapin : elle n'est jamais venue. Sofia est un peu triste, mais elle sait que sa maman a le cœur sur la main, et celle-ci lui prépare vite un bon goûter pour la consoler.",
+      "question": "Pourquoi n'achètent-elles pas le vélo ?",
+      "choix": [
+        "Il est trop cher",
+        "Il est cassé",
+        "Il n'y en a plus"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Ce matin, Sofia n'a pas école. Elle traîne un peu dans son lit, la tête dans les nuages, à rêvasser tranquillement. Sa maman l'appelle pour le petit-déjeuner, mais Sofia ne répond presque pas : elle a un chat dans la gorge et n'arrive plus très bien à parler. Après un grand verre d'eau, ça va beaucoup mieux ! À midi, elles vont au marché ensemble. Sofia voit un beau vélo rouge dans une vitrine, mais il coûte les yeux de la tête : elles ne peuvent pas l'acheter aujourd'hui. L'après-midi, Sofia devait retrouver son amie Léa au parc, mais Léa lui a posé un lapin : elle n'est jamais venue. Sofia est un peu triste, mais elle sait que sa maman a le cœur sur la main, et celle-ci lui prépare vite un bon goûter pour la consoler.",
+      "question": "Que veut dire « Léa lui a posé un lapin » ?",
+      "choix": [
+        "Léa a offert un lapin à Sofia",
+        "Léa n'est pas venue au rendez-vous",
+        "Léa a joué à cache-cache"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Ce matin, Sofia n'a pas école. Elle traîne un peu dans son lit, la tête dans les nuages, à rêvasser tranquillement. Sa maman l'appelle pour le petit-déjeuner, mais Sofia ne répond presque pas : elle a un chat dans la gorge et n'arrive plus très bien à parler. Après un grand verre d'eau, ça va beaucoup mieux ! À midi, elles vont au marché ensemble. Sofia voit un beau vélo rouge dans une vitrine, mais il coûte les yeux de la tête : elles ne peuvent pas l'acheter aujourd'hui. L'après-midi, Sofia devait retrouver son amie Léa au parc, mais Léa lui a posé un lapin : elle n'est jamais venue. Sofia est un peu triste, mais elle sait que sa maman a le cœur sur la main, et celle-ci lui prépare vite un bon goûter pour la consoler.",
+      "question": "Que veut dire « sa maman a le cœur sur la main » ?",
+      "choix": [
+        "Elle a mal au cœur",
+        "Elle tient son cœur dans sa main",
+        "Elle est très généreuse"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

@@ -74,6 +74,19 @@ Une leçon individuelle, un fichier par leçon (jamais regroupées dans un seul 
 ```
 Le chargement d'une leçon se fait par import dynamique selon l'id présent dans l'URL (`route.params.id`), pas par import fixe — voir `LessonView.vue` et son usage de `watchEffect` + `import(\`../data/${id}.json\`)`.
 
+### Images dans un exercice ou un écran (champ `images`)
+
+N'importe quel exercice, et n'importe quel écran de diaporama, peut afficher une rangée d'images côte à côte grâce au champ optionnel `images` :
+```json
+"images": [
+  { "src": "maths/monnaie/piece-2-euros.svg", "alt": "pièce de 2 euros" },
+  { "src": "maths/monnaie/piece-1-euro.svg", "alt": "pièce de 1 euro" }
+]
+```
+`src` est le chemin à partir de `public/images/`, `alt` la description lue par un lecteur d'écran. Le rendu est assuré par `ImageRow.vue`, branché dans `ExerciseQCM.vue`, `ExerciseQCMTexte.vue`, `ExerciseTrouNumerique.vue` et `EcranDiaporama.vue`. Une même image peut être répétée (trois pièces de 2 € = trois entrées).
+
+À préférer aux emojis dès que l'objet doit être reconnu dans la vraie vie (la monnaie, par exemple). Les pièces et billets en euros sont dans `public/images/maths/monnaie/`.
+
 ### Leçon de type diaporama (explicative, sans QCM)
 
 Certaines notions (ex. la division) démarrent par une leçon explicative avant les exercices, pour introduire le concept en douceur (démarche concret → imagé → abstrait, plutôt qu'une évaluation). Ces leçons ont `"type": "diaporama"` et une forme différente, sans `exercices` :
@@ -91,6 +104,10 @@ Certaines notions (ex. la division) démarrent par une leçon explicative avant 
 }
 ```
 `visuel` est optionnel ; les groupes séparés par `|` s'affichent chacun dans leur propre encadré (utile pour illustrer un partage ou un groupement). `points` est le score fixe attribué quand l'élève clique sur "Terminer la leçon" (pas de bonnes/mauvaises réponses). `LessonView.vue` branche sur `lesson.type` pour afficher `EcranDiaporama.vue` (navigation Précédent/Suivant) au lieu des composants `Exercise*`, mais réutilise le store et `LessonBilan.vue` sans les modifier.
+
+Attention (bilan) : `LessonBilan.vue` affiche toujours `exercise.question` tel quel pour chaque ligne, quel que soit le type d'exercice — jamais `mot`, `texte` ou `contexte`. Dans un exercice `trou-numerique`, le champ `question` n'est jamais affiché à l'élève pendant l'exercice — il sert uniquement d'intitulé dans `LessonBilan.vue`. Il doit donc rester lisible et distinct d'un exercice à l'autre (écrire `"2 € + 1 € = ..."` plutôt que `"Total : ... €"`, sinon le bilan affiche dix lignes identiques).
+
+Même piège pour un exercice `qcm` qui utilise le champ `mot` (ex. `lesson-francais-41`, `42`) : si `question` est la même instruction générique sur tous les exercices ("Que veut dire cette expression ?"), le bilan affiche des lignes identiques, même si `mot` change à l'écran. Solution appliquée dans `lesson-francais-60` : intégrer le mot/l'expression dans `question` ("Que veut dire « ... » ?"), quitte à ce qu'il apparaisse aussi dans `mot` juste en dessous — redondance mineure jugée acceptable plutôt que de modifier `ExerciseQCM.vue` (qui est partagé par d'autres leçons).
 
 ## Store Pinia (`progressStore.js`)
 
@@ -110,6 +127,7 @@ Ne pas réintroduire un score qui se remettrait à zéro globalement — c'est u
 - `ScoreBadge.vue` — lit `store.scoreGlobal` directement, pas de props.
 - `ExerciseQCM.vue` — reçoit `exercice` en prop, émet `reponse-validee` avec `{ id, estCorrect, points }`. Ne touche jamais au store lui-même (séparation des responsabilités : c'est la vue parente qui décide quoi faire de la réponse).
 - `FeedbackMessage.vue` — reçoit `correct` (booléen) en prop, affiche "Bravo !" ou "Essaie encore !".
+- `ImageRow.vue` — reçoit `images` en prop et affiche une rangée d'images centrée, qui passe à la ligne si besoin. Utilisé par les quatre composants d'exercice et de diaporama.
 - `LessonBilan.vue` — écran de fin de leçon : détail par question, score de la tentative, phrase et emoji selon le résultat, confettis si le score dépasse 50%. Émet `recommencer` et `menu`.
 
 ## Vues existantes

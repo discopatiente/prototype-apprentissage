@@ -1,0 +1,152 @@
+{
+  "id": "lesson-francais-66",
+  "theme": "francais",
+  "titre": "Encore des homophones",
+  "description": "Nouvelles phrases pour t'entraîner sur a/à, et/est, son/sont, on/ont",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Théo ___ un beau ballon rouge.",
+      "question": "« Théo ___ un beau ballon rouge. » — Faut-il écrire « a » ou « à » ?",
+      "choix": [
+        "a",
+        "à"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Sofia habite tout ___ côté du parc.",
+      "question": "« Sofia habite tout ___ côté du parc. » — Faut-il écrire « a » ou « à » ?",
+      "choix": [
+        "a",
+        "à"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Léo ___ trois crayons de couleur.",
+      "question": "« Léo ___ trois crayons de couleur. » — Faut-il écrire « a » ou « à » ?",
+      "choix": [
+        "à",
+        "a"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Clara ___ très heureuse aujourd'hui.",
+      "question": "« Clara ___ très heureuse aujourd'hui. » — Faut-il écrire « est » ou « et » ?",
+      "choix": [
+        "est",
+        "et"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Léo ___ Théo font du vélo ensemble.",
+      "question": "« Léo ___ Théo font du vélo ensemble. » — Faut-il écrire « est » ou « et » ?",
+      "choix": [
+        "est",
+        "et"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Le gâteau ___ délicieux.",
+      "question": "« Le gâteau ___ délicieux. » — Faut-il écrire « est » ou « et » ?",
+      "choix": [
+        "est",
+        "et"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Sofia oublie toujours ___ parapluie.",
+      "question": "« Sofia oublie toujours ___ parapluie. » — Faut-il écrire « son » ou « sont » ?",
+      "choix": [
+        "son",
+        "sont"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Léa et Inès ___ à la piscine.",
+      "question": "« Léa et Inès ___ à la piscine. » — Faut-il écrire « son » ou « sont » ?",
+      "choix": [
+        "son",
+        "sont"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Théo cherche ___ chapeau partout.",
+      "question": "« Théo cherche ___ chapeau partout. » — Faut-il écrire « son » ou « sont » ?",
+      "choix": [
+        "sont",
+        "son"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Dans le jardin, ___ plante des fleurs.",
+      "question": "« Dans le jardin, ___ plante des fleurs. » — Faut-il écrire « on » ou « ont » ?",
+      "choix": [
+        "on",
+        "ont"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "Clara et Sofia ___ un joli chat.",
+      "question": "« Clara et Sofia ___ un joli chat. » — Faut-il écrire « on » ou « ont » ?",
+      "choix": [
+        "on",
+        "ont"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "Chez grand-mère, ___ mange souvent des crêpes.",
+      "question": "« Chez grand-mère, ___ mange souvent des crêpes. » — Faut-il écrire « on » ou « ont » ?",
+      "choix": [
+        "on",
+        "ont"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

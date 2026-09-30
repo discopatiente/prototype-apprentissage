@@ -37,6 +37,8 @@ Planifié le 16 septembre 2026, à partir de l'état du contenu (51 leçons de f
 
 Bilan : 7 maths, 7 français, 4 SVT, 2 musique. 7 leçons de consolidation, 13 de nouveauté ou d'entraînement d'une notion nouvelle.
 
+**Mise à jour du 30 septembre 2026** : les identifiants `lesson-maths-31` et `lesson-maths-32`, libérés par le report des leçons sur l'heure, ont été réutilisés pour le niveau 8 « La monnaie ». Les leçons sur l'heure, toujours reportées, prendront de nouveaux identifiants.
+
 **Mise à jour du 16 septembre 2026** : les leçons 13 (alimentation), 17 et 18 (heure) sont reportées à une session ultérieure, à la demande du responsable pédagogique. Dix-sept leçons ont été créées. La leçon sur les saisons porte l'id `lesson-svt-03`.
 
 ## Détail par leçon

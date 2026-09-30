@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 62" width="120" height="62" role="img" aria-label="billet de 5 euros">
+  <defs>
+    <linearGradient id="fond" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D9D6CF"/>
+      <stop offset="0.55" stop-color="#B4B1A9"/>
+      <stop offset="1" stop-color="#87847C"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="118" height="60" rx="5.6" fill="url(#fond)" stroke="#87847C" stroke-width="1.4"/>
+  <rect x="5.4" y="5.0" width="109.2" height="52.1" rx="3.7" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+  <path d="M13.20,8.25L13.84,9.97L15.68,10.05L14.24,11.19L14.73,12.96L13.20,11.94L11.67,12.96L12.16,11.19L10.72,10.05L12.56,9.97Z" fill="#FFFFFF" opacity="0.55"/><path d="M21.71,8.25L22.35,9.97L24.19,10.05L22.75,11.19L23.24,12.96L21.71,11.94L20.18,12.96L20.67,11.19L19.23,10.05L21.07,9.97Z" fill="#FFFFFF" opacity="0.55"/><path d="M30.22,8.25L30.86,9.97L32.69,10.05L31.26,11.19L31.75,12.96L30.22,11.94L28.69,12.96L29.18,11.19L27.74,10.05L29.58,9.97Z" fill="#FFFFFF" opacity="0.55"/><path d="M38.73,8.25L39.37,9.97L41.20,10.05L39.77,11.19L40.26,12.96L38.73,11.94L37.20,12.96L37.69,11.19L36.25,10.05L38.08,9.97Z" fill="#FFFFFF" opacity="0.55"/><path d="M47.24,8.25L47.88,9.97L49.71,10.05L48.28,11.19L48.77,12.96L47.24,11.94L45.71,12.96L46.20,11.19L44.76,10.05L46.59,9.97Z" fill="#FFFFFF" opacity="0.55"/><path d="M55.75,8.25L56.39,9.97L58.22,10.05L56.79,11.19L57.28,12.96L55.75,11.94L54.21,12.96L54.71,11.19L53.27,10.05L55.10,9.97Z" fill="#FFFFFF" opacity="0.55"/><path d="M64.25,8.25L64.90,9.97L66.73,10.05L65.29,11.19L65.79,12.96L64.25,11.94L62.72,12.96L63.21,11.19L61.78,10.05L63.61,9.97Z" fill="#FFFFFF" opacity="0.55"/><path d="M72.76,8.25L73.41,9.97L75.24,10.05L73.80,11.19L74.29,12.96L72.76,11.94L71.23,12.96L71.72,11.19L70.29,10.05L72.12,9.97Z" fill="#FFFFFF" opacity="0.55"/><path d="M81.27,8.25L81.92,9.97L83.75,10.05L82.31,11.19L82.80,12.96L81.27,11.94L79.74,12.96L80.23,11.19L78.80,10.05L80.63,9.97Z" fill="#FFFFFF" opacity="0.55"/><path d="M89.78,8.25L90.42,9.97L92.26,10.05L90.82,11.19L91.31,12.96L89.78,11.94L88.25,12.96L88.74,11.19L87.31,10.05L89.14,9.97Z" fill="#FFFFFF" opacity="0.55"/><path d="M98.29,8.25L98.93,9.97L100.77,10.05L99.33,11.19L99.82,12.96L98.29,11.94L96.76,12.96L97.25,11.19L95.81,10.05L97.65,9.97Z" fill="#FFFFFF" opacity="0.55"/><path d="M106.80,8.25L107.44,9.97L109.28,10.05L107.84,11.19L108.33,12.96L106.80,11.94L105.27,12.96L105.76,11.19L104.32,10.05L106.16,9.97Z" fill="#FFFFFF" opacity="0.55"/>
+  <path d="M14.4 52.1 V36.8 a12.0 12.0 0 0 1 24.0 0 V52.1 Z" fill="#FFFFFF" opacity="0.38"/>
+  <path d="M21.1 52.1 V38.0 a5.3 5.3 0 0 1 10.6 0 V52.1 Z" fill="#87847C" opacity="0.28"/>
+  <text x="79.2" y="40.9" text-anchor="middle" font-family="Verdana,DejaVu Sans,sans-serif" font-size="26.0" font-weight="bold" fill="#87847C" opacity="0.35">5</text>
+  <text x="78.6" y="40.4" text-anchor="middle" font-family="Verdana,DejaVu Sans,sans-serif" font-size="26.0" font-weight="bold" fill="#FFFFFF">5</text>
+  <text x="78.6" y="52.4" text-anchor="middle" font-family="Verdana,DejaVu Sans,sans-serif" font-size="8.4" font-weight="bold" letter-spacing="1.9" fill="#FFFFFF" opacity="0.95">EUROS</text>
+</svg>

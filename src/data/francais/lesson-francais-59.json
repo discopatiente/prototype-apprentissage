@@ -1,0 +1,58 @@
+{
+  "id": "lesson-francais-59",
+  "theme": "francais",
+  "titre": "Les expressions imagées",
+  "description": "Découvre des expressions qui ne veulent pas dire ce qu'elles disent vraiment",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "En français, il existe des phrases qui ne veulent pas dire ce qu'elles disent vraiment. On les appelle des expressions imagées. Il faut deviner leur vrai sens, sans le prendre au pied de la lettre."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "« Avoir la tête dans les nuages », ça ne veut pas dire que ta tête vole dans le ciel ! Ça veut dire que tu es distrait, que tu penses à autre chose.",
+      "visuel": "🧠☁️ | 😴💭"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "« Avoir un chat dans la gorge », ça ne veut pas dire qu'un vrai chat est caché dedans ! Ça veut dire que ta voix gratte et que tu as du mal à parler.",
+      "visuel": "🐱🗣️ | 😮‍💨"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "« Ça coûte les yeux de la tête », ça ne veut pas dire qu'on te prend tes yeux ! Ça veut dire que c'est très, très cher.",
+      "visuel": "👀 | 💰💰💰"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "« Poser un lapin », ça ne veut pas dire qu'on dépose un animal quelque part ! Ça veut dire qu'on ne vient pas à un rendez-vous, sans prévenir.",
+      "visuel": "🐰 | ⏰❌"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "« Tomber dans les pommes », ça ne veut pas dire tomber sur des fruits ! Ça veut dire s'évanouir, perdre connaissance un court instant.",
+      "visuel": "🍏 | 😵💫"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "« Avoir le cœur sur la main », ça ne veut pas dire porter son cœur dans sa main ! Ça veut dire être très généreux, aimer donner et partager.",
+      "visuel": "❤️🤲 | 🎁"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "« Donner sa langue au chat », ça ne veut pas dire donner sa langue à un animal ! Ça veut dire qu'on arrête de chercher et qu'on demande la réponse.",
+      "visuel": "👅🐱 | ❓"
+    },
+    {
+      "id": "ecran-09",
+      "texte": "Retiens ces expressions : avoir la tête dans les nuages, avoir un chat dans la gorge, coûter les yeux de la tête, poser un lapin, tomber dans les pommes, avoir le cœur sur la main, donner sa langue au chat. Tu vas t'entraîner à les reconnaître !"
+    },
+    {
+      "id": "ecran-10",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

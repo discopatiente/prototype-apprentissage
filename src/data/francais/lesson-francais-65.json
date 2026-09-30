@@ -1,0 +1,152 @@
+{
+  "id": "lesson-francais-65",
+  "theme": "francais",
+  "titre": "a/à, et/est, son/sont, on/ont",
+  "description": "Choisis le bon mot dans chaque phrase",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Léa ___ un petit chat noir.",
+      "question": "« Léa ___ un petit chat noir. » — Faut-il écrire « a » ou « à » ?",
+      "choix": [
+        "a",
+        "à"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Inès va ___ la piscine le mardi.",
+      "question": "« Inès va ___ la piscine le mardi. » — Faut-il écrire « a » ou « à » ?",
+      "choix": [
+        "a",
+        "à"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Clara ___ beaucoup de jouets dans sa chambre.",
+      "question": "« Clara ___ beaucoup de jouets dans sa chambre. » — Faut-il écrire « a » ou « à » ?",
+      "choix": [
+        "à",
+        "a"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Laura ___ contente d'aller à l'école.",
+      "question": "« Laura ___ contente d'aller à l'école. » — Faut-il écrire « est » ou « et » ?",
+      "choix": [
+        "est",
+        "et"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Sofia ___ son papa regardent un film ce soir.",
+      "question": "« Sofia ___ son papa regardent un film ce soir. » — Faut-il écrire « est » ou « et » ?",
+      "choix": [
+        "est",
+        "et"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Léa ___ fatiguée après le judo.",
+      "question": "« Léa ___ fatiguée après le judo. » — Faut-il écrire « est » ou « et » ?",
+      "choix": [
+        "est",
+        "et"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Inès range ___ cartable avant de partir.",
+      "question": "« Inès range ___ cartable avant de partir. » — Faut-il écrire « son » ou « sont » ?",
+      "choix": [
+        "son",
+        "sont"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Clara et Laura ___ dans le jardin.",
+      "question": "« Clara et Laura ___ dans le jardin. » — Faut-il écrire « son » ou « sont » ?",
+      "choix": [
+        "son",
+        "sont"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Laura prend ___ goûter avant de sortir.",
+      "question": "« Laura prend ___ goûter avant de sortir. » — Faut-il écrire « son » ou « sont » ?",
+      "choix": [
+        "sont",
+        "son"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Dans la cour, ___ joue au ballon.",
+      "question": "« Dans la cour, ___ joue au ballon. » — Faut-il écrire « on » ou « ont » ?",
+      "choix": [
+        "on",
+        "ont"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "Léa et Clara ___ un chien à la maison.",
+      "question": "« Léa et Clara ___ un chien à la maison. » — Faut-il écrire « on » ou « ont » ?",
+      "choix": [
+        "on",
+        "ont"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "Dans la classe, ___ range les cahiers ensemble.",
+      "question": "« Dans la classe, ___ range les cahiers ensemble. » — Faut-il écrire « on » ou « ont » ?",
+      "choix": [
+        "on",
+        "ont"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

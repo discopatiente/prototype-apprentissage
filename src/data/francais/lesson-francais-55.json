@@ -32,7 +32,7 @@
       "id": "ex-03",
       "type": "qcm-texte",
       "texte": "Le ___ chien dort dans son panier.",
-      "question": "Quelle est la bonne forme de l'adjectif petit ?",
+      "question": "Quelle est la bonne forme de l'adjectif petit, dans « Le ___ chien dort dans son panier. » ?",
       "choix": [
         "petit",
         "petite",
@@ -69,7 +69,7 @@
       "id": "ex-06",
       "type": "qcm-texte",
       "texte": "Clara a une ___ sœur.",
-      "question": "Quelle est la bonne forme de l'adjectif petit ?",
+      "question": "Quelle est la bonne forme de l'adjectif petit, dans « Clara a une ___ sœur. » ?",
       "choix": [
         "petit",
         "petits",

@@ -7,108 +7,144 @@
     {
       "id": "ex-01",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « stylo » :",
       "mot": "stylo",
-      "choix": ["un", "une"],
+      "choix": [
+        "un",
+        "une"
+      ],
       "bonne_reponse": 0,
       "points": 10
     },
     {
       "id": "ex-02",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « table » :",
       "mot": "table",
-      "choix": ["un", "une"],
+      "choix": [
+        "un",
+        "une"
+      ],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-03",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « chien » :",
       "mot": "chien",
-      "choix": ["un", "une"],
+      "choix": [
+        "un",
+        "une"
+      ],
       "bonne_reponse": 0,
       "points": 10
     },
     {
       "id": "ex-04",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « maison » :",
       "mot": "maison",
-      "choix": ["un", "une"],
+      "choix": [
+        "un",
+        "une"
+      ],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-05",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « livre » :",
       "mot": "livre",
-      "choix": ["un", "une"],
+      "choix": [
+        "un",
+        "une"
+      ],
       "bonne_reponse": 0,
       "points": 10
     },
     {
       "id": "ex-06",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « tortue » :",
       "mot": "tortue",
-      "choix": ["un", "une"],
+      "choix": [
+        "un",
+        "une"
+      ],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-07",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « camion » :",
       "mot": "camion",
-      "choix": ["un", "une"],
+      "choix": [
+        "un",
+        "une"
+      ],
       "bonne_reponse": 0,
       "points": 10
     },
     {
       "id": "ex-08",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « image » :",
       "mot": "image",
-      "choix": ["un", "une"],
+      "choix": [
+        "un",
+        "une"
+      ],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-09",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « chapeau » :",
       "mot": "chapeau",
-      "choix": ["un", "une"],
+      "choix": [
+        "un",
+        "une"
+      ],
       "bonne_reponse": 0,
       "points": 10
     },
     {
       "id": "ex-10",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « banane » :",
       "mot": "banane",
-      "choix": ["un", "une"],
+      "choix": [
+        "un",
+        "une"
+      ],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-11",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « robot » :",
       "mot": "robot",
-      "choix": ["un", "une"],
+      "choix": [
+        "un",
+        "une"
+      ],
       "bonne_reponse": 0,
       "points": 10
     },
     {
       "id": "ex-12",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « lampe » :",
       "mot": "lampe",
-      "choix": ["un", "une"],
+      "choix": [
+        "un",
+        "une"
+      ],
       "bonne_reponse": 1,
       "points": 10
     }

@@ -7,108 +7,144 @@
     {
       "id": "ex-01",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « ballons » :",
       "mot": "ballons",
-      "choix": ["un", "des"],
+      "choix": [
+        "un",
+        "des"
+      ],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-02",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « chien » :",
       "mot": "chien",
-      "choix": ["un", "des"],
+      "choix": [
+        "un",
+        "des"
+      ],
       "bonne_reponse": 0,
       "points": 10
     },
     {
       "id": "ex-03",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « pommes » :",
       "mot": "pommes",
-      "choix": ["une", "des"],
+      "choix": [
+        "une",
+        "des"
+      ],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-04",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « gâteau » :",
       "mot": "gâteau",
-      "choix": ["un", "des"],
+      "choix": [
+        "un",
+        "des"
+      ],
       "bonne_reponse": 0,
       "points": 10
     },
     {
       "id": "ex-05",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « chevaux » :",
       "mot": "chevaux",
-      "choix": ["un", "des"],
+      "choix": [
+        "un",
+        "des"
+      ],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-06",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « voiture » :",
       "mot": "voiture",
-      "choix": ["une", "des"],
+      "choix": [
+        "une",
+        "des"
+      ],
       "bonne_reponse": 0,
       "points": 10
     },
     {
       "id": "ex-07",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « chiens » :",
       "mot": "chiens",
-      "choix": ["un", "des"],
+      "choix": [
+        "un",
+        "des"
+      ],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-08",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « pomme » :",
       "mot": "pomme",
-      "choix": ["une", "des"],
+      "choix": [
+        "une",
+        "des"
+      ],
       "bonne_reponse": 0,
       "points": 10
     },
     {
       "id": "ex-09",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « gâteaux » :",
       "mot": "gâteaux",
-      "choix": ["un", "des"],
+      "choix": [
+        "un",
+        "des"
+      ],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-10",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « ballon » :",
       "mot": "ballon",
-      "choix": ["un", "des"],
+      "choix": [
+        "un",
+        "des"
+      ],
       "bonne_reponse": 0,
       "points": 10
     },
     {
       "id": "ex-11",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « voitures » :",
       "mot": "voitures",
-      "choix": ["une", "des"],
+      "choix": [
+        "une",
+        "des"
+      ],
       "bonne_reponse": 1,
       "points": 10
     },
     {
       "id": "ex-12",
       "type": "qcm",
-      "question": "Choisis le bon article pour le mot :",
+      "question": "Choisis le bon article pour « cheval » :",
       "mot": "cheval",
-      "choix": ["un", "des"],
+      "choix": [
+        "un",
+        "des"
+      ],
       "bonne_reponse": 0,
       "points": 10
     }

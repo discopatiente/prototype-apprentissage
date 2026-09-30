@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" role="img" aria-label="pièce de 10 centimes">
+  <defs>
+    <radialGradient id="ring" cx="34%" cy="28%" r="82%">
+      <stop offset="0" stop-color="#F5DDA0"/>
+      <stop offset="1" stop-color="#D4A93F"/>
+    </radialGradient>
+    <radialGradient id="core" cx="34%" cy="28%" r="82%">
+      <stop offset="0" stop-color="#F5DDA0"/>
+      <stop offset="1" stop-color="#D4A93F"/>
+    </radialGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="#A87D28" opacity="0.35"/>
+  <circle cx="50" cy="50" r="46.5" fill="url(#ring)"/>
+  <circle cx="50" cy="50" r="46.5" fill="none" stroke="#A87D28" stroke-width="1.6"/>
+  <path d="M50.00,3.40L50.73,5.50L52.95,5.54L51.18,6.88L51.82,9.01L50.00,7.74L48.18,9.01L48.82,6.88L47.05,5.54L49.27,5.50Z" fill="#A87D28" opacity="0.55"/><path d="M71.75,9.23L72.48,11.32L74.70,11.37L72.93,12.71L73.57,14.84L71.75,13.57L69.93,14.84L70.57,12.71L68.80,11.37L71.02,11.32Z" fill="#A87D28" opacity="0.55"/><path d="M87.67,25.15L88.40,27.25L90.62,27.29L88.85,28.63L89.49,30.76L87.67,29.49L85.85,30.76L86.49,28.63L84.72,27.29L86.94,27.25Z" fill="#A87D28" opacity="0.55"/><path d="M93.50,46.90L94.23,49.00L96.45,49.04L94.68,50.38L95.32,52.51L93.50,51.24L91.68,52.51L92.32,50.38L90.55,49.04L92.77,49.00Z" fill="#A87D28" opacity="0.55"/><path d="M87.67,68.65L88.40,70.75L90.62,70.79L88.85,72.13L89.49,74.26L87.67,72.99L85.85,74.26L86.49,72.13L84.72,70.79L86.94,70.75Z" fill="#A87D28" opacity="0.55"/><path d="M71.75,84.57L72.48,86.67L74.70,86.71L72.93,88.06L73.57,90.18L71.75,88.91L69.93,90.18L70.57,88.06L68.80,86.71L71.02,86.67Z" fill="#A87D28" opacity="0.55"/><path d="M50.00,90.40L50.73,92.50L52.95,92.54L51.18,93.88L51.82,96.01L50.00,94.74L48.18,96.01L48.82,93.88L47.05,92.54L49.27,92.50Z" fill="#A87D28" opacity="0.55"/><path d="M28.25,84.57L28.98,86.67L31.20,86.71L29.43,88.06L30.07,90.18L28.25,88.91L26.43,90.18L27.07,88.06L25.30,86.71L27.52,86.67Z" fill="#A87D28" opacity="0.55"/><path d="M12.33,68.65L13.06,70.75L15.28,70.79L13.51,72.13L14.15,74.26L12.33,72.99L10.51,74.26L11.15,72.13L9.38,70.79L11.60,70.75Z" fill="#A87D28" opacity="0.55"/><path d="M6.50,46.90L7.23,49.00L9.45,49.04L7.68,50.38L8.32,52.51L6.50,51.24L4.68,52.51L5.32,50.38L3.55,49.04L5.77,49.00Z" fill="#A87D28" opacity="0.55"/><path d="M12.33,25.15L13.06,27.25L15.28,27.29L13.51,28.63L14.15,30.76L12.33,29.49L10.51,30.76L11.15,28.63L9.38,27.29L11.60,27.25Z" fill="#A87D28" opacity="0.55"/><path d="M28.25,9.23L28.98,11.32L31.20,11.37L29.43,12.71L30.07,14.84L28.25,13.57L26.43,14.84L27.07,12.71L25.30,11.37L27.52,11.32Z" fill="#A87D28" opacity="0.55"/>
+  
+  <text x="50" y="54" text-anchor="middle" font-family="Verdana,DejaVu Sans,sans-serif" font-size="28" font-weight="bold" fill="#A87D28">10</text>
+  <text x="50" y="68" text-anchor="middle" font-family="Verdana,DejaVu Sans,sans-serif" font-size="9" font-weight="bold" letter-spacing="0.5" fill="#A87D28">CENTIMES</text>
+  <ellipse cx="34" cy="28" rx="19" ry="13" fill="#FFFFFF" opacity="0.30" transform="rotate(-30 34 28)"/>
+</svg>

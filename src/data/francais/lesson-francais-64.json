@@ -1,0 +1,63 @@
+{
+  "id": "lesson-francais-64",
+  "theme": "francais",
+  "titre": "Les homophones : a/à, et/est, son/sont, on/ont",
+  "description": "Découvre des mots qui se prononcent pareil mais qui s'écrivent différemment",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Certains mots se prononcent exactement pareil, mais ne s'écrivent pas de la même façon selon leur rôle dans la phrase. On les appelle des homophones. Aujourd'hui : a/à, et/est, son/sont, on/ont."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "« a » (sans accent) vient du verbe avoir : il a, elle a. Astuce : si on peut le remplacer par « avait », c'est « a ». « Léa a un chat » ➜ « Léa avait un chat » : ça marche, donc c'est « a » !",
+      "visuel": "Léa a un chat ➜ Léa avait un chat"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "« à » (avec l'accent) sert à dire où, quand, ou à qui. « Léa va à l'école. » On ne peut pas dire « Léa va avait l'école », l'astuce ne marche pas : c'est donc « à ».",
+      "visuel": "Léa va à l'école"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "« et » relie deux mots ou deux idées, comme « et puis ». « Le chat et le chien jouent ensemble. »",
+      "visuel": "le chat et le chien"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "« est » vient du verbe être : il est, elle est. Astuce : si on peut le remplacer par « était », c'est « est ». « Le ciel est bleu » ➜ « Le ciel était bleu » : ça marche, donc c'est « est » !",
+      "visuel": "Le ciel est bleu ➜ Le ciel était bleu"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "« son » est un petit mot placé devant un nom, qui veut dire « à lui » ou « à elle ». « Léa prend son sac. » On peut le remplacer par « mon » : « Léa prend mon sac » (la phrase reste correcte).",
+      "visuel": "Léa prend son sac"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "« sont » vient du verbe être : ils sont, elles sont. Astuce : si on peut le remplacer par « étaient », c'est « sont ». « Ils sont contents » ➜ « Ils étaient contents » : ça marche !",
+      "visuel": "Ils sont contents ➜ Ils étaient contents"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "« on » veut dire « quelqu'un » ou « nous ». Astuce : si on peut le remplacer par « il », c'est « on ». « On joue dehors » ➜ « Il joue dehors » : ça marche, donc c'est « on » !",
+      "visuel": "On joue dehors ➜ Il joue dehors"
+    },
+    {
+      "id": "ecran-09",
+      "texte": "« ont » vient du verbe avoir : ils ont, elles ont. Astuce : si on peut le remplacer par « avaient », c'est « ont ». « Ils ont un ballon » ➜ « Ils avaient un ballon » : ça marche !",
+      "visuel": "Ils ont un ballon ➜ Ils avaient un ballon"
+    },
+    {
+      "id": "ecran-10",
+      "texte": "Retiens les astuces : « a » se change en « avait », « est » se change en « était », « sont » se change en « étaient », « on » se change en « il », « ont » se change en « avaient ». Si l'astuce ne marche pas, c'est l'autre mot !"
+    },
+    {
+      "id": "ecran-11",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

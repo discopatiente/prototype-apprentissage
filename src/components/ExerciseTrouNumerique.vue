@@ -38,6 +38,8 @@
       </template>
     </div>
 
+    <ImageRow v-if="exercise.images" :images="exercise.images" />
+
     <div class="phrase-card">
       <span class="phrase-texte">{{ exercise.avant }}</span>
       <input
@@ -76,6 +78,7 @@
 
 <script setup>
 import { ref, computed } from 'vue'
+import ImageRow from './ImageRow.vue'
 
 const props = defineProps({
   exercise: { type: Object, required: true },

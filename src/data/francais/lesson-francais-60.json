@@ -1,0 +1,138 @@
+{
+  "id": "lesson-francais-60",
+  "theme": "francais",
+  "titre": "Les expressions imagées",
+  "description": "Devine le vrai sens des expressions imagées",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Que veut dire « Avoir la tête dans les nuages » ?",
+      "mot": "« Avoir la tête dans les nuages »",
+      "choix": [
+        "Être distrait, ne pas faire attention",
+        "Être très grand",
+        "Avoir mal à la tête"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Que veut dire « Avoir un chat dans la gorge » ?",
+      "mot": "« Avoir un chat dans la gorge »",
+      "choix": [
+        "Avoir avalé un vrai chat",
+        "Avoir du mal à parler, la voix qui gratte",
+        "Aimer beaucoup les chats"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Que veut dire « Coûter les yeux de la tête » ?",
+      "mot": "« Coûter les yeux de la tête »",
+      "choix": [
+        "Faire mal aux yeux",
+        "Être gratuit",
+        "Être très cher"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Que veut dire « Poser un lapin » ?",
+      "mot": "« Poser un lapin »",
+      "choix": [
+        "Ne pas venir à un rendez-vous",
+        "Offrir un animal",
+        "Jouer à cache-cache"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Que veut dire « Tomber dans les pommes » ?",
+      "mot": "« Tomber dans les pommes »",
+      "choix": [
+        "Tomber d'un pommier",
+        "S'évanouir",
+        "Manger trop de fruits"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Que veut dire « Avoir le cœur sur la main » ?",
+      "mot": "« Avoir le cœur sur la main »",
+      "choix": [
+        "Être très généreux",
+        "Avoir mal au cœur",
+        "Tenir son cœur dans sa main"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Que veut dire « Donner sa langue au chat » ?",
+      "mot": "« Donner sa langue au chat »",
+      "choix": [
+        "Donner à manger à un chat",
+        "Arrêter de parler pour toujours",
+        "Renoncer à deviner et demander la réponse"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Que veut dire « Avoir des fourmis dans les jambes » ?",
+      "mot": "« Avoir des fourmis dans les jambes »",
+      "choix": [
+        "Avoir très envie de bouger",
+        "Avoir de vraies fourmis sur soi",
+        "Avoir mal aux jambes"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Que veut dire « Avoir les jambes en coton » ?",
+      "mot": "« Avoir les jambes en coton »",
+      "choix": [
+        "Porter un pantalon en coton",
+        "Être très fatigué, ne plus tenir debout",
+        "Avoir froid aux jambes"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Que veut dire « Être haut comme trois pommes » ?",
+      "mot": "« Être haut comme trois pommes »",
+      "choix": [
+        "Être très grand",
+        "Aimer manger des pommes",
+        "Être tout petit"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

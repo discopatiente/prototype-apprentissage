@@ -114,7 +114,6 @@
       {
         "id": "niveau-10",
         "titre": "Niveau 10",
-        "nouveau": true,
         "lessons": [
           "lesson-francais-52",
           "lesson-francais-53",
@@ -125,11 +124,45 @@
       {
         "id": "niveau-11",
         "titre": "Niveau 11",
-        "nouveau": true,
         "lessons": [
           "lesson-francais-56",
           "lesson-francais-57",
           "lesson-francais-58"
+        ]
+      },
+      {
+        "id": "niveau-12",
+        "titre": "Niveau 12",
+        "lessons": [
+          "lesson-francais-59",
+          "lesson-francais-60",
+          "lesson-francais-61"
+        ]
+      },
+      {
+        "id": "niveau-13",
+        "titre": "Niveau 13",
+        "lessons": [
+          "lesson-francais-62",
+          "lesson-francais-63"
+        ]
+      },
+      {
+        "id": "niveau-14",
+        "titre": "Niveau 14",
+        "lessons": [
+          "lesson-francais-64",
+          "lesson-francais-65",
+          "lesson-francais-66"
+        ]
+      },
+      {
+        "id": "niveau-15",
+        "titre": "Niveau 15",
+        "nouveau": true,
+        "lessons": [
+          "lesson-francais-67",
+          "lesson-francais-68"
         ]
       }
     ]
@@ -205,13 +238,23 @@
       {
         "id": "niveau-7",
         "titre": "Niveau 7",
-        "nouveau": true,
         "lessons": [
           "lesson-maths-26",
           "lesson-maths-27",
           "lesson-maths-28",
           "lesson-maths-29",
           "lesson-maths-30"
+        ]
+      },
+      {
+        "id": "niveau-8",
+        "titre": "Niveau 8",
+        "nouveau": true,
+        "lessons": [
+          "lesson-maths-31",
+          "lesson-maths-32",
+          "lesson-maths-33",
+          "lesson-maths-34"
         ]
       }
     ]

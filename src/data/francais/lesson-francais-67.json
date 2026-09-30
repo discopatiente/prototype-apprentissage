@@ -1,0 +1,52 @@
+{
+  "id": "lesson-francais-67",
+  "theme": "francais",
+  "titre": "La ponctuation",
+  "description": "Découvre le point, le point d'interrogation, le point d'exclamation et la virgule",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "À l'écrit, la ponctuation aide à savoir comment lire une phrase : où s'arrêter, et avec quel ton. Aujourd'hui, on regarde quatre signes : le point, le point d'interrogation, le point d'exclamation et la virgule."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Le point ( . ) termine une phrase qui raconte ou explique quelque chose, tranquillement. « Léa mange une pomme. »",
+      "visuel": "Léa mange une pomme ."
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Le point d'interrogation ( ? ) termine une phrase qui pose une question. « Est-ce que Léa mange une pomme ? »",
+      "visuel": "Est-ce que Léa mange une pomme ?"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Le point d'exclamation ( ! ) termine une phrase qui exprime une émotion forte : la surprise, la joie, la peur, la colère. « Quelle bonne pomme ! »",
+      "visuel": "Quelle bonne pomme !"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Regarde bien : la même phrase peut changer selon la ponctuation. « Léa mange une pomme. » (on raconte) « Léa mange une pomme ? » (on demande) « Léa mange une pomme ! » (on s'exclame)",
+      "visuel": "Léa mange une pomme . | Léa mange une pomme ? | Léa mange une pomme !"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "La virgule ( , ) fait une petite pause à l'intérieur de la phrase. Elle sert surtout à séparer les mots d'une liste. « Dans son sac, Léa a un stylo, un cahier et une gomme. »",
+      "visuel": "un stylo , un cahier et une gomme"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Sans les virgules, une liste devient difficile à lire : « Dans son sac Léa a un stylo un cahier et une gomme. » On ne sait plus bien où s'arrêter !"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Retiens bien : le point pour raconter, le point d'interrogation pour demander, le point d'exclamation pour s'exclamer, et la virgule pour séparer les mots d'une liste."
+    },
+    {
+      "id": "ecran-09",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

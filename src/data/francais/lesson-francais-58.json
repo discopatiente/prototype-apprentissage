@@ -7,8 +7,8 @@
     {
       "id": "ex-01",
       "type": "reponse-courte",
-      "texte": "Les mots sont mélangés. Remets-les dans le bon ordre pour faire une phrase, et écris-la. chat / le / dort",
-      "question": "Écris la phrase dans le bon ordre.",
+      "texte": "chat / le / dort",
+      "question": "Écris la phrase dans le bon ordre : « chat / le / dort »",
       "bonnes_reponses": [
         "le chat dort",
         "le chat dort."
@@ -19,7 +19,7 @@
       "id": "ex-02",
       "type": "reponse-courte",
       "texte": "mange / Sofia / pomme / une",
-      "question": "Écris la phrase dans le bon ordre.",
+      "question": "Écris la phrase dans le bon ordre : « mange / Sofia / pomme / une »",
       "bonnes_reponses": [
         "Sofia mange une pomme",
         "Sofia mange une pomme."
@@ -30,7 +30,7 @@
       "id": "ex-03",
       "type": "reponse-courte",
       "texte": "au / joue / Léo / ballon",
-      "question": "Écris la phrase dans le bon ordre.",
+      "question": "Écris la phrase dans le bon ordre : « au / joue / Léo / ballon »",
       "bonnes_reponses": [
         "Léo joue au ballon",
         "Léo joue au ballon."
@@ -41,7 +41,7 @@
       "id": "ex-04",
       "type": "reponse-courte",
       "texte": "chien / le / court / vite",
-      "question": "Écris la phrase dans le bon ordre.",
+      "question": "Écris la phrase dans le bon ordre : « chien / le / court / vite »",
       "bonnes_reponses": [
         "le chien court vite",
         "le chien court vite."
@@ -52,7 +52,7 @@
       "id": "ex-05",
       "type": "reponse-courte",
       "texte": "Clara / judo / du / fait",
-      "question": "Écris la phrase dans le bon ordre.",
+      "question": "Écris la phrase dans le bon ordre : « Clara / judo / du / fait »",
       "bonnes_reponses": [
         "Clara fait du judo",
         "Clara fait du judo."
@@ -63,7 +63,7 @@
       "id": "ex-06",
       "type": "reponse-courte",
       "texte": "les / chantent / enfants / bien / très",
-      "question": "Écris la phrase dans le bon ordre.",
+      "question": "Écris la phrase dans le bon ordre : « les / chantent / enfants / bien / très »",
       "bonnes_reponses": [
         "les enfants chantent très bien",
         "les enfants chantent très bien."
@@ -74,7 +74,7 @@
       "id": "ex-07",
       "type": "reponse-courte",
       "texte": "renard / la / le / traverse / forêt",
-      "question": "Écris la phrase dans le bon ordre.",
+      "question": "Écris la phrase dans le bon ordre : « renard / la / le / traverse / forêt »",
       "bonnes_reponses": [
         "le renard traverse la forêt",
         "le renard traverse la forêt."
@@ -85,7 +85,7 @@
       "id": "ex-08",
       "type": "reponse-courte",
       "texte": "boit / Inès / de l'eau / le judo / après",
-      "question": "Écris la phrase dans le bon ordre.",
+      "question": "Écris la phrase dans le bon ordre : « boit / Inès / de l'eau / le judo / après »",
       "bonnes_reponses": [
         "Inès boit de l'eau après le judo",
         "Inès boit de l'eau après le judo.",

@@ -8,7 +8,7 @@
       "id": "ex-01",
       "type": "qcm-texte",
       "texte": "Rappel : hier, c'est le passé composé. Maintenant, tous les jours, c'est le présent. Avant, souvent, c'est l'imparfait. Demain, bientôt, c'est le futur simple. Hier, Sofia ___ une pomme après le judo.",
-      "question": "Quelle est la bonne forme du verbe manger ?",
+      "question": "Quelle est la bonne forme du verbe manger, dans « Rappel : hier, c'est le passé composé. Maintenant, tous les jours, c'est le présent. Avant, souvent, c'est l'imparfait. Demain, bientôt, c'est le futur simple. Hier, Sofia ___ une pomme après le judo. » ?",
       "choix": [
         "a mangé",
         "mange",
@@ -21,7 +21,7 @@
       "id": "ex-02",
       "type": "qcm-texte",
       "texte": "Demain, nous ___ au parc avec nos amis.",
-      "question": "Quelle est la bonne forme du verbe jouer ?",
+      "question": "Quelle est la bonne forme du verbe jouer, dans « Demain, nous ___ au parc avec nos amis. » ?",
       "choix": [
         "jouons",
         "jouerons",
@@ -34,7 +34,7 @@
       "id": "ex-03",
       "type": "qcm-texte",
       "texte": "Tous les jours, Léo ___ avec son chien.",
-      "question": "Quelle est la bonne forme du verbe jouer ?",
+      "question": "Quelle est la bonne forme du verbe jouer, dans « Tous les jours, Léo ___ avec son chien. » ?",
       "choix": [
         "a joué",
         "jouera",
@@ -47,7 +47,7 @@
       "id": "ex-04",
       "type": "qcm-texte",
       "texte": "Quand j'étais petite, je ___ tous les soirs.",
-      "question": "Quelle est la bonne forme du verbe chanter ?",
+      "question": "Quelle est la bonne forme du verbe chanter, dans « Quand j'étais petite, je ___ tous les soirs. » ?",
       "choix": [
         "chantais",
         "chanterai",
@@ -60,7 +60,7 @@
       "id": "ex-05",
       "type": "qcm-texte",
       "texte": "En ce moment, les enfants ___ leur goûter.",
-      "question": "Quelle est la bonne forme du verbe manger ?",
+      "question": "Quelle est la bonne forme du verbe manger, dans « En ce moment, les enfants ___ leur goûter. » ?",
       "choix": [
         "mangeront",
         "mangent",
@@ -73,7 +73,7 @@
       "id": "ex-06",
       "type": "qcm-texte",
       "texte": "L'année prochaine, tu ___ dans un grand tournoi.",
-      "question": "Quelle est la bonne forme du verbe jouer ?",
+      "question": "Quelle est la bonne forme du verbe jouer, dans « L'année prochaine, tu ___ dans un grand tournoi. » ?",
       "choix": [
         "jouais",
         "as joué",
@@ -86,7 +86,7 @@
       "id": "ex-07",
       "type": "qcm-texte",
       "texte": "Ce matin, vous ___ très fort à la fête.",
-      "question": "Quelle est la bonne forme du verbe chanter ?",
+      "question": "Quelle est la bonne forme du verbe chanter, dans « Ce matin, vous ___ très fort à la fête. » ?",
       "choix": [
         "chanterez",
         "avez chanté",
@@ -99,7 +99,7 @@
       "id": "ex-08",
       "type": "qcm-texte",
       "texte": "Avant, Clara ___ souvent les nuages.",
-      "question": "Quelle est la bonne forme du verbe regarder ?",
+      "question": "Quelle est la bonne forme du verbe regarder, dans « Avant, Clara ___ souvent les nuages. » ?",
       "choix": [
         "regardait",
         "regardera",
@@ -112,7 +112,7 @@
       "id": "ex-09",
       "type": "qcm-texte",
       "texte": "Bientôt, je ___ devant toute l'école.",
-      "question": "Quelle est la bonne forme du verbe chanter ?",
+      "question": "Quelle est la bonne forme du verbe chanter, dans « Bientôt, je ___ devant toute l'école. » ?",
       "choix": [
         "chante",
         "ai chanté",
@@ -125,7 +125,7 @@
       "id": "ex-10",
       "type": "qcm-texte",
       "texte": "Maintenant, tu ___ au ballon dans le jardin.",
-      "question": "Quelle est la bonne forme du verbe jouer ?",
+      "question": "Quelle est la bonne forme du verbe jouer, dans « Maintenant, tu ___ au ballon dans le jardin. » ?",
       "choix": [
         "joues",
         "as joué",

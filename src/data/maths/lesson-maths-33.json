@@ -1,0 +1,129 @@
+{
+  "id": "lesson-maths-33",
+  "theme": "maths",
+  "titre": "Payer et rendre la monnaie",
+  "description": "Lis la situation, trouve la bonne opération, puis calcule",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Léa va acheter un cahier qui coûte 4 €. Elle donne un billet de 10 € à la marchande.",
+      "images": [
+        { "src": "maths/monnaie/billet-10-euros.svg", "alt": "billet de 10 euros" }
+      ],
+      "question": "Pour savoir combien la marchande doit rendre, quelle opération faut-il faire ?",
+      "choix": [
+        "Une addition : 10 + 4",
+        "Une soustraction : 10 - 4",
+        "Une multiplication : 10 x 4"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Léa va acheter un cahier qui coûte 4 €. Elle donne un billet de 10 € à la marchande.",
+      "images": [
+        { "src": "maths/monnaie/billet-10-euros.svg", "alt": "billet de 10 euros" }
+      ],
+      "question": "Combien la marchande rend-elle à Léa ?",
+      "choix": [
+        "4 €",
+        "14 €",
+        "6 €"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Inès achète 3 gommes. Chaque gomme coûte 2 €.",
+      "question": "Pour savoir combien Inès doit payer, quelle opération faut-il faire ?",
+      "choix": [
+        "Une multiplication : 3 x 2",
+        "Une addition : 3 + 2",
+        "Une soustraction : 3 - 2"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Inès achète 3 gommes. Chaque gomme coûte 2 €.",
+      "question": "Combien Inès doit-elle payer en tout ?",
+      "choix": [
+        "5 €",
+        "6 €",
+        "9 €"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Clara a sorti toutes les pièces de sa poche. Elle voudrait acheter un jus d'orange qui coûte 6 €.",
+      "images": [
+        { "src": "maths/monnaie/piece-2-euros.svg", "alt": "pièce de 2 euros" },
+        { "src": "maths/monnaie/piece-2-euros.svg", "alt": "pièce de 2 euros" },
+        { "src": "maths/monnaie/piece-1-euro.svg", "alt": "pièce de 1 euro" }
+      ],
+      "question": "Combien Clara a-t-elle d'argent en tout ?",
+      "choix": [
+        "3 €",
+        "4 €",
+        "5 €"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Clara a 5 € dans sa poche. Le jus d'orange coûte 6 €.",
+      "question": "Clara peut-elle acheter le jus d'orange ?",
+      "choix": [
+        "Oui, elle a assez d'argent",
+        "Non, il lui manque 1 €",
+        "Non, il lui manque 5 €"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Laura a un billet de 20 €. Elle achète un jeu qui coûte 12 €.",
+      "images": [
+        { "src": "maths/monnaie/billet-20-euros.svg", "alt": "billet de 20 euros" }
+      ],
+      "question": "Pour savoir ce qu'il lui reste, quelle opération faut-il faire ?",
+      "choix": [
+        "Une addition : 20 + 12",
+        "Une multiplication : 20 x 12",
+        "Une soustraction : 20 - 12"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Laura a un billet de 20 €. Elle achète un jeu qui coûte 12 €.",
+      "images": [
+        { "src": "maths/monnaie/billet-20-euros.svg", "alt": "billet de 20 euros" }
+      ],
+      "question": "Combien reste-t-il à Laura après avoir payé ?",
+      "choix": [
+        "8 €",
+        "9 €",
+        "32 €"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}
