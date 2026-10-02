@@ -1,0 +1,138 @@
+{
+  "id": "lesson-maths-44",
+  "theme": "maths",
+  "titre": "Ranger des longueurs",
+  "description": "Range des longueurs du plus court au plus long, et inversement",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Trois crayons : un rouge de 12 cm, un bleu de 8 cm et un vert de 15 cm.",
+      "question": "Range ces longueurs du plus court au plus long : 12 cm, 8 cm, 15 cm",
+      "choix": [
+        "bleu, rouge, vert",
+        "rouge, vert, bleu",
+        "vert, rouge, bleu"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Trois rubans : celui de Léa fait 9 cm, celui de Tom 14 cm et celui de Sofia 6 cm.",
+      "question": "Range ces longueurs du plus long au plus court : 9 cm, 14 cm, 6 cm",
+      "choix": [
+        "Léa, Sofia, Tom",
+        "Tom, Léa, Sofia",
+        "Sofia, Léa, Tom"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Trois cordes : une jaune de 5 m, une verte de 3 m et une rouge de 7 m.",
+      "question": "Range ces longueurs du plus court au plus long : 5 m, 3 m, 7 m",
+      "choix": [
+        "jaune, rouge, verte",
+        "rouge, jaune, verte",
+        "verte, jaune, rouge"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Trois bâtons : un petit de 10 cm, un moyen de 18 cm et un grand de 25 cm.",
+      "question": "Range ces longueurs du plus long au plus court : 10 cm, 18 cm, 25 cm",
+      "choix": [
+        "grand, moyen, petit",
+        "petit, grand, moyen",
+        "moyen, grand, petit"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Trois sauts : Inès a sauté 1 m, Tom 3 m et Léa 2 m.",
+      "question": "Range ces longueurs du plus court au plus long : 1 m, 3 m, 2 m",
+      "choix": [
+        "Tom, Inès, Léa",
+        "Inès, Léa, Tom",
+        "Léa, Inès, Tom"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Trois chenilles : une verte de 4 cm, une jaune de 11 cm et une rouge de 7 cm.",
+      "question": "Range ces longueurs du plus long au plus court : 4 cm, 11 cm, 7 cm",
+      "choix": [
+        "rouge, jaune, verte",
+        "verte, rouge, jaune",
+        "jaune, rouge, verte"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Trois couloirs : 8 m, 12 m et 5 m de long.",
+      "question": "Range ces longueurs du plus court au plus long : 8 m, 12 m, 5 m",
+      "choix": [
+        "le couloir de 8 m, le couloir de 5 m, le couloir de 12 m",
+        "le couloir de 5 m, le couloir de 8 m, le couloir de 12 m",
+        "le couloir de 12 m, le couloir de 5 m, le couloir de 8 m"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Trois lacets : 20 cm, 35 cm et 28 cm.",
+      "question": "Range ces longueurs du plus long au plus court : 20 cm, 35 cm, 28 cm",
+      "choix": [
+        "le lacet de 20 cm, le lacet de 28 cm, le lacet de 35 cm",
+        "le lacet de 28 cm, le lacet de 20 cm, le lacet de 35 cm",
+        "le lacet de 35 cm, le lacet de 28 cm, le lacet de 20 cm"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Trois longueurs : 1 m, 90 cm et 150 cm.",
+      "question": "Range ces longueurs du plus court au plus long : 1 m, 90 cm, 150 cm",
+      "choix": [
+        "90 cm, 1 m, 150 cm",
+        "1 m, 150 cm, 90 cm",
+        "150 cm, 1 m, 90 cm"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Trois planches : une de 2 m, une de 150 cm et une de 180 cm.",
+      "question": "Range ces longueurs du plus long au plus court : 2 m, 150 cm, 180 cm",
+      "choix": [
+        "150 cm, 2 m, 180 cm",
+        "2 m, 180 cm, 150 cm",
+        "180 cm, 2 m, 150 cm"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "lesson-maths-46",
+  "theme": "maths",
+  "titre": "Les figures",
+  "description": "Découvre le carré, le rectangle, le triangle et le cercle",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Autour de toi, il y a plein de formes : une fenêtre, une roue, un toit… En maths, ces formes s'appellent des figures.",
+      "visuel": "🪟 | 🛞 | 🏠"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Voici le carré. Il a 4 côtés. Ses 4 côtés sont tous de la même longueur.",
+      "images": [
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        }
+      ]
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Voici le rectangle. Il a aussi 4 côtés, mais il est allongé : il a deux côtés longs et deux côtés courts.",
+      "images": [
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        }
+      ]
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Voici le triangle. Il a 3 côtés et 3 pointes.",
+      "images": [
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        }
+      ]
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Voici le cercle. Il est tout rond. Il n'a pas de côtés et pas de pointes.",
+      "images": [
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        }
+      ]
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Un côté, c'est un trait droit qui fait le tour de la figure. Le cercle n'a pas de côté : il n'a aucun trait droit, il est rond partout."
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Pour retenir : le triangle a 3 côtés, le carré et le rectangle ont 4 côtés, le cercle n'en a pas.",
+      "images": [
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "lesson-maths-37",
+  "theme": "maths",
+  "titre": "Lire la règle",
+  "description": "Lis le bon numéro sur la règle pour trouver la longueur",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "Un crayon : de 0 à 9 sur la règle",
+      "consigne": "Tu poses un crayon sur le 0 de la règle. Il s'arrête au numéro 9.",
+      "avant": "Il mesure ",
+      "apres": " cm",
+      "reponse": 9,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "Une gomme : de 0 à 4 sur la règle",
+      "consigne": "Tu poses une gomme sur le 0 de la règle. Il s'arrête au numéro 4.",
+      "avant": "Il mesure ",
+      "apres": " cm",
+      "reponse": 4,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "Un stylo : de 0 à 12 sur la règle",
+      "consigne": "Tu poses un stylo sur le 0 de la règle. Il s'arrête au numéro 12.",
+      "avant": "Il mesure ",
+      "apres": " cm",
+      "reponse": 12,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "Une clé : de 0 à 6 sur la règle",
+      "consigne": "Tu poses une clé sur le 0 de la règle. Il s'arrête au numéro 6.",
+      "avant": "Il mesure ",
+      "apres": " cm",
+      "reponse": 6,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "Un trombone : de 0 à 3 sur la règle",
+      "consigne": "Tu poses un trombone sur le 0 de la règle. Il s'arrête au numéro 3.",
+      "avant": "Il mesure ",
+      "apres": " cm",
+      "reponse": 3,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "Une carotte : de 0 à 11 sur la règle",
+      "consigne": "Tu poses une carotte sur le 0 de la règle. Il s'arrête au numéro 11.",
+      "avant": "Il mesure ",
+      "apres": " cm",
+      "reponse": 11,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "Un bonbon : de 0 à 2 sur la règle",
+      "consigne": "Tu poses un bonbon sur le 0 de la règle. Il s'arrête au numéro 2.",
+      "avant": "Il mesure ",
+      "apres": " cm",
+      "reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "Un feutre : de 0 à 14 sur la règle",
+      "consigne": "Tu poses un feutre sur le 0 de la règle. Il s'arrête au numéro 14.",
+      "avant": "Il mesure ",
+      "apres": " cm",
+      "reponse": 14,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "Une feuille de salade : de 0 à 7 sur la règle",
+      "consigne": "Tu poses une feuille de salade sur le 0 de la règle. Il s'arrête au numéro 7.",
+      "avant": "Il mesure ",
+      "apres": " cm",
+      "reponse": 7,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "Un lacet : de 0 à 13 sur la règle",
+      "consigne": "Tu poses un lacet sur le 0 de la règle. Il s'arrête au numéro 13.",
+      "avant": "Il mesure ",
+      "apres": " cm",
+      "reponse": 13,
+      "points": 10
+    }
+  ]
+}

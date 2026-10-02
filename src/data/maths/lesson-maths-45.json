@@ -1,0 +1,108 @@
+{
+  "id": "lesson-maths-45",
+  "theme": "maths",
+  "titre": "Quelle longueur manque-t-il ?",
+  "description": "Trouve la longueur qui manque pour atteindre le total",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "5 cm + ... = 12 cm",
+      "consigne": "Un ruban de 5 cm doit atteindre 12 cm.",
+      "avant": "Il manque : ",
+      "apres": " cm",
+      "reponse": 7,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "8 cm + ... = 15 cm",
+      "consigne": "Un ruban de 8 cm doit atteindre 15 cm.",
+      "avant": "Il manque : ",
+      "apres": " cm",
+      "reponse": 7,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "3 m + ... = 10 m",
+      "consigne": "Une corde de 3 m doit atteindre 10 m.",
+      "avant": "Il manque : ",
+      "apres": " m",
+      "reponse": 7,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "6 cm + ... = 9 cm",
+      "consigne": "Une bande de 6 cm doit mesurer 9 cm.",
+      "avant": "Il manque : ",
+      "apres": " cm",
+      "reponse": 3,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "4 m + ... = 9 m",
+      "consigne": "Tom a déjà déroulé 4 m de fil. Il lui en faut 9 m.",
+      "avant": "Il lui manque : ",
+      "apres": " m",
+      "reponse": 5,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "10 cm + ... = 18 cm",
+      "consigne": "Une ficelle de 10 cm doit faire 18 cm pour un collier.",
+      "avant": "Il manque : ",
+      "apres": " cm",
+      "reponse": 8,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "2 m + ... = 6 m",
+      "consigne": "Un tapis de 2 m doit couvrir 6 m de couloir.",
+      "avant": "Il manque : ",
+      "apres": " m",
+      "reponse": 4,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "9 cm + ... = 20 cm",
+      "consigne": "Une bande de 9 cm doit atteindre 20 cm.",
+      "avant": "Il manque : ",
+      "apres": " cm",
+      "reponse": 11,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "7 m + ... = 12 m",
+      "consigne": "Une haie de 7 m doit s'étendre jusqu'à 12 m.",
+      "avant": "Il manque : ",
+      "apres": " m",
+      "reponse": 5,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "11 cm + ... = 14 cm",
+      "consigne": "Un lacet de 11 cm doit atteindre 14 cm.",
+      "avant": "Il manque : ",
+      "apres": " cm",
+      "reponse": 3,
+      "points": 10
+    }
+  ]
+}

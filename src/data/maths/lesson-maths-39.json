@@ -1,0 +1,128 @@
+{
+  "id": "lesson-maths-39",
+  "theme": "maths",
+  "titre": "Le plus long, le plus court",
+  "description": "Compare des longueurs pour trouver la plus grande ou la plus petite",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Léa a un ruban de 12 cm. Tom a un ruban de 9 cm.",
+      "question": "Quel ruban est le plus long : celui de Léa ou celui de Tom ?",
+      "choix": [
+        "Léa",
+        "Tom"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Une règle mesure 20 cm. Un crayon mesure 15 cm.",
+      "question": "Qui est le plus court : la règle ou le crayon ?",
+      "choix": [
+        "La règle",
+        "Le crayon"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Sofia saute 2 m. Inès saute 1 m.",
+      "question": "Qui a sauté le plus loin : Sofia ou Inès ?",
+      "choix": [
+        "Sofia",
+        "Inès"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Une gomme mesure 4 cm. Un trombone mesure 3 cm.",
+      "question": "Lequel est le plus long : la gomme ou le trombone ?",
+      "choix": [
+        "La gomme",
+        "Le trombone"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Un lit mesure 2 m. Une table mesure 1 m.",
+      "question": "Lequel est le plus court : le lit ou la table ?",
+      "choix": [
+        "La table",
+        "Le lit"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Une chenille mesure 7 cm. Un escargot mesure 5 cm.",
+      "question": "Quel animal est le plus long : la chenille ou l'escargot ?",
+      "choix": [
+        "L'escargot",
+        "La chenille"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Une corde mesure 8 m. Une autre corde mesure 10 m.",
+      "question": "Quelle corde est la plus longue : celle de 8 m ou celle de 10 m ?",
+      "choix": [
+        "Celle de 10 m",
+        "Celle de 8 m"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Un stylo mesure 14 cm. Un feutre mesure 11 cm.",
+      "question": "Lequel est le plus court : le stylo ou le feutre ?",
+      "choix": [
+        "Le stylo",
+        "Le feutre"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Tom mesure 130 cm. Léa mesure 125 cm.",
+      "question": "Qui est la plus grande personne : Tom ou Léa ?",
+      "choix": [
+        "Tom",
+        "Léa"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Un couloir mesure 6 m. Une chambre mesure 4 m.",
+      "question": "Quelle pièce est la plus longue : le couloir ou la chambre ?",
+      "choix": [
+        "La chambre",
+        "Le couloir"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

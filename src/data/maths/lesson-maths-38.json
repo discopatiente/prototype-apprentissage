@@ -1,0 +1,108 @@
+{
+  "id": "lesson-maths-38",
+  "theme": "maths",
+  "titre": "Calculer avec des longueurs",
+  "description": "Additionne et soustrais des longueurs en cm et en m",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "5 cm + 3 cm = ...",
+      "consigne": "Un ruban rouge mesure 5 cm. On colle un ruban bleu de 3 cm au bout.",
+      "avant": "Longueur totale : ",
+      "apres": " cm",
+      "reponse": 8,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "10 cm - 4 cm = ...",
+      "consigne": "Une ficelle mesure 10 cm. On coupe un morceau de 4 cm.",
+      "avant": "Il reste : ",
+      "apres": " cm",
+      "reponse": 6,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "6 cm + 6 cm = ...",
+      "consigne": "Deux crayons de 6 cm sont posés l'un derrière l'autre.",
+      "avant": "Longueur totale : ",
+      "apres": " cm",
+      "reponse": 12,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "9 cm - 2 cm = ...",
+      "consigne": "Un bâton mesure 9 cm. On casse un morceau de 2 cm.",
+      "avant": "Il reste : ",
+      "apres": " cm",
+      "reponse": 7,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "2 m + 3 m = ...",
+      "consigne": "Un tapis mesure 2 m. À côté, un autre tapis mesure 3 m.",
+      "avant": "Longueur totale : ",
+      "apres": " m",
+      "reponse": 5,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "8 m - 5 m = ...",
+      "consigne": "Un fil de 8 m est tendu. On en coupe 5 m.",
+      "avant": "Il reste : ",
+      "apres": " m",
+      "reponse": 3,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "7 cm + 4 cm = ...",
+      "consigne": "Une chenille mesure 7 cm. Elle grandit de 4 cm.",
+      "avant": "Elle mesure maintenant : ",
+      "apres": " cm",
+      "reponse": 11,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "12 cm - 5 cm = ...",
+      "consigne": "Une bougie mesure 12 cm. Elle fond de 5 cm.",
+      "avant": "Elle mesure maintenant : ",
+      "apres": " cm",
+      "reponse": 7,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "4 m + 4 m = ...",
+      "consigne": "Léa pose un tapis de 4 m. Tom pose un autre tapis de 4 m, juste après.",
+      "avant": "Ensemble, ils ont posé : ",
+      "apres": " m",
+      "reponse": 8,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "15 cm - 6 cm = ...",
+      "consigne": "Un ruban mesure 15 cm. Léa en coupe 6 cm.",
+      "avant": "Il reste : ",
+      "apres": " cm",
+      "reponse": 9,
+      "points": 10
+    }
+  ]
+}

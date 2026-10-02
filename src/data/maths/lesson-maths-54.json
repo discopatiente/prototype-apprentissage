@@ -1,0 +1,364 @@
+{
+  "id": "lesson-maths-54",
+  "theme": "maths",
+  "titre": "Compter les figures",
+  "description": "Compte combien il y a de figures de chaque sorte",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "Compter les triangles, rangée 1",
+      "consigne": "Compte les triangles dans la rangée.",
+      "avant": "Il y a ",
+      "apres": " triangles",
+      "reponse": 3,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "Compter les cercles, rangée 2",
+      "consigne": "Compte les cercles dans la rangée.",
+      "avant": "Il y a ",
+      "apres": " cercles",
+      "reponse": 2,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "Compter les carrés, rangée 3",
+      "consigne": "Compte les carrés dans la rangée.",
+      "avant": "Il y a ",
+      "apres": " carrés",
+      "reponse": 3,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        }
+      ]
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "Compter les rectangles, rangée 4",
+      "consigne": "Compte les rectangles dans la rangée.",
+      "avant": "Il y a ",
+      "apres": " rectangles",
+      "reponse": 3,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        },
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        },
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "Compter les triangles, rangée 5",
+      "consigne": "Compte les triangles dans la rangée.",
+      "avant": "Il y a ",
+      "apres": " triangles",
+      "reponse": 4,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        }
+      ]
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "Compter les cercles, rangée 6",
+      "consigne": "Compte les cercles dans la rangée.",
+      "avant": "Il y a ",
+      "apres": " cercles",
+      "reponse": 4,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "Compter les carrés, rangée 7",
+      "consigne": "Compte les carrés dans la rangée.",
+      "avant": "Il y a ",
+      "apres": " carrés",
+      "reponse": 4,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "Compter les rectangles, rangée 8",
+      "consigne": "Compte les rectangles dans la rangée.",
+      "avant": "Il y a ",
+      "apres": " rectangles",
+      "reponse": 2,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        }
+      ]
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "Compter les cercles, rangée 9",
+      "consigne": "Compte les cercles dans la rangée.",
+      "avant": "Il y a ",
+      "apres": " cercles",
+      "reponse": 2,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        }
+      ]
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "Compter les carrés, rangée 10",
+      "consigne": "Compte les carrés dans la rangée.",
+      "avant": "Il y a ",
+      "apres": " carrés",
+      "reponse": 5,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        }
+      ]
+    }
+  ]
+}

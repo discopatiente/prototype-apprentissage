@@ -1,0 +1,76 @@
+{
+  "id": "lesson-maths-51",
+  "theme": "maths",
+  "titre": "Se repérer",
+  "description": "Gauche, droite, au-dessus, en dessous : les mots de position",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Pour dire où se trouve quelque chose, on utilise des mots de position. Aujourd'hui : gauche, droite, au milieu, au-dessus et en dessous.",
+      "visuel": "📍"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Regarde cette ligne de figures. Le carré est à gauche. Le triangle est à droite. Le cercle est au milieu, entre le carré et le triangle.",
+      "images": [
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        }
+      ]
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Pour trouver la gauche et la droite, on lit comme dans un livre : on commence par la gauche et on finit par la droite.",
+      "images": [
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        }
+      ]
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Maintenant, regarde de haut en bas. Le cercle est au-dessus du carré. Le carré est en dessous du cercle.",
+      "images": [
+        {
+          "src": "maths/geometrie/cercle-sur-carre.svg",
+          "alt": "cercle au-dessus d'un carré"
+        }
+      ]
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Au-dessus, c'est en haut. En dessous, c'est en bas. Ici, le triangle est en haut et le rectangle est en bas : ça ressemble à une maison !",
+      "images": [
+        {
+          "src": "maths/geometrie/triangle-sur-rectangle.svg",
+          "alt": "triangle au-dessus d'un rectangle"
+        }
+      ]
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Pour retenir : gauche et droite, c'est de côté. Au-dessus et en dessous, c'est en haut et en bas.",
+      "visuel": "⬅️ ➡️ | ⬆️ ⬇️"
+    }
+  ]
+}

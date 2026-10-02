@@ -1,0 +1,200 @@
+{
+  "id": "lesson-maths-48",
+  "theme": "maths",
+  "titre": "Compter les côtés",
+  "description": "Compte les côtés des figures",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "Combien de côtés a un triangle ?",
+      "consigne": "Compte les côtés du triangle.",
+      "avant": "Un triangle a ",
+      "apres": " côtés",
+      "reponse": 3,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "Combien de côtés a un carré ?",
+      "consigne": "Compte les côtés du carré.",
+      "avant": "Un carré a ",
+      "apres": " côtés",
+      "reponse": 4,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        }
+      ]
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "Combien de côtés a un rectangle ?",
+      "consigne": "Compte les côtés du rectangle.",
+      "avant": "Un rectangle a ",
+      "apres": " côtés",
+      "reponse": 4,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "Combien de côtés a un cercle ?",
+      "consigne": "Regarde bien : y a-t-il des traits droits ?",
+      "avant": "Un cercle a ",
+      "apres": " côté",
+      "reponse": 0,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        }
+      ]
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "Côtés de 2 triangles ensemble",
+      "consigne": "Compte les côtés des deux figures.",
+      "avant": "En tout : ",
+      "apres": " côtés",
+      "reponse": 6,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "Côtés d'un carré et d'un triangle",
+      "consigne": "Compte les côtés des deux figures.",
+      "avant": "En tout : ",
+      "apres": " côtés",
+      "reponse": 7,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "Côtés de 2 carrés ensemble",
+      "consigne": "Compte les côtés des deux figures.",
+      "avant": "En tout : ",
+      "apres": " côtés",
+      "reponse": 8,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        }
+      ]
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "Côtés d'un rectangle et d'un triangle",
+      "consigne": "Compte les côtés des deux figures.",
+      "avant": "En tout : ",
+      "apres": " côtés",
+      "reponse": 7,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "Côtés de 3 triangles ensemble",
+      "consigne": "Compte les côtés des trois figures.",
+      "avant": "En tout : ",
+      "apres": " côtés",
+      "reponse": 9,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "Côtés d'un carré, d'un rectangle et d'un cercle",
+      "consigne": "Compte les côtés des trois figures.",
+      "avant": "En tout : ",
+      "apres": " côtés",
+      "reponse": 8,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        }
+      ]
+    }
+  ]
+}

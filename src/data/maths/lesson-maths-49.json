@@ -1,0 +1,63 @@
+{
+  "id": "lesson-maths-49",
+  "theme": "maths",
+  "titre": "Carré ou rectangle ?",
+  "description": "Apprends à ne pas confondre le carré et le rectangle",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Le carré et le rectangle se ressemblent : tous les deux ont 4 côtés et 4 coins bien droits.",
+      "images": [
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        }
+      ]
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Un coin bien droit, comme le coin d'une feuille de papier, s'appelle un angle droit. Le carré et le rectangle en ont quatre.",
+      "visuel": "📄"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Dans le carré, les 4 côtés ont la même longueur. Par exemple : 5 cm, 5 cm, 5 cm et 5 cm.",
+      "images": [
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        }
+      ]
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Dans le rectangle, les côtés qui se font face ont la même longueur. Il y a deux côtés longs et deux côtés courts. Par exemple : 8 cm, 3 cm, 8 cm et 3 cm.",
+      "images": [
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        }
+      ]
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Pour ne pas se tromper, on regarde les côtés. Tous pareils : c'est un carré. Deux longs et deux courts : c'est un rectangle.",
+      "images": [
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        }
+      ]
+    }
+  ]
+}

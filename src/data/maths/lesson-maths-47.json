@@ -1,0 +1,198 @@
+{
+  "id": "lesson-maths-47",
+  "theme": "maths",
+  "titre": "Reconnaître les figures",
+  "description": "Trouve le nom de chaque figure",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Regarde bien la figure.",
+      "question": "Cette figure a 4 côtés tous égaux. Comment s'appelle-t-elle ?",
+      "choix": [
+        "Le rectangle",
+        "Le carré",
+        "Le triangle"
+      ],
+      "bonne_reponse": 1,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        }
+      ]
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Regarde bien la figure.",
+      "question": "Cette figure est toute ronde. Comment s'appelle-t-elle ?",
+      "choix": [
+        "Le cercle",
+        "Le rectangle",
+        "Le triangle"
+      ],
+      "bonne_reponse": 0,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        }
+      ]
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Regarde bien la figure.",
+      "question": "Cette figure a 3 côtés et 3 pointes. Quel est son nom ?",
+      "choix": [
+        "Le cercle",
+        "Le carré",
+        "Le triangle"
+      ],
+      "bonne_reponse": 2,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Regarde bien la figure.",
+      "question": "Cette figure a 4 côtés : deux longs et deux courts. Quel est son nom ?",
+      "choix": [
+        "Le carré",
+        "Le rectangle",
+        "Le triangle"
+      ],
+      "bonne_reponse": 1,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Regarde bien la figure.",
+      "question": "Cette figure ressemble au toit d'une maison. Comment s'appelle-t-elle ?",
+      "choix": [
+        "Le triangle",
+        "Le rectangle",
+        "Le cercle"
+      ],
+      "bonne_reponse": 0,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Regarde bien la figure.",
+      "question": "Cette figure ressemble à une roue de vélo. Comment s'appelle-t-elle ?",
+      "choix": [
+        "Le triangle",
+        "Le carré",
+        "Le cercle"
+      ],
+      "bonne_reponse": 2,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        }
+      ]
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Regarde bien la figure.",
+      "question": "Cette figure ressemble à un carreau de carrelage. Quel est son nom ?",
+      "choix": [
+        "Le rectangle",
+        "Le carré",
+        "Le triangle"
+      ],
+      "bonne_reponse": 1,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        }
+      ]
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Regarde bien la figure.",
+      "question": "Cette figure ressemble à une porte. Comment s'appelle-t-elle ?",
+      "choix": [
+        "Le rectangle",
+        "Le triangle",
+        "Le cercle"
+      ],
+      "bonne_reponse": 0,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Regarde bien la figure.",
+      "question": "Cette figure n'a ni côtés ni pointes. Quel est son nom ?",
+      "choix": [
+        "Le triangle",
+        "Le carré",
+        "Le cercle"
+      ],
+      "bonne_reponse": 2,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        }
+      ]
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Regarde bien la figure.",
+      "question": "Cette figure est allongée et a 4 coins droits. Quel est son nom ?",
+      "choix": [
+        "Le carré",
+        "Le rectangle",
+        "Le triangle"
+      ],
+      "bonne_reponse": 1,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        }
+      ]
+    }
+  ]
+}

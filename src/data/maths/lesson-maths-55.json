@@ -1,0 +1,138 @@
+{
+  "id": "lesson-maths-55",
+  "theme": "maths",
+  "titre": "Révision des figures",
+  "description": "Révise tout ce que tu sais sur les figures",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Réfléchis bien aux figures que tu connais.",
+      "question": "Quelle figure n'a aucun côté ?",
+      "choix": [
+        "Le carré",
+        "Le cercle",
+        "Le triangle"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Réfléchis bien aux figures que tu connais.",
+      "question": "Quelle figure a exactement 3 côtés ?",
+      "choix": [
+        "Le triangle",
+        "Le rectangle",
+        "Le cercle"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Réfléchis bien aux figures que tu connais.",
+      "question": "Quelle figure a 4 côtés tous égaux ?",
+      "choix": [
+        "Le rectangle",
+        "Le triangle",
+        "Le carré"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Réfléchis bien aux figures que tu connais.",
+      "question": "Quelle figure a deux côtés longs et deux côtés courts ?",
+      "choix": [
+        "Le carré",
+        "Le rectangle",
+        "Le cercle"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Réfléchis bien aux figures que tu connais.",
+      "question": "Un carré et un rectangle ensemble : combien de côtés en tout ?",
+      "choix": [
+        "6",
+        "7",
+        "8"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Réfléchis bien aux figures que tu connais.",
+      "question": "Un triangle et un carré ensemble : combien de côtés en tout ?",
+      "choix": [
+        "7",
+        "8",
+        "9"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Réfléchis bien aux figures que tu connais.",
+      "question": "Quelle figure est le toit d'une maison, vu de face ?",
+      "choix": [
+        "Le cercle",
+        "Le triangle",
+        "Le carré"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Réfléchis bien aux figures que tu connais.",
+      "question": "Dans la ligne carré, cercle, triangle : quelle figure est à droite ?",
+      "choix": [
+        "Le carré",
+        "Le cercle",
+        "Le triangle"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Réfléchis bien aux figures que tu connais.",
+      "question": "Qu'ont en commun le carré et le rectangle ?",
+      "choix": [
+        "Ils ont 4 côtés",
+        "Ils sont tout ronds",
+        "Ils ont 3 côtés"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Réfléchis bien aux figures que tu connais.",
+      "question": "Parmi le carré, le rectangle et le triangle, laquelle n'a pas 4 côtés ?",
+      "choix": [
+        "Le carré",
+        "Le rectangle",
+        "Le triangle"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "lesson-maths-40",
+  "theme": "maths",
+  "titre": "Mètres et centimètres",
+  "description": "Passe des mètres aux centimètres : 1 m = 100 cm",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "1 m = ... cm",
+      "consigne": "Tu sais qu'un mètre, c'est 100 centimètres.",
+      "avant": "1 m = ",
+      "apres": " cm",
+      "reponse": 100,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "2 m = ... cm",
+      "consigne": "2 mètres, c'est 100 cm + 100 cm.",
+      "avant": "2 m = ",
+      "apres": " cm",
+      "reponse": 200,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "200 cm = ... m",
+      "consigne": "200 cm, c'est deux fois 100 cm.",
+      "avant": "200 cm = ",
+      "apres": " m",
+      "reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "3 m = ... cm",
+      "consigne": "3 mètres, c'est trois fois 100 cm.",
+      "avant": "3 m = ",
+      "apres": " cm",
+      "reponse": 300,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "400 cm = ... m",
+      "consigne": "400 cm, c'est quatre fois 100 cm.",
+      "avant": "400 cm = ",
+      "apres": " m",
+      "reponse": 4,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "1 m et 20 cm = ... cm",
+      "consigne": "Tu as 100 cm, plus 20 cm.",
+      "avant": "1 m et 20 cm = ",
+      "apres": " cm",
+      "reponse": 120,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "1 m et 50 cm = ... cm",
+      "consigne": "Tu as 100 cm, plus 50 cm.",
+      "avant": "1 m et 50 cm = ",
+      "apres": " cm",
+      "reponse": 150,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "5 m = ... cm",
+      "consigne": "5 mètres, c'est cinq fois 100 cm.",
+      "avant": "5 m = ",
+      "apres": " cm",
+      "reponse": 500,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "300 cm + 100 cm = ... cm",
+      "consigne": "Compte les centaines : 3 centaines + 1 centaine.",
+      "avant": "300 cm + 100 cm = ",
+      "apres": " cm",
+      "reponse": 400,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "Combien de mètres dans 500 cm ?",
+      "consigne": "500 cm, c'est cinq fois 100 cm.",
+      "avant": "500 cm = ",
+      "apres": " m",
+      "reponse": 5,
+      "points": 10
+    }
+  ]
+}

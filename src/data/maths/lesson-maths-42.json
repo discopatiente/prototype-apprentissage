@@ -1,0 +1,138 @@
+{
+  "id": "lesson-maths-42",
+  "theme": "maths",
+  "titre": "Deviner une longueur",
+  "description": "Imagine un objet et choisis sa longueur la plus juste",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Pas besoin de règle : imagine l'objet et choisis la longueur qui te semble la plus juste.",
+      "question": "Quelle est la longueur la plus vraisemblable pour un crayon neuf ?",
+      "choix": [
+        "15 m",
+        "15 cm",
+        "150 cm"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Pas besoin de règle : imagine l'objet et choisis la longueur qui te semble la plus juste.",
+      "question": "Quelle est la longueur la plus vraisemblable pour la porte de la classe ?",
+      "choix": [
+        "2 cm",
+        "20 m",
+        "2 m"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Pas besoin de règle : imagine l'objet et choisis la longueur qui te semble la plus juste.",
+      "question": "Quelle est la longueur la plus vraisemblable pour une gomme ?",
+      "choix": [
+        "4 cm",
+        "4 m",
+        "40 cm"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Pas besoin de règle : imagine l'objet et choisis la longueur qui te semble la plus juste.",
+      "question": "Quelle est la longueur la plus vraisemblable pour un lit ?",
+      "choix": [
+        "20 cm",
+        "2 m",
+        "20 m"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Pas besoin de règle : imagine l'objet et choisis la longueur qui te semble la plus juste.",
+      "question": "Quelle est la longueur la plus vraisemblable pour une feuille de cahier (sa hauteur) ?",
+      "choix": [
+        "3 cm",
+        "30 m",
+        "30 cm"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Pas besoin de règle : imagine l'objet et choisis la longueur qui te semble la plus juste.",
+      "question": "Quelle est la longueur la plus vraisemblable pour un autobus ?",
+      "choix": [
+        "10 m",
+        "10 cm",
+        "1 m"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Pas besoin de règle : imagine l'objet et choisis la longueur qui te semble la plus juste.",
+      "question": "Quelle est la longueur la plus vraisemblable pour un petit doigt (sa longueur) ?",
+      "choix": [
+        "60 cm",
+        "6 cm",
+        "6 m"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Pas besoin de règle : imagine l'objet et choisis la longueur qui te semble la plus juste.",
+      "question": "Quelle est la longueur la plus vraisemblable pour un terrain de foot ?",
+      "choix": [
+        "100 m",
+        "100 cm",
+        "10 m"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Pas besoin de règle : imagine l'objet et choisis la longueur qui te semble la plus juste.",
+      "question": "Quelle est la longueur la plus vraisemblable pour une table de cuisine ?",
+      "choix": [
+        "1 cm",
+        "10 m",
+        "1 m"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Pas besoin de règle : imagine l'objet et choisis la longueur qui te semble la plus juste.",
+      "question": "Quelle est la longueur la plus vraisemblable pour une fourchette ?",
+      "choix": [
+        "18 m",
+        "18 cm",
+        "180 cm"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "id": "lesson-maths-50",
+  "theme": "maths",
+  "titre": "Carré ou rectangle ?",
+  "description": "Regarde les côtés pour trouver la bonne figure",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Une figure a 4 côtés de 5 cm chacun et 4 coins droits.",
+      "question": "Une figure a 4 côtés de 5 cm : quelle est-elle ?",
+      "choix": [
+        "Un carré",
+        "Un rectangle",
+        "Un triangle"
+      ],
+      "bonne_reponse": 0,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        }
+      ]
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Une figure a 2 côtés de 8 cm et 2 côtés de 3 cm, avec 4 coins droits.",
+      "question": "Une figure a des côtés de 8 cm et de 3 cm : quelle est-elle ?",
+      "choix": [
+        "Un carré",
+        "Un rectangle",
+        "Un cercle"
+      ],
+      "bonne_reponse": 1,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Une figure a 3 côtés et 3 pointes.",
+      "question": "Une figure a 3 côtés : quelle est-elle ?",
+      "choix": [
+        "Un carré",
+        "Un rectangle",
+        "Un triangle"
+      ],
+      "bonne_reponse": 2,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Une figure a ses côtés de 10 cm, 10 cm, 10 cm et 10 cm.",
+      "question": "Une figure a des côtés de 10 cm, 10 cm, 10 cm, 10 cm : quelle est-elle ?",
+      "choix": [
+        "Un triangle",
+        "Un rectangle",
+        "Un carré"
+      ],
+      "bonne_reponse": 2,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        }
+      ]
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Une figure a des côtés de 6 cm, 2 cm, 6 cm et 2 cm.",
+      "question": "Une figure a des côtés de 6 cm et de 2 cm : quelle est-elle ?",
+      "choix": [
+        "Un rectangle",
+        "Un carré",
+        "Un triangle"
+      ],
+      "bonne_reponse": 0,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Regarde la figure : ses 4 côtés sont tous pareils.",
+      "question": "Quelle est cette figure aux 4 côtés tous pareils ?",
+      "choix": [
+        "Un rectangle",
+        "Un carré",
+        "Un cercle"
+      ],
+      "bonne_reponse": 1,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        }
+      ]
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Regarde la figure : elle est allongée avec 4 coins droits.",
+      "question": "Quelle est cette figure allongée ?",
+      "choix": [
+        "Un carré",
+        "Un rectangle",
+        "Un triangle"
+      ],
+      "bonne_reponse": 1,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Une fenêtre a deux côtés de 120 cm et deux côtés de 80 cm.",
+      "question": "Une fenêtre a des côtés de 120 cm et de 80 cm : quelle figure est-ce ?",
+      "choix": [
+        "Un carré",
+        "Un cercle",
+        "Un rectangle"
+      ],
+      "bonne_reponse": 2,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Un carreau de salle de bain a 4 côtés de 15 cm.",
+      "question": "Un carreau a 4 côtés de 15 cm : quelle figure est-ce ?",
+      "choix": [
+        "Un carré",
+        "Un triangle",
+        "Un rectangle"
+      ],
+      "bonne_reponse": 0,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        }
+      ]
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Un panneau de signalisation a 3 côtés égaux de 40 cm.",
+      "question": "Un panneau a 3 côtés de 40 cm : quelle figure est-ce ?",
+      "choix": [
+        "Un rectangle",
+        "Un carré",
+        "Un triangle"
+      ],
+      "bonne_reponse": 2,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        }
+      ]
+    }
+  ]
+}

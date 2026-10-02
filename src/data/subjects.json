@@ -249,12 +249,45 @@
       {
         "id": "niveau-8",
         "titre": "Niveau 8",
-        "nouveau": true,
         "lessons": [
           "lesson-maths-31",
           "lesson-maths-32",
           "lesson-maths-33",
           "lesson-maths-34"
+        ]
+      },
+      {
+        "id": "niveau-9",
+        "titre": "Niveau 9",
+        "lessons": [
+          "lesson-maths-35",
+          "lesson-maths-36",
+          "lesson-maths-37",
+          "lesson-maths-38",
+          "lesson-maths-39",
+          "lesson-maths-40",
+          "lesson-maths-41",
+          "lesson-maths-42",
+          "lesson-maths-43",
+          "lesson-maths-44",
+          "lesson-maths-45"
+        ]
+      },
+      {
+        "id": "niveau-10",
+        "titre": "Niveau 10",
+        "nouveau": true,
+        "lessons": [
+          "lesson-maths-46",
+          "lesson-maths-47",
+          "lesson-maths-53",
+          "lesson-maths-48",
+          "lesson-maths-49",
+          "lesson-maths-50",
+          "lesson-maths-51",
+          "lesson-maths-52",
+          "lesson-maths-54",
+          "lesson-maths-55"
         ]
       }
     ]

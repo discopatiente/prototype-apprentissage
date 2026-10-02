@@ -1,0 +1,45 @@
+{
+  "id": "lesson-maths-35",
+  "theme": "maths",
+  "titre": "Mesurer une longueur",
+  "description": "Découvre la règle, le centimètre et le mètre",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Pour savoir si un objet est long ou court, on le mesure. Mesurer une longueur, c'est dire « combien ça mesure ».",
+      "visuel": "📏"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Pour mesurer, on utilise une règle. Sur la règle, il y a des petits traits avec des numéros : 0, 1, 2, 3, 4…",
+      "visuel": "0 | 1 | 2 | 3 | 4"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Entre deux traits, il y a 1 centimètre. On l'écrit « cm ». Un centimètre est tout petit, à peu près comme la largeur de l'ongle de ton petit doigt.",
+      "visuel": "1 cm"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Pour mesurer un crayon, on pose le bout du crayon sur le 0 de la règle. Puis on regarde le numéro où le crayon s'arrête.",
+      "visuel": "✏️"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Si le crayon s'arrête au numéro 8, alors il mesure 8 centimètres. On écrit : 8 cm.",
+      "visuel": "✏️ = 8 cm"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Pour mesurer des choses plus grandes, comme une porte ou une chambre, on utilise le mètre. On l'écrit « m ». Un mètre, c'est 100 centimètres.",
+      "visuel": "1 m = 100 cm"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Pour retenir : les petits objets se mesurent en centimètres (cm). Les grandes choses se mesurent en mètres (m).",
+      "visuel": "✏️ 🖍️ cm | 🚪 🛏️ m"
+    }
+  ]
+}

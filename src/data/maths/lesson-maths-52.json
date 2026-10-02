@@ -1,0 +1,258 @@
+{
+  "id": "lesson-maths-52",
+  "theme": "maths",
+  "titre": "Où est la figure ?",
+  "description": "Trouve la figure grâce aux mots de position",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Regarde bien l'image.",
+      "question": "Quelle figure est à gauche ?",
+      "choix": [
+        "Le carré",
+        "Le cercle",
+        "Le triangle"
+      ],
+      "bonne_reponse": 0,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Regarde bien l'image.",
+      "question": "Quelle figure est à droite ?",
+      "choix": [
+        "Le triangle",
+        "Le carré",
+        "Le cercle"
+      ],
+      "bonne_reponse": 2,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        }
+      ]
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Regarde bien l'image.",
+      "question": "Quelle figure est au milieu ?",
+      "choix": [
+        "Le cercle",
+        "Le triangle",
+        "Le carré"
+      ],
+      "bonne_reponse": 1,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        }
+      ]
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Regarde bien l'image.",
+      "question": "Quelle figure est entre le triangle et le rectangle ?",
+      "choix": [
+        "Le carré",
+        "Le cercle",
+        "Le triangle"
+      ],
+      "bonne_reponse": 1,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        },
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Regarde bien l'image.",
+      "question": "Quelle figure est juste à droite du cercle ?",
+      "choix": [
+        "Le carré",
+        "Le rectangle",
+        "Le cercle"
+      ],
+      "bonne_reponse": 0,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Regarde bien l'image.",
+      "question": "Quelle figure est juste à gauche du carré ?",
+      "choix": [
+        "Le triangle",
+        "Le carré",
+        "Le rectangle"
+      ],
+      "bonne_reponse": 2,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/triangle.svg",
+          "alt": "triangle"
+        },
+        {
+          "src": "maths/geometrie/rectangle.svg",
+          "alt": "rectangle"
+        },
+        {
+          "src": "maths/geometrie/carre.svg",
+          "alt": "carré"
+        },
+        {
+          "src": "maths/geometrie/cercle.svg",
+          "alt": "cercle"
+        }
+      ]
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Regarde bien l'image.",
+      "question": "Quelle figure est au-dessus ?",
+      "choix": [
+        "Le carré",
+        "Le rectangle",
+        "Le cercle"
+      ],
+      "bonne_reponse": 2,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/cercle-sur-carre.svg",
+          "alt": "cercle au-dessus d'un carré"
+        }
+      ]
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Regarde bien l'image.",
+      "question": "Quelle figure est en dessous ?",
+      "choix": [
+        "Le rectangle",
+        "Le triangle",
+        "Le carré"
+      ],
+      "bonne_reponse": 0,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/triangle-sur-rectangle.svg",
+          "alt": "triangle au-dessus d'un rectangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Regarde bien l'image.",
+      "question": "Quelle figure est en bas ?",
+      "choix": [
+        "Le carré",
+        "Le triangle",
+        "Le rectangle"
+      ],
+      "bonne_reponse": 1,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/carre-sur-triangle.svg",
+          "alt": "carré au-dessus d'un triangle"
+        }
+      ]
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Regarde bien l'image.",
+      "question": "Quelle figure est en haut ?",
+      "choix": [
+        "Le rectangle",
+        "Le cercle",
+        "Le carré"
+      ],
+      "bonne_reponse": 0,
+      "points": 10,
+      "images": [
+        {
+          "src": "maths/geometrie/rectangle-sur-cercle.svg",
+          "alt": "rectangle au-dessus d'un cercle"
+        }
+      ]
+    }
+  ]
+}

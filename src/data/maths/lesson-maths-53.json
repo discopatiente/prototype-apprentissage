@@ -1,0 +1,138 @@
+{
+  "id": "lesson-maths-53",
+  "theme": "maths",
+  "titre": "Les figures autour de nous",
+  "description": "Retrouve les figures dans les objets de la maison",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Pense à un objet de tous les jours 🚲",
+      "question": "Quelle figure ressemble à la roue d'un vélo ?",
+      "choix": [
+        "Le rectangle",
+        "Le cercle",
+        "Le triangle"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Pense à un objet de tous les jours 🪟",
+      "question": "Quelle figure ressemble à une fenêtre ?",
+      "choix": [
+        "Le rectangle",
+        "Le cercle",
+        "Le carré"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Pense à un objet de tous les jours 🎲",
+      "question": "Quelle figure ressemble à une face d'un dé ?",
+      "choix": [
+        "Le rectangle",
+        "Le triangle",
+        "Le carré"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Pense à un objet de tous les jours ⚠️",
+      "question": "Quelle figure ressemble à un panneau de danger ?",
+      "choix": [
+        "Le rectangle",
+        "Le cercle",
+        "Le triangle"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Pense à un objet de tous les jours 📖",
+      "question": "Quelle figure ressemble à la couverture d'un livre ?",
+      "choix": [
+        "Le cercle",
+        "Le rectangle",
+        "Le carré"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Pense à un objet de tous les jours 🕐",
+      "question": "Quelle figure ressemble à une horloge ?",
+      "choix": [
+        "Le cercle",
+        "Le carré",
+        "Le rectangle"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Pense à un objet de tous les jours 🚪",
+      "question": "Quelle figure ressemble à une porte ?",
+      "choix": [
+        "Le rectangle",
+        "Le triangle",
+        "Le cercle"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Pense à un objet de tous les jours 🛁",
+      "question": "Quelle figure ressemble à un carreau de salle de bain ?",
+      "choix": [
+        "Le cercle",
+        "Le rectangle",
+        "Le carré"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Pense à un objet de tous les jours 🍽️",
+      "question": "Quelle figure ressemble à une assiette ?",
+      "choix": [
+        "Le carré",
+        "Le cercle",
+        "Le rectangle"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Pense à un objet de tous les jours 🍕",
+      "question": "Quelle figure ressemble à une part de pizza ?",
+      "choix": [
+        "Le rectangle",
+        "Le cercle",
+        "Le triangle"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "lesson-maths-41",
+  "theme": "maths",
+  "titre": "Problèmes de longueurs",
+  "description": "Résous de petits problèmes avec des longueurs en cm et en m",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Léa a une ficelle de 20 cm. Elle en coupe 8 cm pour faire un bracelet.",
+      "question": "Combien de centimètres de ficelle reste-t-il à Léa ?",
+      "choix": [
+        "28 cm",
+        "12 cm",
+        "10 cm"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Tom range deux crayons bout à bout. Le premier mesure 9 cm et le second 7 cm.",
+      "question": "Quelle est la longueur des deux crayons ensemble ?",
+      "choix": [
+        "2 cm",
+        "15 cm",
+        "16 cm"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Un couloir mesure 6 m. On pose un tapis de 4 m.",
+      "question": "Quelle longueur de couloir n'est pas couverte par le tapis ?",
+      "choix": [
+        "2 m",
+        "10 m",
+        "3 m"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Sofia a un ruban de 15 cm. Inès a un ruban de 11 cm.",
+      "question": "Combien de centimètres le ruban de Sofia a-t-il de plus que celui d'Inès ?",
+      "choix": [
+        "26 cm",
+        "4 cm",
+        "5 cm"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Pour décorer la classe, la maîtresse colle une guirlande de 3 m, puis une autre de 5 m.",
+      "question": "Quelle est la longueur des deux guirlandes ensemble ?",
+      "choix": [
+        "2 m",
+        "15 m",
+        "8 m"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Une chenille mesure 5 cm. Chaque semaine, elle grandit de 3 cm. Elle a grandi une seule semaine.",
+      "question": "Combien mesure la chenille maintenant ?",
+      "choix": [
+        "8 cm",
+        "2 cm",
+        "15 cm"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Un mur mesure 10 m de long. Léa a déjà peint 6 m.",
+      "question": "Combien de mètres reste-t-il à peindre ?",
+      "choix": [
+        "16 m",
+        "4 m",
+        "5 m"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Tom lance sa balle à 2 m. Elle roule encore 3 m.",
+      "question": "Quelle distance la balle a-t-elle parcourue en tout ?",
+      "choix": [
+        "1 m",
+        "6 m",
+        "5 m"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Une bougie mesure 14 cm. Après une soirée, elle ne mesure plus que 9 cm.",
+      "question": "De combien de centimètres la bougie a-t-elle fondu ?",
+      "choix": [
+        "5 cm",
+        "23 cm",
+        "6 cm"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Léa colle 4 bandes de papier de 2 cm l'une derrière l'autre.",
+      "question": "Quelle est la longueur totale des 4 bandes ?",
+      "choix": [
+        "6 cm",
+        "8 cm",
+        "16 cm"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

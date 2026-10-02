@@ -1,0 +1,108 @@
+{
+  "id": "lesson-maths-43",
+  "theme": "maths",
+  "titre": "Répéter et partager des longueurs",
+  "description": "Multiplie et divise des longueurs : des morceaux égaux, bout à bout",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "3 x 4 cm = ...",
+      "consigne": "Trois bandes de 4 cm sont collées bout à bout.",
+      "avant": "Longueur totale : ",
+      "apres": " cm",
+      "reponse": 12,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "2 x 5 m = ...",
+      "consigne": "Deux planches de 5 m sont posées bout à bout.",
+      "avant": "Longueur totale : ",
+      "apres": " m",
+      "reponse": 10,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "20 cm : 2 = ...",
+      "consigne": "Une ficelle de 20 cm est coupée en 2 morceaux égaux.",
+      "avant": "Chaque morceau mesure : ",
+      "apres": " cm",
+      "reponse": 10,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "4 x 3 cm = ...",
+      "consigne": "Quatre trombones de 3 cm sont posés en ligne.",
+      "avant": "Longueur de la ligne : ",
+      "apres": " cm",
+      "reponse": 12,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "12 m : 3 = ...",
+      "consigne": "Un fil de 12 m est coupé en 3 morceaux égaux.",
+      "avant": "Chaque morceau mesure : ",
+      "apres": " m",
+      "reponse": 4,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "5 x 2 cm = ...",
+      "consigne": "Cinq carrés de 2 cm de côté sont alignés.",
+      "avant": "Longueur de la rangée : ",
+      "apres": " cm",
+      "reponse": 10,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "15 cm : 5 = ...",
+      "consigne": "Un ruban de 15 cm est partagé en 5 morceaux égaux.",
+      "avant": "Chaque morceau mesure : ",
+      "apres": " cm",
+      "reponse": 3,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "3 x 6 m = ...",
+      "consigne": "Trois tapis de 6 m sont posés bout à bout.",
+      "avant": "Longueur totale : ",
+      "apres": " m",
+      "reponse": 18,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "16 cm : 4 = ...",
+      "consigne": "Une règle de 16 cm est découpée en 4 morceaux égaux.",
+      "avant": "Chaque morceau mesure : ",
+      "apres": " cm",
+      "reponse": 4,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "2 x 9 cm = ...",
+      "consigne": "Deux crayons de 9 cm sont posés l'un derrière l'autre.",
+      "avant": "Longueur des deux crayons : ",
+      "apres": " cm",
+      "reponse": 18,
+      "points": 10
+    }
+  ]
+}

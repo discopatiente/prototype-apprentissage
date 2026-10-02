@@ -52,7 +52,7 @@
         type="text"
         inputmode="numeric"
         pattern="[0-9]*"
-        maxlength="2"
+        maxlength="3"
         :disabled="answerSubmitted"
         @input="onInput"
         @keydown.enter="valider"

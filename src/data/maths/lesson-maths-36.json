@@ -1,0 +1,128 @@
+{
+  "id": "lesson-maths-36",
+  "theme": "maths",
+  "titre": "Centimètre ou mètre ?",
+  "description": "Choisis la bonne unité pour mesurer chaque objet",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Pour savoir combien mesure un crayon, il faut choisir la bonne unité.",
+      "question": "Quelle unité choisir pour mesurer un crayon ?",
+      "choix": [
+        "m",
+        "cm"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Pour savoir combien mesure la porte de la classe, il faut choisir la bonne unité.",
+      "question": "Quelle unité choisir pour mesurer la porte de la classe ?",
+      "choix": [
+        "cm",
+        "m"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Pour savoir combien mesure une gomme, il faut choisir la bonne unité.",
+      "question": "Quelle unité choisir pour mesurer une gomme ?",
+      "choix": [
+        "cm",
+        "m"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Pour savoir combien mesure la cour de l'école, il faut choisir la bonne unité.",
+      "question": "Quelle unité choisir pour mesurer la cour de l'école ?",
+      "choix": [
+        "m",
+        "cm"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Pour savoir combien mesure une trousse, il faut choisir la bonne unité.",
+      "question": "Quelle unité choisir pour mesurer une trousse ?",
+      "choix": [
+        "m",
+        "cm"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Pour savoir combien mesure un lit, il faut choisir la bonne unité.",
+      "question": "Quelle unité choisir pour mesurer un lit ?",
+      "choix": [
+        "cm",
+        "m"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Pour savoir combien mesure un timbre, il faut choisir la bonne unité.",
+      "question": "Quelle unité choisir pour mesurer un timbre ?",
+      "choix": [
+        "cm",
+        "m"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Pour savoir combien mesure le salon, il faut choisir la bonne unité.",
+      "question": "Quelle unité choisir pour mesurer le salon ?",
+      "choix": [
+        "m",
+        "cm"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Pour savoir combien mesure un trombone, il faut choisir la bonne unité.",
+      "question": "Quelle unité choisir pour mesurer un trombone ?",
+      "choix": [
+        "cm",
+        "m"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Pour savoir combien mesure un terrain de foot, il faut choisir la bonne unité.",
+      "question": "Quelle unité choisir pour mesurer un terrain de foot ?",
+      "choix": [
+        "m",
+        "cm"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

@@ -33,8 +33,8 @@ Domaines du socle : D1 langages pour penser et communiquer, D3 formation de la p
 | Division simple | Comprendre le sens de la division | C3 | D1, D4 | EC |
 | Résolution de problèmes du quotidien | Résoudre des problèmes, compétence transversale | C2 vers C3 | D1, D4 | EC |
 | Monnaie, pièces et billets | Mesurer et comparer des grandeurs, résoudre des problèmes de monnaie | C2 vers C3 | D1, D4 | EC |
-| Grandeurs et mesures, heure et longueurs (à venir) | Mesurer et comparer des grandeurs | C2 vers C3 | D4 | |
-| Repères de géométrie (à venir) | Reconnaître et nommer des figures, se repérer dans l'espace | C2 vers C3 | D4 | |
+| Grandeurs et mesures, longueurs (l'heure reste reportée) | Mesurer et comparer des grandeurs | C2 vers C3 | D4 | EC |
+| Repères de géométrie, figures et position | Reconnaître et nommer des figures, se repérer dans l'espace | C2 vers C3 | D4 | EC |
 
 ## SVT
 
