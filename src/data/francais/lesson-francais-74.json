@@ -1,0 +1,158 @@
+{
+  "id": "lesson-francais-74",
+  "theme": "francais",
+  "titre": "Encore des mots nouveaux",
+  "description": "Découvre six autres mots : retrouve le sens de chaque mot, puis le mot qui correspond à chaque sens",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Que veut dire « étroit » ?",
+      "mot": "étroit",
+      "choix": [
+        "Très large",
+        "Pas large, où il y a peu de place",
+        "Qui parle beaucoup"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Que veut dire « scintiller » ?",
+      "mot": "scintiller",
+      "choix": [
+        "Briller en clignotant, comme les étoiles",
+        "Faire un grand saut",
+        "Parler tout doucement"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Que veut dire « bondir » ?",
+      "mot": "bondir",
+      "choix": [
+        "Marcher lentement",
+        "Ne pas arriver à choisir",
+        "Faire un grand saut, d'un coup"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Que veut dire « un abri » ?",
+      "mot": "un abri",
+      "choix": [
+        "Un endroit où l'on se protège",
+        "Un très gros animal",
+        "Un chemin très étroit"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Que veut dire « bavard » ?",
+      "mot": "bavard",
+      "choix": [
+        "Qui ne dit rien",
+        "Qui parle beaucoup",
+        "Qui saute très haut"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Que veut dire « hésiter » ?",
+      "mot": "hésiter",
+      "choix": [
+        "Courir très vite",
+        "Briller la nuit",
+        "Ne pas arriver à choisir"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Quel mot veut dire « faire un grand saut, d'un coup » ?",
+      "choix": [
+        "hésiter",
+        "bondir",
+        "scintiller"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Quel mot veut dire « qui parle beaucoup » ?",
+      "choix": [
+        "étroit",
+        "chuchoter",
+        "bavard"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Quel mot veut dire « un endroit où l'on se protège » ?",
+      "choix": [
+        "un abri",
+        "un couloir",
+        "un tronc"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Quel mot veut dire « briller en clignotant » ?",
+      "choix": [
+        "bondir",
+        "scintiller",
+        "hésiter"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Quel mot veut dire « pas large, où il y a peu de place » ?",
+      "choix": [
+        "étroit",
+        "gigantesque",
+        "bavard"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Quel mot veut dire « ne pas arriver à choisir » ?",
+      "choix": [
+        "se dépêcher",
+        "scintiller",
+        "hésiter"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

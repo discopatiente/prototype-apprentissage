@@ -1,0 +1,164 @@
+{
+  "id": "lesson-francais-72",
+  "theme": "francais",
+  "titre": "Le bon mot dans la phrase",
+  "description": "Choisis le mot nouveau qui complète chaque phrase",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Une coccinelle est un insecte ___.",
+      "question": "« Une coccinelle est un insecte ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "gigantesque",
+        "minuscule",
+        "trempé"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Après la douche, mes cheveux sont ___.",
+      "question": "« Après la douche, mes cheveux sont ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "fragiles",
+        "minuscules",
+        "trempés"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Le bébé dort, alors on ___ pour ne pas le réveiller.",
+      "question": "« Le bébé dort, alors on ___ pour ne pas le réveiller. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "chuchote",
+        "se dépêche",
+        "crie"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "L'école commence dans deux minutes : Léo ___ !",
+      "question": "« L'école commence dans deux minutes : Léo ___ ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "chuchote",
+        "se dépêche",
+        "dort"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Le dinosaure était un animal ___.",
+      "question": "« Le dinosaure était un animal ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "minuscule",
+        "fragile",
+        "gigantesque"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Ne fais pas tomber le vase, il est ___ !",
+      "question": "« Ne fais pas tomber le vase, il est ___ ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "fragile",
+        "trempé",
+        "gigantesque"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Il a plu toute la journée : mes chaussures sont ___.",
+      "question": "« Il a plu toute la journée : mes chaussures sont ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "gigantesques",
+        "trempées",
+        "fragiles"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "En classe, Sofia ___ un secret à l'oreille de Clara.",
+      "question": "« En classe, Sofia ___ un secret à l'oreille de Clara. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "chuchote",
+        "se dépêche",
+        "court"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Avec la loupe, je vois une graine ___.",
+      "question": "« Avec la loupe, je vois une graine ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "gigantesque",
+        "minuscule",
+        "trempée"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "À côté de ma maison, la montagne est ___.",
+      "question": "« À côté de ma maison, la montagne est ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "minuscule",
+        "fragile",
+        "gigantesque"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "Le bus arrive ! Nous nous ___ pour monter.",
+      "question": "« Le bus arrive ! Nous nous ___ pour monter. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "dépêchons",
+        "chuchotons",
+        "lavons"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "Les ailes du papillon sont ___ : il ne faut pas les toucher.",
+      "question": "« Les ailes du papillon sont ___ : il ne faut pas les toucher. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "gigantesques",
+        "trempées",
+        "fragiles"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

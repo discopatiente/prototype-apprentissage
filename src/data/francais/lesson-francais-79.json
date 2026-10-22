@@ -1,0 +1,121 @@
+{
+  "id": "lesson-francais-79",
+  "theme": "francais",
+  "titre": "J'utilise les mots nouveaux (3)",
+  "description": "Reconstruis des phrases avec les six nouveaux mots que tu viens d'apprendre",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "ordre-mots",
+      "question": "Le serpent rampe dans l'herbe.",
+      "mots": [
+        "Le",
+        "serpent",
+        "rampe",
+        "dans",
+        "l'herbe"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "ordre-mots",
+      "question": "Ce galet est très lisse.",
+      "mots": [
+        "Ce",
+        "galet",
+        "est",
+        "très",
+        "lisse"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "ordre-mots",
+      "question": "Il ne faut pas gaspiller l'eau.",
+      "mots": [
+        "Il",
+        "ne",
+        "faut",
+        "pas",
+        "gaspiller",
+        "l'eau"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "ordre-mots",
+      "question": "Une grosse averse arrive !",
+      "mots": [
+        "Une",
+        "grosse",
+        "averse",
+        "arrive"
+      ],
+      "ponctuation": "!",
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "ordre-mots",
+      "question": "Sofia frissonne sous la pluie.",
+      "mots": [
+        "Sofia",
+        "frissonne",
+        "sous",
+        "la",
+        "pluie"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "ordre-mots",
+      "question": "Le singe est très agile.",
+      "mots": [
+        "Le",
+        "singe",
+        "est",
+        "très",
+        "agile"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "ordre-mots",
+      "question": "Le bébé rampe sur le tapis.",
+      "mots": [
+        "Le",
+        "bébé",
+        "rampe",
+        "sur",
+        "le",
+        "tapis"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "ordre-mots",
+      "question": "Ne gaspille pas ton papier !",
+      "mots": [
+        "Ne",
+        "gaspille",
+        "pas",
+        "ton",
+        "papier"
+      ],
+      "ponctuation": "!",
+      "points": 10
+    }
+  ]
+}

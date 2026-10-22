@@ -1,0 +1,121 @@
+{
+  "id": "lesson-francais-76",
+  "theme": "francais",
+  "titre": "J'utilise les mots nouveaux (2)",
+  "description": "Reconstruis des phrases avec les six autres mots que tu viens d'apprendre",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "ordre-mots",
+      "question": "Ce couloir est très étroit.",
+      "mots": [
+        "Ce",
+        "couloir",
+        "est",
+        "très",
+        "étroit"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "ordre-mots",
+      "question": "Le sapin de Noël scintille.",
+      "mots": [
+        "Le",
+        "sapin",
+        "de",
+        "Noël",
+        "scintille"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "ordre-mots",
+      "question": "Le chat bondit sur la souris.",
+      "mots": [
+        "Le",
+        "chat",
+        "bondit",
+        "sur",
+        "la",
+        "souris"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "ordre-mots",
+      "question": "La cabane est notre abri.",
+      "mots": [
+        "La",
+        "cabane",
+        "est",
+        "notre",
+        "abri"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "ordre-mots",
+      "question": "Mon perroquet est très bavard.",
+      "mots": [
+        "Mon",
+        "perroquet",
+        "est",
+        "très",
+        "bavard"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "ordre-mots",
+      "question": "Tom hésite devant la porte.",
+      "mots": [
+        "Tom",
+        "hésite",
+        "devant",
+        "la",
+        "porte"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "ordre-mots",
+      "question": "Le kangourou bondit très loin.",
+      "mots": [
+        "Le",
+        "kangourou",
+        "bondit",
+        "très",
+        "loin"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "ordre-mots",
+      "question": "Tu es vraiment trop bavarde !",
+      "mots": [
+        "Tu",
+        "es",
+        "vraiment",
+        "trop",
+        "bavarde"
+      ],
+      "ponctuation": "!",
+      "points": 10
+    }
+  ]
+}

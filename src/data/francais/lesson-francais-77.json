@@ -1,0 +1,158 @@
+{
+  "id": "lesson-francais-77",
+  "theme": "francais",
+  "titre": "Toujours plus de mots",
+  "description": "Découvre six nouveaux mots : retrouve le sens de chaque mot, puis le mot qui correspond à chaque sens",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Que veut dire « ramper » ?",
+      "mot": "ramper",
+      "choix": [
+        "Avancer couché sur le ventre",
+        "Sauter très haut",
+        "Trembler de froid"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Que veut dire « lisse » ?",
+      "mot": "lisse",
+      "choix": [
+        "Plein de bosses",
+        "Tout doux, sans aucune bosse",
+        "Complètement mouillé"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Que veut dire « gaspiller » ?",
+      "mot": "gaspiller",
+      "choix": [
+        "Ranger avec soin",
+        "Partager avec ses amis",
+        "Jeter ce qui pouvait encore servir"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Que veut dire « une averse » ?",
+      "mot": "une averse",
+      "choix": [
+        "Une grosse pluie qui ne dure pas longtemps",
+        "Un grand vent froid",
+        "Un endroit où l'on se protège"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Que veut dire « frissonner » ?",
+      "mot": "frissonner",
+      "choix": [
+        "Parler tout doucement",
+        "Trembler un peu parce qu'on a froid",
+        "Briller en clignotant"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Que veut dire « agile » ?",
+      "mot": "agile",
+      "choix": [
+        "Lent et maladroit",
+        "Qui ne sait pas choisir",
+        "Qui bouge vite et facilement"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Quel mot veut dire « trembler un peu parce qu'on a froid » ?",
+      "choix": [
+        "ramper",
+        "frissonner",
+        "bondir"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Quel mot veut dire « une grosse pluie qui ne dure pas longtemps » ?",
+      "choix": [
+        "un abri",
+        "une flaque",
+        "une averse"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Quel mot veut dire « avancer couché sur le ventre » ?",
+      "choix": [
+        "ramper",
+        "gaspiller",
+        "hésiter"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Quel mot veut dire « jeter ce qui pouvait encore servir » ?",
+      "choix": [
+        "scintiller",
+        "gaspiller",
+        "chuchoter"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Quel mot veut dire « qui bouge vite et facilement » ?",
+      "choix": [
+        "agile",
+        "lisse",
+        "bavard"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Quel mot veut dire « tout doux, sans aucune bosse » ?",
+      "choix": [
+        "étroit",
+        "fragile",
+        "lisse"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

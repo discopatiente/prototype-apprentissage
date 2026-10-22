@@ -1,0 +1,125 @@
+{
+  "id": "lesson-francais-73",
+  "theme": "francais",
+  "titre": "J'utilise les mots nouveaux",
+  "description": "Reconstruis des phrases avec les mots que tu viens d'apprendre",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "ordre-mots",
+      "question": "La fourmi est minuscule.",
+      "mots": [
+        "La",
+        "fourmi",
+        "est",
+        "minuscule"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "ordre-mots",
+      "question": "La baleine est un animal gigantesque.",
+      "mots": [
+        "La",
+        "baleine",
+        "est",
+        "un",
+        "animal",
+        "gigantesque"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "ordre-mots",
+      "question": "Mon frère chuchote à mon oreille.",
+      "mots": [
+        "Mon",
+        "frère",
+        "chuchote",
+        "à",
+        "mon",
+        "oreille"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "ordre-mots",
+      "question": "Mon manteau est trempé.",
+      "mots": [
+        "Mon",
+        "manteau",
+        "est",
+        "trempé"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "ordre-mots",
+      "question": "Je me dépêche pour prendre le bus.",
+      "mots": [
+        "Je",
+        "me",
+        "dépêche",
+        "pour",
+        "prendre",
+        "le",
+        "bus"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "ordre-mots",
+      "question": "Ce verre est très fragile.",
+      "mots": [
+        "Ce",
+        "verre",
+        "est",
+        "très",
+        "fragile"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "ordre-mots",
+      "question": "Il pleut et je suis trempée.",
+      "mots": [
+        "Il",
+        "pleut",
+        "et",
+        "je",
+        "suis",
+        "trempée"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "ordre-mots",
+      "question": "Dépêche-toi ou tu vas être en retard !",
+      "mots": [
+        "Dépêche-toi",
+        "ou",
+        "tu",
+        "vas",
+        "être",
+        "en",
+        "retard"
+      ],
+      "ponctuation": "!",
+      "points": 10
+    }
+  ]
+}

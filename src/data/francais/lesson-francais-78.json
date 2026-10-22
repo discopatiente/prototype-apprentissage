@@ -1,0 +1,164 @@
+{
+  "id": "lesson-francais-78",
+  "theme": "francais",
+  "titre": "Le bon mot dans la phrase (3)",
+  "description": "Choisis le mot nouveau qui complète chaque phrase",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Le serpent ___ dans l'herbe.",
+      "question": "« Le serpent ___ dans l'herbe. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "rampe",
+        "frissonne",
+        "gaspille"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "La peau du bébé est toute ___.",
+      "question": "« La peau du bébé est toute ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "étroite",
+        "lisse",
+        "bavarde"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Il ne faut pas ___ l'eau : on ferme bien le robinet !",
+      "question": "« Il ne faut pas ___ l'eau : on ferme bien le robinet ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "ramper",
+        "frissonner",
+        "gaspiller"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Prends ton parapluie, une ___ arrive !",
+      "question": "« Prends ton parapluie, une ___ arrive ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "cabane",
+        "averse",
+        "étoile"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Sans manteau, Sofia ___ dans le vent froid.",
+      "question": "« Sans manteau, Sofia ___ dans le vent froid. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "rampe",
+        "scintille",
+        "frissonne"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Le singe est très ___ : il saute de branche en branche.",
+      "question": "« Le singe est très ___ : il saute de branche en branche. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "agile",
+        "lisse",
+        "étroit"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Le galet de la rivière est ___ et doux.",
+      "question": "« Le galet de la rivière est ___ et doux. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "lisse",
+        "bavard",
+        "étroit"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Ne ___ pas ton papier : on peut encore dessiner derrière !",
+      "question": "« Ne ___ pas ton papier : on peut encore dessiner derrière ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "rampe",
+        "gaspille",
+        "frissonne"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Après l'___, il y a des flaques partout.",
+      "question": "« Après l'___, il y a des flaques partout. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "abri",
+        "averse",
+        "étoile"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Le bébé ___ sur le tapis avant de savoir marcher.",
+      "question": "« Le bébé ___ sur le tapis avant de savoir marcher. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "frissonne",
+        "bondit",
+        "rampe"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "En sortant de la piscine, j'ai froid et je ___.",
+      "question": "« En sortant de la piscine, j'ai froid et je ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "frissonne",
+        "gaspille",
+        "rampe"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "Les gymnastes sont ___ : elles font la roue sans tomber.",
+      "question": "« Les gymnastes sont ___ : elles font la roue sans tomber. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "lisses",
+        "étroites",
+        "agiles"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

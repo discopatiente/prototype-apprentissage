@@ -1,0 +1,158 @@
+{
+  "id": "lesson-francais-71",
+  "theme": "francais",
+  "titre": "Le mot et ce qu'il veut dire",
+  "description": "Découvre six mots nouveaux : retrouve le sens de chaque mot, puis le mot qui correspond à chaque sens",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Que veut dire « minuscule » ?",
+      "mot": "minuscule",
+      "choix": [
+        "Très, très grand",
+        "Très, très petit",
+        "Complètement mouillé"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Que veut dire « chuchoter » ?",
+      "mot": "chuchoter",
+      "choix": [
+        "Parler tout doucement",
+        "Crier très fort",
+        "Faire vite"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Que veut dire « fragile » ?",
+      "mot": "fragile",
+      "choix": [
+        "Très lourd",
+        "Complètement mouillé",
+        "Qui peut se casser facilement"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Que veut dire « gigantesque » ?",
+      "mot": "gigantesque",
+      "choix": [
+        "Très, très petit",
+        "Très, très grand",
+        "Qui peut se casser facilement"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Que veut dire « trempé » ?",
+      "mot": "trempé",
+      "choix": [
+        "Complètement mouillé",
+        "Très sale",
+        "Très, très petit"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Que veut dire « se dépêcher » ?",
+      "mot": "se dépêcher",
+      "choix": [
+        "Aller tout doucement",
+        "Parler tout bas",
+        "Faire vite"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Quel mot veut dire « très, très grand » ?",
+      "choix": [
+        "minuscule",
+        "fragile",
+        "gigantesque"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Quel mot veut dire « faire vite » ?",
+      "choix": [
+        "se dépêcher",
+        "chuchoter",
+        "trempé"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Quel mot veut dire « complètement mouillé » ?",
+      "choix": [
+        "fragile",
+        "trempé",
+        "minuscule"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Quel mot veut dire « qui peut se casser facilement » ?",
+      "choix": [
+        "fragile",
+        "gigantesque",
+        "se dépêcher"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Quel mot veut dire « parler tout doucement » ?",
+      "choix": [
+        "se dépêcher",
+        "gigantesque",
+        "chuchoter"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Quel mot veut dire « très, très petit » ?",
+      "choix": [
+        "gigantesque",
+        "minuscule",
+        "chuchoter"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

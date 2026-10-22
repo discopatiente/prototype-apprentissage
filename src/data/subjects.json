@@ -167,10 +167,37 @@
       {
         "id": "niveau-16",
         "titre": "Niveau 16",
-        "nouveau": true,
         "lessons": [
           "lesson-francais-69",
           "lesson-francais-70"
+        ]
+      },
+      {
+        "id": "niveau-17",
+        "titre": "Niveau 17",
+        "lessons": [
+          "lesson-francais-71",
+          "lesson-francais-72",
+          "lesson-francais-73"
+        ]
+      },
+      {
+        "id": "niveau-18",
+        "titre": "Niveau 18",
+        "lessons": [
+          "lesson-francais-74",
+          "lesson-francais-75",
+          "lesson-francais-76"
+        ]
+      },
+      {
+        "id": "niveau-19",
+        "titre": "Niveau 19",
+        "nouveau": true,
+        "lessons": [
+          "lesson-francais-77",
+          "lesson-francais-78",
+          "lesson-francais-79"
         ]
       }
     ]

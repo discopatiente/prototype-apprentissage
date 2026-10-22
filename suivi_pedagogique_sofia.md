@@ -13,6 +13,7 @@ Domaines du socle : D1 langages pour penser et communiquer, D3 formation de la p
 | Compréhension, inférence facile (semaine 2) | Comprendre l'implicite, déduire un sentiment ou une cause | C3 | D1 | EC |
 | Synonymes et contraires, série 1 | Construire le sens des mots, relations de synonymie et d'antonymie, préfixes in et im | C3 | D1 | EC |
 | Enrichissement du lexique, série 2 | Enrichir son vocabulaire, émotions et nature | C3 | D1 | EC |
+| Enrichissement du lexique, série 3 (mots nouveaux et définitions) | Enrichir son vocabulaire, comprendre et réemployer des mots nouveaux | C3 | D1 | EC |
 | Expressions imagées | Comprendre le sens figuré | C3 | D1 | EC |
 | Conjugaison des temps de base | Le verbe, présent, passé composé, imparfait, futur | C2 vers C3 | D1 | EC |
 | Orthographe des mots fréquents | Orthographe lexicale | C2 vers C3 | D1 | EC |
@@ -103,3 +104,9 @@ Ouverture du niveau 15 de français, « La ponctuation » (notion vérifiée abs
 Nouveau type d'exercice `ordre-mots` (étiquettes de mots mélangés à toucher dans l'ordre pour reconstruire une phrase, composant `ExerciseOrdreMots.vue`). Ouverture du niveau 16 de français avec `lesson-francais-69` (10 phrases courtes du quotidien, 4 à 6 mots, dont une interrogative et une exclamative ; la ponctuation finale est donnée).
 
 Ajout de `lesson-francais-70` (ordre-mots, « Des phrases plus longues ») au niveau 16 : 10 phrases de 5 à 7 étiquettes (dont « Est-ce », « as-tu » en une seule étiquette), 7 déclaratives, 2 interrogatives, 1 exclamative. Phrases choisies pour n'avoir qu'un seul ordre correct (pas de complément de temps ou de lieu déplaçable).
+
+Ouverture du niveau 17 de français, « Des mots nouveaux » (enrichissement du lexique, hors émotions qui restent reportées) : une même série de six mots — minuscule, gigantesque, chuchoter, trempé, se dépêcher, fragile — retrouvée dans trois leçons de difficulté croissante, sans diaporama d'introduction (mots jugés assez simples pour être découverts directement par les exercices). `lesson-francais-71` (qcm, 12 exercices : 6 du mot vers sa définition, puis 6 de la définition vers le mot), `lesson-francais-72` (qcm-texte, 12 phrases à trou où choisir le bon mot nouveau, accordé), `lesson-francais-73` (ordre-mots, 8 phrases à reconstruire qui utilisent les mots). Bonnes réponses réparties 4/4/4 dans les deux leçons à choix.
+
+Ouverture du niveau 18 de français, deuxième série de mots nouveaux, un peu plus rares, sur le même modèle en trois leçons : étroit, scintiller, bondir, un abri, bavard, hésiter. `lesson-francais-74` (qcm, 12 : mot vers définition puis définition vers mot), `lesson-francais-75` (qcm-texte, 12 phrases à trou), `lesson-francais-76` (ordre-mots, 8 phrases). Des mots de la première série (chuchoter, gigantesque, fragile, se dépêcher, trempé) sont glissés parmi les mauvaises réponses pour les faire revoir. Bonnes réponses réparties 4/4/4.
+
+Ouverture du niveau 19 de français, troisième série de mots nouveaux sur le même modèle : ramper, lisse, gaspiller, une averse, frissonner, agile (« s'enfuir » écarté car déjà présent dans des choix de réponse de `lesson-francais-04` et `20`). `lesson-francais-77` (qcm, 12), `lesson-francais-78` (qcm-texte, 12 phrases à trou), `lesson-francais-79` (ordre-mots, 8 phrases). Mots des séries 1 et 2 réutilisés comme mauvaises réponses (abri, bondir, scintiller, chuchoter, étroit, fragile, bavard, hésiter). Bonnes réponses réparties 4/4/4.

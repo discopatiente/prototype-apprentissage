@@ -1,0 +1,164 @@
+{
+  "id": "lesson-francais-75",
+  "theme": "francais",
+  "titre": "Le bon mot dans la phrase (2)",
+  "description": "Choisis le mot nouveau qui complète chaque phrase",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Le couloir est si ___ qu'on ne peut pas passer à deux.",
+      "question": "« Le couloir est si ___ qu'on ne peut pas passer à deux. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "bavard",
+        "étroit",
+        "fragile"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "La nuit, les étoiles ___ dans le ciel.",
+      "question": "« La nuit, les étoiles ___ dans le ciel. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "hésitent",
+        "bondissent",
+        "scintillent"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Le chat ___ sur la souris.",
+      "question": "« Le chat ___ sur la souris. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "bondit",
+        "chuchote",
+        "hésite"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Quand il pleut, les moutons vont sous un ___.",
+      "question": "« Quand il pleut, les moutons vont sous un ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "bavard",
+        "abri",
+        "chemin"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Mon perroquet est très ___ : il parle toute la journée.",
+      "question": "« Mon perroquet est très ___ : il parle toute la journée. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "étroit",
+        "fragile",
+        "bavard"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Léa ___ entre la glace à la fraise et la glace au chocolat.",
+      "question": "« Léa ___ entre la glace à la fraise et la glace au chocolat. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "hésite",
+        "bondit",
+        "scintille"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Le chemin est trop ___ pour le gros camion.",
+      "question": "« Le chemin est trop ___ pour le gros camion. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "étroit",
+        "bavard",
+        "hésitant"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Le kangourou ___ très loin avec ses grandes pattes.",
+      "question": "« Le kangourou ___ très loin avec ses grandes pattes. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "hésite",
+        "bondit",
+        "chuchote"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Les guirlandes du sapin ___ dans le salon.",
+      "question": "« Les guirlandes du sapin ___ dans le salon. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "scintillent",
+        "bondissent",
+        "se dépêchent"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Sous l'arbre, l'oiseau a trouvé un ___ contre la pluie.",
+      "question": "« Sous l'arbre, l'oiseau a trouvé un ___ contre la pluie. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "bavard",
+        "abri",
+        "couloir"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "Clara est ___ : elle discute pendant toute la récréation.",
+      "question": "« Clara est ___ : elle discute pendant toute la récréation. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "étroite",
+        "fragile",
+        "bavarde"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "Tom ___ devant les deux chemins : à droite ou à gauche ?",
+      "question": "« Tom ___ devant les deux chemins : à droite ou à gauche ? » — Quel mot va dans la phrase ?",
+      "choix": [
+        "scintille",
+        "bondit",
+        "hésite"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}
