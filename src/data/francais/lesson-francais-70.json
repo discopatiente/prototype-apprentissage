@@ -1,0 +1,158 @@
+{
+  "id": "lesson-francais-70",
+  "theme": "francais",
+  "titre": "Des phrases plus longues",
+  "description": "Remets les mots dans l'ordre pour faire une phrase",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "ordre-mots",
+      "question": "Le petit chat boit son lait.",
+      "mots": [
+        "Le",
+        "petit",
+        "chat",
+        "boit",
+        "son",
+        "lait"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "ordre-mots",
+      "question": "Ma sœur porte une robe bleue.",
+      "mots": [
+        "Ma",
+        "sœur",
+        "porte",
+        "une",
+        "robe",
+        "bleue"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "ordre-mots",
+      "question": "Le boulanger vend du pain frais.",
+      "mots": [
+        "Le",
+        "boulanger",
+        "vend",
+        "du",
+        "pain",
+        "frais"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "ordre-mots",
+      "question": "Est-ce que tu aimes les fraises ?",
+      "mots": [
+        "Est-ce",
+        "que",
+        "tu",
+        "aimes",
+        "les",
+        "fraises"
+      ],
+      "ponctuation": "?",
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "ordre-mots",
+      "question": "Les enfants font un bonhomme de neige.",
+      "mots": [
+        "Les",
+        "enfants",
+        "font",
+        "un",
+        "bonhomme",
+        "de",
+        "neige"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "ordre-mots",
+      "question": "Mon grand frère fait du vélo.",
+      "mots": [
+        "Mon",
+        "grand",
+        "frère",
+        "fait",
+        "du",
+        "vélo"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "ordre-mots",
+      "question": "Comme ton dessin est joli !",
+      "mots": [
+        "Comme",
+        "ton",
+        "dessin",
+        "est",
+        "joli"
+      ],
+      "ponctuation": "!",
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "ordre-mots",
+      "question": "La tortue mange une feuille de salade.",
+      "mots": [
+        "La",
+        "tortue",
+        "mange",
+        "une",
+        "feuille",
+        "de",
+        "salade"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "ordre-mots",
+      "question": "Où as-tu caché mon cahier ?",
+      "mots": [
+        "Où",
+        "as-tu",
+        "caché",
+        "mon",
+        "cahier"
+      ],
+      "ponctuation": "?",
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "ordre-mots",
+      "question": "Le bébé pleure dans son lit.",
+      "mots": [
+        "Le",
+        "bébé",
+        "pleure",
+        "dans",
+        "son",
+        "lit"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    }
+  ]
+}

@@ -181,7 +181,7 @@ function valider() {
 .mot-place:disabled {
   cursor: default;
   background: transparent;
-  padding: 10px 2px;
+  padding: 2px;
 }
 
 .case-vide {
@@ -198,7 +198,7 @@ function valider() {
 }
 
 /* Le point se colle au dernier mot ; « ? » et « ! » gardent leur espace */
-.ponctuation--collee { margin-left: -4px; }
+.ponctuation--collee { margin-left: -8px; }
 
 .astuce {
   font-size: 13px;
