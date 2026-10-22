@@ -58,6 +58,12 @@
             :exercise="currentExercise"
             @answer-submitted="onAnswerSubmitted"
           />
+          <ExerciseOrdreMots
+            v-else-if="currentExercise.type === 'ordre-mots'"
+            :key="`ordre-${currentExercise.id}`"
+            :exercise="currentExercise"
+            @answer-submitted="onAnswerSubmitted"
+          />
 
           <div v-if="showFeedback" class="feedback-zone">
             <FeedbackMessage :correct="lastAnswerCorrect" />
@@ -88,6 +94,7 @@ import ExerciseQCM from '../components/ExerciseQCM.vue'
 import ExerciseQCMTexte from '../components/ExerciseQCMTexte.vue'
 import ExerciseReponseCorte from '../components/ExerciseReponseCorte.vue'
 import ExerciseTrouNumerique from '../components/ExerciseTrouNumerique.vue'
+import ExerciseOrdreMots from '../components/ExerciseOrdreMots.vue'
 import FeedbackMessage from '../components/FeedbackMessage.vue'
 import LessonBilan from '../components/LessonBilan.vue'
 import EcranDiaporama from '../components/EcranDiaporama.vue'

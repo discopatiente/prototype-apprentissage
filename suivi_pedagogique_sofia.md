@@ -99,3 +99,5 @@ Aucune autre leçon (français) n'a de problème restant après ce passage. Les 
 Ajout de `lesson-francais-66` (qcm-texte, 12 nouvelles phrases inédites) au niveau 14, en entraînement supplémentaire sur a/à, et/est, son/sont, on/ont — même répartition 6/6 des bonnes réponses.
 
 Ouverture du niveau 15 de français, « La ponctuation » (notion vérifiée absente de toutes les leçons existantes avant création) : `lesson-francais-67` (diaporama : point, point d'interrogation, point d'exclamation, puis la virgule dans une liste) et `lesson-francais-68` (qcm-texte, 12 exercices : 8 sur le choix de la ponctuation finale, 4 sur la virgule dans une liste en comparant deux phrases).
+
+Nouveau type d'exercice `ordre-mots` (étiquettes de mots mélangés à toucher dans l'ordre pour reconstruire une phrase, composant `ExerciseOrdreMots.vue`). Ouverture du niveau 16 de français avec `lesson-francais-69` (10 phrases courtes du quotidien, 4 à 6 mots, dont une interrogative et une exclamative ; la ponctuation finale est donnée).

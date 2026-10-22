@@ -159,10 +159,17 @@
       {
         "id": "niveau-15",
         "titre": "Niveau 15",
-        "nouveau": true,
         "lessons": [
           "lesson-francais-67",
           "lesson-francais-68"
+        ]
+      },
+      {
+        "id": "niveau-16",
+        "titre": "Niveau 16",
+        "nouveau": true,
+        "lessons": [
+          "lesson-francais-69"
         ]
       }
     ]

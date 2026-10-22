@@ -1,0 +1,146 @@
+{
+  "id": "lesson-francais-69",
+  "theme": "francais",
+  "titre": "Remets les mots dans l'ordre",
+  "description": "Reconstruis des phrases qui ont du sens",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "ordre-mots",
+      "question": "Le chat dort sur le lit.",
+      "mots": [
+        "Le",
+        "chat",
+        "dort",
+        "sur",
+        "le",
+        "lit"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "ordre-mots",
+      "question": "Maman prépare un gâteau.",
+      "mots": [
+        "Maman",
+        "prépare",
+        "un",
+        "gâteau"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "ordre-mots",
+      "question": "Le chien court dans le jardin.",
+      "mots": [
+        "Le",
+        "chien",
+        "court",
+        "dans",
+        "le",
+        "jardin"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "ordre-mots",
+      "question": "Je mange une pomme rouge.",
+      "mots": [
+        "Je",
+        "mange",
+        "une",
+        "pomme",
+        "rouge"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "ordre-mots",
+      "question": "Tu viens jouer avec moi ?",
+      "mots": [
+        "Tu",
+        "viens",
+        "jouer",
+        "avec",
+        "moi"
+      ],
+      "ponctuation": "?",
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "ordre-mots",
+      "question": "Les oiseaux chantent le matin.",
+      "mots": [
+        "Les",
+        "oiseaux",
+        "chantent",
+        "le",
+        "matin"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "ordre-mots",
+      "question": "Papa lit une histoire.",
+      "mots": [
+        "Papa",
+        "lit",
+        "une",
+        "histoire"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "ordre-mots",
+      "question": "Quelle belle journée !",
+      "mots": [
+        "Quelle",
+        "belle",
+        "journée"
+      ],
+      "ponctuation": "!",
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "ordre-mots",
+      "question": "La maîtresse écrit au tableau.",
+      "mots": [
+        "La",
+        "maîtresse",
+        "écrit",
+        "au",
+        "tableau"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "ordre-mots",
+      "question": "Nous allons à la piscine.",
+      "mots": [
+        "Nous",
+        "allons",
+        "à",
+        "la",
+        "piscine"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    }
+  ]
+}

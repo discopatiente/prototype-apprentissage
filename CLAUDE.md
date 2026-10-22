@@ -109,6 +109,25 @@ Attention (bilan) : `LessonBilan.vue` affiche toujours `exercise.question` tel q
 
 Même piège pour un exercice `qcm` qui utilise le champ `mot` (ex. `lesson-francais-41`, `42`) : si `question` est la même instruction générique sur tous les exercices ("Que veut dire cette expression ?"), le bilan affiche des lignes identiques, même si `mot` change à l'écran. Solution appliquée dans `lesson-francais-60` : intégrer le mot/l'expression dans `question` ("Que veut dire « ... » ?"), quitte à ce qu'il apparaisse aussi dans `mot` juste en dessous — redondance mineure jugée acceptable plutôt que de modifier `ExerciseQCM.vue` (qui est partagé par d'autres leçons).
 
+### Exercice `ordre-mots` (phrase à reconstruire)
+
+Des étiquettes de mots sont proposées dans le désordre ; l'élève les touche dans l'ordre pour construire la phrase (toucher un mot déjà placé le renvoie dans les étiquettes). Rendu par `ExerciseOrdreMots.vue`.
+```json
+{
+  "id": "ex-01",
+  "type": "ordre-mots",
+  "question": "Tu viens jouer avec moi ?",
+  "mots": ["Tu", "viens", "jouer", "avec", "moi"],
+  "ponctuation": "?",
+  "points": 10
+}
+```
+- `mots` est écrit **dans le bon ordre** : c'est le composant qui mélange (et remélange si le hasard redonne l'ordre correct). Un mot en double (« le … le ») est accepté à l'une ou l'autre place.
+- `ponctuation` (optionnel) est affichée d'office en fin de phrase, hors étiquettes, pour ne pas désigner le dernier mot.
+- La consigne affichée est fixe ; `consigne` (optionnel) permet de la remplacer.
+- `question` n'est pas affiché pendant l'exercice : il sert d'intitulé dans le bilan. Y mettre la phrase correcte complète (avec l'espace française avant `?` et `!`).
+- `images` est accepté (voir plus haut).
+
 ## Store Pinia (`progressStore.js`)
 
 Logique de score volontairement non triviale — à respecter strictement :
@@ -128,6 +147,7 @@ Ne pas réintroduire un score qui se remettrait à zéro globalement — c'est u
 - `ExerciseQCM.vue` — reçoit `exercice` en prop, émet `reponse-validee` avec `{ id, estCorrect, points }`. Ne touche jamais au store lui-même (séparation des responsabilités : c'est la vue parente qui décide quoi faire de la réponse).
 - `FeedbackMessage.vue` — reçoit `correct` (booléen) en prop, affiche "Bravo !" ou "Essaie encore !".
 - `ImageRow.vue` — reçoit `images` en prop et affiche une rangée d'images centrée, qui passe à la ligne si besoin. Utilisé par les quatre composants d'exercice et de diaporama.
+- `ExerciseOrdreMots.vue` — exercice `ordre-mots` : étiquettes à toucher dans l'ordre pour reconstruire une phrase. Même contrat que les autres `Exercise*` (prop `exercise`, émet `answer-submitted`).
 - `LessonBilan.vue` — écran de fin de leçon : détail par question, score de la tentative, phrase et emoji selon le résultat, confettis si le score dépasse 50%. Émet `recommencer` et `menu`.
 
 ## Vues existantes
