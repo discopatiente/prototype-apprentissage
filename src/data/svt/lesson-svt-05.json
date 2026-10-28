@@ -1,0 +1,112 @@
+{
+  "id": "lesson-svt-05",
+  "theme": "svt",
+  "titre": "Mon cœur bat",
+  "description": "Retrouve à quoi sert le cœur et comment il bat",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Le cœur est un muscle qui pompe le sang. Le sang circule dans tout le corps à l'intérieur des vaisseaux sanguins, puis il revient au cœur.",
+      "question": "Qu'est-ce que le cœur ?",
+      "choix": [
+        "Un muscle",
+        "Un os",
+        "Une articulation"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Le cœur est un muscle qui pompe le sang. Le sang circule dans tout le corps à l'intérieur des vaisseaux sanguins, puis il revient au cœur.",
+      "question": "À quoi sert le cœur ?",
+      "choix": [
+        "À faire bouger les bras",
+        "À pousser le sang dans tout le corps",
+        "À faire entrer l'air"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Le cœur est un muscle qui pompe le sang. Le sang circule dans tout le corps à l'intérieur des vaisseaux sanguins, puis il revient au cœur.",
+      "question": "Dans quoi circule le sang ?",
+      "choix": [
+        "Dans les os",
+        "Dans les poumons",
+        "Dans les vaisseaux sanguins"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Le cœur est un muscle qui pompe le sang. Le sang circule dans tout le corps à l'intérieur des vaisseaux sanguins, puis il revient au cœur.",
+      "question": "Le cœur s'arrête-t-il quand on dort ?",
+      "choix": [
+        "Non, il bat tout le temps",
+        "Oui, toute la nuit",
+        "Oui, mais seulement le matin"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Sofia pose deux doigts à l'intérieur de son poignet. Elle sent un petit battement, régulier.",
+      "question": "Comment s'appelle ce petit battement au poignet ?",
+      "choix": [
+        "La respiration",
+        "Le pouls",
+        "Le muscle"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Sofia pose deux doigts à l'intérieur de son poignet. Elle sent un petit battement, régulier.",
+      "question": "D'où vient le battement que Sofia sent au poignet ?",
+      "choix": [
+        "Des os du poignet",
+        "De l'air qu'elle respire",
+        "Du cœur qui pousse le sang"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Inès vient de faire un combat de judo. Elle pose la main sur sa poitrine : son cœur bat très vite.",
+      "question": "Pourquoi le cœur d'Inès bat-il très vite ?",
+      "choix": [
+        "Elle a froid",
+        "Ses muscles ont travaillé et ont besoin de plus de sang",
+        "Elle s'ennuie"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Inès vient de faire un combat de judo. Elle pose la main sur sa poitrine : son cœur bat très vite.",
+      "question": "Que va faire le cœur d'Inès quand elle va se reposer ?",
+      "choix": [
+        "Il va s'arrêter",
+        "Il va battre encore plus vite",
+        "Il va ralentir"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

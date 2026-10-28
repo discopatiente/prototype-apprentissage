@@ -1,0 +1,52 @@
+{
+  "id": "lesson-svt-18",
+  "theme": "svt",
+  "titre": "Où vivent les animaux ?",
+  "description": "Découvre les milieux de vie des animaux et comment ils y sont adaptés",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Chaque animal vit dans un endroit qui lui convient : c'est son milieu de vie. Il y trouve de quoi manger, de l'eau, et un abri."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Dans la forêt vivent le renard, l'écureuil, le cerf. Le renard s'abrite dans sa tanière, l'écureuil fait son nid dans les arbres.",
+      "visuel": "🌳 🦊 🐿️ 🦌"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Dans la mer vivent les poissons, les dauphins, les crabes. Les poissons respirent dans l'eau grâce à leurs branchies.",
+      "visuel": "🌊 🐟 🐬 🦀"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Sur la banquise, il fait très froid. L'ours polaire a un pelage épais et une couche de graisse sous la peau pour ne pas avoir froid.",
+      "visuel": "🧊 🐻‍❄️"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Dans le désert, il fait très chaud et il y a peu d'eau. Le dromadaire peut rester longtemps sans boire. Sa bosse contient de la graisse, une réserve d'énergie, et pas de l'eau !",
+      "visuel": "🏜️ 🐪"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Les abeilles vivent ensemble dans la ruche, où elles fabriquent le miel. Le lapin de garenne creuse un terrier.",
+      "visuel": "🐝 🍯 | 🐇"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Un animal ne peut pas vivre n'importe où : un poisson ne peut pas vivre hors de l'eau, et l'ours polaire aurait bien trop chaud dans le désert."
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Retiens bien : chaque animal a son milieu de vie, et son corps est fait pour y vivre."
+    },
+    {
+      "id": "ecran-09",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

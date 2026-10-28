@@ -1,0 +1,49 @@
+{
+  "id": "lesson-svt-22",
+  "theme": "svt",
+  "titre": "Le voyage de l'eau",
+  "description": "Découvre le cycle de l'eau, de la mer aux nuages et des nuages à la mer",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "L'eau de la pluie, d'où vient-elle ? Elle fait un grand voyage qui ne s'arrête jamais : c'est le cycle de l'eau.",
+      "visuel": "💧 🔄"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Le soleil chauffe l'eau des mers, des lacs et des rivières. Une partie de cette eau s'évapore : elle devient de la vapeur d'eau et monte dans le ciel.",
+      "visuel": "☀️ 🌊 → ⬆️"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "En haut, il fait plus froid. La vapeur refroidit et redevient de minuscules gouttes d'eau : ensemble, elles forment les nuages.",
+      "visuel": "☁️"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Quand les gouttes des nuages deviennent trop grosses et trop lourdes, elles tombent : c'est la pluie. S'il fait très froid, c'est de la neige.",
+      "visuel": "🌧️ ❄️"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "L'eau de pluie coule dans les ruisseaux et les rivières, ou s'enfonce dans la terre. Les rivières l'emmènent jusqu'à la mer.",
+      "visuel": "🏞️ → 🌊"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Et tout recommence : le soleil chauffe la mer, l'eau s'évapore, forme des nuages, il pleut… C'est toujours la même eau qui voyage !",
+      "visuel": "🌊 → ☁️ → 🌧️ → 🏞️ → 🌊"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Retiens bien : la mer, la vapeur, les nuages, la pluie, la rivière, et de nouveau la mer."
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

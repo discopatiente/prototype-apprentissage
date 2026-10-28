@@ -1,0 +1,138 @@
+{
+  "id": "lesson-svt-17",
+  "theme": "svt",
+  "titre": "Glace, eau ou vapeur ?",
+  "description": "Reconnais les trois formes de l'eau et ce qui les fait changer",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "🧊 Un glaçon dans un verre",
+      "question": "Sous quelle forme est l'eau d'un glaçon ?",
+      "choix": [
+        "Solide",
+        "Liquide",
+        "Gaz"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "🌧️ La pluie qui tombe",
+      "question": "Sous quelle forme est l'eau de la pluie ?",
+      "choix": [
+        "Solide",
+        "Liquide",
+        "Gaz"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "❄️ La neige sur la montagne",
+      "question": "Sous quelle forme est l'eau de la neige ?",
+      "choix": [
+        "Liquide",
+        "Gaz",
+        "Solide"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Papa met une bouteille d'eau au congélateur.",
+      "question": "Que devient l'eau au congélateur ?",
+      "choix": [
+        "Elle gèle et devient de la glace",
+        "Elle s'évapore",
+        "Elle devient chaude"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Sofia pose un glaçon au soleil sur la table du jardin.",
+      "question": "Que devient le glaçon au soleil ?",
+      "choix": [
+        "Il devient plus gros",
+        "Il fond et devient de l'eau liquide",
+        "Il devient de la neige"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Le matin, il y avait une flaque dans la cour. Le soir, après une journée de soleil, elle a disparu.",
+      "question": "Pourquoi la flaque a-t-elle disparu ?",
+      "choix": [
+        "L'eau est devenue de la glace",
+        "L'eau est devenue du sable",
+        "L'eau s'est évaporée"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "♨️ L'eau chauffe dans la casserole.",
+      "question": "Comment s'appelle l'eau quand elle devient un gaz ?",
+      "choix": [
+        "La glace",
+        "La vapeur d'eau",
+        "La rosée"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "👕 Le linge mouillé est étendu sur le fil.",
+      "question": "Pourquoi le linge sèche-t-il sur le fil ?",
+      "choix": [
+        "Le linge boit l'eau",
+        "L'eau devient de la glace",
+        "L'eau du linge s'évapore"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "🧊 Un bloc de glace",
+      "question": "Que faut-il faire pour que la glace fonde ?",
+      "choix": [
+        "La réchauffer",
+        "La refroidir encore",
+        "La couper en morceaux"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "♨️ La vapeur d'eau",
+      "question": "Peut-on voir la vapeur d'eau ?",
+      "choix": [
+        "Oui, elle est bleue",
+        "Non, elle est invisible",
+        "Oui, toujours"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

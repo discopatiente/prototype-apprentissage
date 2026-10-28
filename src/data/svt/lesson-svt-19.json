@@ -1,0 +1,138 @@
+{
+  "id": "lesson-svt-19",
+  "theme": "svt",
+  "titre": "Chacun chez soi",
+  "description": "Retrouve où vivent les animaux et à quoi leur sert leur corps",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "🐬 Le dauphin",
+      "question": "Où vit le dauphin ?",
+      "choix": [
+        "Dans la mer",
+        "Dans la forêt",
+        "Dans le désert"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "🐿️ L'écureuil",
+      "question": "Où vit l'écureuil ?",
+      "choix": [
+        "Dans la mer",
+        "Dans la forêt",
+        "Sur la banquise"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "🐻‍❄️ L'ours polaire",
+      "question": "Où vit l'ours polaire ?",
+      "choix": [
+        "Dans le désert",
+        "Dans la forêt",
+        "Sur la banquise"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "🐪 Le dromadaire",
+      "question": "Où vit le dromadaire ?",
+      "choix": [
+        "Dans le désert",
+        "Sur la banquise",
+        "Dans la mer"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "🐻‍❄️ L'ours polaire a un pelage très épais.",
+      "question": "À quoi sert le pelage épais de l'ours polaire ?",
+      "choix": [
+        "À nager plus vite",
+        "À le protéger du froid",
+        "À se cacher dans le sable"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "🐪 Le dromadaire a une bosse sur le dos.",
+      "question": "Que contient la bosse du dromadaire ?",
+      "choix": [
+        "De l'eau",
+        "Du sable",
+        "De la graisse, une réserve d'énergie"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "🦊 Le renard",
+      "question": "Comment s'appelle l'abri du renard ?",
+      "choix": [
+        "La ruche",
+        "La tanière",
+        "Le nid"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "🐝 Les abeilles",
+      "question": "Où les abeilles fabriquent-elles le miel ?",
+      "choix": [
+        "Dans la tanière",
+        "Dans le terrier",
+        "Dans la ruche"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "🐟 Le poisson rouge saute hors de son bocal.",
+      "question": "Pourquoi un poisson ne peut-il pas vivre hors de l'eau ?",
+      "choix": [
+        "Il respire dans l'eau avec ses branchies",
+        "Il n'aime pas le soleil",
+        "Il a peur du bruit"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "🌍 Le milieu de vie",
+      "question": "Que trouve un animal dans son milieu de vie ?",
+      "choix": [
+        "Seulement des jouets",
+        "De quoi manger, de l'eau et un abri",
+        "Rien du tout"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

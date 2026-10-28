@@ -1,0 +1,164 @@
+{
+  "id": "lesson-svt-26",
+  "theme": "svt",
+  "titre": "Grande révision des sciences",
+  "description": "Révise le corps, le vivant, l'eau et le ciel",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "🦴 💪 Le corps bouge.",
+      "question": "Qu'est-ce qui tire sur les os pour faire bouger le corps ?",
+      "choix": [
+        "Les muscles",
+        "Les poumons",
+        "Le sang"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "🦵 Le genou, le coude",
+      "question": "Comment s'appelle l'endroit où deux os se rejoignent ?",
+      "choix": [
+        "Un muscle",
+        "Une articulation",
+        "Un vaisseau sanguin"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "❤️ Le cœur",
+      "question": "Que fait le cœur ?",
+      "choix": [
+        "Il fait entrer l'air",
+        "Il fait bouger les os",
+        "Il pousse le sang dans tout le corps"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "🫁 La respiration",
+      "question": "Où va l'air quand on inspire ?",
+      "choix": [
+        "Dans les poumons",
+        "Dans le cœur",
+        "Dans les os"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "🪨 🫘 ☁️",
+      "question": "Lequel est vivant : un caillou, une graine ou un nuage ?",
+      "choix": [
+        "Le caillou",
+        "La graine",
+        "Le nuage"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "🐦 Les oiseaux",
+      "question": "Qu'est-ce qui couvre le corps des oiseaux ?",
+      "choix": [
+        "Des écailles",
+        "Des poils",
+        "Des plumes"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "🌱 Les racines",
+      "question": "À quoi servent les racines ?",
+      "choix": [
+        "À capter la lumière",
+        "À tenir la plante et à puiser l'eau",
+        "À faire des fleurs"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "🧊 Un glaçon au soleil",
+      "question": "Que devient un glaçon posé au soleil ?",
+      "choix": [
+        "De la neige",
+        "Un caillou",
+        "De l'eau liquide"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "🐻‍❄️ L'ours polaire",
+      "question": "Où vit l'ours polaire ?",
+      "choix": [
+        "Sur la banquise",
+        "Dans le désert",
+        "Dans la mer chaude"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "🐛 La chenille",
+      "question": "Que devient la chenille ?",
+      "choix": [
+        "Une grenouille",
+        "Un papillon",
+        "Un oiseau"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "🌧️ La pluie",
+      "question": "D'où vient la pluie ?",
+      "choix": [
+        "Des nuages",
+        "Du soleil",
+        "Des montagnes"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "🍂 Les saisons",
+      "question": "Quelle saison vient juste après l'été ?",
+      "choix": [
+        "L'hiver",
+        "Le printemps",
+        "L'automne"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

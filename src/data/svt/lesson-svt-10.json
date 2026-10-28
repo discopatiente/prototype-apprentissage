@@ -1,0 +1,54 @@
+{
+  "id": "lesson-svt-10",
+  "theme": "svt",
+  "titre": "Je respire",
+  "description": "Découvre le chemin de l'air dans ton corps",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Pose ta main sur ton ventre et respire profondément : ta poitrine et ton ventre se gonflent. Tu respires tout le temps, même en dormant, sans y penser.",
+      "visuel": "🫁"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Quand tu inspires, l'air entre par ton nez ou ta bouche. Il descend par un tuyau, la trachée, jusqu'aux poumons.",
+      "visuel": "👃 → 🫁"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Tu as deux poumons, dans ta poitrine. Ils se remplissent d'air un peu comme deux ballons.",
+      "visuel": "🎈 🎈"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Dans les poumons, le sang prend dans l'air ce dont le corps a besoin : l'oxygène. Puis le cœur envoie ce sang vers tous les muscles.",
+      "visuel": "🫁 → 🩸 → 💪"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Quand tu expires, tu rejettes l'air dont le corps n'a plus besoin. Quand il fait très froid, une petite buée sort de ta bouche : c'est la vapeur d'eau de ton souffle qui refroidit et devient de minuscules gouttes.",
+      "visuel": "😮‍💨"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Quand tu cours ou que tu fais du judo, tes muscles ont besoin de plus d'oxygène : tu respires plus vite et plus fort.",
+      "visuel": "🏃 💨💨"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Et les poissons ? Ils ne respirent pas l'air comme nous : ils prennent l'oxygène qui se trouve dans l'eau, grâce à leurs branchies, sur les côtés de leur tête.",
+      "visuel": "🐟"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Retiens bien : on inspire l'air, il va dans les poumons, le corps garde l'oxygène, et on expire le reste."
+    },
+    {
+      "id": "ecran-09",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

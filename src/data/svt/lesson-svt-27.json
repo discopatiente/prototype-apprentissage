@@ -1,0 +1,88 @@
+{
+  "id": "lesson-svt-27",
+  "theme": "svt",
+  "titre": "Tout dans l'ordre",
+  "description": "Remets dans l'ordre les cycles et les étapes que tu as appris",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "ordre-mots",
+      "question": "graine, germe, tige, fleur, fruit",
+      "mots": [
+        "graine",
+        "germe",
+        "tige",
+        "fleur",
+        "fruit"
+      ],
+      "consigne": "Remets dans l'ordre la vie d'une plante.",
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "ordre-mots",
+      "question": "œuf, chenille, chrysalide, papillon",
+      "mots": [
+        "œuf",
+        "chenille",
+        "chrysalide",
+        "papillon"
+      ],
+      "consigne": "Remets dans l'ordre la vie du papillon.",
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "ordre-mots",
+      "question": "œuf, têtard, grenouille",
+      "mots": [
+        "œuf",
+        "têtard",
+        "grenouille"
+      ],
+      "consigne": "Remets dans l'ordre la vie de la grenouille.",
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "ordre-mots",
+      "question": "mer, vapeur, nuage, pluie, rivière",
+      "mots": [
+        "mer",
+        "vapeur",
+        "nuage",
+        "pluie",
+        "rivière"
+      ],
+      "consigne": "Remets dans l'ordre le voyage de l'eau, en partant de la mer.",
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "ordre-mots",
+      "question": "printemps, été, automne, hiver",
+      "mots": [
+        "printemps",
+        "été",
+        "automne",
+        "hiver"
+      ],
+      "consigne": "Remets les saisons dans l'ordre, en commençant par le printemps.",
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "ordre-mots",
+      "question": "Le cœur pousse le sang.",
+      "mots": [
+        "Le",
+        "cœur",
+        "pousse",
+        "le",
+        "sang"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    }
+  ]
+}

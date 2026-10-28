@@ -1,0 +1,53 @@
+{
+  "id": "lesson-svt-20",
+  "theme": "svt",
+  "titre": "Comment naissent les animaux ?",
+  "description": "Découvre les animaux qui naissent du ventre de leur mère, ceux qui sortent d'un œuf, et ceux qui se transforment",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Tous les animaux ont des parents. Mais ils ne naissent pas tous de la même façon."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Certains bébés grandissent dans le ventre de leur mère, puis ils naissent : le chaton, le chiot, le poulain. Ensuite, la maman les nourrit avec son lait.",
+      "visuel": "🐈 🐕 🐎"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "D'autres naissent dans un œuf. La poule pond des œufs, et le poussin en sort quand il est prêt. La tortue, le crocodile et beaucoup de poissons pondent aussi des œufs.",
+      "visuel": "🥚 → 🐣"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Certains animaux changent énormément en grandissant. Le papillon pond des œufs, et de chaque œuf sort une chenille.",
+      "visuel": "🥚 → 🐛"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "La chenille mange beaucoup de feuilles et grandit. Puis elle s'enferme dans une enveloppe : c'est la chrysalide. À l'intérieur, elle se transforme.",
+      "visuel": "🐛 → chrysalide"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Un jour, la chrysalide s'ouvre et un papillon en sort !",
+      "visuel": "🦋"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "La grenouille pond ses œufs dans l'eau. Il en sort des têtards, qui ont une queue et nagent comme de petits poissons. Peu à peu, les pattes poussent, la queue disparaît, et le têtard devient une grenouille.",
+      "visuel": "🥚 → têtard → 🐸"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Retiens bien : certains animaux naissent du ventre de leur mère, d'autres sortent d'un œuf. La chenille devient papillon, le têtard devient grenouille."
+    },
+    {
+      "id": "ecran-09",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

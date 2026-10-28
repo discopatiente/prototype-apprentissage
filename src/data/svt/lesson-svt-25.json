@@ -1,0 +1,138 @@
+{
+  "id": "lesson-svt-25",
+  "theme": "svt",
+  "titre": "Le Soleil, la Terre et la Lune",
+  "description": "Explique le jour, la nuit et la lumière de la Lune",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "☀️ Le Soleil",
+      "question": "Qu'est-ce que le Soleil ?",
+      "choix": [
+        "Une étoile",
+        "Une planète",
+        "Un nuage"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "🌙 Il fait nuit dehors.",
+      "question": "Pourquoi fait-il nuit ?",
+      "choix": [
+        "Le Soleil s'éteint le soir",
+        "Notre côté de la Terre n'est plus éclairé par le Soleil",
+        "Les nuages cachent tout"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "🌍 La Terre",
+      "question": "Que fait la Terre en une journée ?",
+      "choix": [
+        "Elle s'arrête de tourner",
+        "Elle fait le tour de la Lune",
+        "Elle fait un tour sur elle-même"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "🌞 Il fait jour en France.",
+      "question": "Quand il fait jour en France, que se passe-t-il de l'autre côté de la Terre ?",
+      "choix": [
+        "Il fait nuit",
+        "Il fait jour aussi",
+        "Il pleut forcément"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "🌕 La pleine Lune brille dans le ciel.",
+      "question": "La Lune fabrique-t-elle sa propre lumière ?",
+      "choix": [
+        "Oui, comme une lampe",
+        "Non, c'est le Soleil qui l'éclaire",
+        "Oui, mais seulement l'hiver"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "🌙 La Lune",
+      "question": "Autour de quoi la Lune tourne-t-elle ?",
+      "choix": [
+        "Elle ne tourne autour de rien",
+        "Autour des nuages",
+        "Autour de la Terre"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "🌅 Le matin, le Soleil se lève.",
+      "question": "Le Soleil fait-il vraiment le tour de la Terre ?",
+      "choix": [
+        "Oui, une fois par jour",
+        "Non, c'est la Terre qui tourne sur elle-même",
+        "Oui, il saute d'un côté à l'autre"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "😎 Il fait très beau.",
+      "question": "Peut-on regarder le Soleil en face ?",
+      "choix": [
+        "Oui, avec des lunettes de soleil",
+        "Oui, si on cligne des yeux",
+        "Non, jamais : cela abîme les yeux"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "🌒 Ce soir, la Lune est un fin croissant.",
+      "question": "Pourquoi la Lune change-t-elle de forme ?",
+      "choix": [
+        "On ne voit que la partie éclairée par le Soleil",
+        "Elle se casse en morceaux",
+        "Les nuages la grignotent"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "🌍 Notre planète",
+      "question": "Comment s'appelle notre planète ?",
+      "choix": [
+        "La Lune",
+        "La Terre",
+        "Le Soleil"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

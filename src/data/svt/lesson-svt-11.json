@@ -1,0 +1,138 @@
+{
+  "id": "lesson-svt-11",
+  "theme": "svt",
+  "titre": "Le chemin de l'air",
+  "description": "Retrouve le chemin de l'air et le rôle des poumons",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Quand Sofia inspire, l'air entre par son nez et descend jusqu'à ses deux poumons. Son corps y prend l'oxygène, puis elle expire le reste de l'air.",
+      "question": "Par où entre l'air quand on inspire ?",
+      "choix": [
+        "Par le nez ou la bouche",
+        "Par les oreilles",
+        "Par la peau du ventre"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Quand Sofia inspire, l'air entre par son nez et descend jusqu'à ses deux poumons. Son corps y prend l'oxygène, puis elle expire le reste de l'air.",
+      "question": "Où va l'air que Sofia inspire ?",
+      "choix": [
+        "Dans le cœur",
+        "Dans les poumons",
+        "Dans l'estomac"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Quand Sofia inspire, l'air entre par son nez et descend jusqu'à ses deux poumons. Son corps y prend l'oxygène, puis elle expire le reste de l'air.",
+      "question": "Combien avons-nous de poumons ?",
+      "choix": [
+        "Un seul",
+        "Quatre",
+        "Deux"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Quand Sofia inspire, l'air entre par son nez et descend jusqu'à ses deux poumons. Son corps y prend l'oxygène, puis elle expire le reste de l'air.",
+      "question": "Que garde le corps dans l'air qu'on respire ?",
+      "choix": [
+        "L'oxygène",
+        "La poussière",
+        "Le bruit"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Quand Sofia inspire, l'air entre par son nez et descend jusqu'à ses deux poumons. Son corps y prend l'oxygène, puis elle expire le reste de l'air.",
+      "question": "Comment dit-on quand on fait sortir l'air ?",
+      "choix": [
+        "Inspirer",
+        "Expirer",
+        "Avaler"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Quand Sofia inspire, l'air entre par son nez et descend jusqu'à ses deux poumons. Son corps y prend l'oxygène, puis elle expire le reste de l'air.",
+      "question": "Comment dit-on quand on fait entrer l'air ?",
+      "choix": [
+        "Expirer",
+        "Souffler",
+        "Inspirer"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Léo fait la course avec Inès. Au bout d'un moment, il souffle très fort et respire très vite.",
+      "question": "Pourquoi Léo respire-t-il plus vite en courant ?",
+      "choix": [
+        "Il a froid",
+        "Ses muscles ont besoin de plus d'oxygène",
+        "Ses poumons ont rétréci"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "😴 Inès dort profondément.",
+      "question": "Respire-t-on quand on dort ?",
+      "choix": [
+        "Non, jamais",
+        "Seulement quand on rêve",
+        "Oui, tout le temps"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Dans la rivière, la truite reste tout le temps sous l'eau. Elle ne remonte jamais respirer à la surface.",
+      "question": "Comment la truite respire-t-elle sous l'eau ?",
+      "choix": [
+        "Avec ses branchies, qui prennent l'oxygène de l'eau",
+        "Avec des poumons, comme nous",
+        "Elle ne respire pas"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "❄️ Dehors, en hiver, il fait très froid.",
+      "question": "Que voit-on sortir de la bouche quand il fait très froid ?",
+      "choix": [
+        "De la fumée de feu",
+        "De la buée : la vapeur d'eau de notre souffle qui refroidit",
+        "De la neige"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

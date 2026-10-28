@@ -1,0 +1,128 @@
+{
+  "id": "lesson-svt-23",
+  "theme": "svt",
+  "titre": "Le cycle de l'eau",
+  "description": "Remets le voyage de l'eau dans l'ordre, puis réponds aux questions",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "ordre-mots",
+      "question": "mer, vapeur, nuage, pluie, rivière",
+      "mots": [
+        "mer",
+        "vapeur",
+        "nuage",
+        "pluie",
+        "rivière"
+      ],
+      "consigne": "Remets dans l'ordre le voyage de l'eau, en partant de la mer.",
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "ordre-mots",
+      "question": "Le soleil chauffe la mer.",
+      "mots": [
+        "Le",
+        "soleil",
+        "chauffe",
+        "la",
+        "mer"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "ordre-mots",
+      "question": "La pluie tombe des nuages.",
+      "mots": [
+        "La",
+        "pluie",
+        "tombe",
+        "des",
+        "nuages"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Le soleil chauffe la mer et l'eau s'évapore. La vapeur monte, refroidit et forme les nuages. Les gouttes des nuages tombent en pluie. Les rivières ramènent l'eau à la mer.",
+      "question": "D'où vient la pluie ?",
+      "choix": [
+        "Des nuages",
+        "Du soleil",
+        "Des arbres"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Le soleil chauffe la mer et l'eau s'évapore. La vapeur monte, refroidit et forme les nuages. Les gouttes des nuages tombent en pluie. Les rivières ramènent l'eau à la mer.",
+      "question": "Qu'est-ce qui fait s'évaporer l'eau de la mer ?",
+      "choix": [
+        "La Lune",
+        "La chaleur du soleil",
+        "Les poissons"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Le soleil chauffe la mer et l'eau s'évapore. La vapeur monte, refroidit et forme les nuages. Les gouttes des nuages tombent en pluie. Les rivières ramènent l'eau à la mer.",
+      "question": "De quoi sont faits les nuages ?",
+      "choix": [
+        "De coton",
+        "De fumée",
+        "De minuscules gouttes d'eau"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Le soleil chauffe la mer et l'eau s'évapore. La vapeur monte, refroidit et forme les nuages. Les gouttes des nuages tombent en pluie. Les rivières ramènent l'eau à la mer.",
+      "question": "Où va l'eau des rivières ?",
+      "choix": [
+        "Jusqu'à la mer",
+        "Directement dans les nuages",
+        "Nulle part, elle disparaît"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Le soleil chauffe la mer et l'eau s'évapore. La vapeur monte, refroidit et forme les nuages. Les gouttes des nuages tombent en pluie. Les rivières ramènent l'eau à la mer.",
+      "question": "Quand il fait très froid, que tombe-t-il des nuages ?",
+      "choix": [
+        "Du sable",
+        "De la neige",
+        "Des feuilles"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Le soleil chauffe la mer et l'eau s'évapore. La vapeur monte, refroidit et forme les nuages. Les gouttes des nuages tombent en pluie. Les rivières ramènent l'eau à la mer.",
+      "question": "L'eau de pluie est-elle de l'eau toute neuve ?",
+      "choix": [
+        "Oui, les nuages la fabriquent",
+        "Oui, elle vient de l'espace",
+        "Non, c'est toujours la même eau qui voyage"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

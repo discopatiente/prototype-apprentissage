@@ -1,0 +1,138 @@
+{
+  "id": "lesson-svt-13",
+  "theme": "svt",
+  "titre": "Comment vit une plante ?",
+  "description": "Retrouve le rôle de chaque partie de la plante et ce dont elle a besoin",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "🌱 Une plante dans son pot",
+      "question": "Quelle partie de la plante se trouve sous la terre ?",
+      "choix": [
+        "Les racines",
+        "Les feuilles",
+        "La fleur"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "🌱 Une plante dans son pot",
+      "question": "À quoi servent les racines ?",
+      "choix": [
+        "À faire des fleurs",
+        "À tenir la plante et à puiser l'eau de la terre",
+        "À capter la lumière"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "🌿 Une plante verte",
+      "question": "Par où l'eau monte-t-elle jusqu'aux feuilles ?",
+      "choix": [
+        "Par la fleur",
+        "Par les fruits",
+        "Par la tige"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "🍃 Les feuilles d'un arbre",
+      "question": "Que captent les feuilles ?",
+      "choix": [
+        "La lumière du soleil",
+        "Le bruit",
+        "La terre"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "🍎 Une pomme",
+      "question": "Qu'est-ce qui contient les graines ?",
+      "choix": [
+        "La racine",
+        "Le fruit",
+        "La tige"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "🪴 Une plante d'appartement",
+      "question": "De quoi une plante a-t-elle besoin pour vivre ?",
+      "choix": [
+        "Seulement de terre",
+        "De rien du tout",
+        "D'eau, de lumière et d'air"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Léo a oublié d'arroser sa plante pendant deux semaines.",
+      "question": "Que va-t-il arriver à la plante de Léo ?",
+      "choix": [
+        "Elle va grandir plus vite",
+        "Elle va se faner",
+        "Elle va faire des fleurs"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Inès range sa plante dans un placard tout noir.",
+      "question": "Que va-t-il arriver à la plante dans le placard ?",
+      "choix": [
+        "Elle va pousser mieux",
+        "Rien du tout",
+        "Elle va jaunir et s'affaiblir"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "🍎 Sofia coupe une pomme en deux.",
+      "question": "Où sont les graines dans la pomme ?",
+      "choix": [
+        "Au milieu, au cœur du fruit",
+        "Sur la peau",
+        "Dans la queue"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "🌷 Une tulipe",
+      "question": "Une plante est-elle un être vivant ?",
+      "choix": [
+        "Non, car elle ne bouge pas",
+        "Oui : elle naît, grandit et fait des graines",
+        "Seulement quand elle a des fleurs"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "lesson-svt-16",
+  "theme": "svt",
+  "titre": "L'eau change de forme",
+  "description": "Découvre l'eau solide, liquide et gazeuse",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "L'eau peut prendre trois formes différentes. Tu les connais toutes, même sans le savoir !",
+      "visuel": "🧊 💧 ♨️"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "L'eau liquide coule : celle du robinet, de la pluie, de la mer. Elle prend la forme du récipient dans lequel on la verse.",
+      "visuel": "💧 🚰"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "L'eau solide, c'est la glace. Quand il fait très froid, ou au congélateur, l'eau gèle et devient dure : les glaçons, la glace sur les flaques. La neige qui tombe des nuages, c'est aussi de l'eau solide.",
+      "visuel": "🧊 ❄️"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Quand on réchauffe la glace, elle fond et redevient liquide. Un glaçon posé au soleil devient une petite flaque.",
+      "visuel": "🧊 → 💧"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Quand on chauffe l'eau liquide, elle s'évapore : elle devient de la vapeur d'eau, un gaz invisible. La petite fumée blanche au-dessus d'une casserole, c'est de la vapeur qui refroidit et redevient de toutes petites gouttes.",
+      "visuel": "💧 → ♨️"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "L'eau s'évapore aussi sans bouillir : une flaque disparaît après une journée de soleil, le linge sèche sur le fil.",
+      "visuel": "☀️ 👕"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Retiens bien : solide, c'est la glace ; liquide, c'est l'eau ; gaz, c'est la vapeur. Le froid fait geler l'eau, la chaleur fait fondre la glace et évaporer l'eau.",
+      "visuel": "glace | eau | vapeur"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

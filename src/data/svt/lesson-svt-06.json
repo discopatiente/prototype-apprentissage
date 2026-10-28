@@ -1,0 +1,49 @@
+{
+  "id": "lesson-svt-06",
+  "theme": "svt",
+  "titre": "Vivant ou non vivant ?",
+  "description": "Apprends à reconnaître ce qui est vivant et ce qui ne l'est pas",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Autour de toi, il y a des choses vivantes et des choses qui ne sont pas vivantes. Comment les reconnaître ?",
+      "visuel": "🐈 🪨"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Un être vivant naît, grandit, se nourrit, peut avoir des petits, et un jour il meurt. Le chat est vivant : il est né tout petit, il grandit et il mange.",
+      "visuel": "🐈"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Les plantes aussi sont vivantes ! Un arbre naît d'une graine, il grandit, il puise l'eau de la terre avec ses racines, et il fait de nouvelles graines.",
+      "visuel": "🌱 → 🌳"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Un caillou n'est pas vivant : il ne naît pas, il ne grandit pas, il ne se nourrit pas. Une chaise non plus.",
+      "visuel": "🪨 🪑"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Attention aux pièges ! Le feu bouge et grandit, mais il n'est pas vivant : il ne se nourrit pas comme un être vivant et il ne fait pas de petits. Une voiture bouge aussi, et elle n'est pas vivante.",
+      "visuel": "🔥 🚗"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "À l'inverse, une graine ne bouge pas, mais elle est vivante : si on la plante et qu'on l'arrose, elle va germer et devenir une plante.",
+      "visuel": "🫘 → 🌱"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Retiens bien : un être vivant naît, grandit, se nourrit, se reproduit et meurt. Les animaux et les plantes sont des êtres vivants."
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

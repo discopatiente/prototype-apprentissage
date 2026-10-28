@@ -1,0 +1,119 @@
+{
+  "id": "lesson-svt-21",
+  "theme": "svt",
+  "titre": "Les étapes de la vie",
+  "description": "Remets dans l'ordre la vie du papillon, de la grenouille et de la poule",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "ordre-mots",
+      "question": "œuf, chenille, chrysalide, papillon",
+      "mots": [
+        "œuf",
+        "chenille",
+        "chrysalide",
+        "papillon"
+      ],
+      "consigne": "Remets dans l'ordre la vie du papillon.",
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "ordre-mots",
+      "question": "œuf, têtard, grenouille",
+      "mots": [
+        "œuf",
+        "têtard",
+        "grenouille"
+      ],
+      "consigne": "Remets dans l'ordre la vie de la grenouille.",
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "ordre-mots",
+      "question": "œuf, poussin, poule",
+      "mots": [
+        "œuf",
+        "poussin",
+        "poule"
+      ],
+      "consigne": "Remets dans l'ordre la vie de la poule.",
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "ordre-mots",
+      "question": "La poule pond des œufs.",
+      "mots": [
+        "La",
+        "poule",
+        "pond",
+        "des",
+        "œufs"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "ordre-mots",
+      "question": "Le poussin sort de l'œuf.",
+      "mots": [
+        "Le",
+        "poussin",
+        "sort",
+        "de",
+        "l'œuf"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "ordre-mots",
+      "question": "La chenille devient un papillon.",
+      "mots": [
+        "La",
+        "chenille",
+        "devient",
+        "un",
+        "papillon"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "ordre-mots",
+      "question": "Le têtard nage dans la mare.",
+      "mots": [
+        "Le",
+        "têtard",
+        "nage",
+        "dans",
+        "la",
+        "mare"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "ordre-mots",
+      "question": "Le chaton boit le lait de sa mère.",
+      "mots": [
+        "Le",
+        "chaton",
+        "boit",
+        "le",
+        "lait",
+        "de",
+        "sa",
+        "mère"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    }
+  ]
+}

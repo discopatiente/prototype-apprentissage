@@ -1,0 +1,138 @@
+{
+  "id": "lesson-svt-09",
+  "theme": "svt",
+  "titre": "Ranger les animaux",
+  "description": "Trouve ce qui couvre le corps des animaux et comment ils se déplacent",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "🐇 Le lapin",
+      "question": "Qu'est-ce qui couvre le corps du lapin ?",
+      "choix": [
+        "Des poils",
+        "Des plumes",
+        "Des écailles"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "🕊️ Le pigeon",
+      "question": "Qu'est-ce qui couvre le corps du pigeon ?",
+      "choix": [
+        "Des poils",
+        "Des plumes",
+        "Des écailles"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "🐟 Le poisson rouge",
+      "question": "Qu'est-ce qui couvre le corps du poisson rouge ?",
+      "choix": [
+        "Des plumes",
+        "Des poils",
+        "Des écailles"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "🐸 La grenouille",
+      "question": "Qu'est-ce qui couvre le corps de la grenouille ?",
+      "choix": [
+        "Une peau nue, sans poils ni écailles",
+        "Des poils",
+        "Des plumes"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "🐍 Le serpent",
+      "question": "Qu'est-ce qui couvre le corps du serpent ?",
+      "choix": [
+        "Des poils",
+        "Des écailles",
+        "Une peau nue"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "🐻 L'ours, 🐟 le poisson, 🕊️ le pigeon",
+      "question": "Lequel de ces animaux a un pelage ?",
+      "choix": [
+        "Le poisson",
+        "Le pigeon",
+        "L'ours"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "🐔 La poule, 🦆 le canard, 🐈 le chat",
+      "question": "Quel est l'intrus parmi les animaux à plumes : la poule, le canard, le chat ?",
+      "choix": [
+        "La poule",
+        "Le chat",
+        "Le canard"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "🐟 La sardine, 🐍 le serpent, 🐕 le chien",
+      "question": "Quel est l'intrus parmi les animaux à écailles : la sardine, le serpent, le chien ?",
+      "choix": [
+        "La sardine",
+        "Le serpent",
+        "Le chien"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "🐍 Le serpent",
+      "question": "Comment se déplace le serpent ?",
+      "choix": [
+        "Il rampe",
+        "Il vole",
+        "Il marche sur quatre pattes"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "🐬 Le dauphin",
+      "question": "Comment se déplace le dauphin ?",
+      "choix": [
+        "Il rampe",
+        "Il nage",
+        "Il marche"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

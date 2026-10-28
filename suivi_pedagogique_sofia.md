@@ -55,10 +55,12 @@ Domaines du socle : D1 langages pour penser et communiquer, D3 formation de la p
 | Notion | Compétence officielle visée | Cycle | Socle | Statut |
 |---|---|---|---|---|
 | Corps humain, mouvement et effort, lien judo | Corps humain et santé, mouvement, effort, récupération | C3, ouverture C4 | D4 | EC |
-| Fonctions de nutrition, respiration, circulation, digestion | Relier l'approvisionnement des organes aux fonctions de nutrition | C3 | D4 | |
-| Le vivant et son environnement, animaux et végétaux | Classer le vivant, relations entre un être vivant et son milieu | C3 | D4 | |
+| Fonctions de nutrition, respiration, circulation, digestion | Relier l'approvisionnement des organes aux fonctions de nutrition | C3 | D4 | EC (respiration, circulation ; digestion reportée avec l'alimentation) |
+| Le vivant et son environnement, animaux et végétaux | Classer le vivant, relations entre un être vivant et son milieu | C3 | D4 | EC |
 | Alimentation et besoins du corps (à venir) | Besoins alimentaires, qualité et quantité, hygiène alimentaire | C3 | D4 | |
-| Écologie simple, cycle de l'eau, saisons | La planète Terre lieu de vie, rythmes du vivant | C3 | D4 | EC (saisons) |
+| Écologie simple, cycle de l'eau, saisons | La planète Terre lieu de vie, rythmes du vivant | C3 | D4 | EC |
+| États de l'eau (solide, liquide, gaz) | Matière, mouvement, énergie : changements d'état de l'eau | C3 | D4 | EC |
+| Le jour et la nuit, le Soleil et la Lune | Situer la Terre dans le système solaire, mouvement de rotation | C3 | D4, D5 | EC |
 
 ## Musique
 
@@ -167,3 +169,26 @@ Réalisation complète de `plan_maths_niveaux_11_a_21.md` : 31 leçons, `lesson-
   - Aucune question ne porte sur le poids d'un enfant.
 - **Composant.** `ExerciseTrouNumerique.vue` accepte maintenant une réponse à virgule quand `reponse` n'est pas entier (voir `CLAUDE.md`). Les leçons à réponse entière se comportent comme avant (vérifié sur `lesson-maths-34`).
 - **Vérification des calculs.** Chaque réponse à saisir a été recalculée par un script indépendant, à partir du texte du contexte, de l'intitulé et des images de pièces et de billets, en centimes entiers. Aucune erreur. Les questions à choix ont été relues une par une. Aucun couple prix et somme donnée de `34` n'est réutilisé dans `57`.
+
+## Leçons de sciences du 28 octobre 2026
+
+Réalisation complète de `plan_sciences_niveaux_2_a_10.md` : 24 leçons, `lesson-svt-04` à `27`, niveaux 2 à 10. Les thèmes alternent entre le corps, le vivant et la Terre. Chaque leçon a été déroulée jusqu'au bilan avec Playwright, en donnant les bonnes réponses, et obtient le score maximal.
+
+- **Corps.**
+  - Niveau 2, le cœur et le sang (`04`, `05`).
+  - Niveau 4, la respiration (`10`, `11`).
+  - Uniquement le fonctionnement normal du corps, sans parler de maladie.
+- **Vivant.**
+  - Niveau 3, vivant ou non vivant, puis classer les animaux (`06` à `09`).
+  - Niveau 5, les plantes, de la graine au fruit (`12` à `15`).
+  - Niveau 7, les milieux de vie et la naissance des animaux, dont les cycles du papillon et de la grenouille (`18` à `21`).
+- **Terre.**
+  - Niveau 6, les états de l'eau (`16`, `17`).
+  - Niveau 8, le cycle de l'eau (`22`, `23`, leçon mixte : étapes à remettre dans l'ordre et questions à choix).
+  - Niveau 9, le jour et la nuit, le Soleil et la Lune, sans lecture de l'heure (`24`, `25`).
+- **Révision.** Niveau 10, révision générale (`26`) et tous les cycles dans l'ordre (`27`).
+- **Étapes à remettre dans l'ordre.** Le type `ordre-mots` est détourné pour ranger des étapes (champ `consigne`, un mot par étiquette), comme pour l'ordre alphabétique en français.
+- **Corrections d'exactitude faites à la relecture.**
+  - La buée en hiver est la vapeur d'eau du souffle qui refroidit, et non « l'air qu'on expire » (`10`, `11`).
+  - Tous les serpents ne pondent pas d'œufs : remplacé par le crocodile (`20`).
+- **Identifiants.** `lesson-svt-04` est réutilisé, l'alimentation (toujours reportée, comme la digestion) prendra un nouvel identifiant.

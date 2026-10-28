@@ -1,0 +1,48 @@
+{
+  "id": "lesson-svt-08",
+  "theme": "svt",
+  "titre": "Poils, plumes ou écailles ?",
+  "description": "Range les animaux selon ce qui couvre leur corps et leur façon de se déplacer",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Pour ranger les animaux, on peut regarder ce qui couvre leur corps."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Certains animaux ont des poils : le chat, le chien, l'ours, le lapin. Tous leurs poils ensemble forment leur pelage.",
+      "visuel": "🐈 🐕 🐻 🐇 → des poils"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Les oiseaux ont des plumes : la poule, le pigeon, l'aigle. Tous les oiseaux ont des plumes, et ce sont les seuls animaux à en avoir.",
+      "visuel": "🐔 🕊️ 🦅 → des plumes"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Les poissons et les serpents ont des écailles.",
+      "visuel": "🐟 🐍 → des écailles"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "La grenouille a la peau nue : ni poils, ni plumes, ni écailles. Sa peau est lisse et humide.",
+      "visuel": "🐸 → la peau nue"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "On peut aussi ranger les animaux selon leur façon de se déplacer : marcher, voler, nager, ramper. Un même animal peut faire plusieurs choses : le canard marche, nage et vole !",
+      "visuel": "🦆 marche | nage | vole"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Retiens bien : des poils, des plumes, des écailles ou la peau nue. Les plumes, c'est seulement chez les oiseaux."
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

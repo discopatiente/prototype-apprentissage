@@ -1,0 +1,152 @@
+{
+  "id": "lesson-svt-07",
+  "theme": "svt",
+  "titre": "Est-ce vivant ?",
+  "description": "Décide si chaque chose est vivante ou non, sans te laisser piéger",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "🐕 Le chien court dans le jardin.",
+      "question": "Le chien est-il vivant ?",
+      "choix": [
+        "Oui, c'est vivant",
+        "Non, ce n'est pas vivant"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "🪨 Un caillou au bord du chemin.",
+      "question": "Le caillou est-il vivant ?",
+      "choix": [
+        "Oui, c'est vivant",
+        "Non, ce n'est pas vivant"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "🚗 La voiture roule et fait du bruit.",
+      "question": "La voiture est-elle vivante ?",
+      "choix": [
+        "Oui, c'est vivant",
+        "Non, ce n'est pas vivant"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "🌳 Le chêne grandit dans la forêt.",
+      "question": "Le chêne est-il vivant ?",
+      "choix": [
+        "Oui, c'est vivant",
+        "Non, ce n'est pas vivant"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "🔥 Le feu bouge et grandit dans la cheminée.",
+      "question": "Le feu est-il vivant ?",
+      "choix": [
+        "Oui, c'est vivant",
+        "Non, ce n'est pas vivant"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "🫘 La graine ne bouge pas, dans son petit sachet.",
+      "question": "La graine est-elle vivante ?",
+      "choix": [
+        "Oui, c'est vivant",
+        "Non, ce n'est pas vivant"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "🍄 Le champignon pousse dans la forêt.",
+      "question": "Le champignon est-il vivant ?",
+      "choix": [
+        "Oui, c'est vivant",
+        "Non, ce n'est pas vivant"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "☁️ Le nuage avance dans le ciel.",
+      "question": "Le nuage est-il vivant ?",
+      "choix": [
+        "Oui, c'est vivant",
+        "Non, ce n'est pas vivant"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "🌷 La tulipe pousse dans le jardin.",
+      "question": "La tulipe est-elle vivante ?",
+      "choix": [
+        "Oui, c'est vivant",
+        "Non, ce n'est pas vivant"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "🤖 Le robot marche et parle.",
+      "question": "Le robot est-il vivant ?",
+      "choix": [
+        "Oui, c'est vivant",
+        "Non, ce n'est pas vivant"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "🐟 Le poisson nage dans la rivière.",
+      "question": "Le poisson est-il vivant ?",
+      "choix": [
+        "Non, ce n'est pas vivant",
+        "Oui, c'est vivant"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "⚽ Le ballon roule sur le terrain.",
+      "question": "Le ballon est-il vivant ?",
+      "choix": [
+        "Non, ce n'est pas vivant",
+        "Oui, c'est vivant"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

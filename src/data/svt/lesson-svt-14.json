@@ -1,0 +1,50 @@
+{
+  "id": "lesson-svt-14",
+  "theme": "svt",
+  "titre": "De la graine à la plante",
+  "description": "Suis la vie d'une plante, de la graine jusqu'au fruit",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Beaucoup de plantes commencent par une graine. Une graine, c'est un tout petit bébé plante bien à l'abri, avec des réserves pour démarrer.",
+      "visuel": "🫘"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Quand on met la graine dans de la terre humide, elle se gonfle d'eau puis elle s'ouvre : on dit qu'elle germe.",
+      "visuel": "🫘 💧"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "D'abord sort une petite racine, qui descend dans la terre. Puis une petite tige pousse vers le haut, vers la lumière.",
+      "visuel": "⬇️ racine | ⬆️ tige"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "La tige grandit et les premières feuilles apparaissent. Avec ses feuilles, la plante peut maintenant fabriquer sa nourriture grâce à la lumière.",
+      "visuel": "🌱"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Plus tard, la plante fait des fleurs.",
+      "visuel": "🌼"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Puis la fleur se transforme en fruit, qui contient de nouvelles graines. Et tout peut recommencer !",
+      "visuel": "🌼 → 🍅 → 🫘"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Retiens bien les étapes : la graine, elle germe, la tige et les feuilles poussent, puis la fleur, puis le fruit.",
+      "visuel": "graine → germe → tige → fleur → fruit"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "lesson-svt-15",
+  "theme": "svt",
+  "titre": "La vie d'une plante",
+  "description": "Remets dans l'ordre les étapes de la vie d'une plante, et reconstruis des phrases",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "ordre-mots",
+      "question": "graine, germe, tige, fleur, fruit",
+      "mots": [
+        "graine",
+        "germe",
+        "tige",
+        "fleur",
+        "fruit"
+      ],
+      "consigne": "Remets dans l'ordre la vie d'une plante, en commençant par la graine.",
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "ordre-mots",
+      "question": "racine, tige, feuilles",
+      "mots": [
+        "racine",
+        "tige",
+        "feuilles"
+      ],
+      "consigne": "Quand la graine germe, qu'est-ce qui pousse en premier ? Range dans l'ordre.",
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "ordre-mots",
+      "question": "fleur, fruit, graines",
+      "mots": [
+        "fleur",
+        "fruit",
+        "graines"
+      ],
+      "consigne": "Après la fleur, que se passe-t-il ? Range dans l'ordre.",
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "ordre-mots",
+      "question": "La graine germe dans la terre.",
+      "mots": [
+        "La",
+        "graine",
+        "germe",
+        "dans",
+        "la",
+        "terre"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "ordre-mots",
+      "question": "Les racines boivent l'eau.",
+      "mots": [
+        "Les",
+        "racines",
+        "boivent",
+        "l'eau"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "ordre-mots",
+      "question": "Les feuilles captent la lumière.",
+      "mots": [
+        "Les",
+        "feuilles",
+        "captent",
+        "la",
+        "lumière"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "ordre-mots",
+      "question": "La fleur devient un fruit.",
+      "mots": [
+        "La",
+        "fleur",
+        "devient",
+        "un",
+        "fruit"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "ordre-mots",
+      "question": "Le fruit contient des graines.",
+      "mots": [
+        "Le",
+        "fruit",
+        "contient",
+        "des",
+        "graines"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    }
+  ]
+}

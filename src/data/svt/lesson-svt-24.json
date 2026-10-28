@@ -1,0 +1,54 @@
+{
+  "id": "lesson-svt-24",
+  "theme": "svt",
+  "titre": "Le jour et la nuit",
+  "description": "Découvre le Soleil, la Terre qui tourne et la Lune",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Le Soleil est une étoile : une énorme boule de gaz très, très chaude. Il est si loin qu'il nous paraît petit. Il nous éclaire et il nous réchauffe.",
+      "visuel": "☀️"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Attention : il ne faut jamais regarder le Soleil en face, même avec des lunettes de soleil, car cela peut abîmer les yeux.",
+      "visuel": "🚫 👀 ☀️"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "La Terre, notre planète, est une grosse boule. Elle tourne sur elle-même, comme une toupie, et elle fait un tour complet en une journée.",
+      "visuel": "🌍 🔄"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Le côté de la Terre tourné vers le Soleil est éclairé : c'est le jour. Le côté qui est dans l'ombre, c'est la nuit. Quand il fait jour chez nous, il fait nuit de l'autre côté de la Terre !",
+      "visuel": "☀️ → 🌍 | jour 🌞 | nuit 🌙"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Comme la Terre tourne, le Soleil a l'air de se lever le matin et de se coucher le soir. Mais en vrai, c'est la Terre qui tourne : le Soleil ne fait pas le tour de la Terre.",
+      "visuel": "🌅 → 🌇"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "La Lune tourne autour de la Terre. Elle ne fabrique pas de lumière : elle brille parce que le Soleil l'éclaire, comme une balle éclairée par une lampe.",
+      "visuel": "🌙"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Selon les jours, on voit la Lune toute ronde, en croissant, ou presque pas : on voit seulement la partie de la Lune éclairée par le Soleil.",
+      "visuel": "🌑 🌒 🌓 🌕"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Retiens bien : la Terre tourne sur elle-même, ce qui fait le jour et la nuit. Le Soleil est une étoile. La Lune est éclairée par le Soleil."
+    },
+    {
+      "id": "ecran-09",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

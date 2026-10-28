@@ -1,0 +1,49 @@
+{
+  "id": "lesson-svt-12",
+  "theme": "svt",
+  "titre": "Les parties de la plante",
+  "description": "Découvre les racines, la tige, les feuilles, la fleur et le fruit",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Une plante est un être vivant. Comme toi, elle a besoin de certaines choses pour vivre et grandir.",
+      "visuel": "🌻"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Sous la terre, il y a les racines. Elles tiennent la plante bien accrochée au sol, et elles puisent l'eau de la terre.",
+      "visuel": "🌱 ⬇️ les racines"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "La tige porte les feuilles et les fleurs. L'eau monte des racines jusqu'aux feuilles en passant par la tige, un peu comme dans une paille.",
+      "visuel": "🌿 la tige"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Les feuilles captent la lumière du soleil. Grâce à la lumière, la plante fabrique elle-même sa nourriture.",
+      "visuel": "☀️ → 🍃"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "La fleur sert à fabriquer les graines. Souvent, après la fleur vient le fruit, qui contient les graines : la pomme, la tomate, la cerise.",
+      "visuel": "🌸 → 🍎"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Pour vivre, une plante a besoin d'eau, de lumière, d'air, et d'une terre où planter ses racines. Sans eau, elle se fane. Sans lumière, elle jaunit et s'affaiblit.",
+      "visuel": "💧 ☀️ 💨 🪴"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Retiens bien : les racines boivent, la tige transporte, les feuilles captent la lumière, la fleur donne le fruit et les graines."
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

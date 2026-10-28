@@ -1,0 +1,54 @@
+{
+  "id": "lesson-svt-04",
+  "theme": "svt",
+  "titre": "Le cœur et le sang",
+  "description": "Découvre comment ton cœur fait circuler le sang dans tout ton corps",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Pose ta main sur ta poitrine, un peu à gauche : tu sens quelque chose qui bat ? C'est ton cœur !",
+      "visuel": "❤️"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Le cœur est un muscle, à peu près gros comme ton poing. Il ne s'arrête jamais : il travaille même quand tu dors.",
+      "visuel": "✊ ❤️"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Le cœur fonctionne comme une pompe : à chaque battement, il pousse le sang dans tout le corps.",
+      "visuel": "❤️ → 🩸"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Le sang circule dans de petits tuyaux, les vaisseaux sanguins. Il va jusqu'au bout des pieds et jusqu'à la tête, puis il revient au cœur. C'est la circulation du sang.",
+      "visuel": "❤️ → 🦶 → ❤️"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Le sang transporte ce dont les muscles ont besoin pour travailler, par exemple l'oxygène de l'air que tu respires.",
+      "visuel": "🩸 → 💪"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Tu peux sentir ton cœur battre ailleurs : pose deux doigts à l'intérieur de ton poignet. Ce petit battement s'appelle le pouls.",
+      "visuel": "✌️ → poignet"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Au judo, tes muscles travaillent beaucoup et ont besoin de plus de sang : ton cœur bat plus vite. Quand tu te reposes, il ralentit tout doucement.",
+      "visuel": "🥋 ❤️❤️❤️ | 😴 ❤️"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Retiens bien : le cœur est un muscle qui pompe le sang, et le sang fait le tour du corps dans les vaisseaux sanguins."
+    },
+    {
+      "id": "ecran-09",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

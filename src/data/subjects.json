@@ -587,6 +587,84 @@
           "lesson-svt-02",
           "lesson-svt-03"
         ]
+      },
+      {
+        "id": "niveau-2",
+        "titre": "Niveau 2",
+        "lessons": [
+          "lesson-svt-04",
+          "lesson-svt-05"
+        ]
+      },
+      {
+        "id": "niveau-3",
+        "titre": "Niveau 3",
+        "lessons": [
+          "lesson-svt-06",
+          "lesson-svt-07",
+          "lesson-svt-08",
+          "lesson-svt-09"
+        ]
+      },
+      {
+        "id": "niveau-4",
+        "titre": "Niveau 4",
+        "lessons": [
+          "lesson-svt-10",
+          "lesson-svt-11"
+        ]
+      },
+      {
+        "id": "niveau-5",
+        "titre": "Niveau 5",
+        "lessons": [
+          "lesson-svt-12",
+          "lesson-svt-13",
+          "lesson-svt-14",
+          "lesson-svt-15"
+        ]
+      },
+      {
+        "id": "niveau-6",
+        "titre": "Niveau 6",
+        "lessons": [
+          "lesson-svt-16",
+          "lesson-svt-17"
+        ]
+      },
+      {
+        "id": "niveau-7",
+        "titre": "Niveau 7",
+        "lessons": [
+          "lesson-svt-18",
+          "lesson-svt-19",
+          "lesson-svt-20",
+          "lesson-svt-21"
+        ]
+      },
+      {
+        "id": "niveau-8",
+        "titre": "Niveau 8",
+        "lessons": [
+          "lesson-svt-22",
+          "lesson-svt-23"
+        ]
+      },
+      {
+        "id": "niveau-9",
+        "titre": "Niveau 9",
+        "lessons": [
+          "lesson-svt-24",
+          "lesson-svt-25"
+        ]
+      },
+      {
+        "id": "niveau-10",
+        "titre": "Niveau 10",
+        "lessons": [
+          "lesson-svt-26",
+          "lesson-svt-27"
+        ]
       }
     ]
   }
