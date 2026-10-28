@@ -1,0 +1,53 @@
+{
+  "id": "lesson-francais-86",
+  "theme": "francais",
+  "titre": "Ne… pas",
+  "description": "Découvre comment dire non dans une phrase avec ne… pas, ne… jamais et ne… plus",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Parfois, on veut dire qu'une chose n'arrive pas. On écrit alors une phrase négative : c'est une phrase qui dit non."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Regarde : « Le chat grimpe. » Pour dire le contraire, on entoure le verbe avec deux petits mots, ne et pas : « Le chat ne grimpe pas. »",
+      "visuel": "Le chat grimpe. | Le chat ne grimpe pas."
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Le petit mot « ne » se place juste avant le verbe, et le petit mot « pas » juste après. Ce sont comme deux gardes, un de chaque côté du verbe.",
+      "visuel": "ne | grimpe | pas"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Devant une voyelle (a, e, i, o, u), ne devient n'. « Léa aime la soupe. » devient « Léa n'aime pas la soupe. »",
+      "visuel": "Léa aime la soupe. | Léa n'aime pas la soupe."
+    },
+    {
+      "id": "ecran-05",
+      "texte": "On peut remplacer pas par jamais, qui veut dire « pas une seule fois » : « Mon chat ne glisse jamais. »",
+      "visuel": "Mon chat ne glisse jamais."
+    },
+    {
+      "id": "ecran-06",
+      "texte": "On peut aussi remplacer pas par plus, qui veut dire « c'est fini, maintenant ça n'arrive plus » : « Il pleuvait. Maintenant, il ne pleut plus. »",
+      "visuel": "Il ne pleut plus."
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Attention : quand on parle vite, on oublie souvent le ne. On dit « Je sais pas. » À l'écrit, il faut toujours l'écrire : « Je ne sais pas. »",
+      "visuel": "Je sais pas. ✗ | Je ne sais pas. ✓"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Retiens bien : ne, puis le verbe, puis pas (ou jamais, ou plus). Le verbe est toujours au milieu."
+    },
+    {
+      "id": "ecran-09",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

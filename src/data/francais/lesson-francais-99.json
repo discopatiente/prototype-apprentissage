@@ -1,0 +1,118 @@
+{
+  "id": "lesson-francais-99",
+  "theme": "francais",
+  "titre": "J'utilise les mots nouveaux (8)",
+  "description": "Reconstruis des phrases avec les six mots de la maison",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "ordre-mots",
+      "question": "Les vieux jouets sont au grenier.",
+      "mots": [
+        "Les",
+        "vieux",
+        "jouets",
+        "sont",
+        "au",
+        "grenier"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "ordre-mots",
+      "question": "Mes livres sont sur l'étagère.",
+      "mots": [
+        "Mes",
+        "livres",
+        "sont",
+        "sur",
+        "l'étagère"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "ordre-mots",
+      "question": "Papa ferme les volets.",
+      "mots": [
+        "Papa",
+        "ferme",
+        "les",
+        "volets"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "ordre-mots",
+      "question": "Léo tourne la poignée.",
+      "mots": [
+        "Léo",
+        "tourne",
+        "la",
+        "poignée"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "ordre-mots",
+      "question": "Ferme bien le robinet !",
+      "mots": [
+        "Ferme",
+        "bien",
+        "le",
+        "robinet"
+      ],
+      "ponctuation": "!",
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "ordre-mots",
+      "question": "Ma couette est très chaude.",
+      "mots": [
+        "Ma",
+        "couette",
+        "est",
+        "très",
+        "chaude"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "ordre-mots",
+      "question": "Qui a ouvert les volets ?",
+      "mots": [
+        "Qui",
+        "a",
+        "ouvert",
+        "les",
+        "volets"
+      ],
+      "ponctuation": "?",
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "ordre-mots",
+      "question": "Sofia dort sous sa couette.",
+      "mots": [
+        "Sofia",
+        "dort",
+        "sous",
+        "sa",
+        "couette"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    }
+  ]
+}

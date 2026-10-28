@@ -1,0 +1,120 @@
+{
+  "id": "lesson-francais-102",
+  "theme": "francais",
+  "titre": "J'utilise les mots nouveaux (9)",
+  "description": "Reconstruis des phrases avec les six mots du ciel",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "ordre-mots",
+      "question": "Léo saute dans la flaque.",
+      "mots": [
+        "Léo",
+        "saute",
+        "dans",
+        "la",
+        "flaque"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "ordre-mots",
+      "question": "Une rafale emporte le chapeau.",
+      "mots": [
+        "Une",
+        "rafale",
+        "emporte",
+        "le",
+        "chapeau"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "ordre-mots",
+      "question": "Un éclair traverse le ciel.",
+      "mots": [
+        "Un",
+        "éclair",
+        "traverse",
+        "le",
+        "ciel"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "ordre-mots",
+      "question": "La rosée mouille l'herbe.",
+      "mots": [
+        "La",
+        "rosée",
+        "mouille",
+        "l'herbe"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "ordre-mots",
+      "question": "Au crépuscule, le ciel devient orange.",
+      "mots": [
+        "Au",
+        "crépuscule,",
+        "le",
+        "ciel",
+        "devient",
+        "orange"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "ordre-mots",
+      "question": "Regarde le bel arc-en-ciel !",
+      "mots": [
+        "Regarde",
+        "le",
+        "bel",
+        "arc-en-ciel"
+      ],
+      "ponctuation": "!",
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "ordre-mots",
+      "question": "As-tu vu l'éclair ?",
+      "mots": [
+        "As-tu",
+        "vu",
+        "l'éclair"
+      ],
+      "ponctuation": "?",
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "ordre-mots",
+      "question": "Il y a une flaque devant la porte.",
+      "mots": [
+        "Il",
+        "y",
+        "a",
+        "une",
+        "flaque",
+        "devant",
+        "la",
+        "porte"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    }
+  ]
+}

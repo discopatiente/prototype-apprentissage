@@ -1,0 +1,48 @@
+{
+  "id": "lesson-francais-114",
+  "theme": "francais",
+  "titre": "Les mots-étiquettes",
+  "description": "Découvre les mots qui servent à ranger d'autres mots dans une même boîte",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Certains mots servent d'étiquette : ils rangent plusieurs mots dans une même boîte, comme l'étiquette sur une boîte de rangement."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Pomme, banane, cerise, poire : ce sont tous des fruits. « Fruit » est le mot-étiquette.",
+      "visuel": "🍎 🍌 🍒 🍐 → des fruits"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Marteau, scie, tournevis : ce sont des outils.",
+      "visuel": "🔨 🪚 🪛 → des outils"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Lit, chaise, armoire, étagère : ce sont des meubles.",
+      "visuel": "🛏️ 🪑 → des meubles"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Pantalon, pull, chaussette, manteau : ce sont des vêtements.",
+      "visuel": "👖 🧦 🧥 → des vêtements"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Les mots-étiquettes aident à trouver l'intrus. Dans « carotte, poireau, salade, voiture », voiture n'est pas un légume : c'est l'intrus !",
+      "visuel": "🥕 🥬 🚗 → 🚗 est l'intrus"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Retiens bien : un mot-étiquette donne le nom de la boîte. Les autres mots sont ce qu'il y a dedans."
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

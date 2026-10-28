@@ -1,0 +1,120 @@
+{
+  "id": "lesson-francais-91",
+  "theme": "francais",
+  "titre": "J'utilise les mots nouveaux (6)",
+  "description": "Reconstruis des phrases avec les six mots du sport",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "ordre-mots",
+      "question": "Sofia salue son adversaire.",
+      "mots": [
+        "Sofia",
+        "salue",
+        "son",
+        "adversaire"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "ordre-mots",
+      "question": "Le judoka garde son équilibre.",
+      "mots": [
+        "Le",
+        "judoka",
+        "garde",
+        "son",
+        "équilibre"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "ordre-mots",
+      "question": "La gymnaste a beaucoup de souplesse.",
+      "mots": [
+        "La",
+        "gymnaste",
+        "a",
+        "beaucoup",
+        "de",
+        "souplesse"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "ordre-mots",
+      "question": "Les joueurs s'échauffent avant le match.",
+      "mots": [
+        "Les",
+        "joueurs",
+        "s'échauffent",
+        "avant",
+        "le",
+        "match"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "ordre-mots",
+      "question": "Inès persévère jusqu'au bout.",
+      "mots": [
+        "Inès",
+        "persévère",
+        "jusqu'au",
+        "bout"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "ordre-mots",
+      "question": "Mon adversaire est très fort.",
+      "mots": [
+        "Mon",
+        "adversaire",
+        "est",
+        "très",
+        "fort"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "ordre-mots",
+      "question": "Il faut s'échauffer avant de courir.",
+      "mots": [
+        "Il",
+        "faut",
+        "s'échauffer",
+        "avant",
+        "de",
+        "courir"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "ordre-mots",
+      "question": "Tu as perdu l'équilibre ?",
+      "mots": [
+        "Tu",
+        "as",
+        "perdu",
+        "l'équilibre"
+      ],
+      "ponctuation": "?",
+      "points": 10
+    }
+  ]
+}

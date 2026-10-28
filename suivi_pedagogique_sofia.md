@@ -8,7 +8,7 @@ Domaines du socle : D1 langages pour penser et communiquer, D3 formation de la p
 
 | Notion | Compétence officielle visée | Cycle | Socle | Statut |
 |---|---|---|---|---|
-| Compréhension, sens explicite (semaine 1) | Lire avec fluidité, comprendre un texte et contrôler sa compréhension, prélever une information | C2 vers C3 | D1 | EC |
+| Compréhension, sens explicite (semaine 1, reprise niveau 25) | Lire avec fluidité, comprendre un texte et contrôler sa compréhension, prélever une information | C2 vers C3 | D1 | EC |
 | Repère temporel simple (semaine 1) | Situer des événements, connecteurs temporels | C3 | D1 | EC |
 | Compréhension, inférence facile (semaine 2) | Comprendre l'implicite, déduire un sentiment ou une cause | C3 | D1 | EC |
 | Synonymes et contraires, série 1 | Construire le sens des mots, relations de synonymie et d'antonymie, préfixes in et im | C3 | D1 | EC |
@@ -21,6 +21,13 @@ Domaines du socle : D1 langages pour penser et communiquer, D3 formation de la p
 | Production d'écrit courte et guidée | Rédiger un texte court avec accompagnement | C3 | D1 | EC |
 | Homophones grammaticaux (a/à, et/est, son/sont, on/ont) | Orthographe grammaticale, distinguer les homophones par leur fonction | C2 vers C3 | D1 | EC |
 | Ponctuation de base (point, point d'interrogation, point d'exclamation, virgule) | Utiliser la ponctuation pour comprendre et produire un texte | C2 vers C3 | D1 | EC |
+| Enrichissement du lexique, séries 4 à 9 (bouger, cinq sens, sport, animaux, maison, ciel) | Enrichir son vocabulaire, comprendre et réemployer des mots nouveaux | C3 | D1 | EC |
+| Phrase négative (ne… pas, ne… jamais, ne… plus) | Identifier et construire la forme négative | C2 vers C3 | D1 | EC |
+| Familles de mots | Construire le sens des mots par la dérivation, radical commun | C3 | D1 | EC |
+| Homophones grammaticaux, série 2 (ou/où, ces/ses, mais/mes) | Orthographe grammaticale, distinguer les homophones par leur fonction | C2 vers C3 | D1 | EC |
+| Ordre alphabétique et dictionnaire | Utiliser le dictionnaire, ranger des mots dans l'ordre alphabétique | C2 vers C3 | D1 | EC |
+| Préfixes re- et dé- | Construire le sens des mots par la dérivation, préfixes | C3 | D1 | EC |
+| Mots-étiquettes (catégories) | Relations entre les mots, termes génériques et spécifiques | C2 vers C3 | D1 | EC |
 
 ## Mathématiques
 
@@ -110,3 +117,25 @@ Ouverture du niveau 17 de français, « Des mots nouveaux » (enrichissement du 
 Ouverture du niveau 18 de français, deuxième série de mots nouveaux, un peu plus rares, sur le même modèle en trois leçons : étroit, scintiller, bondir, un abri, bavard, hésiter. `lesson-francais-74` (qcm, 12 : mot vers définition puis définition vers mot), `lesson-francais-75` (qcm-texte, 12 phrases à trou), `lesson-francais-76` (ordre-mots, 8 phrases). Des mots de la première série (chuchoter, gigantesque, fragile, se dépêcher, trempé) sont glissés parmi les mauvaises réponses pour les faire revoir. Bonnes réponses réparties 4/4/4.
 
 Ouverture du niveau 19 de français, troisième série de mots nouveaux sur le même modèle : ramper, lisse, gaspiller, une averse, frissonner, agile (« s'enfuir » écarté car déjà présent dans des choix de réponse de `lesson-francais-04` et `20`). `lesson-francais-77` (qcm, 12), `lesson-francais-78` (qcm-texte, 12 phrases à trou), `lesson-francais-79` (ordre-mots, 8 phrases). Mots des séries 1 et 2 réutilisés comme mauvaises réponses (abri, bondir, scintiller, chuchoter, étroit, fragile, bavard, hésiter). Bonnes réponses réparties 4/4/4.
+
+## Leçons du 28 octobre 2026
+
+Réalisation complète de `plan_francais_niveaux_20_a_29.md`, puis des notions en réserve du même plan (niveaux 30 à 33). 36 leçons, `lesson-francais-80` à `115`, quatorze niveaux. Chaque leçon a été déroulée jusqu'au bilan avec Playwright, en répondant juste, et donne bien le score maximal.
+
+- Vocabulaire, six séries thématiques de six mots, chacune en trois leçons (qcm mot vers définition puis définition vers mot, qcm-texte à trou, ordre-mots), avec les mots des séries précédentes en mauvaises réponses :
+  - niveau 20, série 4 « Bouger » (`80` à `82`) : grimper, glisser, sautiller, s'agripper, trébucher, s'élancer ;
+  - niveau 21, série 5 « Les cinq sens » (`83` à `85`) : grincer, un vacarme, éblouir, rugueux, brûlant, croustillant ;
+  - niveau 23, série 6 « Le judo et le sport » (`89` à `91`) : un adversaire, l'équilibre, la souplesse, saluer, s'échauffer, persévérer ;
+  - niveau 24, série 7 « Les animaux » (`92` à `94`) : une tanière, un troupeau, une ruche, une griffe, une écaille, un pelage ;
+  - niveau 26, série 8 « La maison » (`97` à `99`) : un grenier, une étagère, un volet, une poignée, un robinet, une couette ;
+  - niveau 27, série 9 « Le ciel et la météo » (`100` à `102`) : une flaque, une rafale, un éclair, la rosée, le crépuscule, un arc-en-ciel.
+- Niveau 22, la phrase négative : `86` (diaporama ne… pas, n', ne… jamais, ne… plus, le ne oublié à l'oral), `87` (qcm-texte, 12 phrases à mettre à la forme négative), `88` (ordre-mots, 8 phrases négatives dont ne et pas sont des étiquettes).
+- Niveau 25, reprise de la compréhension (absente depuis `lesson-francais-18`) : `95` (sens explicite, « La balade en forêt ») et `96` (inférence, « Inès au cours de judo »), deux histoires écrites avec les mots des séries 1 à 7. Les questions d'inférence portent sur des causes et des intentions, pas sur des émotions (sujet reporté).
+- Niveau 28, les familles de mots : `103` (diaporama, radical, faux amis comme chat/château) et `104` (qcm : 6 mots de la même famille, 6 intrus).
+- Niveau 29, grande révision : `105` (qcm, 12 définitions tirées des neuf séries) et `106` (qcm-texte, la journée de Sofia en 12 phrases à trou).
+- Niveau 30, homophones série 2 : `107` (diaporama ou/où, ces/ses, mais/mes et leurs astuces de remplacement) et `108` (qcm-texte, 12 phrases, 4 par paire, deux choix, bonnes réponses 6/6).
+- Niveau 31, l'ordre alphabétique : `109` (diaporama), `110` (qcm, premier ou dernier mot, lettre avant ou après, place de « chien » dans le dictionnaire) et `111` (ordre-mots détourné : ranger 3 à 4 mots dans l'ordre alphabétique grâce au champ `consigne`). L'ordre de chaque réponse a été vérifié par un tri automatique qui ignore les accents.
+- Niveau 32, les préfixes re- et dé- : `112` (diaporama, dont dés- devant une voyelle et le piège « regarder ») et `113` (qcm, 12).
+- Niveau 33, les mots-étiquettes : `114` (diaporama fruits, outils, meubles, vêtements, intrus) et `115` (qcm : 6 étiquettes à trouver, 6 intrus).
+
+Dans toutes les leçons à trois choix, les bonnes réponses sont réparties 4/4/4 (3/3/2 dans les deux leçons de lecture à 8 questions). Le mot ou la phrase figure dans `question` pour que le bilan reste lisible.

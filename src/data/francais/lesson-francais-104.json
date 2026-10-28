@@ -1,0 +1,164 @@
+{
+  "id": "lesson-francais-104",
+  "theme": "francais",
+  "titre": "Trouve la famille",
+  "description": "Trouve les mots de la même famille, et repère l'intrus",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Quel mot est de la même famille que « dent » ?",
+      "mot": "dent",
+      "choix": [
+        "dentiste",
+        "dinde",
+        "tente"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Quel mot est de la même famille que « fleur » ?",
+      "mot": "fleur",
+      "choix": [
+        "flaque",
+        "fleuriste",
+        "flûte"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Quel mot est de la même famille que « glisser » ?",
+      "mot": "glisser",
+      "choix": [
+        "grimper",
+        "la glace",
+        "une glissade"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Quel mot est de la même famille que « nuage » ?",
+      "mot": "nuage",
+      "choix": [
+        "nuageux",
+        "nager",
+        "la nuit"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Quel mot est de la même famille que « lait » ?",
+      "mot": "lait",
+      "choix": [
+        "laid",
+        "laitier",
+        "lapin"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Quel mot est de la même famille que « grimper » ?",
+      "mot": "grimper",
+      "choix": [
+        "grincer",
+        "un grenier",
+        "un grimpeur"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Quel est l'intrus dans la famille de « jardin » ?",
+      "mot": "jardin",
+      "choix": [
+        "jardinier",
+        "jaguar",
+        "jardinage"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Quel est l'intrus dans la famille de « chat » ?",
+      "mot": "chat",
+      "choix": [
+        "chaton",
+        "chatte",
+        "château"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Quel est l'intrus dans la famille de « terre » ?",
+      "mot": "terre",
+      "choix": [
+        "terrible",
+        "terrain",
+        "enterrer"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Quel est l'intrus dans la famille de « sale » ?",
+      "mot": "sale",
+      "choix": [
+        "salir",
+        "salade",
+        "saleté"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Quel est l'intrus dans la famille de « chant » ?",
+      "mot": "chant",
+      "choix": [
+        "champ",
+        "chanter",
+        "chanteur"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Quel est l'intrus dans la famille de « lent » ?",
+      "mot": "lent",
+      "choix": [
+        "lentement",
+        "lenteur",
+        "lentille"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

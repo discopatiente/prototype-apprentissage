@@ -1,0 +1,164 @@
+{
+  "id": "lesson-francais-81",
+  "theme": "francais",
+  "titre": "Le bon mot dans la phrase (4)",
+  "description": "Choisis le mot pour bouger qui complète chaque phrase",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Le chat ___ en haut de l'arbre.",
+      "question": "« Le chat ___ en haut de l'arbre. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "grimpe",
+        "glisse",
+        "trébuche"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Sur la patinoire, les enfants ___ sans faire de pas.",
+      "question": "« Sur la patinoire, les enfants ___ sans faire de pas. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "grimpent",
+        "glissent",
+        "s'agrippent"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Le petit lapin ___ joyeusement dans le pré.",
+      "question": "« Le petit lapin ___ joyeusement dans le pré. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "s'agrippe",
+        "grimpe",
+        "sautille"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Dans le bus, Sofia ___ à la barre pour ne pas tomber.",
+      "question": "« Dans le bus, Sofia ___ à la barre pour ne pas tomber. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "s'agrippe",
+        "s'élance",
+        "sautille"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Léo ___ sur une racine et manque de tomber.",
+      "question": "« Léo ___ sur une racine et manque de tomber. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "sautille",
+        "trébuche",
+        "s'agrippe"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Au signal, les coureurs ___ sur la piste.",
+      "question": "« Au signal, les coureurs ___ sur la piste. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "s'agrippent",
+        "trébuchent",
+        "s'élancent"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Pour cueillir les cerises, papa ___ à l'échelle.",
+      "question": "« Pour cueillir les cerises, papa ___ à l'échelle. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "s'élance",
+        "grimpe",
+        "trébuche"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Attention, le sol est mouillé : tu risques de ___ !",
+      "question": "« Attention, le sol est mouillé : tu risques de ___ ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "grimper",
+        "sautiller",
+        "glisser"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Toute contente, Inès ___ jusqu'à la porte en chantant.",
+      "question": "« Toute contente, Inès ___ jusqu'à la porte en chantant. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "sautille",
+        "s'agrippe",
+        "rampe"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Le koala ___ à la branche avec ses pattes.",
+      "question": "« Le koala ___ à la branche avec ses pattes. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "s'élance",
+        "s'agrippe",
+        "glisse"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "Ne cours pas avec tes lacets défaits, tu vas ___ !",
+      "question": "« Ne cours pas avec tes lacets défaits, tu vas ___ ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "trébucher",
+        "grimper",
+        "t'élancer"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "Le chien ___ pour attraper la balle.",
+      "question": "« Le chien ___ pour attraper la balle. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "s'agrippe",
+        "glisse",
+        "s'élance"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

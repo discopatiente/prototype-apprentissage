@@ -1,0 +1,47 @@
+{
+  "id": "lesson-francais-109",
+  "theme": "francais",
+  "titre": "L'ordre alphabétique",
+  "description": "Découvre comment ranger des mots comme dans un dictionnaire",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "L'alphabet, ce sont les 26 lettres, toujours dans le même ordre : a, b, c, d… jusqu'à z.",
+      "visuel": "a b c d e f g h i j k l m | n o p q r s t u v w x y z"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Dans un dictionnaire, les mots sont rangés dans l'ordre de l'alphabet. C'est l'ordre alphabétique. Grâce à lui, on trouve un mot très vite."
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Pour ranger des mots, on regarde d'abord leur première lettre. « chat » commence par c, « lapin » commence par l. Dans l'alphabet, c vient avant l : chat vient donc avant lapin.",
+      "visuel": "chat | lapin"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Si deux mots commencent par la même lettre, on regarde la deuxième. « bateau » et « bonbon » commencent tous les deux par b. Ensuite, a vient avant o : bateau vient donc avant bonbon.",
+      "visuel": "b-a-teau | b-o-nbon"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Si les deux premières lettres sont pareilles, on regarde la troisième, et ainsi de suite. « grenier » et « grimper » : gr, puis e vient avant i. Grenier vient donc avant grimper.",
+      "visuel": "gr-e-nier | gr-i-mper"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Dans le dictionnaire, chaque mot est suivi de sa définition : une phrase qui explique ce qu'il veut dire. Tu en as déjà appris beaucoup dans les leçons de mots nouveaux !"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Retiens bien : on compare la première lettre ; si elle est pareille, la deuxième ; puis la troisième…"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

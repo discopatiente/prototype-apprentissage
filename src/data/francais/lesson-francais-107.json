@@ -1,0 +1,53 @@
+{
+  "id": "lesson-francais-107",
+  "theme": "francais",
+  "titre": "Les homophones : ou/où, ces/ses, mais/mes",
+  "description": "Découvre trois nouvelles paires de mots qui se prononcent pareil mais ne s'écrivent pas pareil",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Tu connais déjà a/à, et/est, son/sont et on/ont. Voici trois nouvelles paires de mots qui se prononcent pareil mais qui ne s'écrivent pas pareil : ou et où, ces et ses, mais et mes."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "ou, sans accent, sert à choisir. On peut le remplacer par « ou bien » : « Tu veux une pomme ou une poire ? » → « Tu veux une pomme ou bien une poire ? »",
+      "visuel": "une pomme ou bien une poire"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "où, avec un accent, parle d'un endroit : « Où est mon chat ? », « La maison où j'habite. » On ne peut pas dire « ou bien » à sa place.",
+      "visuel": "Où ? → un endroit 📍"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "ses veut dire « les siens » : ce qui est à lui ou à elle. Au singulier, il devient son ou sa : « Léo range ses jouets. » → « Léo range son jouet. »",
+      "visuel": "ses jouets → son jouet"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "ces sert à montrer, comme si on pointait du doigt. Au singulier, il devient ce, cet ou cette : « Regarde ces nuages ! » → « Regarde ce nuage ! »",
+      "visuel": "ces nuages 👉 → ce nuage 👉"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "mes veut dire « à moi ». Au singulier, il devient mon ou ma : « mes chaussures » → « ma chaussure ».",
+      "visuel": "mes chaussures → ma chaussure"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "mais relie deux idées qui s'opposent un peu : « Il pleut, mais je sors quand même. » On ne peut pas mettre mon ou ma à sa place.",
+      "visuel": "Il pleut, mais je sors."
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Retiens bien les astuces : « ou bien » pour ou, « son, sa » pour ses, « ce, cette » pour ces, « mon, ma » pour mes."
+    },
+    {
+      "id": "ecran-09",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

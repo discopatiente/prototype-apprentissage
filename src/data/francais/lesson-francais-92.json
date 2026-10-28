@@ -1,0 +1,158 @@
+{
+  "id": "lesson-francais-92",
+  "theme": "francais",
+  "titre": "Les mots des animaux",
+  "description": "Découvre six nouveaux mots pour parler des animaux",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Que veut dire « une tanière » ?",
+      "mot": "une tanière",
+      "choix": [
+        "L'abri où se cachent certains animaux sauvages, comme le renard ou l'ours",
+        "Un groupe de moutons",
+        "La maison des abeilles"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Que veut dire « un troupeau » ?",
+      "mot": "un troupeau",
+      "choix": [
+        "Un animal qui vit tout seul",
+        "Un grand groupe d'animaux qui vivent ensemble",
+        "Le cri d'un animal"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Que veut dire « une ruche » ?",
+      "mot": "une ruche",
+      "choix": [
+        "Le nid d'un oiseau",
+        "Un trou dans la terre",
+        "La maison des abeilles"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Que veut dire « une griffe » ?",
+      "mot": "une griffe",
+      "choix": [
+        "L'ongle pointu au bout de la patte d'un animal",
+        "Une plume d'oiseau",
+        "Une dent de requin"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Que veut dire « une écaille » ?",
+      "mot": "une écaille",
+      "choix": [
+        "Un poil très doux",
+        "Une petite plaque dure sur la peau des poissons et des serpents",
+        "Une aile de papillon"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Que veut dire « un pelage » ?",
+      "mot": "un pelage",
+      "choix": [
+        "La peau d'un poisson",
+        "Le bruit que fait un animal",
+        "Tous les poils qui couvrent le corps d'un animal"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Quel mot veut dire « la maison des abeilles » ?",
+      "choix": [
+        "une tanière",
+        "une ruche",
+        "un abri"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Quel mot veut dire « tous les poils qui couvrent le corps d'un animal » ?",
+      "choix": [
+        "un troupeau",
+        "une écaille",
+        "un pelage"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Quel mot veut dire « l'abri où se cachent certains animaux sauvages, comme le renard ou l'ours » ?",
+      "choix": [
+        "une tanière",
+        "une ruche",
+        "une averse"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Quel mot veut dire « une petite plaque dure sur la peau des poissons et des serpents » ?",
+      "choix": [
+        "une griffe",
+        "une écaille",
+        "un pelage"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Quel mot veut dire « un grand groupe d'animaux qui vivent ensemble » ?",
+      "choix": [
+        "un troupeau",
+        "un vacarme",
+        "un adversaire"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Quel mot veut dire « l'ongle pointu au bout de la patte d'un animal » ?",
+      "choix": [
+        "une écaille",
+        "une ruche",
+        "une griffe"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

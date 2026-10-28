@@ -1,0 +1,158 @@
+{
+  "id": "lesson-francais-83",
+  "theme": "francais",
+  "titre": "Les mots des cinq sens",
+  "description": "Découvre six nouveaux mots pour dire ce qu'on entend, voit, touche et goûte",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Que veut dire « grincer » ?",
+      "mot": "grincer 👂",
+      "choix": [
+        "Faire un bruit aigu et désagréable, comme une vieille porte",
+        "Briller en clignotant, comme les étoiles",
+        "Parler tout doucement"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Que veut dire « un vacarme » ?",
+      "mot": "un vacarme 👂",
+      "choix": [
+        "Un grand silence",
+        "Un très grand bruit, qui fait mal aux oreilles",
+        "Une grosse pluie qui ne dure pas longtemps"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Que veut dire « éblouir » ?",
+      "mot": "éblouir 👀",
+      "choix": [
+        "Rendre tout noir",
+        "Faire beaucoup de bruit",
+        "Gêner les yeux avec une lumière trop forte"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Que veut dire « rugueux » ?",
+      "mot": "rugueux ✋",
+      "choix": [
+        "Qui gratte quand on le touche",
+        "Tout doux, sans aucune bosse",
+        "Très, très petit"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Que veut dire « brûlant » ?",
+      "mot": "brûlant ✋",
+      "choix": [
+        "Très froid",
+        "Tellement chaud qu'on peut se faire mal",
+        "Complètement mouillé"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Que veut dire « croustillant » ?",
+      "mot": "croustillant 👅",
+      "choix": [
+        "Tout mou",
+        "Très sucré",
+        "Qui craque sous la dent, comme une biscotte"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Quel mot veut dire « un très grand bruit, qui fait mal aux oreilles » ?",
+      "choix": [
+        "une averse",
+        "un vacarme",
+        "un abri"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Quel mot veut dire « qui gratte quand on le touche » ?",
+      "choix": [
+        "lisse",
+        "fragile",
+        "rugueux"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Quel mot veut dire « faire un bruit aigu et désagréable, comme une vieille porte » ?",
+      "choix": [
+        "grincer",
+        "scintiller",
+        "chuchoter"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Quel mot veut dire « qui craque sous la dent, comme une biscotte » ?",
+      "choix": [
+        "brûlant",
+        "croustillant",
+        "trempé"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Quel mot veut dire « gêner les yeux avec une lumière trop forte » ?",
+      "choix": [
+        "éblouir",
+        "grincer",
+        "frissonner"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Quel mot veut dire « tellement chaud qu'on peut se faire mal » ?",
+      "choix": [
+        "rugueux",
+        "agile",
+        "brûlant"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

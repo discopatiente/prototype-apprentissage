@@ -1,0 +1,158 @@
+{
+  "id": "lesson-francais-100",
+  "theme": "francais",
+  "titre": "Les mots du ciel",
+  "description": "Découvre six nouveaux mots pour parler du ciel et de la météo",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Que veut dire « une flaque » ?",
+      "mot": "une flaque",
+      "choix": [
+        "Un peu d'eau qui reste par terre après la pluie",
+        "Une grosse pluie qui ne dure pas longtemps",
+        "Un nuage très bas"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Que veut dire « une rafale » ?",
+      "mot": "une rafale",
+      "choix": [
+        "Un petit vent tout doux",
+        "Un vent très fort qui souffle tout à coup, puis s'arrête",
+        "Le bruit du tonnerre"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Que veut dire « un éclair » ?",
+      "mot": "un éclair",
+      "choix": [
+        "Une étoile qui brille la nuit",
+        "Une grosse goutte de pluie",
+        "Une lumière très forte et très rapide dans le ciel pendant l'orage"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Que veut dire « la rosée » ?",
+      "mot": "la rosée",
+      "choix": [
+        "Les petites gouttes d'eau sur l'herbe, le matin",
+        "La neige sur les montagnes",
+        "Une fleur toute rose"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Que veut dire « le crépuscule » ?",
+      "mot": "le crépuscule",
+      "choix": [
+        "Le moment où le soleil se lève",
+        "Le moment où le soleil se couche et où la nuit commence",
+        "Le milieu de la journée"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Que veut dire « un arc-en-ciel » ?",
+      "mot": "un arc-en-ciel",
+      "choix": [
+        "Un gros nuage noir",
+        "La trace blanche d'un avion",
+        "Un grand arc de couleurs dans le ciel, quand il y a du soleil et de la pluie"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Quel mot veut dire « le moment où le soleil se couche et où la nuit commence » ?",
+      "choix": [
+        "la rosée",
+        "le crépuscule",
+        "un éclair"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Quel mot veut dire « un peu d'eau qui reste par terre après la pluie » ?",
+      "choix": [
+        "une averse",
+        "une rafale",
+        "une flaque"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Quel mot veut dire « un grand arc de couleurs dans le ciel, quand il y a du soleil et de la pluie » ?",
+      "choix": [
+        "un arc-en-ciel",
+        "un éclair",
+        "le crépuscule"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Quel mot veut dire « un vent très fort qui souffle tout à coup, puis s'arrête » ?",
+      "choix": [
+        "un vacarme",
+        "une rafale",
+        "une flaque"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Quel mot veut dire « les petites gouttes d'eau sur l'herbe, le matin » ?",
+      "choix": [
+        "la rosée",
+        "une averse",
+        "une écaille"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Quel mot veut dire « une lumière très forte et très rapide dans le ciel pendant l'orage » ?",
+      "choix": [
+        "un arc-en-ciel",
+        "une rafale",
+        "un éclair"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

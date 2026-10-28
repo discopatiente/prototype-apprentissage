@@ -1,0 +1,112 @@
+{
+  "id": "lesson-francais-96",
+  "theme": "francais",
+  "titre": "Inès au cours de judo",
+  "description": "Lis l'histoire et devine ce qui n'est pas écrit",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Inès arrive au cours de judo. Elle a oublié sa ceinture à la maison et la cherche partout dans son sac. Le professeur lui en prête une. Pendant l'échauffement, Inès trébuche et tombe, mais elle se relève tout de suite en riant. Ensuite, elle combat contre Clara, une grande fille très forte. Inès perd deux fois l'équilibre, mais elle persévère. À la fin, elle réussit à faire tomber Clara ! Les deux filles se saluent. En sortant, Inès court vers sa maman en sautillant.",
+      "question": "Pourquoi le professeur prête-t-il une ceinture à Inès ?",
+      "choix": [
+        "Parce qu'elle a oublié la sienne",
+        "Parce que la sienne est cassée",
+        "Parce que la sienne est trop petite"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Inès arrive au cours de judo. Elle a oublié sa ceinture à la maison et la cherche partout dans son sac. Le professeur lui en prête une. Pendant l'échauffement, Inès trébuche et tombe, mais elle se relève tout de suite en riant. Ensuite, elle combat contre Clara, une grande fille très forte. Inès perd deux fois l'équilibre, mais elle persévère. À la fin, elle réussit à faire tomber Clara ! Les deux filles se saluent. En sortant, Inès court vers sa maman en sautillant.",
+      "question": "Est-ce qu'Inès s'est fait mal en tombant pendant l'échauffement ?",
+      "choix": [
+        "Oui, très mal",
+        "Non : elle se relève tout de suite en riant",
+        "Oui, elle doit rentrer chez elle"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Inès arrive au cours de judo. Elle a oublié sa ceinture à la maison et la cherche partout dans son sac. Le professeur lui en prête une. Pendant l'échauffement, Inès trébuche et tombe, mais elle se relève tout de suite en riant. Ensuite, elle combat contre Clara, une grande fille très forte. Inès perd deux fois l'équilibre, mais elle persévère. À la fin, elle réussit à faire tomber Clara ! Les deux filles se saluent. En sortant, Inès court vers sa maman en sautillant.",
+      "question": "Pourquoi le combat contre Clara est-il difficile pour Inès ?",
+      "choix": [
+        "Parce que Clara est malade",
+        "Parce que le tatami est mouillé",
+        "Parce que Clara est grande et très forte"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Inès arrive au cours de judo. Elle a oublié sa ceinture à la maison et la cherche partout dans son sac. Le professeur lui en prête une. Pendant l'échauffement, Inès trébuche et tombe, mais elle se relève tout de suite en riant. Ensuite, elle combat contre Clara, une grande fille très forte. Inès perd deux fois l'équilibre, mais elle persévère. À la fin, elle réussit à faire tomber Clara ! Les deux filles se saluent. En sortant, Inès court vers sa maman en sautillant.",
+      "question": "Que veut dire « elle persévère » dans cette histoire ?",
+      "choix": [
+        "Elle continue à essayer malgré tout",
+        "Elle abandonne le combat",
+        "Elle quitte le tatami"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Inès arrive au cours de judo. Elle a oublié sa ceinture à la maison et la cherche partout dans son sac. Le professeur lui en prête une. Pendant l'échauffement, Inès trébuche et tombe, mais elle se relève tout de suite en riant. Ensuite, elle combat contre Clara, une grande fille très forte. Inès perd deux fois l'équilibre, mais elle persévère. À la fin, elle réussit à faire tomber Clara ! Les deux filles se saluent. En sortant, Inès court vers sa maman en sautillant.",
+      "question": "Qui a gagné le combat ?",
+      "choix": [
+        "Clara",
+        "Inès",
+        "Personne"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Inès arrive au cours de judo. Elle a oublié sa ceinture à la maison et la cherche partout dans son sac. Le professeur lui en prête une. Pendant l'échauffement, Inès trébuche et tombe, mais elle se relève tout de suite en riant. Ensuite, elle combat contre Clara, une grande fille très forte. Inès perd deux fois l'équilibre, mais elle persévère. À la fin, elle réussit à faire tomber Clara ! Les deux filles se saluent. En sortant, Inès court vers sa maman en sautillant.",
+      "question": "Pourquoi les deux filles se saluent-elles à la fin ?",
+      "choix": [
+        "Parce qu'elles partent en vacances",
+        "Parce qu'elles ne se connaissaient pas",
+        "Parce qu'au judo, on salue son adversaire par politesse"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Inès arrive au cours de judo. Elle a oublié sa ceinture à la maison et la cherche partout dans son sac. Le professeur lui en prête une. Pendant l'échauffement, Inès trébuche et tombe, mais elle se relève tout de suite en riant. Ensuite, elle combat contre Clara, une grande fille très forte. Inès perd deux fois l'équilibre, mais elle persévère. À la fin, elle réussit à faire tomber Clara ! Les deux filles se saluent. En sortant, Inès court vers sa maman en sautillant.",
+      "question": "Pourquoi Inès sautille-t-elle en sortant ?",
+      "choix": [
+        "Parce qu'elle a mal au pied",
+        "Parce qu'elle a gagné son combat",
+        "Parce qu'elle a froid"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Inès arrive au cours de judo. Elle a oublié sa ceinture à la maison et la cherche partout dans son sac. Le professeur lui en prête une. Pendant l'échauffement, Inès trébuche et tombe, mais elle se relève tout de suite en riant. Ensuite, elle combat contre Clara, une grande fille très forte. Inès perd deux fois l'équilibre, mais elle persévère. À la fin, elle réussit à faire tomber Clara ! Les deux filles se saluent. En sortant, Inès court vers sa maman en sautillant.",
+      "question": "À ton avis, que va raconter Inès à sa maman ?",
+      "choix": [
+        "Qu'elle a perdu tous ses combats",
+        "Qu'elle ne veut plus faire de judo",
+        "Qu'elle a réussi à faire tomber Clara"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

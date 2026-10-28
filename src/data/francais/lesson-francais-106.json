@@ -1,0 +1,164 @@
+{
+  "id": "lesson-francais-106",
+  "theme": "francais",
+  "titre": "Une journée pleine de mots",
+  "description": "Complète la journée de Sofia avec des mots de toutes les séries",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Ce matin, Sofia ouvre les ___ : il fait beau !",
+      "question": "« Ce matin, Sofia ouvre les ___ : il fait beau ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "volets",
+        "poignées",
+        "étagères"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Dans le jardin, l'herbe est encore mouillée de ___.",
+      "question": "« Dans le jardin, l'herbe est encore mouillée de ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "vacarme",
+        "rosée",
+        "pelage"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Une ___ coccinelle se promène sur une feuille.",
+      "question": "« Une ___ coccinelle se promène sur une feuille. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "gigantesque",
+        "bavarde",
+        "minuscule"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Sofia doit ___ : le bus arrive dans cinq minutes !",
+      "question": "« Sofia doit ___ : le bus arrive dans cinq minutes ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "se dépêcher",
+        "hésiter",
+        "ramper"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Dans le bus, elle ___ à la barre pour ne pas tomber.",
+      "question": "« Dans le bus, elle ___ à la barre pour ne pas tomber. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "scintille",
+        "s'agrippe",
+        "persévère"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Au judo, elle salue son ___.",
+      "question": "« Au judo, elle salue son ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "troupeau",
+        "abri",
+        "adversaire"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Elle garde bien son ___ et ne tombe pas.",
+      "question": "« Elle garde bien son ___ et ne tombe pas. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "éclair",
+        "équilibre",
+        "grenier"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Sur le chemin du retour, une ___ la surprend : elle court se mettre à l'abri.",
+      "question": "« Sur le chemin du retour, une ___ la surprend : elle court se mettre à l'abri. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "ruche",
+        "étagère",
+        "averse"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Ses chaussures sont toutes ___.",
+      "question": "« Ses chaussures sont toutes ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "trempées",
+        "rugueuses",
+        "agiles"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "À la maison, elle mange une tartine bien ___.",
+      "question": "« À la maison, elle mange une tartine bien ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "fragile",
+        "croustillante",
+        "étroite"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "Le soir, au ___, le ciel devient tout rose.",
+      "question": "« Le soir, au ___, le ciel devient tout rose. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "crépuscule",
+        "vacarme",
+        "pelage"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "Sofia se glisse sous sa ___ et s'endort.",
+      "question": "« Sofia se glisse sous sa ___ et s'endort. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "tanière",
+        "flaque",
+        "couette"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

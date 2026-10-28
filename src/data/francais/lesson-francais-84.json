@@ -1,0 +1,164 @@
+{
+  "id": "lesson-francais-84",
+  "theme": "francais",
+  "titre": "Le bon mot dans la phrase (5)",
+  "description": "Choisis le mot des cinq sens qui complète chaque phrase",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "La vieille porte du grenier ___ quand on l'ouvre.",
+      "question": "« La vieille porte du grenier ___ quand on l'ouvre. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "grince",
+        "éblouit",
+        "sautille"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Les travaux dans la rue font un ___ terrible.",
+      "question": "« Les travaux dans la rue font un ___ terrible. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "abri",
+        "vacarme",
+        "pré"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Le soleil ___ Sofia : elle ferme les yeux.",
+      "question": "« Le soleil ___ Sofia : elle ferme les yeux. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "grince",
+        "glisse",
+        "éblouit"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "L'écorce de l'arbre est ___ sous mes doigts.",
+      "question": "« L'écorce de l'arbre est ___ sous mes doigts. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "rugueuse",
+        "bavarde",
+        "croustillante"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Attention, la soupe est ___ : souffle dessus !",
+      "question": "« Attention, la soupe est ___ : souffle dessus ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "rugueuse",
+        "brûlante",
+        "minuscule"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Le pain qui sort du four est tout ___.",
+      "question": "« Le pain qui sort du four est tout ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "bavard",
+        "étroit",
+        "croustillant"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Le vélo rouillé ___ à chaque coup de pédale.",
+      "question": "« Le vélo rouillé ___ à chaque coup de pédale. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "frissonne",
+        "grince",
+        "scintille"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "À la récréation, les enfants font un vrai ___ !",
+      "question": "« À la récréation, les enfants font un vrai ___ ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "abri",
+        "champ",
+        "vacarme"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Les phares de la voiture ___ le chat dans la nuit.",
+      "question": "« Les phares de la voiture ___ le chat dans la nuit. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "éblouissent",
+        "grincent",
+        "rampent"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "La langue du chat est ___ comme du papier de verre.",
+      "question": "« La langue du chat est ___ comme du papier de verre. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "fragile",
+        "rugueuse",
+        "agile"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "En plein été, le sable de la plage est ___.",
+      "question": "« En plein été, le sable de la plage est ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "brûlant",
+        "croustillant",
+        "bavard"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "J'adore les frites bien ___ !",
+      "question": "« J'adore les frites bien ___ ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "rugueuses",
+        "bavardes",
+        "croustillantes"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

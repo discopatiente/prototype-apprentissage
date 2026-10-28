@@ -1,0 +1,158 @@
+{
+  "id": "lesson-francais-97",
+  "theme": "francais",
+  "titre": "Les mots de la maison",
+  "description": "Découvre six nouveaux mots pour parler de la maison",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Que veut dire « un grenier » ?",
+      "mot": "un grenier",
+      "choix": [
+        "La pièce tout en haut de la maison, sous le toit",
+        "La pièce sous la maison, dans la terre",
+        "Le jardin devant la maison"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Que veut dire « une étagère » ?",
+      "mot": "une étagère",
+      "choix": [
+        "Un tapis pour le salon",
+        "Une planche fixée au mur pour poser des objets",
+        "Une porte de placard"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Que veut dire « un volet » ?",
+      "mot": "un volet",
+      "choix": [
+        "La vitre de la fenêtre",
+        "Un rideau de douche",
+        "Un panneau qui ferme la fenêtre de l'extérieur"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Que veut dire « une poignée » ?",
+      "mot": "une poignée",
+      "choix": [
+        "La partie qu'on tient dans la main pour ouvrir une porte",
+        "La clé de la porte",
+        "Le bas de la porte"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Que veut dire « un robinet » ?",
+      "mot": "un robinet",
+      "choix": [
+        "Un tuyau sous la terre",
+        "Ce qu'on tourne pour faire couler l'eau",
+        "Une baignoire"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Que veut dire « une couette » ?",
+      "mot": "une couette",
+      "choix": [
+        "Un oreiller",
+        "Un pyjama",
+        "Une grosse couverture moelleuse pour le lit"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Quel mot veut dire « ce qu'on tourne pour faire couler l'eau » ?",
+      "choix": [
+        "un volet",
+        "un robinet",
+        "un grenier"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Quel mot veut dire « la pièce tout en haut de la maison, sous le toit » ?",
+      "choix": [
+        "une tanière",
+        "une étagère",
+        "un grenier"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Quel mot veut dire « la partie qu'on tient dans la main pour ouvrir une porte » ?",
+      "choix": [
+        "une poignée",
+        "une couette",
+        "une griffe"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Quel mot veut dire « une grosse couverture moelleuse pour le lit » ?",
+      "choix": [
+        "un pelage",
+        "une couette",
+        "un abri"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Quel mot veut dire « un panneau qui ferme la fenêtre de l'extérieur » ?",
+      "choix": [
+        "un volet",
+        "un robinet",
+        "une étagère"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Quel mot veut dire « une planche fixée au mur pour poser des objets » ?",
+      "choix": [
+        "une poignée",
+        "une ruche",
+        "une étagère"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

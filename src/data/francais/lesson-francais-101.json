@@ -1,0 +1,164 @@
+{
+  "id": "lesson-francais-101",
+  "theme": "francais",
+  "titre": "Le bon mot dans la phrase (9)",
+  "description": "Choisis le mot du ciel qui complète chaque phrase",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Léo saute à pieds joints dans la ___.",
+      "question": "« Léo saute à pieds joints dans la ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "flaque",
+        "rafale",
+        "rosée"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Une ___ de vent a emporté le chapeau de grand-père.",
+      "question": "« Une ___ de vent a emporté le chapeau de grand-père. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "flaque",
+        "rafale",
+        "rosée"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Pendant l'orage, un ___ illumine le ciel.",
+      "question": "« Pendant l'orage, un ___ illumine le ciel. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "arc-en-ciel",
+        "crépuscule",
+        "éclair"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Le matin, l'herbe est toute mouillée de ___.",
+      "question": "« Le matin, l'herbe est toute mouillée de ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "rosée",
+        "rafale",
+        "tempête"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Au ___, le ciel devient orange et rose.",
+      "question": "« Au ___, le ciel devient orange et rose. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "éclair",
+        "crépuscule",
+        "arc-en-ciel"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Il pleut et il y a du soleil : regarde le bel ___ !",
+      "question": "« Il pleut et il y a du soleil : regarde le bel ___ ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "flaque",
+        "abri",
+        "arc-en-ciel"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Mets tes bottes pour marcher dans les ___ !",
+      "question": "« Mets tes bottes pour marcher dans les ___ ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "rafales",
+        "flaques",
+        "rosées"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Les ___ de vent font trembler les fenêtres.",
+      "question": "« Les ___ de vent font trembler les fenêtres. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "flaques",
+        "averses",
+        "rafales"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "On voit l'___ avant d'entendre le tonnerre.",
+      "question": "« On voit l'___ avant d'entendre le tonnerre. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "éclair",
+        "averse",
+        "arc-en-ciel"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Les gouttes de ___ brillent sur la toile d'araignée.",
+      "question": "« Les gouttes de ___ brillent sur la toile d'araignée. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "flaque",
+        "rosée",
+        "rafale"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "Au ___, les chauves-souris sortent pour chasser.",
+      "question": "« Au ___, les chauves-souris sortent pour chasser. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "crépuscule",
+        "éclair",
+        "arc-en-ciel"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "L'___ a sept couleurs : rouge, orange, jaune, vert, bleu, indigo et violet.",
+      "question": "« L'___ a sept couleurs : rouge, orange, jaune, vert, bleu, indigo et violet. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "éclair",
+        "averse",
+        "arc-en-ciel"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

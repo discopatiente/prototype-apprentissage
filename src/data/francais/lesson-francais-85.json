@@ -1,0 +1,116 @@
+{
+  "id": "lesson-francais-85",
+  "theme": "francais",
+  "titre": "J'utilise les mots nouveaux (5)",
+  "description": "Reconstruis des phrases avec les six mots des cinq sens",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "ordre-mots",
+      "question": "La vieille porte grince.",
+      "mots": [
+        "La",
+        "vieille",
+        "porte",
+        "grince"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "ordre-mots",
+      "question": "Le tonnerre fait un vacarme.",
+      "mots": [
+        "Le",
+        "tonnerre",
+        "fait",
+        "un",
+        "vacarme"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "ordre-mots",
+      "question": "Le soleil éblouit Sofia.",
+      "mots": [
+        "Le",
+        "soleil",
+        "éblouit",
+        "Sofia"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "ordre-mots",
+      "question": "Cette écorce est rugueuse.",
+      "mots": [
+        "Cette",
+        "écorce",
+        "est",
+        "rugueuse"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "ordre-mots",
+      "question": "La soupe est brûlante.",
+      "mots": [
+        "La",
+        "soupe",
+        "est",
+        "brûlante"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "ordre-mots",
+      "question": "Ce pain est croustillant.",
+      "mots": [
+        "Ce",
+        "pain",
+        "est",
+        "croustillant"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "ordre-mots",
+      "question": "Quel vacarme dans la cour !",
+      "mots": [
+        "Quel",
+        "vacarme",
+        "dans",
+        "la",
+        "cour"
+      ],
+      "ponctuation": "!",
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "ordre-mots",
+      "question": "Est-ce que le sable est brûlant ?",
+      "mots": [
+        "Est-ce",
+        "que",
+        "le",
+        "sable",
+        "est",
+        "brûlant"
+      ],
+      "ponctuation": "?",
+      "points": 10
+    }
+  ]
+}

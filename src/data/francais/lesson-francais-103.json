@@ -1,0 +1,48 @@
+{
+  "id": "lesson-francais-103",
+  "theme": "francais",
+  "titre": "Les familles de mots",
+  "description": "Découvre que des mots de la même famille se ressemblent et ont un sens proche",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Certains mots se ressemblent parce qu'ils sont de la même famille. Ils ont un morceau en commun, et leur sens est proche."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Regarde : jardin, jardinier, jardiner, jardinage. Tous ces mots parlent du jardin. Le morceau commun, « jardin », s'appelle le radical.",
+      "visuel": "jardin | jardinier | jardiner | jardinage"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Tu connais déjà le mot glisser. Dans sa famille, il y a aussi une glissade (quand on glisse) et glissant (un sol où l'on glisse facilement).",
+      "visuel": "glisser | une glissade | glissant"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Autre famille : grimper et un grimpeur, la personne qui grimpe. Sauter, sautiller et un saut sont aussi de la même famille.",
+      "visuel": "grimper | un grimpeur | sauter | sautiller | un saut"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Les familles de mots t'aident à deviner le sens d'un mot nouveau. Un dentiste ? Tu entends « dent » : c'est quelqu'un qui soigne les dents !",
+      "visuel": "dent | dentiste | dentifrice"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Attention aux faux amis : deux mots peuvent commencer pareil sans être de la même famille. Un château n'a rien à voir avec un chat !",
+      "visuel": "chat ≠ château"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Retiens bien : les mots d'une même famille ont un morceau en commun ET un sens proche. Si le sens n'a rien à voir, ce n'est pas la même famille."
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

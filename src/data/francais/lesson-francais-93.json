@@ -1,0 +1,164 @@
+{
+  "id": "lesson-francais-93",
+  "theme": "francais",
+  "titre": "Le bon mot dans la phrase (7)",
+  "description": "Choisis le mot des animaux qui complète chaque phrase",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Le renard rentre dans sa ___ pour dormir.",
+      "question": "« Le renard rentre dans sa ___ pour dormir. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "tanière",
+        "ruche",
+        "écaille"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Le berger garde son ___ de moutons.",
+      "question": "« Le berger garde son ___ de moutons. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "pelage",
+        "troupeau",
+        "abri"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Les abeilles fabriquent du miel dans la ___.",
+      "question": "« Les abeilles fabriquent du miel dans la ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "tanière",
+        "griffe",
+        "ruche"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Le chat sort ses ___ pour grimper à l'arbre.",
+      "question": "« Le chat sort ses ___ pour grimper à l'arbre. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "griffes",
+        "écailles",
+        "ruches"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Le poisson brille au soleil grâce à ses ___.",
+      "question": "« Le poisson brille au soleil grâce à ses ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "griffes",
+        "écailles",
+        "tanières"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Le tigre a un beau ___ orange rayé de noir.",
+      "question": "« Le tigre a un beau ___ orange rayé de noir. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "troupeau",
+        "vacarme",
+        "pelage"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "L'ours dort tout l'hiver au fond de sa ___.",
+      "question": "« L'ours dort tout l'hiver au fond de sa ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "ruche",
+        "tanière",
+        "averse"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Un ___ d'éléphants traverse la savane.",
+      "question": "« Un ___ d'éléphants traverse la savane. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "pelage",
+        "abri",
+        "troupeau"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Ne t'approche pas de la ___ : les abeilles pourraient te piquer !",
+      "question": "« Ne t'approche pas de la ___ : les abeilles pourraient te piquer ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "ruche",
+        "écaille",
+        "griffe"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "L'aigle attrape sa proie avec ses ___.",
+      "question": "« L'aigle attrape sa proie avec ses ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "écailles",
+        "griffes",
+        "ruches"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "La peau du serpent est couverte d'___.",
+      "question": "« La peau du serpent est couverte d'___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "écailles",
+        "griffes",
+        "abris"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "En hiver, le ___ du lapin devient plus épais pour qu'il n'ait pas froid.",
+      "question": "« En hiver, le ___ du lapin devient plus épais pour qu'il n'ait pas froid. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "troupeau",
+        "vacarme",
+        "pelage"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

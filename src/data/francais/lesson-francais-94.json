@@ -1,0 +1,127 @@
+{
+  "id": "lesson-francais-94",
+  "theme": "francais",
+  "titre": "J'utilise les mots nouveaux (7)",
+  "description": "Reconstruis des phrases avec les six mots des animaux",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "ordre-mots",
+      "question": "Le renard dort dans sa tanière.",
+      "mots": [
+        "Le",
+        "renard",
+        "dort",
+        "dans",
+        "sa",
+        "tanière"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "ordre-mots",
+      "question": "Le berger garde le troupeau.",
+      "mots": [
+        "Le",
+        "berger",
+        "garde",
+        "le",
+        "troupeau"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "ordre-mots",
+      "question": "Les abeilles vivent dans la ruche.",
+      "mots": [
+        "Les",
+        "abeilles",
+        "vivent",
+        "dans",
+        "la",
+        "ruche"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "ordre-mots",
+      "question": "Le chat sort ses griffes.",
+      "mots": [
+        "Le",
+        "chat",
+        "sort",
+        "ses",
+        "griffes"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "ordre-mots",
+      "question": "Le poisson a des écailles.",
+      "mots": [
+        "Le",
+        "poisson",
+        "a",
+        "des",
+        "écailles"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "ordre-mots",
+      "question": "Le pelage du chat est très doux.",
+      "mots": [
+        "Le",
+        "pelage",
+        "du",
+        "chat",
+        "est",
+        "très",
+        "doux"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "ordre-mots",
+      "question": "Où est la ruche des abeilles ?",
+      "mots": [
+        "Où",
+        "est",
+        "la",
+        "ruche",
+        "des",
+        "abeilles"
+      ],
+      "ponctuation": "?",
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "ordre-mots",
+      "question": "Un troupeau de vaches traverse la route.",
+      "mots": [
+        "Un",
+        "troupeau",
+        "de",
+        "vaches",
+        "traverse",
+        "la",
+        "route"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    }
+  ]
+}

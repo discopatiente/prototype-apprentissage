@@ -1,0 +1,112 @@
+{
+  "id": "lesson-francais-95",
+  "theme": "francais",
+  "titre": "La balade en forêt",
+  "description": "Lis l'histoire et retrouve les réponses écrites dans le texte",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Samedi matin, Sofia et son cousin Léo partent se promener dans la forêt avec leur grand-père. Il a plu pendant la nuit : le chemin est trempé, et Léo glisse dans la boue. Sofia l'aide à se relever. Un peu plus loin, ils voient un troupeau de vaches dans un pré. Puis Léo montre du doigt un trou sous un gros arbre : c'est la tanière d'un renard ! Grand-père leur dit de chuchoter pour ne pas le déranger. Sur le chemin du retour, Sofia grimpe sur un rocher rugueux pour regarder la vallée. À midi, ils rentrent à la maison. Grand-mère a préparé du pain croustillant et une soupe brûlante.",
+      "question": "Avec qui Sofia part-elle se promener ?",
+      "choix": [
+        "Avec son cousin Léo et leur grand-père",
+        "Avec sa maman",
+        "Avec son amie Léa"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Samedi matin, Sofia et son cousin Léo partent se promener dans la forêt avec leur grand-père. Il a plu pendant la nuit : le chemin est trempé, et Léo glisse dans la boue. Sofia l'aide à se relever. Un peu plus loin, ils voient un troupeau de vaches dans un pré. Puis Léo montre du doigt un trou sous un gros arbre : c'est la tanière d'un renard ! Grand-père leur dit de chuchoter pour ne pas le déranger. Sur le chemin du retour, Sofia grimpe sur un rocher rugueux pour regarder la vallée. À midi, ils rentrent à la maison. Grand-mère a préparé du pain croustillant et une soupe brûlante.",
+      "question": "Où vont-ils se promener ?",
+      "choix": [
+        "À la plage",
+        "Dans la forêt",
+        "Au parc"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Samedi matin, Sofia et son cousin Léo partent se promener dans la forêt avec leur grand-père. Il a plu pendant la nuit : le chemin est trempé, et Léo glisse dans la boue. Sofia l'aide à se relever. Un peu plus loin, ils voient un troupeau de vaches dans un pré. Puis Léo montre du doigt un trou sous un gros arbre : c'est la tanière d'un renard ! Grand-père leur dit de chuchoter pour ne pas le déranger. Sur le chemin du retour, Sofia grimpe sur un rocher rugueux pour regarder la vallée. À midi, ils rentrent à la maison. Grand-mère a préparé du pain croustillant et une soupe brûlante.",
+      "question": "Pourquoi le chemin est-il trempé ?",
+      "choix": [
+        "Parce que la rivière a débordé",
+        "Parce que quelqu'un a renversé de l'eau",
+        "Parce qu'il a plu pendant la nuit"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Samedi matin, Sofia et son cousin Léo partent se promener dans la forêt avec leur grand-père. Il a plu pendant la nuit : le chemin est trempé, et Léo glisse dans la boue. Sofia l'aide à se relever. Un peu plus loin, ils voient un troupeau de vaches dans un pré. Puis Léo montre du doigt un trou sous un gros arbre : c'est la tanière d'un renard ! Grand-père leur dit de chuchoter pour ne pas le déranger. Sur le chemin du retour, Sofia grimpe sur un rocher rugueux pour regarder la vallée. À midi, ils rentrent à la maison. Grand-mère a préparé du pain croustillant et une soupe brûlante.",
+      "question": "Que fait Léo dans la boue ?",
+      "choix": [
+        "Il glisse",
+        "Il grimpe",
+        "Il sautille"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Samedi matin, Sofia et son cousin Léo partent se promener dans la forêt avec leur grand-père. Il a plu pendant la nuit : le chemin est trempé, et Léo glisse dans la boue. Sofia l'aide à se relever. Un peu plus loin, ils voient un troupeau de vaches dans un pré. Puis Léo montre du doigt un trou sous un gros arbre : c'est la tanière d'un renard ! Grand-père leur dit de chuchoter pour ne pas le déranger. Sur le chemin du retour, Sofia grimpe sur un rocher rugueux pour regarder la vallée. À midi, ils rentrent à la maison. Grand-mère a préparé du pain croustillant et une soupe brûlante.",
+      "question": "Que voient-ils dans le pré ?",
+      "choix": [
+        "Un troupeau de moutons",
+        "Un troupeau de vaches",
+        "Une ruche"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Samedi matin, Sofia et son cousin Léo partent se promener dans la forêt avec leur grand-père. Il a plu pendant la nuit : le chemin est trempé, et Léo glisse dans la boue. Sofia l'aide à se relever. Un peu plus loin, ils voient un troupeau de vaches dans un pré. Puis Léo montre du doigt un trou sous un gros arbre : c'est la tanière d'un renard ! Grand-père leur dit de chuchoter pour ne pas le déranger. Sur le chemin du retour, Sofia grimpe sur un rocher rugueux pour regarder la vallée. À midi, ils rentrent à la maison. Grand-mère a préparé du pain croustillant et une soupe brûlante.",
+      "question": "Qu'y a-t-il sous le gros arbre ?",
+      "choix": [
+        "Une ruche",
+        "Le nid d'un oiseau",
+        "La tanière d'un renard"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Samedi matin, Sofia et son cousin Léo partent se promener dans la forêt avec leur grand-père. Il a plu pendant la nuit : le chemin est trempé, et Léo glisse dans la boue. Sofia l'aide à se relever. Un peu plus loin, ils voient un troupeau de vaches dans un pré. Puis Léo montre du doigt un trou sous un gros arbre : c'est la tanière d'un renard ! Grand-père leur dit de chuchoter pour ne pas le déranger. Sur le chemin du retour, Sofia grimpe sur un rocher rugueux pour regarder la vallée. À midi, ils rentrent à la maison. Grand-mère a préparé du pain croustillant et une soupe brûlante.",
+      "question": "Pourquoi grand-père leur dit-il de chuchoter ?",
+      "choix": [
+        "Parce que Léo a mal à la gorge",
+        "Pour ne pas déranger le renard",
+        "Pour ne pas réveiller grand-mère"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Samedi matin, Sofia et son cousin Léo partent se promener dans la forêt avec leur grand-père. Il a plu pendant la nuit : le chemin est trempé, et Léo glisse dans la boue. Sofia l'aide à se relever. Un peu plus loin, ils voient un troupeau de vaches dans un pré. Puis Léo montre du doigt un trou sous un gros arbre : c'est la tanière d'un renard ! Grand-père leur dit de chuchoter pour ne pas le déranger. Sur le chemin du retour, Sofia grimpe sur un rocher rugueux pour regarder la vallée. À midi, ils rentrent à la maison. Grand-mère a préparé du pain croustillant et une soupe brûlante.",
+      "question": "Qu'a préparé grand-mère ?",
+      "choix": [
+        "Des frites et un gâteau",
+        "Une salade et des fruits",
+        "Du pain croustillant et une soupe brûlante"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "id": "lesson-francais-113",
+  "theme": "francais",
+  "titre": "Encore une fois, ou le contraire ?",
+  "description": "Trouve le sens des mots fabriqués avec re- et dé-",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Que veut dire « relire » ?",
+      "mot": "relire",
+      "choix": [
+        "Lire encore une fois",
+        "Ne pas lire",
+        "Lire très vite"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Que veut dire « déplier » ?",
+      "mot": "déplier",
+      "choix": [
+        "Plier encore une fois",
+        "Faire le contraire de plier",
+        "Plier en deux"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Que veut dire « refaire » ?",
+      "mot": "refaire",
+      "choix": [
+        "Ne rien faire",
+        "Faire très vite",
+        "Faire encore une fois"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Que veut dire « décoller » ?",
+      "mot": "décoller",
+      "choix": [
+        "Enlever ce qui était collé",
+        "Coller encore une fois",
+        "Coller très fort"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Que veut dire « se déshabiller » ?",
+      "mot": "se déshabiller",
+      "choix": [
+        "Mettre ses vêtements",
+        "Enlever ses vêtements",
+        "Laver ses vêtements"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Que veut dire « repartir » ?",
+      "mot": "repartir",
+      "choix": [
+        "Ne pas partir",
+        "Arriver",
+        "Partir à nouveau"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Quel est le contraire de « boucher » une bouteille ?",
+      "choix": [
+        "reboucher",
+        "déboucher",
+        "bouchon"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Comment dire « nouer encore une fois » ?",
+      "choix": [
+        "dénouer",
+        "un nœud",
+        "renouer"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Quel est le contraire d'« obéir » ?",
+      "choix": [
+        "désobéir",
+        "déobéir",
+        "réobéir"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Comment dire « peindre encore une fois » ?",
+      "choix": [
+        "un peintre",
+        "repeindre",
+        "la peinture"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Quel est le contraire de « monter » une tente ?",
+      "choix": [
+        "démonter",
+        "remonter",
+        "une montagne"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Dans quel mot « re » ne veut PAS dire « encore une fois » ?",
+      "choix": [
+        "relire",
+        "refaire",
+        "regarder"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

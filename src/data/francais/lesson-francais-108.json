@@ -1,0 +1,152 @@
+{
+  "id": "lesson-francais-108",
+  "theme": "francais",
+  "titre": "ou/où, ces/ses, mais/mes",
+  "description": "Choisis le bon mot dans chaque phrase",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Tu préfères le judo ___ la danse ?",
+      "question": "« Tu préfères le judo ___ la danse ? » — Quel mot va dans la phrase ?",
+      "choix": [
+        "ou",
+        "où"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "___ as-tu rangé tes chaussures ?",
+      "question": "« ___ as-tu rangé tes chaussures ? » — Quel mot va dans la phrase ?",
+      "choix": [
+        "Ou",
+        "Où"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Je ne sais pas ___ est la tanière du renard.",
+      "question": "« Je ne sais pas ___ est la tanière du renard. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "ou",
+        "où"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "On mange des pâtes ___ du riz ce soir ?",
+      "question": "« On mange des pâtes ___ du riz ce soir ? » — Quel mot va dans la phrase ?",
+      "choix": [
+        "ou",
+        "où"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Sofia se lave ___ mains avant de manger.",
+      "question": "« Sofia se lave ___ mains avant de manger. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "ces",
+        "ses"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Regarde ___ nuages noirs dans le ciel !",
+      "question": "« Regarde ___ nuages noirs dans le ciel ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "ces",
+        "ses"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Le chat lèche ___ pattes.",
+      "question": "« Le chat lèche ___ pattes. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "ses",
+        "ces"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Je n'aime pas ___ bottes-là : elles sont trop grandes.",
+      "question": "« Je n'aime pas ___ bottes-là : elles sont trop grandes. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "ses",
+        "ces"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "J'ai perdu ___ gants.",
+      "question": "« J'ai perdu ___ gants. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "mes",
+        "mais"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Il fait froid, ___ le soleil brille.",
+      "question": "« Il fait froid, ___ le soleil brille. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "mes",
+        "mais"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "Sofia est fatiguée, ___ elle persévère.",
+      "question": "« Sofia est fatiguée, ___ elle persévère. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "mes",
+        "mais"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "___ amis viennent jouer à la maison.",
+      "question": "« ___ amis viennent jouer à la maison. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "Mes",
+        "Mais"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

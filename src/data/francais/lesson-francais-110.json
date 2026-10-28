@@ -1,0 +1,152 @@
+{
+  "id": "lesson-francais-110",
+  "theme": "francais",
+  "titre": "Qui vient en premier ?",
+  "description": "Range les mots et les lettres dans l'ordre alphabétique",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Quel mot vient en premier dans l'ordre alphabétique : lapin, chat, tigre ?",
+      "choix": [
+        "chat",
+        "lapin",
+        "tigre"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Quel mot vient en premier dans l'ordre alphabétique : robinet, flaque, volet ?",
+      "choix": [
+        "robinet",
+        "flaque",
+        "volet"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Quel mot vient en premier dans l'ordre alphabétique : ruche, abri, griffe ?",
+      "choix": [
+        "ruche",
+        "griffe",
+        "abri"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Quel mot vient en premier dans l'ordre alphabétique : poignée, pelage, plume ?",
+      "choix": [
+        "pelage",
+        "poignée",
+        "plume"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Quel mot vient en premier dans l'ordre alphabétique : bonbon, bateau, biscuit ?",
+      "choix": [
+        "bonbon",
+        "bateau",
+        "biscuit"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Quel mot vient en premier dans l'ordre alphabétique : grimper, griffe, grenier ?",
+      "choix": [
+        "grimper",
+        "griffe",
+        "grenier"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Quel mot vient en dernier dans l'ordre alphabétique : zèbre, singe, lion ?",
+      "choix": [
+        "singe",
+        "zèbre",
+        "lion"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Quel mot vient en dernier dans l'ordre alphabétique : éclair, étagère, écaille ?",
+      "choix": [
+        "éclair",
+        "écaille",
+        "étagère"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Quel mot vient en dernier dans l'ordre alphabétique : saluer, souplesse, sautiller ?",
+      "choix": [
+        "souplesse",
+        "saluer",
+        "sautiller"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Quelle lettre vient juste après « m » dans l'alphabet ?",
+      "choix": [
+        "l",
+        "n",
+        "o"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Quelle lettre vient juste avant « r » dans l'alphabet ?",
+      "choix": [
+        "q",
+        "s",
+        "p"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Où faut-il ranger « chien » dans le dictionnaire ?",
+      "choix": [
+        "Entre chat et cheval",
+        "Entre chocolat et cirque",
+        "Entre cheval et chocolat"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

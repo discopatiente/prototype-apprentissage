@@ -1,0 +1,164 @@
+{
+  "id": "lesson-francais-98",
+  "theme": "francais",
+  "titre": "Le bon mot dans la phrase (8)",
+  "description": "Choisis le mot de la maison qui complète chaque phrase",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Les vieux jouets de papa sont rangés au ___, sous le toit.",
+      "question": "« Les vieux jouets de papa sont rangés au ___, sous le toit. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "grenier",
+        "volet",
+        "robinet"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Sofia pose ses livres sur une ___ au-dessus de son lit.",
+      "question": "« Sofia pose ses livres sur une ___ au-dessus de son lit. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "couette",
+        "étagère",
+        "poignée"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Le soir, papa ferme les ___ pour que la lumière ne rentre pas le matin.",
+      "question": "« Le soir, papa ferme les ___ pour que la lumière ne rentre pas le matin. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "robinets",
+        "greniers",
+        "volets"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Léo tourne la ___ et ouvre la porte.",
+      "question": "« Léo tourne la ___ et ouvre la porte. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "poignée",
+        "couette",
+        "étagère"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Ferme bien le ___ pour ne pas gaspiller l'eau !",
+      "question": "« Ferme bien le ___ pour ne pas gaspiller l'eau ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "grenier",
+        "robinet",
+        "volet"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "En hiver, Sofia se cache sous sa grosse ___ toute chaude.",
+      "question": "« En hiver, Sofia se cache sous sa grosse ___ toute chaude. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "étagère",
+        "poignée",
+        "couette"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Il fait tout noir au ___ : prends une lampe !",
+      "question": "« Il fait tout noir au ___ : prends une lampe ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "robinet",
+        "grenier",
+        "volet"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Attention, cette ___ est trop chargée : les livres vont tomber !",
+      "question": "« Attention, cette ___ est trop chargée : les livres vont tomber ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "couette",
+        "poignée",
+        "étagère"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Le vent fait claquer les ___ contre le mur.",
+      "question": "« Le vent fait claquer les ___ contre le mur. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "volets",
+        "robinets",
+        "greniers"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "La ___ de la porte est cassée : on ne peut plus l'ouvrir !",
+      "question": "« La ___ de la porte est cassée : on ne peut plus l'ouvrir ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "couette",
+        "poignée",
+        "étagère"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "L'eau du ___ est trop froide pour se laver les mains.",
+      "question": "« L'eau du ___ est trop froide pour se laver les mains. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "robinet",
+        "grenier",
+        "volet"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "Maman secoue la ___ par la fenêtre pour faire gonfler les plumes.",
+      "question": "« Maman secoue la ___ par la fenêtre pour faire gonfler les plumes. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "poignée",
+        "étagère",
+        "couette"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

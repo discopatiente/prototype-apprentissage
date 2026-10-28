@@ -1,0 +1,152 @@
+{
+  "id": "lesson-francais-115",
+  "theme": "francais",
+  "titre": "Quelle étiquette ?",
+  "description": "Trouve le mot-étiquette, ou l'intrus qui n'a rien à faire dans la boîte",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Quel est le mot-étiquette pour : pomme, cerise, poire ?",
+      "choix": [
+        "des fruits",
+        "des légumes",
+        "des meubles"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Quel est le mot-étiquette pour : marteau, scie, tournevis ?",
+      "choix": [
+        "des jouets",
+        "des outils",
+        "des vêtements"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Quel est le mot-étiquette pour : lit, armoire, étagère ?",
+      "choix": [
+        "des outils",
+        "des animaux",
+        "des meubles"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Quel est le mot-étiquette pour : pull, chaussette, manteau ?",
+      "choix": [
+        "des vêtements",
+        "des meubles",
+        "des fruits"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Quel est le mot-étiquette pour : carotte, poireau, haricot ?",
+      "choix": [
+        "des fruits",
+        "des légumes",
+        "des outils"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Quel est le mot-étiquette pour : guitare, piano, violon ?",
+      "choix": [
+        "des outils",
+        "des meubles",
+        "des instruments de musique"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Quel mot n'est pas un fruit ?",
+      "choix": [
+        "fraise",
+        "carotte",
+        "banane"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Quel mot n'est pas un animal ?",
+      "choix": [
+        "renard",
+        "abeille",
+        "table"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Quel mot n'est pas un vêtement ?",
+      "choix": [
+        "robinet",
+        "pantalon",
+        "chemise"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Quel mot n'est pas un meuble ?",
+      "choix": [
+        "chaise",
+        "éclair",
+        "étagère"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Quel mot n'est pas un outil ?",
+      "choix": [
+        "couette",
+        "pince",
+        "scie"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Quel mot n'est pas une couleur ?",
+      "choix": [
+        "rouge",
+        "violet",
+        "flaque"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

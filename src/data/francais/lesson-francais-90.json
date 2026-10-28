@@ -1,0 +1,164 @@
+{
+  "id": "lesson-francais-90",
+  "theme": "francais",
+  "titre": "Le bon mot dans la phrase (6)",
+  "description": "Choisis le mot du sport qui complète chaque phrase",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Au judo, Sofia salue son ___ avant le combat.",
+      "question": "« Au judo, Sofia salue son ___ avant le combat. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "adversaire",
+        "équilibre",
+        "vacarme"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Debout sur une jambe, Léo garde son ___.",
+      "question": "« Debout sur une jambe, Léo garde son ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "adversaire",
+        "équilibre",
+        "abri"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Grâce à sa ___, la gymnaste touche ses pieds avec ses mains.",
+      "question": "« Grâce à sa ___, la gymnaste touche ses pieds avec ses mains. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "averse",
+        "vitesse",
+        "souplesse"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "À la fin du combat, les deux judokas se ___ poliment.",
+      "question": "« À la fin du combat, les deux judokas se ___ poliment. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "saluent",
+        "frissonnent",
+        "gaspillent"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Avant le match, l'équipe ___ pendant dix minutes.",
+      "question": "« Avant le match, l'équipe ___ pendant dix minutes. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "gaspille",
+        "s'échauffe",
+        "chuchote"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Tu n'y arrives pas encore ? Il faut ___ : tu vas réussir !",
+      "question": "« Tu n'y arrives pas encore ? Il faut ___ : tu vas réussir ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "gaspiller",
+        "abandonner",
+        "persévérer"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Pour gagner, il faut faire tomber son ___.",
+      "question": "« Pour gagner, il faut faire tomber son ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "abri",
+        "adversaire",
+        "vacarme"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Le funambule marche sur un fil : il a un très bon ___.",
+      "question": "« Le funambule marche sur un fil : il a un très bon ___. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "vacarme",
+        "abri",
+        "équilibre"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Les chats ont une grande ___ : ils se faufilent partout.",
+      "question": "« Les chats ont une grande ___ : ils se faufilent partout. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "souplesse",
+        "averse",
+        "tempête"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "En entrant sur le tatami, Sofia ___ le professeur.",
+      "question": "« En entrant sur le tatami, Sofia ___ le professeur. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "s'échauffe",
+        "salue",
+        "trébuche"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "Les footballeurs courent doucement pour ___ avant le match.",
+      "question": "« Les footballeurs courent doucement pour ___ avant le match. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "s'échauffer",
+        "frissonner",
+        "gaspiller"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "Même quand c'est dur, Inès ___ et finit la course.",
+      "question": "« Même quand c'est dur, Inès ___ et finit la course. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "gaspille",
+        "chuchote",
+        "persévère"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

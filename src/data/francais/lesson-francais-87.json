@@ -1,0 +1,164 @@
+{
+  "id": "lesson-francais-87",
+  "theme": "francais",
+  "titre": "La bonne phrase négative",
+  "description": "Choisis la phrase qui dit le contraire, sans oublier le ne",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Le lapin sautille.",
+      "question": "Comment dire le contraire de cette phrase : « Le lapin sautille. » ?",
+      "choix": [
+        "Le lapin ne sautille pas.",
+        "Le lapin sautille pas.",
+        "Le lapin ne pas sautille."
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Sofia trébuche.",
+      "question": "Comment dire le contraire de cette phrase : « Sofia trébuche. » ?",
+      "choix": [
+        "Sofia ne trébuche.",
+        "Sofia ne trébuche pas.",
+        "Ne Sofia trébuche pas."
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Léo aime les frites.",
+      "question": "Comment dire le contraire de cette phrase : « Léo aime les frites. » ?",
+      "choix": [
+        "Léo ne aime pas les frites.",
+        "Léo aime pas les frites.",
+        "Léo n'aime pas les frites."
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "La porte grince.",
+      "question": "Comment dire le contraire de cette phrase : « La porte grince. » ?",
+      "choix": [
+        "La porte ne grince pas.",
+        "La porte grince ne pas.",
+        "La porte pas grince."
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Le chat grimpe toujours sur le toit.",
+      "question": "Comment dire le contraire de cette phrase : « Le chat grimpe toujours sur le toit. » ?",
+      "choix": [
+        "Le chat grimpe jamais sur le toit.",
+        "Le chat ne grimpe jamais sur le toit.",
+        "Le chat ne jamais grimpe sur le toit."
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Il pleut encore.",
+      "question": "Comment dire le contraire de cette phrase : « Il pleut encore. » ?",
+      "choix": [
+        "Il pleut plus.",
+        "Il ne plus pleut.",
+        "Il ne pleut plus."
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Inès écoute la musique.",
+      "question": "Comment dire le contraire de cette phrase : « Inès écoute la musique. » ?",
+      "choix": [
+        "Inès ne écoute pas la musique.",
+        "Inès n'écoute pas la musique.",
+        "Inès écoute pas la musique."
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Le soleil éblouit Sofia.",
+      "question": "Comment dire le contraire de cette phrase : « Le soleil éblouit Sofia. » ?",
+      "choix": [
+        "Le soleil ne éblouit pas Sofia.",
+        "Le soleil éblouit pas Sofia.",
+        "Le soleil n'éblouit pas Sofia."
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Je glisse toujours sur la glace.",
+      "question": "Comment dire le contraire de cette phrase : « Je glisse toujours sur la glace. » ?",
+      "choix": [
+        "Je ne glisse jamais sur la glace.",
+        "Je glisse jamais sur la glace.",
+        "Je jamais ne glisse sur la glace."
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Le bébé pleure encore.",
+      "question": "Comment dire le contraire de cette phrase : « Le bébé pleure encore. » ?",
+      "choix": [
+        "Le bébé pleure plus.",
+        "Le bébé ne pleure plus.",
+        "Le bébé plus ne pleure."
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "Nous avons faim.",
+      "question": "Comment dire le contraire de cette phrase : « Nous avons faim. » ?",
+      "choix": [
+        "Nous n'avons pas faim.",
+        "Nous ne avons pas faim.",
+        "Nous avons pas faim."
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "Le pain est croustillant.",
+      "question": "Comment dire le contraire de cette phrase : « Le pain est croustillant. » ?",
+      "choix": [
+        "Le pain ne est pas croustillant.",
+        "Le pain est pas croustillant.",
+        "Le pain n'est pas croustillant."
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

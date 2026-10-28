@@ -1,0 +1,158 @@
+{
+  "id": "lesson-francais-89",
+  "theme": "francais",
+  "titre": "Les mots du sport",
+  "description": "Découvre six nouveaux mots du judo et du sport",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Que veut dire « un adversaire » ?",
+      "mot": "un adversaire",
+      "choix": [
+        "La personne contre qui on joue ou on combat",
+        "Un ami de ton équipe",
+        "Un professeur de sport"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Que veut dire « l'équilibre » ?",
+      "mot": "l'équilibre",
+      "choix": [
+        "Une très grande force",
+        "Le fait de tenir debout sans tomber",
+        "Un endroit où l'on se protège"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Que veut dire « la souplesse » ?",
+      "mot": "la souplesse",
+      "choix": [
+        "Le fait de courir très vite",
+        "Le fait d'être très lourd",
+        "Le fait de pouvoir plier son corps facilement"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Que veut dire « saluer » ?",
+      "mot": "saluer",
+      "choix": [
+        "Faire un signe de politesse pour dire bonjour ou au revoir",
+        "Crier très fort",
+        "Se tenir très fort à quelque chose pour ne pas tomber"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Que veut dire « s'échauffer » ?",
+      "mot": "s'échauffer",
+      "choix": [
+        "Se reposer après le sport",
+        "Faire de petits mouvements avant le sport pour préparer son corps",
+        "Trembler un peu parce qu'on a froid"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Que veut dire « persévérer » ?",
+      "mot": "persévérer",
+      "choix": [
+        "Abandonner tout de suite",
+        "Ne pas arriver à choisir",
+        "Continuer à essayer, même quand c'est difficile"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Quel mot veut dire « la personne contre qui on joue ou on combat » ?",
+      "choix": [
+        "un abri",
+        "un adversaire",
+        "un vacarme"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Quel mot veut dire « continuer à essayer, même quand c'est difficile » ?",
+      "choix": [
+        "hésiter",
+        "gaspiller",
+        "persévérer"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Quel mot veut dire « le fait de tenir debout sans tomber » ?",
+      "choix": [
+        "l'équilibre",
+        "la souplesse",
+        "un adversaire"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Quel mot veut dire « faire de petits mouvements avant le sport pour préparer son corps » ?",
+      "choix": [
+        "saluer",
+        "s'échauffer",
+        "s'agripper"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Quel mot veut dire « le fait de pouvoir plier son corps facilement » ?",
+      "choix": [
+        "la souplesse",
+        "l'équilibre",
+        "une averse"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Quel mot veut dire « faire un signe de politesse pour dire bonjour ou au revoir » ?",
+      "choix": [
+        "chuchoter",
+        "persévérer",
+        "saluer"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

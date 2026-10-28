@@ -1,0 +1,152 @@
+{
+  "id": "lesson-francais-105",
+  "theme": "francais",
+  "titre": "Grande révision des mots",
+  "description": "Retrouve des mots appris dans toutes les séries de mots nouveaux",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Quel mot veut dire « très, très petit » ?",
+      "choix": [
+        "minuscule",
+        "gigantesque",
+        "étroit"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Quel mot veut dire « qui peut se casser facilement » ?",
+      "choix": [
+        "agile",
+        "fragile",
+        "lisse"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Quel mot veut dire « briller en clignotant, comme les étoiles » ?",
+      "choix": [
+        "grincer",
+        "éblouir",
+        "scintiller"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Quel mot veut dire « qui parle beaucoup » ?",
+      "choix": [
+        "bavard",
+        "agile",
+        "rugueux"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Quel mot veut dire « jeter ce qui pouvait encore servir » ?",
+      "choix": [
+        "persévérer",
+        "gaspiller",
+        "hésiter"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Quel mot veut dire « qui bouge vite et facilement » ?",
+      "choix": [
+        "fragile",
+        "brûlant",
+        "agile"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Quel mot veut dire « se prendre le pied dans quelque chose et manquer de tomber » ?",
+      "choix": [
+        "ramper",
+        "trébucher",
+        "s'agripper"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Quel mot veut dire « un très grand bruit, qui fait mal aux oreilles » ?",
+      "choix": [
+        "une rafale",
+        "un éclair",
+        "un vacarme"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Quel mot veut dire « continuer à essayer, même quand c'est difficile » ?",
+      "choix": [
+        "persévérer",
+        "s'échauffer",
+        "saluer"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Quel mot veut dire « tous les poils qui couvrent le corps d'un animal » ?",
+      "choix": [
+        "une écaille",
+        "un pelage",
+        "une couette"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Quel mot veut dire « ce qu'on tourne pour faire couler l'eau » ?",
+      "choix": [
+        "un robinet",
+        "un volet",
+        "une poignée"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Quel mot veut dire « les petites gouttes d'eau sur l'herbe, le matin » ?",
+      "choix": [
+        "une flaque",
+        "une averse",
+        "la rosée"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

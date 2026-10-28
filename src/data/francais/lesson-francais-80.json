@@ -1,0 +1,158 @@
+{
+  "id": "lesson-francais-80",
+  "theme": "francais",
+  "titre": "Des mots pour bouger",
+  "description": "Découvre six nouveaux mots pour dire comment on bouge : retrouve le sens de chaque mot, puis le mot qui correspond à chaque sens",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Que veut dire « grimper » ?",
+      "mot": "grimper",
+      "choix": [
+        "Monter en s'aidant des mains et des pieds",
+        "Avancer couché sur le ventre",
+        "Tomber par terre"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Que veut dire « glisser » ?",
+      "mot": "glisser",
+      "choix": [
+        "Sauter très haut",
+        "Avancer sans faire de pas, comme sur la glace",
+        "Parler tout doucement"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Que veut dire « sautiller » ?",
+      "mot": "sautiller",
+      "choix": [
+        "Faire un seul très grand saut",
+        "Marcher très lentement",
+        "Faire plein de petits sauts"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Que veut dire « s'agripper » ?",
+      "mot": "s'agripper",
+      "choix": [
+        "Se tenir très fort à quelque chose pour ne pas tomber",
+        "Lâcher ce que l'on tient",
+        "Courir très vite"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Que veut dire « trébucher » ?",
+      "mot": "trébucher",
+      "choix": [
+        "Danser en tournant",
+        "Se prendre le pied dans quelque chose et manquer de tomber",
+        "Se cacher derrière un mur"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Que veut dire « s'élancer » ?",
+      "mot": "s'élancer",
+      "choix": [
+        "S'asseoir pour se reposer",
+        "Ne pas arriver à choisir",
+        "Partir d'un coup, très vite"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Quel mot veut dire « monter en s'aidant des mains et des pieds » ?",
+      "choix": [
+        "ramper",
+        "grimper",
+        "glisser"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Quel mot veut dire « faire plein de petits sauts » ?",
+      "choix": [
+        "trébucher",
+        "chuchoter",
+        "sautiller"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Quel mot veut dire « se tenir très fort à quelque chose pour ne pas tomber » ?",
+      "choix": [
+        "s'agripper",
+        "s'élancer",
+        "frissonner"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Quel mot veut dire « se prendre le pied dans quelque chose et manquer de tomber » ?",
+      "choix": [
+        "grimper",
+        "trébucher",
+        "bondir"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Quel mot veut dire « avancer sans faire de pas, comme sur la glace » ?",
+      "choix": [
+        "glisser",
+        "sautiller",
+        "se dépêcher"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Quel mot veut dire « partir d'un coup, très vite » ?",
+      "choix": [
+        "s'agripper",
+        "hésiter",
+        "s'élancer"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "lesson-francais-88",
+  "theme": "francais",
+  "titre": "Je construis des phrases négatives",
+  "description": "Reconstruis des phrases avec ne… pas, ne… jamais et ne… plus",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "ordre-mots",
+      "question": "Le chat ne grimpe pas sur le toit.",
+      "mots": [
+        "Le",
+        "chat",
+        "ne",
+        "grimpe",
+        "pas",
+        "sur",
+        "le",
+        "toit"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "ordre-mots",
+      "question": "Sofia ne trébuche jamais.",
+      "mots": [
+        "Sofia",
+        "ne",
+        "trébuche",
+        "jamais"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "ordre-mots",
+      "question": "La porte ne grince plus.",
+      "mots": [
+        "La",
+        "porte",
+        "ne",
+        "grince",
+        "plus"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "ordre-mots",
+      "question": "Je ne glisse pas sur la glace.",
+      "mots": [
+        "Je",
+        "ne",
+        "glisse",
+        "pas",
+        "sur",
+        "la",
+        "glace"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "ordre-mots",
+      "question": "Léo n'aime pas les épinards.",
+      "mots": [
+        "Léo",
+        "n'aime",
+        "pas",
+        "les",
+        "épinards"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "ordre-mots",
+      "question": "Le lapin ne sautille plus.",
+      "mots": [
+        "Le",
+        "lapin",
+        "ne",
+        "sautille",
+        "plus"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "ordre-mots",
+      "question": "Tu ne veux pas jouer ?",
+      "mots": [
+        "Tu",
+        "ne",
+        "veux",
+        "pas",
+        "jouer"
+      ],
+      "ponctuation": "?",
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "ordre-mots",
+      "question": "Il ne pleut jamais ici.",
+      "mots": [
+        "Il",
+        "ne",
+        "pleut",
+        "jamais",
+        "ici"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    }
+  ]
+}

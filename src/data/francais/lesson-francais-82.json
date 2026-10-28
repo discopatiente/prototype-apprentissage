@@ -1,0 +1,125 @@
+{
+  "id": "lesson-francais-82",
+  "theme": "francais",
+  "titre": "J'utilise les mots nouveaux (4)",
+  "description": "Reconstruis des phrases avec les six mots pour bouger que tu viens d'apprendre",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "ordre-mots",
+      "question": "Le chat grimpe sur le toit.",
+      "mots": [
+        "Le",
+        "chat",
+        "grimpe",
+        "sur",
+        "le",
+        "toit"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "ordre-mots",
+      "question": "Les enfants glissent sur la glace.",
+      "mots": [
+        "Les",
+        "enfants",
+        "glissent",
+        "sur",
+        "la",
+        "glace"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "ordre-mots",
+      "question": "Le lapin sautille dans le pré.",
+      "mots": [
+        "Le",
+        "lapin",
+        "sautille",
+        "dans",
+        "le",
+        "pré"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "ordre-mots",
+      "question": "Sofia s'agrippe à la barre.",
+      "mots": [
+        "Sofia",
+        "s'agrippe",
+        "à",
+        "la",
+        "barre"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "ordre-mots",
+      "question": "Léo trébuche sur une racine.",
+      "mots": [
+        "Léo",
+        "trébuche",
+        "sur",
+        "une",
+        "racine"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "ordre-mots",
+      "question": "Le chien s'élance vers la balle.",
+      "mots": [
+        "Le",
+        "chien",
+        "s'élance",
+        "vers",
+        "la",
+        "balle"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "ordre-mots",
+      "question": "Est-ce que tu glisses sur le toboggan ?",
+      "mots": [
+        "Est-ce",
+        "que",
+        "tu",
+        "glisses",
+        "sur",
+        "le",
+        "toboggan"
+      ],
+      "ponctuation": "?",
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "ordre-mots",
+      "question": "Je sautille de joie !",
+      "mots": [
+        "Je",
+        "sautille",
+        "de",
+        "joie"
+      ],
+      "ponctuation": "!",
+      "points": 10
+    }
+  ]
+}

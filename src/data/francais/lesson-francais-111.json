@@ -1,0 +1,111 @@
+{
+  "id": "lesson-francais-111",
+  "theme": "francais",
+  "titre": "Je range les mots",
+  "description": "Range les mots dans l'ordre alphabétique, comme dans un dictionnaire",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "ordre-mots",
+      "question": "chat, lapin, ours",
+      "mots": [
+        "chat",
+        "lapin",
+        "ours"
+      ],
+      "consigne": "Touche les mots dans l'ordre alphabétique, comme dans un dictionnaire.",
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "ordre-mots",
+      "question": "abri, bateau, flaque, volet",
+      "mots": [
+        "abri",
+        "bateau",
+        "flaque",
+        "volet"
+      ],
+      "consigne": "Touche les mots dans l'ordre alphabétique, comme dans un dictionnaire.",
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "ordre-mots",
+      "question": "grenier, jardin, maison, robinet",
+      "mots": [
+        "grenier",
+        "jardin",
+        "maison",
+        "robinet"
+      ],
+      "consigne": "Touche les mots dans l'ordre alphabétique, comme dans un dictionnaire.",
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "ordre-mots",
+      "question": "éclair, fleur, nuage, pluie",
+      "mots": [
+        "éclair",
+        "fleur",
+        "nuage",
+        "pluie"
+      ],
+      "consigne": "Touche les mots dans l'ordre alphabétique, comme dans un dictionnaire.",
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "ordre-mots",
+      "question": "bateau, biscuit, bonbon, bus",
+      "mots": [
+        "bateau",
+        "biscuit",
+        "bonbon",
+        "bus"
+      ],
+      "consigne": "Touche les mots dans l'ordre alphabétique, comme dans un dictionnaire.",
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "ordre-mots",
+      "question": "ruche, sable, salade, souplesse",
+      "mots": [
+        "ruche",
+        "sable",
+        "salade",
+        "souplesse"
+      ],
+      "consigne": "Touche les mots dans l'ordre alphabétique, comme dans un dictionnaire.",
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "ordre-mots",
+      "question": "glisser, grenier, griffe, grimper",
+      "mots": [
+        "glisser",
+        "grenier",
+        "griffe",
+        "grimper"
+      ],
+      "consigne": "Touche les mots dans l'ordre alphabétique, comme dans un dictionnaire.",
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "ordre-mots",
+      "question": "parc, pelage, poignée, pomme",
+      "mots": [
+        "parc",
+        "pelage",
+        "poignée",
+        "pomme"
+      ],
+      "consigne": "Touche les mots dans l'ordre alphabétique, comme dans un dictionnaire.",
+      "points": 10
+    }
+  ]
+}

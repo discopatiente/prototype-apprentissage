@@ -1,0 +1,48 @@
+{
+  "id": "lesson-francais-112",
+  "theme": "francais",
+  "titre": "Les préfixes re- et dé-",
+  "description": "Découvre comment re- et dé- changent le sens d'un mot",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Un préfixe, c'est un petit morceau qu'on colle au début d'un mot pour changer son sens. Tu en connais déjà : im- et in-, qui font le contraire. Possible → impossible.",
+      "visuel": "possible → impossible"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "re- veut dire « encore une fois ». Lire → relire : lire encore une fois. Faire → refaire. Partir → repartir.",
+      "visuel": "lire → relire | faire → refaire | partir → repartir"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "dé- fait le contraire. Plier → déplier. Coller → décoller : enlever ce qui était collé. Monter une tente → démonter une tente.",
+      "visuel": "plier → déplier | coller → décoller | monter → démonter"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Devant une voyelle ou un h, dé- devient dés-. Obéir → désobéir. Habiller → déshabiller.",
+      "visuel": "obéir → désobéir | habiller → déshabiller"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Avec la famille de mots, c'est une autre astuce pour deviner un mot nouveau : si tu connais « nouer », tu peux deviner « dénouer » (défaire un nœud) et « renouer » (nouer encore une fois).",
+      "visuel": "nouer → dénouer | nouer → renouer"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Attention : tous les mots qui commencent par re ou dé n'ont pas de préfixe. « Regarder » ne veut pas dire « garder encore une fois » !"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Retiens bien : re- pour « encore une fois », dé- (ou dés-) pour le contraire."
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

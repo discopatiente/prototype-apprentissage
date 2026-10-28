@@ -198,6 +198,126 @@
           "lesson-francais-78",
           "lesson-francais-79"
         ]
+      },
+      {
+        "id": "niveau-20",
+        "titre": "Niveau 20",
+        "lessons": [
+          "lesson-francais-80",
+          "lesson-francais-81",
+          "lesson-francais-82"
+        ]
+      },
+      {
+        "id": "niveau-21",
+        "titre": "Niveau 21",
+        "lessons": [
+          "lesson-francais-83",
+          "lesson-francais-84",
+          "lesson-francais-85"
+        ]
+      },
+      {
+        "id": "niveau-22",
+        "titre": "Niveau 22",
+        "lessons": [
+          "lesson-francais-86",
+          "lesson-francais-87",
+          "lesson-francais-88"
+        ]
+      },
+      {
+        "id": "niveau-23",
+        "titre": "Niveau 23",
+        "lessons": [
+          "lesson-francais-89",
+          "lesson-francais-90",
+          "lesson-francais-91"
+        ]
+      },
+      {
+        "id": "niveau-24",
+        "titre": "Niveau 24",
+        "lessons": [
+          "lesson-francais-92",
+          "lesson-francais-93",
+          "lesson-francais-94"
+        ]
+      },
+      {
+        "id": "niveau-25",
+        "titre": "Niveau 25",
+        "lessons": [
+          "lesson-francais-95",
+          "lesson-francais-96"
+        ]
+      },
+      {
+        "id": "niveau-26",
+        "titre": "Niveau 26",
+        "lessons": [
+          "lesson-francais-97",
+          "lesson-francais-98",
+          "lesson-francais-99"
+        ]
+      },
+      {
+        "id": "niveau-27",
+        "titre": "Niveau 27",
+        "lessons": [
+          "lesson-francais-100",
+          "lesson-francais-101",
+          "lesson-francais-102"
+        ]
+      },
+      {
+        "id": "niveau-28",
+        "titre": "Niveau 28",
+        "lessons": [
+          "lesson-francais-103",
+          "lesson-francais-104"
+        ]
+      },
+      {
+        "id": "niveau-29",
+        "titre": "Niveau 29",
+        "lessons": [
+          "lesson-francais-105",
+          "lesson-francais-106"
+        ]
+      },
+      {
+        "id": "niveau-30",
+        "titre": "Niveau 30",
+        "lessons": [
+          "lesson-francais-107",
+          "lesson-francais-108"
+        ]
+      },
+      {
+        "id": "niveau-31",
+        "titre": "Niveau 31",
+        "lessons": [
+          "lesson-francais-109",
+          "lesson-francais-110",
+          "lesson-francais-111"
+        ]
+      },
+      {
+        "id": "niveau-32",
+        "titre": "Niveau 32",
+        "lessons": [
+          "lesson-francais-112",
+          "lesson-francais-113"
+        ]
+      },
+      {
+        "id": "niveau-33",
+        "titre": "Niveau 33",
+        "lessons": [
+          "lesson-francais-114",
+          "lesson-francais-115"
+        ]
       }
     ]
   },
