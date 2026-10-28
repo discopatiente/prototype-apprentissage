@@ -1,0 +1,91 @@
+{
+  "id": "lesson-maths-81",
+  "theme": "maths",
+  "titre": "Des euros et des centimes",
+  "description": "Apprends à lire et à calculer des prix comme 2,50 €",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Sur les étiquettes des magasins, les prix s'écrivent souvent avec une virgule : 2,50 €.",
+      "visuel": "2,50 €"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Le nombre avant la virgule, ce sont les euros. Le nombre après la virgule, ce sont les centimes. 2,50 €, c'est 2 euros et 50 centimes.",
+      "visuel": "2,50 € = 2 € et 50 c",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-2-euros.svg",
+          "alt": "pièce de 2 euros"
+        },
+        {
+          "src": "maths/monnaie/piece-50-centimes.svg",
+          "alt": "pièce de 50 centimes"
+        }
+      ]
+    },
+    {
+      "id": "ecran-03",
+      "texte": "1 € et 20 c, ça s'écrit 1,20 €. 3 € et 10 c, ça s'écrit 3,10 €.",
+      "visuel": "1,20 € | 3,10 €"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Et 50 c tout seul ? Il n'y a pas d'euro, alors on écrit un 0 avant la virgule : 0,50 €.",
+      "visuel": "50 c = 0,50 €",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-50-centimes.svg",
+          "alt": "pièce de 50 centimes"
+        }
+      ]
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Pour additionner, on compte les euros, puis les centimes : 1,50 € + 2 €, ça fait 3 € et 50 c, donc 3,50 €.",
+      "visuel": "1,50 € + 2 € = 3,50 €"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Quand les centimes font 100, ça fait un euro de plus : 1,50 € + 50 c = 2 €.",
+      "visuel": "1,50 € + 0,50 € = 2 €"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Pour rendre la monnaie, on complète comme le marchand. Un croissant coûte 1,50 €, je donne 2 €. De 1,50 € à 2 €, il manque 50 c : on me rend 0,50 €.",
+      "visuel": "1,50 € → 2 €",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-2-euros.svg",
+          "alt": "pièce de 2 euros"
+        }
+      ]
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Un cahier coûte 3,50 €, je donne un billet de 5 €. De 3,50 € à 4 €, il y a 50 c. De 4 € à 5 €, il y a 1 €. On me rend 1 € et 50 c, donc 1,50 €.",
+      "visuel": "3,50 € → 4 € → 5 €",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-5-euros.svg",
+          "alt": "billet de 5 euros"
+        }
+      ]
+    },
+    {
+      "id": "ecran-09",
+      "texte": "Dans les exercices, tu peux écrire la virgule : pour 1,50 €, tape 1,50."
+    },
+    {
+      "id": "ecran-10",
+      "texte": "Retiens bien : avant la virgule les euros, après la virgule les centimes."
+    },
+    {
+      "id": "ecran-11",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

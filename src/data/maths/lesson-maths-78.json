@@ -1,0 +1,119 @@
+{
+  "id": "lesson-maths-78",
+  "theme": "maths",
+  "titre": "Les centimes",
+  "description": "Découvre les pièces de centimes : 100 centimes font 1 euro",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Tu connais les pièces de 1 € et de 2 €. Il existe aussi des pièces plus petites : les centimes.",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-50-centimes.svg",
+          "alt": "pièce de 50 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-10-centimes.svg",
+          "alt": "pièce de 10 centimes"
+        }
+      ]
+    },
+    {
+      "id": "ecran-02",
+      "texte": "1 euro, c'est 100 centimes. Pour écrire centime, on utilise souvent la lettre c : 50 c veut dire 50 centimes.",
+      "visuel": "1 € = 100 c"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Deux pièces de 50 c, ça fait 100 c, donc 1 €.",
+      "visuel": "50 c + 50 c = 100 c = 1 €",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-50-centimes.svg",
+          "alt": "pièce de 50 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-50-centimes.svg",
+          "alt": "pièce de 50 centimes"
+        }
+      ]
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Cinq pièces de 20 c, ça fait aussi 1 € : 20, 40, 60, 80, 100.",
+      "visuel": "20 → 40 → 60 → 80 → 100",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        }
+      ]
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Et dix pièces de 10 c ? 10, 20, 30… jusqu'à 100 : encore 1 € !",
+      "visuel": "10 pièces de 10 c = 1 €"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Pour compter des centimes, on additionne comme avec les euros : 50 c + 20 c + 10 c = 80 c.",
+      "visuel": "50 + 20 + 10 = 80",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-50-centimes.svg",
+          "alt": "pièce de 50 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-10-centimes.svg",
+          "alt": "pièce de 10 centimes"
+        }
+      ]
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Pour rendre la monnaie sur 1 €, on complète jusqu'à 100 c. Un bonbon coûte 60 c, je donne 1 € : 60, 80, 100. La marchande me rend 40 c.",
+      "visuel": "60 c → 80 c → 100 c",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        }
+      ]
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Retiens bien : 100 centimes, c'est 1 euro."
+    },
+    {
+      "id": "ecran-09",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

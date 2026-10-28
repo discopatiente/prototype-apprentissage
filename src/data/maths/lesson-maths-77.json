@@ -1,0 +1,138 @@
+{
+  "id": "lesson-maths-77",
+  "theme": "maths",
+  "titre": "Combien de litres ?",
+  "description": "Compare des récipients et calcule avec des litres",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "🥛 un verre, 🍶 une bouteille, 🛁 une baignoire",
+      "question": "Qu'est-ce qui contient le plus : un verre, une bouteille ou une baignoire ?",
+      "choix": [
+        "la baignoire",
+        "le verre",
+        "la bouteille"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "☕ une tasse, 🪣 un seau, 🚿 un arrosoir",
+      "question": "Qu'est-ce qui contient le moins : une tasse, un seau ou un arrosoir ?",
+      "choix": [
+        "le seau",
+        "la tasse",
+        "l'arrosoir"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "🏊 une piscine",
+      "question": "Quelle unité pour mesurer l'eau d'une piscine ?",
+      "choix": [
+        "le kilogramme (kg)",
+        "le centimètre (cm)",
+        "le litre (L)"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Une grande bouteille d'eau",
+      "question": "Combien contient à peu près une grande bouteille d'eau ?",
+      "choix": [
+        "1 L",
+        "50 L",
+        "100 L"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Un seau",
+      "question": "Combien contient à peu près un seau ?",
+      "choix": [
+        "100 L",
+        "10 L",
+        "1 000 L"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Maman achète 3 bouteilles de lait. Chaque bouteille contient 1 litre.",
+      "question": "Combien de litres de lait Maman achète-t-elle ?",
+      "choix": [
+        "4 L",
+        "1 L",
+        "3 L"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Léo a 2 bouteilles de jus. Chaque bouteille contient 2 litres.",
+      "question": "Combien de litres de jus Léo a-t-il ?",
+      "choix": [
+        "2 L",
+        "4 L",
+        "3 L"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "La bassine contient 10 litres d'eau. Inès en verse 4 litres dans l'arrosoir.",
+      "question": "Combien de litres reste-t-il dans la bassine ?",
+      "choix": [
+        "14 L",
+        "4 L",
+        "6 L"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Il faut 4 verres pour remplir une bouteille.",
+      "question": "Combien de verres faut-il pour remplir 2 bouteilles ?",
+      "choix": [
+        "8 verres",
+        "6 verres",
+        "4 verres"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Sofia verse toute l'eau de la carafe dans le vase. L'eau déborde du vase !",
+      "question": "Que peut-on dire de la carafe et du vase ?",
+      "choix": [
+        "Le vase contient plus que la carafe",
+        "La carafe contient plus que le vase",
+        "Ils contiennent autant"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "lesson-maths-57",
+  "theme": "maths",
+  "titre": "Compte comme le marchand",
+  "description": "Pars du prix et compte jusqu'à la somme donnée pour trouver la monnaie",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "un stylo à 2 €, 5 € donnés → rend 3 €",
+      "contexte": "Léa achète un stylo qui coûte 2 €. Elle donne un billet de 5 €.",
+      "consigne": "Compte comme le marchand : combien faut-il rendre ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-5-euros.svg",
+          "alt": "billet de 5 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 3,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "un cahier à 9 €, 10 € donnés → rend 1 €",
+      "contexte": "Inès achète un cahier qui coûte 9 €. Elle donne un billet de 10 €.",
+      "consigne": "Compte comme le marchand : combien faut-il rendre ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "un bracelet à 3 €, 10 € donnés → rend 7 €",
+      "contexte": "Clara achète un bracelet qui coûte 3 €. Elle donne un billet de 10 €.",
+      "consigne": "Compte comme le marchand : combien faut-il rendre ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 7,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "un jeu à 16 €, 20 € donnés → rend 4 €",
+      "contexte": "Laura achète un jeu qui coûte 16 €. Elle donne un billet de 20 €.",
+      "consigne": "Compte comme le marchand : combien faut-il rendre ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 4,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "un livre à 17 €, 20 € donnés → rend 3 €",
+      "contexte": "Sofia achète un livre qui coûte 17 €. Elle donne un billet de 20 €.",
+      "consigne": "Compte comme le marchand : combien faut-il rendre ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 3,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "une balle à 15 €, 20 € donnés → rend 5 €",
+      "contexte": "Léo achète une balle qui coûte 15 €. Il donne un billet de 20 €.",
+      "consigne": "Compte comme le marchand : combien faut-il rendre ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 5,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "un puzzle à 18 €, 20 € donnés → rend 2 €",
+      "contexte": "Inès achète un puzzle qui coûte 18 €. Elle donne un billet de 20 €.",
+      "consigne": "Compte comme le marchand : combien faut-il rendre ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "une boîte de feutres à 8 €, 20 € donnés → rend 12 €",
+      "contexte": "Léa achète une boîte de feutres qui coûte 8 €. Elle donne un billet de 20 €.",
+      "consigne": "Compte comme le marchand : combien faut-il rendre ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 12,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "une gourde à 6 €, 20 € donnés → rend 14 €",
+      "contexte": "Clara achète une gourde qui coûte 6 €. Elle donne un billet de 20 €.",
+      "consigne": "Compte comme le marchand : combien faut-il rendre ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 14,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "une poupée à 19 €, 20 € donnés → rend 1 €",
+      "contexte": "Sofia achète une poupée qui coûte 19 €. Elle donne un billet de 20 €.",
+      "consigne": "Compte comme le marchand : combien faut-il rendre ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 1,
+      "points": 10
+    }
+  ]
+}

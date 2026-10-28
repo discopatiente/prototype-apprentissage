@@ -1,0 +1,244 @@
+{
+  "id": "lesson-maths-82",
+  "theme": "maths",
+  "titre": "Compter des euros et des centimes",
+  "description": "Additionne les pièces et les billets, et écris le total avec une virgule",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "2 € + 50 c = ... €",
+      "consigne": "Compte cet argent, avec la virgule",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-2-euros.svg",
+          "alt": "pièce de 2 euros"
+        },
+        {
+          "src": "maths/monnaie/piece-50-centimes.svg",
+          "alt": "pièce de 50 centimes"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 2.5,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "1 € + 1 € + 20 c = ... €",
+      "consigne": "Compte cet argent, avec la virgule",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        },
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        },
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 2.2,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "2 € + 2 € + 50 c = ... €",
+      "consigne": "Compte cet argent, avec la virgule",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-2-euros.svg",
+          "alt": "pièce de 2 euros"
+        },
+        {
+          "src": "maths/monnaie/piece-2-euros.svg",
+          "alt": "pièce de 2 euros"
+        },
+        {
+          "src": "maths/monnaie/piece-50-centimes.svg",
+          "alt": "pièce de 50 centimes"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 4.5,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "1 € + 50 c + 20 c = ... €",
+      "consigne": "Compte cet argent, avec la virgule",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        },
+        {
+          "src": "maths/monnaie/piece-50-centimes.svg",
+          "alt": "pièce de 50 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 1.7,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "5 € + 50 c = ... €",
+      "consigne": "Compte cet argent, avec la virgule",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-5-euros.svg",
+          "alt": "billet de 5 euros"
+        },
+        {
+          "src": "maths/monnaie/piece-50-centimes.svg",
+          "alt": "pièce de 50 centimes"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 5.5,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "2 € + 20 c + 10 c = ... €",
+      "consigne": "Compte cet argent, avec la virgule",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-2-euros.svg",
+          "alt": "pièce de 2 euros"
+        },
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-10-centimes.svg",
+          "alt": "pièce de 10 centimes"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 2.3,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "10 € + 2 € + 50 c = ... €",
+      "consigne": "Compte cet argent, avec la virgule",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/piece-2-euros.svg",
+          "alt": "pièce de 2 euros"
+        },
+        {
+          "src": "maths/monnaie/piece-50-centimes.svg",
+          "alt": "pièce de 50 centimes"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 12.5,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "50 c + 20 c + 20 c = ... €",
+      "consigne": "Compte cet argent, avec la virgule",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-50-centimes.svg",
+          "alt": "pièce de 50 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 0.9,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "2 € + 1 € + 50 c + 20 c = ... €",
+      "consigne": "Compte cet argent, avec la virgule",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-2-euros.svg",
+          "alt": "pièce de 2 euros"
+        },
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        },
+        {
+          "src": "maths/monnaie/piece-50-centimes.svg",
+          "alt": "pièce de 50 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 3.7,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "5 € + 2 € + 10 c = ... €",
+      "consigne": "Compte cet argent, avec la virgule",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-5-euros.svg",
+          "alt": "billet de 5 euros"
+        },
+        {
+          "src": "maths/monnaie/piece-2-euros.svg",
+          "alt": "pièce de 2 euros"
+        },
+        {
+          "src": "maths/monnaie/piece-10-centimes.svg",
+          "alt": "pièce de 10 centimes"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 7.1,
+      "points": 10
+    }
+  ]
+}

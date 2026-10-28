@@ -109,6 +109,10 @@ Attention (bilan) : `LessonBilan.vue` affiche toujours `exercise.question` tel q
 
 Même piège pour un exercice `qcm` qui utilise le champ `mot` (ex. `lesson-francais-41`, `42`) : si `question` est la même instruction générique sur tous les exercices ("Que veut dire cette expression ?"), le bilan affiche des lignes identiques, même si `mot` change à l'écran. Solution appliquée dans `lesson-francais-60` : intégrer le mot/l'expression dans `question` ("Que veut dire « ... » ?"), quitte à ce qu'il apparaisse aussi dans `mot` juste en dessous — redondance mineure jugée acceptable plutôt que de modifier `ExerciseQCM.vue` (qui est partagé par d'autres leçons).
 
+### Réponse avec centimes dans un `trou-numerique`
+
+Si `reponse` n'est pas un nombre entier (ex. `"reponse": 1.5`), `ExerciseTrouNumerique.vue` accepte une virgule dans la case (le point est converti en virgule, deux chiffres au plus après). « 1,5 » et « 1,50 » sont tous deux justes, la comparaison se fait en centimes, et la correction affiche « 1,50 ». Pour une réponse entière, rien ne change : seuls les chiffres sont acceptés.
+
 ### Exercice `ordre-mots` (phrase à reconstruire)
 
 Des étiquettes de mots sont proposées dans le désordre ; l'élève les touche dans l'ordre pour construire la phrase (toucher un mot déjà placé le renvoie dans les étiquettes). Rendu par `ExerciseOrdreMots.vue`.

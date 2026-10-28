@@ -1,0 +1,164 @@
+{
+  "id": "lesson-maths-74",
+  "theme": "maths",
+  "titre": "Kilos ou grammes ?",
+  "description": "Choisis la bonne unité et compare ce qui est lourd et léger",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "🐕 un chien",
+      "question": "Quelle unité pour peser un chien ?",
+      "choix": [
+        "le kilogramme (kg)",
+        "le gramme (g)",
+        "le mètre (m)"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "🍓 une fraise",
+      "question": "Quelle unité pour peser une fraise ?",
+      "choix": [
+        "le kilogramme (kg)",
+        "le gramme (g)",
+        "le centimètre (cm)"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "🥔 un sac de pommes de terre",
+      "question": "Quelle unité pour peser un sac de pommes de terre ?",
+      "choix": [
+        "le gramme (g)",
+        "le centimètre (cm)",
+        "le kilogramme (kg)"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "📄 une feuille de papier",
+      "question": "Quelle unité pour peser une feuille de papier ?",
+      "choix": [
+        "le gramme (g)",
+        "le kilogramme (kg)",
+        "le mètre (m)"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "🐘 un éléphant, 🐈 un chat, 🐁 une souris",
+      "question": "Qu'est-ce qui est le plus lourd : un éléphant, un chat ou une souris ?",
+      "choix": [
+        "le chat",
+        "l'éléphant",
+        "la souris"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "🪶 une plume, 📕 un livre, 🪑 une chaise",
+      "question": "Qu'est-ce qui est le plus léger : une plume, un livre ou une chaise ?",
+      "choix": [
+        "le livre",
+        "la chaise",
+        "la plume"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Un paquet de sucre",
+      "question": "Combien pèse à peu près un paquet de sucre ?",
+      "choix": [
+        "1 g",
+        "1 kg",
+        "100 kg"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Une pomme",
+      "question": "Combien pèse à peu près une pomme ?",
+      "choix": [
+        "150 kg",
+        "1 g",
+        "150 g"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Un vélo",
+      "question": "Combien pèse à peu près un vélo ?",
+      "choix": [
+        "12 kg",
+        "12 g",
+        "120 kg"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Sur la balance, le plateau avec le melon descend, et le plateau avec la pomme monte.",
+      "question": "Que peut-on dire du melon, sur la balance ?",
+      "choix": [
+        "Il est plus léger que la pomme",
+        "Il est plus lourd que la pomme",
+        "Il pèse autant que la pomme"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "1 kg",
+      "question": "1 kg, c'est combien de grammes ?",
+      "choix": [
+        "1 000 g",
+        "100 g",
+        "10 g"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "1 kg de plumes, 1 kg de cailloux",
+      "question": "Qu'est-ce qui pèse le plus : 1 kg de plumes ou 1 kg de cailloux ?",
+      "choix": [
+        "Les cailloux",
+        "Les plumes",
+        "Ils pèsent pareil"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

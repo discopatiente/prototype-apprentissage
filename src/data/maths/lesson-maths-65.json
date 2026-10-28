@@ -1,0 +1,118 @@
+{
+  "id": "lesson-maths-65",
+  "theme": "maths",
+  "titre": "Combien ça coûte en tout ?",
+  "description": "Additionne les prix pour trouver le total des courses",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "un cahier 3 € + un stylo 2 € = ... €",
+      "contexte": "Sofia achète un cahier à 3 € et un stylo à 2 €.",
+      "consigne": "Combien ça coûte en tout ?",
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 5,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "un livre 6 € + un marque-page 1 € = ... €",
+      "contexte": "Léo achète un livre à 6 € et un marque-page à 1 €.",
+      "consigne": "Combien ça coûte en tout ?",
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 7,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "un ballon 8 € + un sifflet 2 € = ... €",
+      "contexte": "Inès achète un ballon à 8 € et un sifflet à 2 €.",
+      "consigne": "Combien ça coûte en tout ?",
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 10,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "un jus 2 € + un croissant 1 € + une pomme 1 € = ... €",
+      "contexte": "Léa achète un jus à 2 €, un croissant à 1 € et une pomme à 1 €.",
+      "consigne": "Combien ça coûte en tout ?",
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 4,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "un puzzle 9 € + des crayons 4 € = ... €",
+      "contexte": "Clara achète un puzzle à 9 € et des crayons à 4 €.",
+      "consigne": "Combien ça coûte en tout ?",
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 13,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "un bonnet 7 € + des gants 5 € = ... €",
+      "contexte": "Laura achète un bonnet à 7 € et des gants à 5 €.",
+      "consigne": "Combien ça coûte en tout ?",
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 12,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "une peluche 11 € + une balle 3 € = ... €",
+      "contexte": "Léo achète une peluche à 11 € et une balle à 3 €.",
+      "consigne": "Combien ça coûte en tout ?",
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 14,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "un jeu 12 € + des piles 4 € = ... €",
+      "contexte": "Sofia achète un jeu à 12 € et des piles à 4 €.",
+      "consigne": "Combien ça coûte en tout ?",
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 16,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "un gâteau 5 € + des bougies 2 € + des ballons 3 € = ... €",
+      "contexte": "Inès achète un gâteau à 5 €, des bougies à 2 € et des ballons à 3 €.",
+      "consigne": "Combien ça coûte en tout ?",
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 10,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "une bande dessinée 9 € + un magazine 6 € = ... €",
+      "contexte": "Clara achète une bande dessinée à 9 € et un magazine à 6 €.",
+      "consigne": "Combien ça coûte en tout ?",
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 15,
+      "points": 10
+    }
+  ]
+}

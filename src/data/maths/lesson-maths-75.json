@@ -1,0 +1,111 @@
+{
+  "id": "lesson-maths-75",
+  "theme": "maths",
+  "titre": "Calculer avec des masses",
+  "description": "Additionne et soustrais des kilos et des grammes",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "2 kg + 3 kg = ... kg",
+      "consigne": "Calcule la masse",
+      "avant": "2 kg + 3 kg = ",
+      "apres": " kg",
+      "reponse": 5,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "4 kg + 5 kg = ... kg",
+      "consigne": "Calcule la masse",
+      "avant": "4 kg + 5 kg = ",
+      "apres": " kg",
+      "reponse": 9,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "10 kg − 3 kg = ... kg",
+      "consigne": "Calcule la masse",
+      "avant": "10 kg − 3 kg = ",
+      "apres": " kg",
+      "reponse": 7,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "200 g + 300 g = ... g",
+      "consigne": "Calcule la masse",
+      "avant": "200 g + 300 g = ",
+      "apres": " g",
+      "reponse": 500,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "100 g + 600 g = ... g",
+      "consigne": "Calcule la masse",
+      "avant": "100 g + 600 g = ",
+      "apres": " g",
+      "reponse": 700,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "400 g + 400 g = ... g",
+      "consigne": "Calcule la masse",
+      "avant": "400 g + 400 g = ",
+      "apres": " g",
+      "reponse": 800,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "900 g − 500 g = ... g",
+      "consigne": "Calcule la masse",
+      "avant": "900 g − 500 g = ",
+      "apres": " g",
+      "reponse": 400,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "farine 2 kg + sucre 1 kg = ... kg",
+      "contexte": "Maman achète un sac de farine de 2 kg et un paquet de sucre de 1 kg.",
+      "consigne": "Combien pèsent ses courses en tout ?",
+      "avant": "Total : ",
+      "apres": " kg",
+      "reponse": 3,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "3 sacs de 2 kg = ... kg",
+      "contexte": "Papa porte 3 sacs de pommes. Chaque sac pèse 2 kg.",
+      "consigne": "Combien pèsent les 3 sacs ensemble ?",
+      "avant": "Total : ",
+      "apres": " kg",
+      "reponse": 6,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "chien 12 kg − chat 5 kg = ... kg",
+      "contexte": "Le chien de Léo pèse 12 kg. Son chat pèse 5 kg.",
+      "consigne": "Combien de kilos le chien pèse-t-il de plus que le chat ?",
+      "avant": "De plus : ",
+      "apres": " kg",
+      "reponse": 7,
+      "points": 10
+    }
+  ]
+}

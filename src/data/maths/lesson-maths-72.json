@@ -1,0 +1,184 @@
+{
+  "id": "lesson-maths-72",
+  "theme": "maths",
+  "titre": "Quel billet donner ?",
+  "description": "Choisis le billet qui suffit pour payer, puis calcule la monnaie",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Dans son porte-monnaie, Inès a un billet de 5 €, un billet de 10 €, un billet de 20 € et un billet de 50 €. Elle achète une peluche à 14 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-5-euros.svg",
+          "alt": "billet de 5 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-50-euros.svg",
+          "alt": "billet de 50 euros"
+        }
+      ],
+      "question": "Pour une peluche à 14 €, quel est le plus petit billet qui suffit ?",
+      "choix": [
+        "Le billet de 20 €",
+        "Le billet de 10 €",
+        "Le billet de 50 €"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Dans son porte-monnaie, Inès a un billet de 5 €, un billet de 10 €, un billet de 20 € et un billet de 50 €. Elle achète une peluche à 14 €.",
+      "question": "Inès donne 20 € pour une peluche à 14 €. Combien la marchande rend-elle ?",
+      "choix": [
+        "34 €",
+        "6 €",
+        "14 €"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Dans son porte-monnaie, Léo a un billet de 5 €, un billet de 10 €, un billet de 20 € et un billet de 50 €. Il achète un livre à 8 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-5-euros.svg",
+          "alt": "billet de 5 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-50-euros.svg",
+          "alt": "billet de 50 euros"
+        }
+      ],
+      "question": "Pour un livre à 8 €, quel est le plus petit billet qui suffit ?",
+      "choix": [
+        "Le billet de 5 €",
+        "Le billet de 20 €",
+        "Le billet de 10 €"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Dans son porte-monnaie, Léo a un billet de 5 €, un billet de 10 €, un billet de 20 € et un billet de 50 €. Il achète un livre à 8 €.",
+      "question": "Léo donne 10 € pour un livre à 8 €. Combien la marchande rend-elle ?",
+      "choix": [
+        "2 €",
+        "18 €",
+        "8 €"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Dans son porte-monnaie, Clara a un billet de 5 €, un billet de 10 €, un billet de 20 € et un billet de 50 €. Elle achète un jeu à 32 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-5-euros.svg",
+          "alt": "billet de 5 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-50-euros.svg",
+          "alt": "billet de 50 euros"
+        }
+      ],
+      "question": "Pour un jeu à 32 €, quel est le plus petit billet qui suffit ?",
+      "choix": [
+        "Le billet de 20 €",
+        "Le billet de 50 €",
+        "Elle ne peut rien acheter"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Dans son porte-monnaie, Clara a un billet de 5 €, un billet de 10 €, un billet de 20 € et un billet de 50 €. Elle achète un jeu à 32 €.",
+      "question": "Clara donne 50 € pour un jeu à 32 €. Combien la marchande rend-elle ?",
+      "choix": [
+        "82 €",
+        "32 €",
+        "18 €"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Dans son porte-monnaie, Sofia a un billet de 5 €, un billet de 10 €, un billet de 20 € et un billet de 50 €. Elle achète un crayon à 4 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-5-euros.svg",
+          "alt": "billet de 5 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-50-euros.svg",
+          "alt": "billet de 50 euros"
+        }
+      ],
+      "question": "Pour un crayon à 4 €, quel est le plus petit billet qui suffit ?",
+      "choix": [
+        "Le billet de 10 €",
+        "Le billet de 5 €",
+        "Elle ne peut rien acheter"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Dans son porte-monnaie, Sofia a un billet de 5 €, un billet de 10 €, un billet de 20 € et un billet de 50 €. Elle achète un crayon à 4 €.",
+      "question": "Sofia donne 5 € pour un crayon à 4 €. Combien la marchande rend-elle ?",
+      "choix": [
+        "9 €",
+        "4 €",
+        "1 €"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

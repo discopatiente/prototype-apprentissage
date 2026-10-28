@@ -1,0 +1,240 @@
+{
+  "id": "lesson-maths-79",
+  "theme": "maths",
+  "titre": "Compter les centimes",
+  "description": "Additionne les pièces de centimes",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "50 c + 20 c = ... c",
+      "consigne": "Compte les centimes",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-50-centimes.svg",
+          "alt": "pièce de 50 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " c",
+      "reponse": 70,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "20 c + 20 c + 10 c = ... c",
+      "consigne": "Compte les centimes",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-10-centimes.svg",
+          "alt": "pièce de 10 centimes"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " c",
+      "reponse": 50,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "50 c + 50 c = ... c",
+      "consigne": "Compte les centimes",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-50-centimes.svg",
+          "alt": "pièce de 50 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-50-centimes.svg",
+          "alt": "pièce de 50 centimes"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " c",
+      "reponse": 100,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "10 c + 10 c + 10 c = ... c",
+      "consigne": "Compte les centimes",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-10-centimes.svg",
+          "alt": "pièce de 10 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-10-centimes.svg",
+          "alt": "pièce de 10 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-10-centimes.svg",
+          "alt": "pièce de 10 centimes"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " c",
+      "reponse": 30,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "50 c + 20 c + 20 c = ... c",
+      "consigne": "Compte les centimes",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-50-centimes.svg",
+          "alt": "pièce de 50 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " c",
+      "reponse": 90,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "20 c + 20 c + 20 c + 20 c = ... c",
+      "consigne": "Compte les centimes",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " c",
+      "reponse": 80,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "50 c + 10 c = ... c",
+      "consigne": "Compte les centimes",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-50-centimes.svg",
+          "alt": "pièce de 50 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-10-centimes.svg",
+          "alt": "pièce de 10 centimes"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " c",
+      "reponse": 60,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "20 c + 10 c + 10 c = ... c",
+      "consigne": "Compte les centimes",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-10-centimes.svg",
+          "alt": "pièce de 10 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-10-centimes.svg",
+          "alt": "pièce de 10 centimes"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " c",
+      "reponse": 40,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "10 c + 10 c = ... c",
+      "consigne": "Compte les centimes",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-10-centimes.svg",
+          "alt": "pièce de 10 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-10-centimes.svg",
+          "alt": "pièce de 10 centimes"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " c",
+      "reponse": 20,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "50 c + 20 c + 20 c + 10 c = ... c",
+      "consigne": "Compte les centimes",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-50-centimes.svg",
+          "alt": "pièce de 50 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-20-centimes.svg",
+          "alt": "pièce de 20 centimes"
+        },
+        {
+          "src": "maths/monnaie/piece-10-centimes.svg",
+          "alt": "pièce de 10 centimes"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " c",
+      "reponse": 100,
+      "points": 10
+    }
+  ]
+}

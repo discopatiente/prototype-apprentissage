@@ -1,0 +1,71 @@
+{
+  "id": "lesson-maths-62",
+  "theme": "maths",
+  "titre": "Calculer jusqu'à 100",
+  "description": "Additionne et soustrais des dizaines, puis des nombres à deux chiffres",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Pour additionner des dizaines, on compte les billets de 10 € : 30 € + 20 €, c'est 3 billets plus 2 billets, donc 5 billets : 50 €.",
+      "visuel": "30 + 20 = 50",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        }
+      ]
+    },
+    {
+      "id": "ecran-02",
+      "texte": "C'est comme 3 + 2 = 5, mais avec des dizaines : 3 dizaines + 2 dizaines = 5 dizaines.",
+      "visuel": "3 + 2 = 5 | 30 + 20 = 50"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Pour soustraire, c'est pareil : 70 − 40, c'est 7 dizaines − 4 dizaines = 3 dizaines, donc 30.",
+      "visuel": "7 − 4 = 3 | 70 − 40 = 30"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Maintenant, 34 + 5 : on garde les 3 dizaines, et on ajoute seulement les unités : 4 + 5 = 9. Donc 34 + 5 = 39.",
+      "visuel": "34 + 5 = 39"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Et 23 + 14 ? On additionne les dizaines ensemble (20 + 10 = 30), puis les unités ensemble (3 + 4 = 7). Résultat : 37.",
+      "visuel": "20 + 10 = 30 | 3 + 4 = 7 | 30 + 7 = 37"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Pour 58 − 23, on fait pareil : les dizaines (50 − 20 = 30), puis les unités (8 − 3 = 5). Résultat : 35.",
+      "visuel": "50 − 20 = 30 | 8 − 3 = 5 | 30 + 5 = 35"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Retiens bien : les dizaines avec les dizaines, les unités avec les unités."
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

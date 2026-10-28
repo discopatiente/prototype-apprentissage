@@ -1,0 +1,128 @@
+{
+  "id": "lesson-maths-69",
+  "theme": "maths",
+  "titre": "Le double et la moitié",
+  "description": "Trouve le double ou la moitié de chaque nombre",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "Le double de 5 = ...",
+      "consigne": "Trouve le double",
+      "avant": "Le double de 5, c'est ",
+      "apres": "",
+      "reponse": 10,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "Le double de 7 = ...",
+      "consigne": "Trouve le double",
+      "avant": "Le double de 7, c'est ",
+      "apres": "",
+      "reponse": 14,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "Le double de 9 = ...",
+      "consigne": "Trouve le double",
+      "avant": "Le double de 9, c'est ",
+      "apres": "",
+      "reponse": 18,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "Le double de 6 = ...",
+      "consigne": "Trouve le double",
+      "avant": "Le double de 6, c'est ",
+      "apres": "",
+      "reponse": 12,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "Le double de 20 = ...",
+      "consigne": "Trouve le double",
+      "avant": "Le double de 20, c'est ",
+      "apres": "",
+      "reponse": 40,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "Le double de 30 = ...",
+      "consigne": "Trouve le double",
+      "avant": "Le double de 30, c'est ",
+      "apres": "",
+      "reponse": 60,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "La moitié de 10 = ...",
+      "consigne": "Trouve la moitié",
+      "avant": "La moitié de 10, c'est ",
+      "apres": "",
+      "reponse": 5,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "La moitié de 16 = ...",
+      "consigne": "Trouve la moitié",
+      "avant": "La moitié de 16, c'est ",
+      "apres": "",
+      "reponse": 8,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "La moitié de 12 = ...",
+      "consigne": "Trouve la moitié",
+      "avant": "La moitié de 12, c'est ",
+      "apres": "",
+      "reponse": 6,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "La moitié de 18 = ...",
+      "consigne": "Trouve la moitié",
+      "avant": "La moitié de 18, c'est ",
+      "apres": "",
+      "reponse": 9,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "trou-numerique",
+      "question": "La moitié de 40 = ...",
+      "consigne": "Trouve la moitié",
+      "avant": "La moitié de 40, c'est ",
+      "apres": "",
+      "reponse": 20,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "trou-numerique",
+      "question": "La moitié de 100 = ...",
+      "consigne": "Trouve la moitié",
+      "avant": "La moitié de 100, c'est ",
+      "apres": "",
+      "reponse": 50,
+      "points": 10
+    }
+  ]
+}

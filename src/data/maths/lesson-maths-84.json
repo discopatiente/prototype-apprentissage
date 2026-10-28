@@ -1,0 +1,131 @@
+{
+  "id": "lesson-maths-84",
+  "theme": "maths",
+  "titre": "Faire les courses avec des centimes",
+  "description": "Additionne des prix avec des centimes, et choisis les pièces à rendre",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Léa achète un croissant à 1,50 € et un jus à 2 €.",
+      "question": "Combien Léa paie-t-elle pour le croissant et le jus ?",
+      "choix": [
+        "3,50 €",
+        "3,05 €",
+        "4 €"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Inès achète deux pains au chocolat à 1,20 € chacun.",
+      "question": "Combien Inès paie-t-elle pour les deux pains au chocolat ?",
+      "choix": [
+        "1,40 €",
+        "2,40 €",
+        "2,20 €"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Léo a 3 €. Il veut une glace à 2,50 €.",
+      "question": "Léo peut-il acheter la glace à 2,50 € avec 3 € ?",
+      "choix": [
+        "Non, il lui manque 0,50 €",
+        "Oui, il ne lui reste rien",
+        "Oui, il lui reste 0,50 €"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Clara a 2 €. Elle veut un magazine à 2,50 €.",
+      "question": "Clara peut-elle acheter le magazine à 2,50 € avec 2 € ?",
+      "choix": [
+        "Non, il lui manque 0,50 €",
+        "Oui, il lui reste 0,50 €",
+        "Oui, il ne lui reste rien"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "La marchande doit rendre 1,50 € à Sofia.",
+      "question": "Quelles pièces la marchande peut-elle rendre pour 1,50 € ?",
+      "choix": [
+        "1 € + 20 c",
+        "1 € + 50 c",
+        "50 c + 50 c"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "La marchande doit rendre 0,70 € à Léo.",
+      "question": "Quelles pièces la marchande peut-elle rendre pour 0,70 € ?",
+      "choix": [
+        "50 c + 10 c",
+        "20 c + 20 c + 20 c",
+        "50 c + 20 c"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "La marchande doit rendre 2,30 € à Laura.",
+      "question": "Quelles pièces la marchande peut-elle rendre pour 2,30 € ?",
+      "choix": [
+        "2 € + 20 c",
+        "2 € + 20 c + 10 c",
+        "1 € + 20 c + 10 c"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Une sucette coûte 0,50 €. Laura en achète 3.",
+      "question": "Combien coûtent 3 sucettes à 0,50 € ?",
+      "choix": [
+        "1,30 €",
+        "3,50 €",
+        "1,50 €"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Sofia achète un cahier à 3,50 €. Elle donne un billet de 5 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-5-euros.svg",
+          "alt": "billet de 5 euros"
+        }
+      ],
+      "question": "Combien la marchande rend-elle pour le cahier à 3,50 € ?",
+      "choix": [
+        "1,50 €",
+        "2,50 €",
+        "8,50 €"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "lesson-maths-63",
+  "theme": "maths",
+  "titre": "Calculer avec les dizaines",
+  "description": "Additionne et soustrais des dizaines entières",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "40 + 30 = ...",
+      "consigne": "Calcule avec les dizaines",
+      "avant": "40 + 30 = ",
+      "apres": "",
+      "reponse": 70,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "20 + 60 = ...",
+      "consigne": "Calcule avec les dizaines",
+      "avant": "20 + 60 = ",
+      "apres": "",
+      "reponse": 80,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "50 + 50 = ...",
+      "consigne": "Calcule avec les dizaines",
+      "avant": "50 + 50 = ",
+      "apres": "",
+      "reponse": 100,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "10 + 70 = ...",
+      "consigne": "Calcule avec les dizaines",
+      "avant": "10 + 70 = ",
+      "apres": "",
+      "reponse": 80,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "30 + 30 = ...",
+      "consigne": "Calcule avec les dizaines",
+      "avant": "30 + 30 = ",
+      "apres": "",
+      "reponse": 60,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "70 − 20 = ...",
+      "consigne": "Calcule avec les dizaines",
+      "avant": "70 − 20 = ",
+      "apres": "",
+      "reponse": 50,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "90 − 40 = ...",
+      "consigne": "Calcule avec les dizaines",
+      "avant": "90 − 40 = ",
+      "apres": "",
+      "reponse": 50,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "60 − 30 = ...",
+      "consigne": "Calcule avec les dizaines",
+      "avant": "60 − 30 = ",
+      "apres": "",
+      "reponse": 30,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "100 − 50 = ...",
+      "consigne": "Calcule avec les dizaines",
+      "avant": "100 − 50 = ",
+      "apres": "",
+      "reponse": 50,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "100 − 30 = ...",
+      "consigne": "Calcule avec les dizaines",
+      "avant": "100 − 30 = ",
+      "apres": "",
+      "reponse": 70,
+      "points": 10
+    }
+  ]
+}

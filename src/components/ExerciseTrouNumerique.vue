@@ -48,11 +48,12 @@
         :class="{
           'input--correct':   answerSubmitted && isCorrect,
           'input--incorrect': answerSubmitted && !isCorrect,
+          'input--centimes':  withCents,
         }"
         type="text"
-        inputmode="numeric"
-        pattern="[0-9]*"
-        maxlength="3"
+        :inputmode="withCents ? 'decimal' : 'numeric'"
+        :pattern="withCents ? null : '[0-9]*'"
+        :maxlength="withCents ? 6 : 3"
         :disabled="answerSubmitted"
         @input="onInput"
         @keydown.enter="valider"
@@ -61,7 +62,7 @@
     </div>
 
     <p v-if="answerSubmitted && !isCorrect" class="correction">
-      Bonne réponse : <strong>{{ exercise.reponse }}</strong>
+      Bonne réponse : <strong>{{ displayedAnswer }}</strong>
     </p>
 
     <button
@@ -93,13 +94,37 @@ const isCorrect = ref(false)
 const hasIllustrationSimple = computed(() => typeof props.exercise.carresDepart === 'number')
 const hasIllustrationDouble = computed(() => typeof props.exercise.carresRestants === 'number')
 
+// Une réponse non entière (ex. 1.5) est un prix avec des centimes :
+// l'élève peut alors taper une virgule, comme sur une étiquette de prix (1,50).
+const withCents = computed(() => !Number.isInteger(props.exercise.reponse))
+
+// Affiche 1.5 sous la forme « 1,50 » dans la correction
+const displayedAnswer = computed(() => {
+  if (!withCents.value) return props.exercise.reponse
+  return props.exercise.reponse.toFixed(2).replace('.', ',')
+})
+
 function onInput(e) {
-  userInput.value = e.target.value.replace(/[^0-9]/g, '')
+  if (!withCents.value) {
+    userInput.value = e.target.value.replace(/[^0-9]/g, '')
+    return
+  }
+  // On accepte le point comme la virgule, et on garde une seule virgule
+  // suivie d'au plus deux chiffres (les centimes).
+  const cleaned = e.target.value.replace('.', ',').replace(/[^0-9,]/g, '')
+  const [euros, ...rest] = cleaned.split(',')
+  userInput.value = rest.length > 0 ? `${euros},${rest.join('').slice(0, 2)}` : euros
 }
 
 function valider() {
   if (userInput.value === '' || answerSubmitted.value) return
-  isCorrect.value = parseInt(userInput.value, 10) === props.exercise.reponse
+  if (withCents.value) {
+    // On compare en centimes pour éviter les erreurs d'arrondi (1,5 et 1,50 sont acceptés)
+    const typedCents = Math.round(parseFloat(userInput.value.replace(',', '.')) * 100)
+    isCorrect.value = typedCents === Math.round(props.exercise.reponse * 100)
+  } else {
+    isCorrect.value = parseInt(userInput.value, 10) === props.exercise.reponse
+  }
   answerSubmitted.value = true
   emit('answer-submitted', {
     id: props.exercise.id,
@@ -213,6 +238,8 @@ function valider() {
   outline: none;
   transition: border-color 0.2s;
 }
+
+.input--centimes { width: 96px; }
 
 .answer-input:focus { border-color: #C2855F; }
 .answer-input:disabled { cursor: default; }

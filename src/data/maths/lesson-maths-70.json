@@ -1,0 +1,122 @@
+{
+  "id": "lesson-maths-70",
+  "theme": "maths",
+  "titre": "Problèmes de doubles et de moitiés",
+  "description": "Résous de petits problèmes avec le double et la moitié",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Léa a 6 billes. Inès en a le double.",
+      "question": "Combien de billes a Inès, qui en a le double de Léa ?",
+      "choix": [
+        "12",
+        "3",
+        "8"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Léo et Clara se partagent 14 bonbons en deux parts égales.",
+      "question": "Combien de bonbons reçoit chacun, sur les 14 ?",
+      "choix": [
+        "28",
+        "7",
+        "12"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Sofia et Laura se partagent 20 € en deux parts égales.",
+      "question": "Combien d'euros reçoit chacune, sur les 20 € ?",
+      "choix": [
+        "40 €",
+        "5 €",
+        "10 €"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Un livre coûte 8 €. Un jeu coûte le double.",
+      "question": "Combien coûte le jeu, qui coûte le double du livre ?",
+      "choix": [
+        "16 €",
+        "4 €",
+        "10 €"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Une boîte contient 12 crayons. Inès en prend la moitié.",
+      "question": "Combien de crayons prend Inès, sur les 12 ?",
+      "choix": [
+        "24",
+        "6",
+        "10"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Clara a 2 billets de 10 €. Elle en donne la moitié à son frère.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        }
+      ],
+      "question": "Combien d'euros Clara donne-t-elle à son frère ?",
+      "choix": [
+        "20 €",
+        "5 €",
+        "10 €"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Papa achète 2 paquets de gâteaux à 3 € chacun.",
+      "question": "Combien papa paie-t-il pour les 2 paquets ?",
+      "choix": [
+        "5 €",
+        "6 €",
+        "3 €"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Léo court 50 mètres. Inès court la moitié de cette distance.",
+      "question": "Combien de mètres court Inès ?",
+      "choix": [
+        "100 mètres",
+        "50 mètres",
+        "25 mètres"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

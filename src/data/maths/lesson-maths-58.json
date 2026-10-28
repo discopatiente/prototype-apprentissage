@@ -1,0 +1,179 @@
+{
+  "id": "lesson-maths-58",
+  "theme": "maths",
+  "titre": "Quelles pièces rendre ?",
+  "description": "Choisis les pièces et les billets qui font la bonne monnaie",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Léa achète un livre à 7 €. Elle donne un billet de 10 €. La marchande doit rendre 3 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        }
+      ],
+      "question": "Quelles pièces ou quels billets la marchande peut-elle rendre pour 3 € ?",
+      "choix": [
+        "2 € + 1 €",
+        "2 € + 2 €",
+        "1 € + 1 €"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Inès achète une trousse à 6 €. Elle donne un billet de 10 €. La marchande doit rendre 4 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        }
+      ],
+      "question": "Quelles pièces ou quels billets la marchande peut-elle rendre pour 4 € ?",
+      "choix": [
+        "2 € + 1 €",
+        "2 € + 2 €",
+        "un billet de 5 €"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Léo achète un ballon à 15 €. Il donne un billet de 20 €. La marchande doit rendre 5 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "question": "Quelles pièces ou quels billets la marchande peut-elle rendre pour 5 € ?",
+      "choix": [
+        "2 € + 2 €",
+        "un billet de 10 €",
+        "un billet de 5 €"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Clara achète un jeu à 12 €. Elle donne un billet de 20 €. La marchande doit rendre 8 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "question": "Quelles pièces ou quels billets la marchande peut-elle rendre pour 8 € ?",
+      "choix": [
+        "5 € + 2 € + 1 €",
+        "5 € + 2 €",
+        "5 € + 5 €"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Laura achète une lampe à 11 €. Elle donne un billet de 20 €. La marchande doit rendre 9 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "question": "Quelles pièces ou quels billets la marchande peut-elle rendre pour 9 € ?",
+      "choix": [
+        "5 € + 2 € + 1 €",
+        "5 € + 2 € + 2 €",
+        "un billet de 10 €"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Sofia achète un puzzle à 14 €. Elle donne un billet de 20 €. La marchande doit rendre 6 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "question": "Quelles pièces ou quels billets la marchande peut-elle rendre pour 6 € ?",
+      "choix": [
+        "2 € + 2 €",
+        "5 € + 2 €",
+        "5 € + 1 €"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Léo achète un camion à 10 €. Il donne un billet de 20 €. La marchande doit rendre 10 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "question": "Quelles pièces ou quels billets la marchande peut-elle rendre pour 10 € ?",
+      "choix": [
+        "5 € + 2 €",
+        "5 € + 5 €",
+        "2 € + 2 € + 2 €"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Inès achète un bracelet à 3 €. Elle donne un billet de 10 €. La marchande doit rendre 7 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        }
+      ],
+      "question": "Quelles pièces ou quels billets la marchande peut-elle rendre pour 7 € ?",
+      "choix": [
+        "5 € + 1 €",
+        "2 € + 2 € + 2 €",
+        "5 € + 2 €"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Clara achète une peluche à 8 €. Elle donne un billet de 20 €. La marchande doit rendre 12 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "question": "Quelles pièces ou quels billets la marchande peut-elle rendre pour 12 € ?",
+      "choix": [
+        "10 € + 2 €",
+        "10 € + 1 €",
+        "5 € + 5 €"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "id": "lesson-maths-85",
+  "theme": "maths",
+  "titre": "Grande révision de la monnaie",
+  "description": "Révise tout ce que tu sais sur la monnaie et les problèmes",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Inès achète un livre à 7 €. Elle donne un billet de 10 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        }
+      ],
+      "question": "Livre à 7 €, 10 € donnés : combien la marchande rend-elle ?",
+      "choix": [
+        "3 €",
+        "17 €",
+        "4 €"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Léo achète un jeu à 16 €. Il donne un billet de 20 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "question": "Jeu à 16 €, 20 € donnés : combien la marchande rend-elle ?",
+      "choix": [
+        "6 €",
+        "4 €",
+        "36 €"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Sofia achète un cahier à 4 € et une trousse à 5 €.",
+      "question": "Combien Sofia paie-t-elle pour le cahier et la trousse ?",
+      "choix": [
+        "1 €",
+        "20 €",
+        "9 €"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Clara a 10 €. Elle veut un ballon à 8 € et un sifflet à 3 €.",
+      "question": "Clara a-t-elle assez d'argent pour le ballon et le sifflet ?",
+      "choix": [
+        "Non, il lui manque 1 €",
+        "Oui, il lui reste 1 €",
+        "Oui, il ne lui reste rien"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Laura a un billet de 5 €, un billet de 20 € et un billet de 50 €. Elle achète des baskets à 35 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-5-euros.svg",
+          "alt": "billet de 5 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-50-euros.svg",
+          "alt": "billet de 50 euros"
+        }
+      ],
+      "question": "Quel billet Laura doit-elle donner pour les baskets à 35 € ?",
+      "choix": [
+        "Le billet de 20 €",
+        "Le billet de 50 €",
+        "Le billet de 5 €"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Laura donne un billet de 50 € pour des baskets à 35 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-50-euros.svg",
+          "alt": "billet de 50 euros"
+        }
+      ],
+      "question": "Baskets à 35 €, 50 € donnés : combien la marchande rend-elle ?",
+      "choix": [
+        "25 €",
+        "85 €",
+        "15 €"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Léa et Inès se partagent 20 € en deux parts égales.",
+      "question": "Combien reçoit chacune, sur les 20 € ?",
+      "choix": [
+        "40 €",
+        "10 €",
+        "5 €"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Léo achète un croissant à 1,20 €. Il donne une pièce de 2 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-2-euros.svg",
+          "alt": "pièce de 2 euros"
+        }
+      ],
+      "question": "Croissant à 1,20 €, 2 € donnés : combien la marchande rend-elle ?",
+      "choix": [
+        "1,80 €",
+        "0,20 €",
+        "0,80 €"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Léo a ces pièces dans sa poche.",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-2-euros.svg",
+          "alt": "pièce de 2 euros"
+        },
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        },
+        {
+          "src": "maths/monnaie/piece-50-centimes.svg",
+          "alt": "pièce de 50 centimes"
+        }
+      ],
+      "question": "Combien d'argent Léo a-t-il dans sa poche ?",
+      "choix": [
+        "3,50 €",
+        "3,05 €",
+        "4 €"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Sofia a 2 €. Elle veut une glace à 2,50 €.",
+      "question": "Sofia peut-elle acheter la glace à 2,50 € avec 2 € ?",
+      "choix": [
+        "Oui, il lui reste 0,50 €",
+        "Non, il lui manque 0,50 €",
+        "Oui, il ne lui reste rien"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "Papa achète 2 kg de pommes. Un kilo de pommes coûte 3 €.",
+      "question": "Combien papa paie-t-il pour 2 kg de pommes ?",
+      "choix": [
+        "6 €",
+        "5 €",
+        "3 €"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "Maman achète 3 bouteilles d'eau à 1 € chacune. Elle paie avec un billet de 5 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-5-euros.svg",
+          "alt": "billet de 5 euros"
+        }
+      ],
+      "question": "Combien la marchande rend-elle à Maman pour les 3 bouteilles ?",
+      "choix": [
+        "3 €",
+        "8 €",
+        "2 €"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

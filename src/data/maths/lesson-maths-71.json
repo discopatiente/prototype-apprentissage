@@ -1,0 +1,178 @@
+{
+  "id": "lesson-maths-71",
+  "theme": "maths",
+  "titre": "Rendre la monnaie sur 50 €",
+  "description": "Calcule la monnaie quand on paie avec un billet de 50 €",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "une trottinette à 30 €, 50 € donnés → rend 20 €",
+      "contexte": "Sofia achète une trottinette qui coûte 30 €. Elle donne un billet de 50 €.",
+      "consigne": "Combien la marchande lui rend-elle ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-50-euros.svg",
+          "alt": "billet de 50 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 20,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "des rollers à 40 €, 50 € donnés → rend 10 €",
+      "contexte": "Léo achète des rollers qui coûtent 40 €. Il donne un billet de 50 €.",
+      "consigne": "Combien la marchande lui rend-elle ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-50-euros.svg",
+          "alt": "billet de 50 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 10,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "un sac à dos à 20 €, 50 € donnés → rend 30 €",
+      "contexte": "Inès achète un sac à dos qui coûte 20 €. Elle donne un billet de 50 €.",
+      "consigne": "Combien la marchande lui rend-elle ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-50-euros.svg",
+          "alt": "billet de 50 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 30,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "une lampe à 10 €, 50 € donnés → rend 40 €",
+      "contexte": "Clara achète une lampe qui coûte 10 €. Elle donne un billet de 50 €.",
+      "consigne": "Combien la marchande lui rend-elle ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-50-euros.svg",
+          "alt": "billet de 50 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 40,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "un jeu vidéo à 45 €, 50 € donnés → rend 5 €",
+      "contexte": "Laura achète un jeu vidéo qui coûte 45 €. Elle donne un billet de 50 €.",
+      "consigne": "Compte comme le marchand : combien faut-il rendre ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-50-euros.svg",
+          "alt": "billet de 50 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 5,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "des baskets à 35 €, 50 € donnés → rend 15 €",
+      "contexte": "Léa achète des baskets qui coûtent 35 €. Elle donne un billet de 50 €.",
+      "consigne": "Compte comme le marchand : combien faut-il rendre ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-50-euros.svg",
+          "alt": "billet de 50 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 15,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "un kimono à 25 €, 50 € donnés → rend 25 €",
+      "contexte": "Sofia achète un kimono qui coûte 25 €. Elle donne un billet de 50 €.",
+      "consigne": "Compte comme le marchand : combien faut-il rendre ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-50-euros.svg",
+          "alt": "billet de 50 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 25,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "un casque à 48 €, 50 € donnés → rend 2 €",
+      "contexte": "Léo achète un casque qui coûte 48 €. Il donne un billet de 50 €.",
+      "consigne": "Compte comme le marchand : combien faut-il rendre ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-50-euros.svg",
+          "alt": "billet de 50 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "une montre à 42 €, 50 € donnés → rend 8 €",
+      "contexte": "Inès achète une montre qui coûte 42 €. Elle donne un billet de 50 €.",
+      "consigne": "Compte comme le marchand : combien faut-il rendre ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-50-euros.svg",
+          "alt": "billet de 50 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 8,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "une raquette à 38 €, 50 € donnés → rend 12 €",
+      "contexte": "Clara achète une raquette qui coûte 38 €. Elle donne un billet de 50 €.",
+      "consigne": "Compte comme le marchand : combien faut-il rendre ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-50-euros.svg",
+          "alt": "billet de 50 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 12,
+      "points": 10
+    }
+  ]
+}

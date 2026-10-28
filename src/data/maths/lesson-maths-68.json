@@ -1,0 +1,54 @@
+{
+  "id": "lesson-maths-68",
+  "theme": "maths",
+  "titre": "Doubles et moitiés",
+  "description": "Découvre le double (deux fois plus) et la moitié (partager en deux)",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Le double d'un nombre, c'est deux fois ce nombre. Le double de 3, c'est 3 + 3 = 6.",
+      "visuel": "🍫🍫🍫 | 🍫🍫🍫"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "On peut aussi l'écrire avec une multiplication : le double de 4, c'est 2 × 4 = 8.",
+      "visuel": "4 + 4 = 8 | 2 × 4 = 8"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "La moitié, c'est le contraire : on partage en deux parts égales. La moitié de 8, c'est 4, car 4 + 4 = 8.",
+      "visuel": "🍫🍫🍫🍫 | 🍫🍫🍫🍫"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Avec de l'argent : Léa et Inès se partagent 10 €. Chacune reçoit la moitié : 5 €.",
+      "visuel": "10 € → 5 € | 5 €",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-5-euros.svg",
+          "alt": "billet de 5 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-5-euros.svg",
+          "alt": "billet de 5 euros"
+        }
+      ]
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Avec les dizaines, c'est pareil : le double de 30, c'est 60. La moitié de 80, c'est 40.",
+      "visuel": "30 + 30 = 60 | 40 + 40 = 80"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Retiens bien : le double, c'est deux fois plus. La moitié, c'est partager en deux parts égales."
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

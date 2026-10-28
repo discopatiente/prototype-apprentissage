@@ -33,7 +33,7 @@ Domaines du socle : D1 langages pour penser et communiquer, D3 formation de la p
 
 | Notion | Compétence officielle visée | Cycle | Socle | Statut |
 |---|---|---|---|---|
-| Numération et sens du nombre (semaine 1) | Lire, écrire, comparer, ranger les nombres, dizaines et unités | C2 | D1, D4 | |
+| Numération et sens du nombre (semaine 1) | Lire, écrire, comparer, ranger les nombres, dizaines et unités | C2 | D1, D4 | EC |
 | Addition et soustraction sans retenue (semaine 2) | Sens des opérations et technique de calcul, à travers des problèmes concrets | C2 | D1, D4 | |
 | Addition et soustraction avec passage de la dizaine | Calcul mental, stratégie du passage par 10 | C2 | D1, D4 | EC |
 | Multiplication, addition répétée, série 1 | Comprendre le sens de la multiplication | C2 vers C3 | D1, D4 | |
@@ -43,6 +43,12 @@ Domaines du socle : D1 langages pour penser et communiquer, D3 formation de la p
 | Monnaie, pièces et billets | Mesurer et comparer des grandeurs, résoudre des problèmes de monnaie | C2 vers C3 | D1, D4 | EC |
 | Grandeurs et mesures, longueurs (l'heure reste reportée) | Mesurer et comparer des grandeurs | C2 vers C3 | D4 | EC |
 | Repères de géométrie, figures et position | Reconnaître et nommer des figures, se repérer dans l'espace | C2 vers C3 | D4 | EC |
+| Nombres jusqu'à 100 | Lire, écrire, comparer, ranger les nombres, dizaines et unités | C2 | D1, D4 | EC |
+| Addition et soustraction jusqu'à 100 sans retenue | Calcul mental et réfléchi, dizaines entières et nombres à deux chiffres | C2 | D1, D4 | EC |
+| Doubles et moitiés | Mémoriser et mobiliser des faits numériques, partager en deux | C2 vers C3 | D1, D4 | EC |
+| Masses (kg, g) | Comparer et mesurer des masses, unités usuelles | C2 vers C3 | D4 | EC |
+| Contenances (litre) | Comparer et mesurer des contenances, unités usuelles | C2 vers C3 | D4 | EC |
+| Monnaie avec centimes | Résoudre des problèmes de monnaie, euros et centimes, écriture à virgule | C3 | D1, D4 | EC |
 
 ## SVT
 
@@ -139,3 +145,25 @@ Réalisation complète de `plan_francais_niveaux_20_a_29.md`, puis des notions e
 - Niveau 33, les mots-étiquettes : `114` (diaporama fruits, outils, meubles, vêtements, intrus) et `115` (qcm : 6 étiquettes à trouver, 6 intrus).
 
 Dans toutes les leçons à trois choix, les bonnes réponses sont réparties 4/4/4 (3/3/2 dans les deux leçons de lecture à 8 questions). Le mot ou la phrase figure dans `question` pour que le bilan reste lisible.
+
+## Leçons de maths du 28 octobre 2026
+
+Réalisation complète de `plan_maths_niveaux_11_a_21.md` : 31 leçons, `lesson-maths-56` à `86`, onze niveaux, avec la monnaie comme fil rouge (17 leçons sur 31). Chaque leçon a été déroulée jusqu'au bilan avec Playwright, en donnant les bonnes réponses, et obtient le score maximal. Aucune image ne manque.
+
+- **Monnaie.**
+  - Niveau 11, rendre la monnaie en complétant comme le marchand (`56` à `58`).
+  - Niveau 14, faire les courses : total de plusieurs articles, total puis monnaie, avoir assez d'argent ou non (`65` à `67`).
+  - Niveau 16, le billet de 50 € (`71`, `72`).
+  - Niveau 19, les centimes, calculés en centimes sans virgule (`78` à `80`).
+  - Niveau 20, des euros et des centimes : prix à virgule, sommes, monnaie rendue avec des centimes (`81` à `84`).
+  - Niveau 21, grande révision (`85`, `86`).
+  - Seules les pièces de 50, 20 et 10 c sont utilisées.
+- **Autres notions.**
+  - Niveau 12, les nombres jusqu'à 100 (`59` à `61`).
+  - Niveau 13, additions et soustractions jusqu'à 100 sans retenue (`62` à `64`).
+  - Niveau 15, doubles et moitiés (`68` à `70`).
+  - Niveau 17, les masses (`73` à `75`).
+  - Niveau 18, les contenances (`76`, `77`).
+  - Aucune question ne porte sur le poids d'un enfant.
+- **Composant.** `ExerciseTrouNumerique.vue` accepte maintenant une réponse à virgule quand `reponse` n'est pas entier (voir `CLAUDE.md`). Les leçons à réponse entière se comportent comme avant (vérifié sur `lesson-maths-34`).
+- **Vérification des calculs.** Chaque réponse à saisir a été recalculée par un script indépendant, à partir du texte du contexte, de l'intitulé et des images de pièces et de billets, en centimes entiers. Aucune erreur. Les questions à choix ont été relues une par une. Aucun couple prix et somme donnée de `34` n'est réutilisé dans `57`.

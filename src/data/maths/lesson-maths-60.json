@@ -1,0 +1,176 @@
+{
+  "id": "lesson-maths-60",
+  "theme": "maths",
+  "titre": "Dizaines et unités",
+  "description": "Passe des dizaines et des unités au nombre, et inversement",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "3 billets de 10 € et 5 pièces de 1 € = ... €",
+      "consigne": "Combien d'argent y a-t-il ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        },
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        },
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        },
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        },
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 35,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "6 billets de 10 € et 2 pièces de 1 € = ... €",
+      "consigne": "Combien d'argent y a-t-il ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        },
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        }
+      ],
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 62,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "4 dizaines et 8 unités = ...",
+      "consigne": "Écris le nombre",
+      "avant": "4 dizaines et 8 unités = ",
+      "apres": "",
+      "reponse": 48,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "7 dizaines et 0 unité = ...",
+      "consigne": "Écris le nombre",
+      "avant": "7 dizaines et 0 unité = ",
+      "apres": "",
+      "reponse": 70,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "9 dizaines et 3 unités = ...",
+      "consigne": "Écris le nombre",
+      "avant": "9 dizaines et 3 unités = ",
+      "apres": "",
+      "reponse": 93,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "56 = ... dizaines et 6 unités",
+      "consigne": "Combien de dizaines ?",
+      "avant": "56 = ",
+      "apres": " dizaines et 6 unités",
+      "reponse": 5,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "81 = 8 dizaines et ... unité",
+      "consigne": "Combien d'unités ?",
+      "avant": "81 = 8 dizaines et ",
+      "apres": " unité",
+      "reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "Juste après 69 : ...",
+      "consigne": "Quel nombre vient juste après ?",
+      "avant": "Après 69, il y a ",
+      "apres": "",
+      "reponse": 70,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "Juste avant 40 : ...",
+      "consigne": "Quel nombre vient juste avant ?",
+      "avant": "Juste avant 40, il y a ",
+      "apres": "",
+      "reponse": 39,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "10 billets de 10 € = ... €",
+      "consigne": "Combien d'argent y a-t-il ?",
+      "avant": "Dix billets de 10 €, ça fait ",
+      "apres": " €",
+      "reponse": 100,
+      "points": 10
+    }
+  ]
+}

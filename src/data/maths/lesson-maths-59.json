@@ -1,0 +1,112 @@
+{
+  "id": "lesson-maths-59",
+  "theme": "maths",
+  "titre": "Les nombres jusqu'à 100",
+  "description": "Compte de 10 en 10 jusqu'à 100, et découvre les dizaines et les unités",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Tu sais compter jusqu'à 20. Aujourd'hui, on va jusqu'à 100 ! Pour aller vite, on compte par paquets de 10 : les dizaines."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Un billet de 10 €, c'est une dizaine d'euros. Deux billets, ça fait 20 €. Trois billets, ça fait 30 €.",
+      "visuel": "10 | 20 | 30",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        }
+      ]
+    },
+    {
+      "id": "ecran-03",
+      "texte": "On continue de 10 en 10 : 10, 20, 30, 40, 50, 60, 70, 80, 90, 100. Dix billets de 10 €, ça fait 100 € !",
+      "visuel": "10 20 30 40 50 | 60 70 80 90 100"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Les noms des dizaines : dix, vingt, trente, quarante, cinquante, soixante, soixante-dix, quatre-vingts, quatre-vingt-dix, et enfin cent."
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Regarde : 4 billets de 10 € et 7 pièces de 1 €. Ça fait 40 € et 7 €, donc 47 €.",
+      "visuel": "40 + 7 = 47",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        },
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        },
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        },
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        },
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        },
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        },
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        },
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        }
+      ]
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Dans 47, le 4 compte les dizaines (les billets de 10 €) et le 7 compte les unités (les pièces de 1 €).",
+      "visuel": "4 dizaines | 7 unités"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Pour comparer deux nombres, on regarde d'abord les dizaines : 52 est plus grand que 38, car 5 dizaines, c'est plus que 3 dizaines. Si les dizaines sont pareilles, on regarde les unités : 64 est plus grand que 61.",
+      "visuel": "52 > 38 | 64 > 61"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Retiens bien : le chiffre de gauche compte les dizaines, le chiffre de droite compte les unités."
+    },
+    {
+      "id": "ecran-09",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

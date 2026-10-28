@@ -1,0 +1,164 @@
+{
+  "id": "lesson-maths-61",
+  "theme": "maths",
+  "titre": "Comparer et ranger jusqu'à 100",
+  "description": "Compare, range et complète des nombres jusqu'à 100",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "52, 38, 45",
+      "question": "Quel nombre est le plus grand : 52, 38 ou 45 ?",
+      "choix": [
+        "52",
+        "38",
+        "45"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "71, 17, 70",
+      "question": "Quel nombre est le plus petit : 71, 17 ou 70 ?",
+      "choix": [
+        "71",
+        "17",
+        "70"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "64, 61, 46",
+      "question": "Quel nombre est le plus grand : 64, 61 ou 46 ?",
+      "choix": [
+        "61",
+        "46",
+        "64"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "29, 92, 90",
+      "question": "Quel nombre est le plus petit : 29, 92 ou 90 ?",
+      "choix": [
+        "29",
+        "92",
+        "90"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "45, 12, 33",
+      "question": "Range du plus petit au plus grand : 45, 12, 33",
+      "choix": [
+        "45, 33, 12",
+        "12, 33, 45",
+        "12, 45, 33"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "80, 18, 58",
+      "question": "Range du plus petit au plus grand : 80, 18, 58",
+      "choix": [
+        "18, 80, 58",
+        "80, 58, 18",
+        "18, 58, 80"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "79",
+      "question": "Quel nombre vient juste après 79 ?",
+      "choix": [
+        "78",
+        "80",
+        "89"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "50",
+      "question": "Quel nombre vient juste avant 50 ?",
+      "choix": [
+        "51",
+        "40",
+        "49"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "20, 30, 40, …",
+      "question": "Complète la suite : 20, 30, 40, …",
+      "choix": [
+        "50",
+        "41",
+        "60"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "90, 80, 70, …",
+      "question": "Complète la suite : 90, 80, 70, …",
+      "choix": [
+        "69",
+        "60",
+        "50"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "soixante-trois",
+      "question": "Comment s'écrit « soixante-trois » en chiffres ?",
+      "choix": [
+        "63",
+        "36",
+        "73"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "quatre-vingt-dix",
+      "question": "Comment s'écrit « quatre-vingt-dix » en chiffres ?",
+      "choix": [
+        "80",
+        "70",
+        "90"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

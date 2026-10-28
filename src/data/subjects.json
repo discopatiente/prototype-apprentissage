@@ -442,6 +442,103 @@
           "lesson-maths-54",
           "lesson-maths-55"
         ]
+      },
+      {
+        "id": "niveau-11",
+        "titre": "Niveau 11",
+        "lessons": [
+          "lesson-maths-56",
+          "lesson-maths-57",
+          "lesson-maths-58"
+        ]
+      },
+      {
+        "id": "niveau-12",
+        "titre": "Niveau 12",
+        "lessons": [
+          "lesson-maths-59",
+          "lesson-maths-60",
+          "lesson-maths-61"
+        ]
+      },
+      {
+        "id": "niveau-13",
+        "titre": "Niveau 13",
+        "lessons": [
+          "lesson-maths-62",
+          "lesson-maths-63",
+          "lesson-maths-64"
+        ]
+      },
+      {
+        "id": "niveau-14",
+        "titre": "Niveau 14",
+        "lessons": [
+          "lesson-maths-65",
+          "lesson-maths-66",
+          "lesson-maths-67"
+        ]
+      },
+      {
+        "id": "niveau-15",
+        "titre": "Niveau 15",
+        "lessons": [
+          "lesson-maths-68",
+          "lesson-maths-69",
+          "lesson-maths-70"
+        ]
+      },
+      {
+        "id": "niveau-16",
+        "titre": "Niveau 16",
+        "lessons": [
+          "lesson-maths-71",
+          "lesson-maths-72"
+        ]
+      },
+      {
+        "id": "niveau-17",
+        "titre": "Niveau 17",
+        "lessons": [
+          "lesson-maths-73",
+          "lesson-maths-74",
+          "lesson-maths-75"
+        ]
+      },
+      {
+        "id": "niveau-18",
+        "titre": "Niveau 18",
+        "lessons": [
+          "lesson-maths-76",
+          "lesson-maths-77"
+        ]
+      },
+      {
+        "id": "niveau-19",
+        "titre": "Niveau 19",
+        "lessons": [
+          "lesson-maths-78",
+          "lesson-maths-79",
+          "lesson-maths-80"
+        ]
+      },
+      {
+        "id": "niveau-20",
+        "titre": "Niveau 20",
+        "lessons": [
+          "lesson-maths-81",
+          "lesson-maths-82",
+          "lesson-maths-83",
+          "lesson-maths-84"
+        ]
+      },
+      {
+        "id": "niveau-21",
+        "titre": "Niveau 21",
+        "lessons": [
+          "lesson-maths-85",
+          "lesson-maths-86"
+        ]
       }
     ]
   },

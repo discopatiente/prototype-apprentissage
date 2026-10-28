@@ -1,0 +1,153 @@
+{
+  "id": "lesson-maths-67",
+  "theme": "maths",
+  "titre": "Ai-je assez d'argent ?",
+  "description": "Vérifie si l'argent suffit, et choisis ce que tu peux acheter",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Inès a 10 €. Elle veut un livre à 7 € et une gomme à 2 €.",
+      "question": "Inès a-t-elle assez d'argent pour le livre et la gomme ?",
+      "choix": [
+        "Oui, il lui reste 1 €",
+        "Non, il lui manque 1 €",
+        "Oui, il ne lui reste rien"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Léo a 5 €. Il veut un ballon à 4 € et un sifflet à 2 €.",
+      "question": "Léo a-t-il assez d'argent pour le ballon et le sifflet ?",
+      "choix": [
+        "Oui, il lui reste 1 €",
+        "Non, il lui manque 1 €",
+        "Oui, il ne lui reste rien"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Clara a 20 €. Elle veut un jeu à 15 € et une carte à 5 €.",
+      "question": "Clara a-t-elle assez d'argent pour le jeu et la carte ?",
+      "choix": [
+        "Non, il lui manque 5 €",
+        "Oui, il lui reste 5 €",
+        "Oui, il ne lui reste rien"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Sofia a 10 €. Au magasin, il y a une peluche à 8 €, un livre à 5 €, un stylo à 2 € et un jeu à 12 €.",
+      "question": "Avec 10 €, que peut acheter Sofia ?",
+      "choix": [
+        "La peluche et le stylo",
+        "La peluche et le livre",
+        "Le jeu"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Léo a 20 €. Au magasin de sport, il y a un ballon à 9 €, une raquette à 14 €, des balles à 5 € et une casquette à 8 €.",
+      "question": "Avec 20 €, que peut acheter Léo ?",
+      "choix": [
+        "La raquette et la casquette",
+        "La raquette et les balles",
+        "Le ballon et la raquette"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Laura a ces deux billets. Elle veut des feutres à 12 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-5-euros.svg",
+          "alt": "billet de 5 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-5-euros.svg",
+          "alt": "billet de 5 euros"
+        }
+      ],
+      "question": "Laura peut-elle acheter les feutres à 12 € ?",
+      "choix": [
+        "Oui, il lui reste 2 €",
+        "Oui, il ne lui reste rien",
+        "Non, il lui manque 2 €"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Léa a ces pièces. Elle veut une glace à 6 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-2-euros.svg",
+          "alt": "pièce de 2 euros"
+        },
+        {
+          "src": "maths/monnaie/piece-2-euros.svg",
+          "alt": "pièce de 2 euros"
+        },
+        {
+          "src": "maths/monnaie/piece-2-euros.svg",
+          "alt": "pièce de 2 euros"
+        },
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        }
+      ],
+      "question": "Léa peut-elle acheter la glace à 6 € ?",
+      "choix": [
+        "Non, il lui manque 1 €",
+        "Oui, il lui reste 1 €",
+        "Oui, il ne lui reste rien"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Léo a 15 €. Il achète un livre à 8 €.",
+      "question": "Combien reste-t-il à Léo après avoir acheté le livre ?",
+      "choix": [
+        "8 €",
+        "23 €",
+        "7 €"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Inès a 20 €. Elle achète deux livres à 6 € chacun.",
+      "question": "Combien reste-t-il à Inès après avoir acheté les deux livres ?",
+      "choix": [
+        "8 €",
+        "14 €",
+        "12 €"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

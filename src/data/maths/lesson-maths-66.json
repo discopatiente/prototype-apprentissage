@@ -1,0 +1,148 @@
+{
+  "id": "lesson-maths-66",
+  "theme": "maths",
+  "titre": "Le total, puis la monnaie",
+  "description": "Calcule le prix des courses, puis la monnaie que rend la marchande",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "un cahier 3 € + une gomme 1 € = ... €",
+      "contexte": "Léa achète un cahier à 3 € et une gomme à 1 €. Elle paie avec un billet de 10 €.",
+      "consigne": "D'abord : combien ça coûte en tout ?",
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 4,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "un cahier + une gomme (4 €), 10 € donnés → rend 6 €",
+      "contexte": "Léa achète un cahier à 3 € et une gomme à 1 €. Elle paie avec un billet de 10 €.",
+      "consigne": "Ensuite : combien la marchande lui rend-elle ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 6,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "un livre 5 € + un crayon 2 € = ... €",
+      "contexte": "Léo achète un livre à 5 € et un crayon à 2 €. Il paie avec un billet de 10 €.",
+      "consigne": "D'abord : combien ça coûte en tout ?",
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 7,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "un livre + un crayon (7 €), 10 € donnés → rend 3 €",
+      "contexte": "Léo achète un livre à 5 € et un crayon à 2 €. Il paie avec un billet de 10 €.",
+      "consigne": "Ensuite : combien la marchande lui rend-elle ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 3,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "un jeu 8 € + des cartes 4 € = ... €",
+      "contexte": "Inès achète un jeu à 8 € et des cartes à 4 €. Elle paie avec un billet de 20 €.",
+      "consigne": "D'abord : combien ça coûte en tout ?",
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 12,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "un jeu + des cartes (12 €), 20 € donnés → rend 8 €",
+      "contexte": "Inès achète un jeu à 8 € et des cartes à 4 €. Elle paie avec un billet de 20 €.",
+      "consigne": "Ensuite : combien la marchande lui rend-elle ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 8,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "un ballon 6 € + une raquette 7 € = ... €",
+      "contexte": "Clara achète un ballon à 6 € et une raquette à 7 €. Elle paie avec un billet de 20 €.",
+      "consigne": "D'abord : combien ça coûte en tout ?",
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 13,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "un ballon + une raquette (13 €), 20 € donnés → rend 7 €",
+      "contexte": "Clara achète un ballon à 6 € et une raquette à 7 €. Elle paie avec un billet de 20 €.",
+      "consigne": "Ensuite : combien la marchande lui rend-elle ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 7,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "un puzzle 9 € + une peluche 6 € = ... €",
+      "contexte": "Sofia achète un puzzle à 9 € et une peluche à 6 €. Elle paie avec un billet de 20 €.",
+      "consigne": "D'abord : combien ça coûte en tout ?",
+      "avant": "Total : ",
+      "apres": " €",
+      "reponse": 15,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "un puzzle + une peluche (15 €), 20 € donnés → rend 5 €",
+      "contexte": "Sofia achète un puzzle à 9 € et une peluche à 6 €. Elle paie avec un billet de 20 €.",
+      "consigne": "Ensuite : combien la marchande lui rend-elle ?",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ],
+      "avant": "",
+      "apres": " €",
+      "reponse": 5,
+      "points": 10
+    }
+  ]
+}

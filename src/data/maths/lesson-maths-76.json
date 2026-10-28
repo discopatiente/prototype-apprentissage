@@ -1,0 +1,48 @@
+{
+  "id": "lesson-maths-76",
+  "theme": "maths",
+  "titre": "Le litre",
+  "description": "Découvre la contenance des récipients et le litre",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "La contenance, c'est la quantité de liquide qu'un récipient peut contenir : un verre, une bouteille, une baignoire…",
+      "visuel": "🥛 🍶 🛁"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Pour mesurer les liquides, on utilise le litre, qu'on écrit L. Une grande bouteille d'eau contient à peu près 1 litre.",
+      "visuel": "💧 1 L"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Un verre contient beaucoup moins qu'un litre : il faut à peu près 4 verres pour remplir une bouteille de 1 litre.",
+      "visuel": "🥛🥛🥛🥛 → 1 L"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Un seau contient à peu près 10 litres. Une baignoire, à peu près 150 litres !",
+      "visuel": "🪣 10 L | 🛁 150 L"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Pour comparer deux récipients, on verse l'un dans l'autre. Si l'eau déborde, c'est que le premier contenait plus que le second."
+    },
+    {
+      "id": "ecran-06",
+      "texte": "On peut additionner des litres : 2 bouteilles de 1 litre, ça fait 2 litres.",
+      "visuel": "1 L + 1 L = 2 L"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Retiens bien : on mesure les liquides en litres (L)."
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

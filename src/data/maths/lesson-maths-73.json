@@ -1,0 +1,49 @@
+{
+  "id": "lesson-maths-73",
+  "theme": "maths",
+  "titre": "Lourd ou léger ?",
+  "description": "Découvre la balance, le kilogramme et le gramme",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Certaines choses sont lourdes, d'autres sont légères. Pour savoir combien pèse un objet, on utilise une balance.",
+      "visuel": "⚖️"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Sur une balance à deux plateaux, le plateau qui descend porte l'objet le plus lourd. La pastèque est plus lourde que la fraise.",
+      "visuel": "🍉 ⬇️ | 🍓 ⬆️"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Pour les objets lourds, on utilise le kilogramme, qu'on écrit kg. Un paquet de sucre pèse 1 kg.",
+      "visuel": "1 kg"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Pour les objets légers, on utilise le gramme, qu'on écrit g. Un trombone pèse à peu près 1 g. Une pomme pèse à peu près 150 g.",
+      "visuel": "📎 1 g | 🍎 150 g"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "1 kg, c'est 1 000 g. Il faudrait mille trombones pour peser autant qu'un paquet de sucre !",
+      "visuel": "1 kg = 1 000 g"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "On peut additionner des masses : un sac de 2 kg et un sac de 3 kg, ça fait 5 kg.",
+      "visuel": "2 kg + 3 kg = 5 kg"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Retiens bien : le kilogramme (kg) pour ce qui est lourd, le gramme (g) pour ce qui est léger."
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

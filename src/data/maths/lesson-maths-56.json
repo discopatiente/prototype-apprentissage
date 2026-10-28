@@ -1,0 +1,83 @@
+{
+  "id": "lesson-maths-56",
+  "theme": "maths",
+  "titre": "Rendre la monnaie comme le marchand",
+  "description": "Découvre l'astuce du marchand : partir du prix et compter jusqu'à la somme donnée",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Tu sais déjà rendre la monnaie avec une soustraction : 10 − 7 = 3. Aujourd'hui, on apprend l'astuce du marchand : on part du prix, et on compte jusqu'à la somme que le client a donnée.",
+      "visuel": "🛒"
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Inès achète un livre qui coûte 7 €. Elle donne un billet de 10 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-10-euros.svg",
+          "alt": "billet de 10 euros"
+        }
+      ]
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Le marchand part du prix, 7 €, et ajoute 1 € à chaque fois : 8, 9, 10. Il a ajouté trois pièces de 1 € : il rend 3 €.",
+      "visuel": "7 € → 8 € → 9 € → 10 €",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        },
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        },
+        {
+          "src": "maths/monnaie/piece-1-euro.svg",
+          "alt": "pièce de 1 euro"
+        }
+      ]
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Avec un billet de 20 €, on fait de plus grands pas. Léo achète un jeu qui coûte 13 €. Il donne un billet de 20 €.",
+      "images": [
+        {
+          "src": "maths/monnaie/billet-20-euros.svg",
+          "alt": "billet de 20 euros"
+        }
+      ]
+    },
+    {
+      "id": "ecran-05",
+      "texte": "D'abord, on va de 13 € à 15 € : on ajoute 2 €. Puis on va de 15 € à 20 € : on ajoute 5 €.",
+      "visuel": "13 € → 15 € → 20 €"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Le marchand rend donc 2 € + 5 € = 7 €. On vérifie : 13 + 7 = 20. C'est juste !",
+      "visuel": "2 € + 5 € = 7 €",
+      "images": [
+        {
+          "src": "maths/monnaie/piece-2-euros.svg",
+          "alt": "pièce de 2 euros"
+        },
+        {
+          "src": "maths/monnaie/billet-5-euros.svg",
+          "alt": "billet de 5 euros"
+        }
+      ]
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Retiens l'astuce : je pars du prix, j'avance jusqu'à un nombre rond, puis jusqu'à la somme donnée. Tout ce que j'ai ajouté, c'est la monnaie à rendre."
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

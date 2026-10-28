@@ -1,0 +1,108 @@
+{
+  "id": "lesson-maths-64",
+  "theme": "maths",
+  "titre": "Calculer avec deux chiffres",
+  "description": "Additionne et soustrais des nombres à deux chiffres, sans retenue",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "trou-numerique",
+      "question": "34 + 5 = ...",
+      "consigne": "Les dizaines avec les dizaines, les unités avec les unités",
+      "avant": "34 + 5 = ",
+      "apres": "",
+      "reponse": 39,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "trou-numerique",
+      "question": "23 + 14 = ...",
+      "consigne": "Les dizaines avec les dizaines, les unités avec les unités",
+      "avant": "23 + 14 = ",
+      "apres": "",
+      "reponse": 37,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "trou-numerique",
+      "question": "41 + 26 = ...",
+      "consigne": "Les dizaines avec les dizaines, les unités avec les unités",
+      "avant": "41 + 26 = ",
+      "apres": "",
+      "reponse": 67,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "trou-numerique",
+      "question": "52 + 35 = ...",
+      "consigne": "Les dizaines avec les dizaines, les unités avec les unités",
+      "avant": "52 + 35 = ",
+      "apres": "",
+      "reponse": 87,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "trou-numerique",
+      "question": "60 + 28 = ...",
+      "consigne": "Les dizaines avec les dizaines, les unités avec les unités",
+      "avant": "60 + 28 = ",
+      "apres": "",
+      "reponse": 88,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "trou-numerique",
+      "question": "15 + 42 = ...",
+      "consigne": "Les dizaines avec les dizaines, les unités avec les unités",
+      "avant": "15 + 42 = ",
+      "apres": "",
+      "reponse": 57,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "trou-numerique",
+      "question": "58 − 23 = ...",
+      "consigne": "Les dizaines avec les dizaines, les unités avec les unités",
+      "avant": "58 − 23 = ",
+      "apres": "",
+      "reponse": 35,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "trou-numerique",
+      "question": "76 − 34 = ...",
+      "consigne": "Les dizaines avec les dizaines, les unités avec les unités",
+      "avant": "76 − 34 = ",
+      "apres": "",
+      "reponse": 42,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "trou-numerique",
+      "question": "89 − 7 = ...",
+      "consigne": "Les dizaines avec les dizaines, les unités avec les unités",
+      "avant": "89 − 7 = ",
+      "apres": "",
+      "reponse": 82,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "trou-numerique",
+      "question": "95 − 52 = ...",
+      "consigne": "Les dizaines avec les dizaines, les unités avec les unités",
+      "avant": "95 − 52 = ",
+      "apres": "",
+      "reponse": 43,
+      "points": 10
+    }
+  ]
+}
