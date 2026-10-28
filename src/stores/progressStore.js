@@ -19,13 +19,12 @@ export const useProgressStore = defineStore('progress', () => {
   const balloons = ref(savedData?.balloons ?? 0)
   const bestScoresByLesson = ref(savedData?.bestScoresByLesson ?? {})
   const attemptHistory = ref(savedData?.attemptHistory ?? [])
-  const seenLessons = ref(savedData?.seenLessons ?? [])
   const currentAttemptScores = ref({})
   const completedExercisesInAttempt = ref([])
   const lastSessionBalloons = ref(0)
 
   watch(
-    [scoreGlobal, balloons, bestScoresByLesson, attemptHistory, seenLessons],
+    [scoreGlobal, balloons, bestScoresByLesson, attemptHistory],
     () => {
       localStorage.setItem(
         STORAGE_KEY,
@@ -34,7 +33,6 @@ export const useProgressStore = defineStore('progress', () => {
           balloons: balloons.value,
           bestScoresByLesson: bestScoresByLesson.value,
           attemptHistory: attemptHistory.value,
-          seenLessons: seenLessons.value,
         }),
       )
     },
@@ -45,15 +43,19 @@ export const useProgressStore = defineStore('progress', () => {
     return Object.values(currentAttemptScores.value).reduce((a, b) => a + b, 0)
   })
 
-  function markLessonSeen(lessonId) {
-    if (!seenLessons.value.includes(lessonId)) {
-      seenLessons.value = [...seenLessons.value, lessonId]
-    }
+  // Une leçon est terminée dès qu'elle a été menée jusqu'au bilan au moins une fois.
+  // On se base sur l'historique et les meilleurs scores, déjà sauvegardés :
+  // les leçons faites avant cette fonctionnalité sont donc reconnues aussi.
+  function isLessonCompleted(lessonId) {
+    return (
+      bestScoresByLesson.value[lessonId] !== undefined ||
+      attemptHistory.value.some((attempt) => attempt.lessonId === lessonId)
+    )
   }
 
-  // Retourne true si au moins une leçon de la liste n'a pas encore été ouverte
-  function hasUnseenLessons(lessonIds) {
-    return lessonIds.some((id) => !seenLessons.value.includes(id))
+  // Retourne true si toutes les leçons de la liste sont terminées
+  function areAllLessonsCompleted(lessonIds) {
+    return lessonIds.length > 0 && lessonIds.every((id) => isLessonCompleted(id))
   }
 
   function submitAnswer(lessonId, exerciseId, isCorrect, points) {
@@ -116,7 +118,6 @@ export const useProgressStore = defineStore('progress', () => {
     balloons.value = 0
     bestScoresByLesson.value = {}
     attemptHistory.value = []
-    seenLessons.value = []
     resetAttempt()
   }
 
@@ -125,13 +126,12 @@ export const useProgressStore = defineStore('progress', () => {
     balloons,
     bestScoresByLesson,
     attemptHistory,
-    seenLessons,
     currentAttemptScores,
     currentAttemptScore,
     completedExercisesInAttempt,
     lastSessionBalloons,
-    markLessonSeen,
-    hasUnseenLessons,
+    isLessonCompleted,
+    areAllLessonsCompleted,
     submitAnswer,
     finishLesson,
     resetAttempt,

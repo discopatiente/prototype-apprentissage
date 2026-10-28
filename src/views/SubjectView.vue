@@ -21,7 +21,7 @@
         >
           <span class="level-title">
             {{ niveau.titre }}
-            <span v-if="niveau.nouveau && store.hasUnseenLessons(niveau.lessons)" class="badge-new">Nouveau</span>
+            <span v-if="store.areAllLessonsCompleted(niveau.lessons)" class="badge-done">✓ Terminé</span>
           </span>
           <span class="level-count">
             {{ niveau.lessons.length }} leçon{{ niveau.lessons.length !== 1 ? 's' : '' }}
@@ -146,11 +146,11 @@ const subject = computed(() => subjectsData.find((s) => s.id === route.params.ma
   gap: 10px;
 }
 
-.badge-new {
+.badge-done {
   font-size: 11px;
   font-weight: 600;
   color: white;
-  background: #C2855F;
+  background: #5E7A52;
   padding: 2px 8px;
   border-radius: 20px;
 }

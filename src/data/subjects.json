@@ -193,7 +193,6 @@
       {
         "id": "niveau-19",
         "titre": "Niveau 19",
-        "nouveau": true,
         "lessons": [
           "lesson-francais-77",
           "lesson-francais-78",
@@ -311,7 +310,6 @@
       {
         "id": "niveau-10",
         "titre": "Niveau 10",
-        "nouveau": true,
         "lessons": [
           "lesson-maths-46",
           "lesson-maths-47",
@@ -350,7 +348,6 @@
       {
         "id": "niveau-2",
         "titre": "Niveau 2",
-        "nouveau": true,
         "lessons": [
           "lesson-musique-08",
           "lesson-musique-09"
@@ -368,7 +365,6 @@
       {
         "id": "niveau-1",
         "titre": "Niveau 1",
-        "nouveau": true,
         "lessons": [
           "lesson-svt-01",
           "lesson-svt-02",

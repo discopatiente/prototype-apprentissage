@@ -19,7 +19,6 @@
           <div class="lesson-info">
             <div class="lesson-title-row">
               <span class="lesson-title">{{ lesson.titre }}</span>
-              <span v-if="isNewLesson(lesson.id)" class="badge-new">Nouveau</span>
             </div>
             <span class="lesson-description">{{ lesson.description }}</span>
           </div>
@@ -57,10 +56,6 @@ const niveau = computed(() => {
   if (!subject.value) return null
   return subject.value.niveaux.find((n) => n.id === route.params.niveauId) ?? null
 })
-
-function isNewLesson(lessonId) {
-  return niveau.value?.nouveau && !store.seenLessons.includes(lessonId)
-}
 
 watchEffect(async () => {
   if (!niveau.value || niveau.value.lessons.length === 0) {
@@ -166,15 +161,6 @@ watchEffect(async () => {
   font-size: 17px;
   font-weight: 800;
   color: #4A352B;
-}
-
-.badge-new {
-  font-size: 10px;
-  font-weight: 800;
-  color: white;
-  background: #C2855F;
-  padding: 2px 7px;
-  border-radius: 20px;
 }
 
 .lesson-description {

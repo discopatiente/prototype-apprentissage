@@ -122,7 +122,6 @@ watchEffect(async () => {
     const subject = id.split('-')[1]
     const module = await import(`../data/${subject}/${id}.json`)
     lesson.value = module.default
-    store.markLessonSeen(id)
   } catch {
     error.value = true
   }
