@@ -1,0 +1,164 @@
+{
+  "id": "lesson-francais-124",
+  "theme": "francais",
+  "titre": "Le bon accent",
+  "description": "Choisis le mot bien écrit, avec ses accents",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Le renard se cache dans la ___.",
+      "question": "« Le renard se cache dans la ___. » — Quel mot est bien écrit ?",
+      "choix": [
+        "foret",
+        "forêt",
+        "fôret"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Un ___ lumineux traverse le ciel.",
+      "question": "« Un ___ lumineux traverse le ciel. » — Quel mot est bien écrit ?",
+      "choix": [
+        "éclair",
+        "eclair",
+        "èclair"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Sofia a mal à la ___.",
+      "question": "« Sofia a mal à la ___. » — Quel mot est bien écrit ?",
+      "choix": [
+        "tete",
+        "téte",
+        "tête"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Mon ___ m'emmène au judo.",
+      "question": "« Mon ___ m'emmène au judo. » — Quel mot est bien écrit ?",
+      "choix": [
+        "père",
+        "pere",
+        "péré"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Sofia met de la ___ sur ses mains.",
+      "question": "« Sofia met de la ___ sur ses mains. » — Quel mot est bien écrit ?",
+      "choix": [
+        "creme",
+        "créme",
+        "crème"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Aujourd'hui, c'est la ___ de l'école.",
+      "question": "« Aujourd'hui, c'est la ___ de l'école. » — Quel mot est bien écrit ?",
+      "choix": [
+        "fete",
+        "fête",
+        "féte"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "En ___, il fait chaud.",
+      "question": "« En ___, il fait chaud. » — Quel mot est bien écrit ?",
+      "choix": [
+        "éte",
+        "été",
+        "ete"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Le ___ de Léa court très vite.",
+      "question": "« Le ___ de Léa court très vite. » — Quel mot est bien écrit ?",
+      "choix": [
+        "frère",
+        "frere",
+        "fréré"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Inès est une ___ de judo.",
+      "question": "« Inès est une ___ de judo. » — Quel mot est bien écrit ?",
+      "choix": [
+        "eleve",
+        "élêve",
+        "élève"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Le serpent glisse près de la ___.",
+      "question": "« Le serpent glisse près de la ___. » — Quel mot est bien écrit ?",
+      "choix": [
+        "riviere",
+        "rivièrè",
+        "rivière"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "La ___ broute dans le pré.",
+      "question": "« La ___ broute dans le pré. » — Quel mot est bien écrit ?",
+      "choix": [
+        "chèvre",
+        "chevre",
+        "chévre"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "Le chien guette près de la ___.",
+      "question": "« Le chien guette près de la ___. » — Quel mot est bien écrit ?",
+      "choix": [
+        "fenetre",
+        "fenêtre",
+        "fenètre"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

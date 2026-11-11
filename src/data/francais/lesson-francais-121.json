@@ -1,0 +1,152 @@
+{
+  "id": "lesson-francais-121",
+  "theme": "francais",
+  "titre": "c'est/s'est, ça/sa, ce/se",
+  "description": "Choisis le bon mot dans chaque phrase",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "___ le jour du match de judo.",
+      "question": "« ___ le jour du match de judo. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "S'est",
+        "C'est"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Léo ___ blessé au genou.",
+      "question": "« Léo ___ blessé au genou. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "s'est",
+        "c'est"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "___ me plaît beaucoup, ce jeu.",
+      "question": "« ___ me plaît beaucoup, ce jeu. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "Ça",
+        "Sa"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Sofia range ___ chambre.",
+      "question": "« Sofia range ___ chambre. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "ça",
+        "sa"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Le renard ___ cache dans sa tanière.",
+      "question": "« Le renard ___ cache dans sa tanière. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "se",
+        "ce"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "___ volet est cassé.",
+      "question": "« ___ volet est cassé. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "Se",
+        "Ce"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Regarde, ___ un arc-en-ciel !",
+      "question": "« Regarde, ___ un arc-en-ciel ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "s'est",
+        "c'est"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "La petite fille ___ cachée sous la couette.",
+      "question": "« La petite fille ___ cachée sous la couette. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "s'est",
+        "c'est"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Tu aimes ___ ?",
+      "question": "« Tu aimes ___ ? » — Quel mot va dans la phrase ?",
+      "choix": [
+        "ça",
+        "sa"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Inès met ___ ceinture jaune.",
+      "question": "« Inès met ___ ceinture jaune. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "ça",
+        "sa"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "Le chat ___ lave.",
+      "question": "« Le chat ___ lave. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "ce",
+        "se"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "Regarde ___ galet lisse !",
+      "question": "« Regarde ___ galet lisse ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "ce",
+        "se"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    }
+  ]
+}

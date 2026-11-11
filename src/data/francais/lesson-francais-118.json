@@ -1,0 +1,164 @@
+{
+  "id": "lesson-francais-118",
+  "theme": "francais",
+  "titre": "Trouve le bon mot",
+  "description": "Choisis le mot qui est un nom, un verbe ou un adjectif",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Le chat ___ sur la table.",
+      "question": "« Le chat ___ sur la table. » — Quel mot est un verbe ?",
+      "choix": [
+        "doux",
+        "bondit",
+        "étagère"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Une ___ tombe sur le toit.",
+      "question": "« Une ___ tombe sur le toit. » — Quel mot est un nom ?",
+      "choix": [
+        "averse",
+        "glisse",
+        "lisse"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Le rocher est ___.",
+      "question": "« Le rocher est ___. » — Quel mot est un adjectif ?",
+      "choix": [
+        "tanière",
+        "grimpe",
+        "rugueux"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Les enfants ___ dans la cour.",
+      "question": "« Les enfants ___ dans la cour. » — Quel mot est un verbe ?",
+      "choix": [
+        "bavards",
+        "grenier",
+        "sautillent"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Le renard est ___.",
+      "question": "« Le renard est ___. » — Quel mot est un adjectif ?",
+      "choix": [
+        "ruche",
+        "agile",
+        "hésite"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Léo tourne la ___ de la porte.",
+      "question": "« Léo tourne la ___ de la porte. » — Quel mot est un nom ?",
+      "choix": [
+        "poignée",
+        "brûlante",
+        "glisse"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Le serpent ___ dans l'herbe.",
+      "question": "« Le serpent ___ dans l'herbe. » — Quel mot est un verbe ?",
+      "choix": [
+        "rampe",
+        "gigantesque",
+        "vacarme"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Le tapis est ___.",
+      "question": "« Le tapis est ___. » — Quel mot est un adjectif ?",
+      "choix": [
+        "pelage",
+        "bondit",
+        "épais"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Sofia range son stylo dans un ___.",
+      "question": "« Sofia range son stylo dans un ___. » — Quel mot est un nom ?",
+      "choix": [
+        "chuchote",
+        "étui",
+        "fragile"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "La couette est ___.",
+      "question": "« La couette est ___. » — Quel mot est un adjectif ?",
+      "choix": [
+        "éclair",
+        "saluent",
+        "douce"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "Les adversaires se ___ avant le combat.",
+      "question": "« Les adversaires se ___ avant le combat. » — Quel mot est un verbe ?",
+      "choix": [
+        "saluent",
+        "souples",
+        "tatami"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "Un ___ éclaire le ciel.",
+      "question": "« Un ___ éclaire le ciel. » — Quel mot est un nom ?",
+      "choix": [
+        "gaspille",
+        "éclair",
+        "étroit"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

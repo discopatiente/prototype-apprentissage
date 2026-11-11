@@ -1,0 +1,138 @@
+{
+  "id": "lesson-francais-119",
+  "theme": "francais",
+  "titre": "Repère le verbe, le nom et l'adjectif",
+  "description": "Retrouve chaque sorte de mot dans une phrase",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Dans « Le petit renard dort. », quel mot est le verbe ?",
+      "mot": "Le petit renard dort.",
+      "choix": [
+        "dort",
+        "petit",
+        "renard"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Dans « Le chat noir saute. », quel mot est le nom ?",
+      "mot": "Le chat noir saute.",
+      "choix": [
+        "noir",
+        "saute",
+        "chat"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Dans « La grande vache avance. », quel mot est l'adjectif ?",
+      "mot": "La grande vache avance.",
+      "choix": [
+        "vache",
+        "grande",
+        "avance"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Dans « Un éclair brillant apparaît. », quel mot est le verbe ?",
+      "mot": "Un éclair brillant apparaît.",
+      "choix": [
+        "brillant",
+        "apparaît",
+        "éclair"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Dans « Le vent froid souffle. », quel mot est le nom ?",
+      "mot": "Le vent froid souffle.",
+      "choix": [
+        "vent",
+        "froid",
+        "souffle"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Dans « La petite fille nage. », quel mot est l'adjectif ?",
+      "mot": "La petite fille nage.",
+      "choix": [
+        "fille",
+        "nage",
+        "petite"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Dans « Un oiseau minuscule chante. », quel mot est le verbe ?",
+      "mot": "Un oiseau minuscule chante.",
+      "choix": [
+        "minuscule",
+        "oiseau",
+        "chante"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Dans « La neige blanche tombe. », quel mot est le nom ?",
+      "mot": "La neige blanche tombe.",
+      "choix": [
+        "blanche",
+        "neige",
+        "tombe"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Dans « Un judoka souple s'échauffe. », quel mot est l'adjectif ?",
+      "mot": "Un judoka souple s'échauffe.",
+      "choix": [
+        "souple",
+        "judoka",
+        "s'échauffe"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Dans « Le chien fidèle aboie. », quel mot est le verbe ?",
+      "mot": "Le chien fidèle aboie.",
+      "choix": [
+        "fidèle",
+        "aboie",
+        "chien"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

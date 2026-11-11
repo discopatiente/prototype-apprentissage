@@ -28,6 +28,10 @@ Domaines du socle : D1 langages pour penser et communiquer, D3 formation de la p
 | Ordre alphabétique et dictionnaire | Utiliser le dictionnaire, ranger des mots dans l'ordre alphabétique | C2 vers C3 | D1 | EC |
 | Préfixes re- et dé- | Construire le sens des mots par la dérivation, préfixes | C3 | D1 | EC |
 | Mots-étiquettes (catégories) | Relations entre les mots, termes génériques et spécifiques | C2 vers C3 | D1 | EC |
+| Nature des mots (nom, verbe, adjectif) | Identifier les classes de mots, nom, verbe et adjectif | C2 vers C3 | D1 | EC |
+| Homophones grammaticaux, série 3 (c'est/s'est, ça/sa, ce/se) | Orthographe grammaticale, distinguer les homophones par leur fonction | C2 vers C3 | D1 | EC |
+| Accents et sons difficiles (é è ê, ç, ge/gu, ss) | Orthographe lexicale, accents et graphies des sons | C2 vers C3 | D1 | EC |
+| Lire une consigne et une fiche documentaire | Comprendre une consigne, prélever des informations dans un texte documentaire | C2 vers C3 | D1 | EC |
 
 ## Mathématiques
 
@@ -192,3 +196,13 @@ Réalisation complète de `plan_sciences_niveaux_2_a_10.md` : 24 leçons, `lesso
   - La buée en hiver est la vapeur d'eau du souffle qui refroidit, et non « l'air qu'on expire » (`10`, `11`).
   - Tous les serpents ne pondent pas d'œufs : remplacé par le crocodile (`20`).
 - **Identifiants.** `lesson-svt-04` est réutilisé, l'alimentation (toujours reportée, comme la digestion) prendra un nouvel identifiant.
+
+## Leçons de français du 11 novembre 2026
+
+Réalisation complète de `plan_francais_niveaux_34_a_37.md` : 17 leçons, `lesson-francais-116` à `132`, quatre niveaux. Chaque leçon a été déroulée jusqu'au bilan avec Playwright, en donnant les bonnes réponses, et obtient le score maximal. Aucune erreur de console.
+
+- Niveau 34, la nature des mots : `116` (diaporama nom, verbe, adjectif, avec une astuce chacun), `117` (qcm : nature d'un mot dans une phrase, 4/4/4), `118` (qcm-texte : choisir le nom, le verbe ou l'adjectif qui complète), `119` (qcm : retrouver le verbe, le nom ou l'adjectif d'une phrase courte qui en contient un de chaque).
+- Niveau 35, homophones série 3 : `120` (diaporama c'est/s'est, ça/sa, ce/se avec les astuces c'était, s'était, cela, son, me), `121` et `122` (qcm-texte, 12 phrases chacune, deux choix, 6/6).
+- Niveau 36, accents et sons : `123` (diaporama é, è, ê), `124` (qcm-texte, mot bien écrit), `125` (diaporama c/ç, g/ge/gu, s/ss), `126` (qcm-texte), `127` (ordre-mots, 8 phrases).
+- Niveau 37, consignes et fiches : `128` (diaporama, les verbes de consigne), `129` (qcm, « Que dois-tu faire ? », la consigne figure dans `question`), `130` (fiche sur le judo), `131` (fiche sur le renard), `132` (révision : 6 consignes et une mini-fiche sur la tortue).
+- Sujets reportés respectés : ni heure, ni alimentation, ni émotions.

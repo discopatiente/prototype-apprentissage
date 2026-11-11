@@ -1,0 +1,152 @@
+{
+  "id": "lesson-francais-122",
+  "theme": "francais",
+  "titre": "Encore c'est/s'est, ça/sa, ce/se",
+  "description": "Entraîne-toi encore avec de nouvelles phrases",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Le troupeau ___ arrêté dans le pré.",
+      "question": "« Le troupeau ___ arrêté dans le pré. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "s'est",
+        "c'est"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "___ la tanière d'un renard !",
+      "question": "« ___ la tanière d'un renard ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "S'est",
+        "C'est"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Le chat lèche ___ patte.",
+      "question": "« Le chat lèche ___ patte. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "ça",
+        "sa"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Tu veux jouer à ___ ?",
+      "question": "« Tu veux jouer à ___ ? » — Quel mot va dans la phrase ?",
+      "choix": [
+        "ça",
+        "sa"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Léo ___ prépare pour le match.",
+      "question": "« Léo ___ prépare pour le match. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "ce",
+        "se"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "___ chemin est étroit.",
+      "question": "« ___ chemin est étroit. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "Ce",
+        "Se"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Inès ___ échauffée avant le combat.",
+      "question": "« Inès ___ échauffée avant le combat. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "s'est",
+        "c'est"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Aujourd'hui, ___ mercredi.",
+      "question": "« Aujourd'hui, ___ mercredi. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "s'est",
+        "c'est"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "___ fait du vacarme !",
+      "question": "« ___ fait du vacarme ! » — Quel mot va dans la phrase ?",
+      "choix": [
+        "Ça",
+        "Sa"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Léa a perdu ___ casquette.",
+      "question": "« Léa a perdu ___ casquette. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "ça",
+        "sa"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "Sofia ___ dépêche de rentrer.",
+      "question": "« Sofia ___ dépêche de rentrer. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "se",
+        "ce"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "J'adore ___ pelage doux.",
+      "question": "« J'adore ___ pelage doux. » — Quel mot va dans la phrase ?",
+      "choix": [
+        "se",
+        "ce"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

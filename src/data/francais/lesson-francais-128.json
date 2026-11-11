@@ -1,0 +1,44 @@
+{
+  "id": "lesson-francais-128",
+  "theme": "francais",
+  "titre": "Je comprends les consignes",
+  "description": "Apprends ce que veulent dire les mots qu'on trouve dans les consignes",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Une consigne, c'est ce qu'on te demande de faire dans un exercice. Pour bien réussir, il faut d'abord la lire en entier et comprendre chaque mot."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "« Entoure » veut dire : fais un cercle autour du mot ou de l'image. « Souligne » veut dire : trace un trait sous le mot.",
+      "visuel": "⭕ entoure | ➖ souligne"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "« Coche » veut dire : mets une croix ou un ✔ dans la case. « Relie » veut dire : trace un trait pour joindre deux choses qui vont ensemble.",
+      "visuel": "✅ coche | ↔️ relie"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "« Recopie » veut dire : écris de nouveau, exactement pareil. « Complète » veut dire : écris ce qui manque.",
+      "visuel": "✏️ recopie | ✍️ complète"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "« Range » veut dire : mets dans le bon ordre. « Barre » veut dire : fais un trait sur le mot qui ne va pas.",
+      "visuel": "1 2 3 range | ❌ barre"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Astuce : lis la consigne deux fois, puis demande-toi « Qu'est-ce que je dois faire ? » avant de commencer.",
+      "visuel": "Je lis 📖 | Je comprends 💡 | Je fais ✏️"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

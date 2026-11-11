@@ -1,0 +1,44 @@
+{
+  "id": "lesson-francais-116",
+  "theme": "francais",
+  "titre": "Nom, verbe ou adjectif ?",
+  "description": "Découvre trois sortes de mots : le nom, le verbe et l'adjectif",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Dans une phrase, les mots ne font pas tous le même travail. Il y a des noms, des verbes et des adjectifs. Tu vas apprendre à les reconnaître."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Le nom, c'est le mot qui désigne une personne, un animal ou une chose. On peut mettre « un », « une », « le » ou « la » devant : un renard, une griffe, le troupeau, la maison.",
+      "visuel": "un renard 🦊 | une griffe | la maison 🏠"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Le verbe dit ce qu'on fait. Il change quand on parle d'hier ou de demain : « Aujourd'hui, je grimpe. Hier, j'ai grimpé. Demain, je grimperai. »",
+      "visuel": "grimper 🧗 | sauter | glisser"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "L'astuce du verbe : on peut mettre « hier » ou « demain » dans la phrase, et le verbe change. « Le chat bondit. » → « Hier, le chat a bondi. »",
+      "visuel": "Aujourd'hui : il bondit → Hier : il a bondi"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "L'adjectif dit comment est le nom. Il va avec le nom : une couette douce, un chemin étroit, un renard agile.",
+      "visuel": "une couette douce | un chemin étroit | un renard agile"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "L'astuce de l'adjectif : on peut le mettre après « est » pour décrire le nom. Le chemin est étroit. La couette est douce. Un nom, lui, a besoin de « un », « une », « le » ou « la » devant.",
+      "visuel": "Le chemin est étroit ✅ | un chemin, le chemin ✅"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Pour t'aider, retiens : le nom, c'est QUI ou QUOI. Le verbe, c'est ce qu'on FAIT. L'adjectif, c'est COMMENT c'est. Maintenant, à toi de jouer !",
+      "visuel": "nom : qui ? quoi ? | verbe : on fait | adjectif : comment ?"
+    }
+  ]
+}

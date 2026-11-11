@@ -1,0 +1,124 @@
+{
+  "id": "lesson-francais-127",
+  "theme": "francais",
+  "titre": "Je construis des phrases",
+  "description": "Reconstruis des phrases avec des mots à l'orthographe difficile",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "ordre-mots",
+      "question": "Le garçon nage dans la rivière.",
+      "mots": [
+        "Le",
+        "garçon",
+        "nage",
+        "dans",
+        "la",
+        "rivière"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "ordre-mots",
+      "question": "Le poisson a une grande nageoire.",
+      "mots": [
+        "Le",
+        "poisson",
+        "a",
+        "une",
+        "grande",
+        "nageoire"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "ordre-mots",
+      "question": "La guêpe est sur la fenêtre.",
+      "mots": [
+        "La",
+        "guêpe",
+        "est",
+        "sur",
+        "la",
+        "fenêtre"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "ordre-mots",
+      "question": "Sofia joue de la guitare.",
+      "mots": [
+        "Sofia",
+        "joue",
+        "de",
+        "la",
+        "guitare"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "ordre-mots",
+      "question": "J'ai une leçon de judo.",
+      "mots": [
+        "J'ai",
+        "une",
+        "leçon",
+        "de",
+        "judo"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "ordre-mots",
+      "question": "Léa fait un dessin de la forêt.",
+      "mots": [
+        "Léa",
+        "fait",
+        "un",
+        "dessin",
+        "de",
+        "la",
+        "forêt"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "ordre-mots",
+      "question": "Nous nageons dans la rivière.",
+      "mots": [
+        "Nous",
+        "nageons",
+        "dans",
+        "la",
+        "rivière"
+      ],
+      "ponctuation": ".",
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "ordre-mots",
+      "question": "Où est ma gomme ?",
+      "mots": [
+        "Où",
+        "est",
+        "ma",
+        "gomme"
+      ],
+      "ponctuation": "?",
+      "points": 10
+    }
+  ]
+}

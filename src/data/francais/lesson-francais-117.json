@@ -1,0 +1,164 @@
+{
+  "id": "lesson-francais-117",
+  "theme": "francais",
+  "titre": "Quelle est la nature du mot ?",
+  "description": "Dis si le mot est un nom, un verbe ou un adjectif",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Dans « Le serpent rampe dans l'herbe. », quelle est la nature du mot « rampe » ?",
+      "mot": "rampe",
+      "choix": [
+        "un nom",
+        "un verbe",
+        "un adjectif"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Dans « Le sentier est étroit. », quelle est la nature du mot « étroit » ?",
+      "mot": "étroit",
+      "choix": [
+        "un nom",
+        "un verbe",
+        "un adjectif"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Dans « Le troupeau traverse le pré. », quelle est la nature du mot « troupeau » ?",
+      "mot": "troupeau",
+      "choix": [
+        "un nom",
+        "un verbe",
+        "un adjectif"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Dans « Cette couette est douce. », quelle est la nature du mot « douce » ?",
+      "mot": "douce",
+      "choix": [
+        "un nom",
+        "un verbe",
+        "un adjectif"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Dans « Une flaque brille sur le chemin. », quelle est la nature du mot « flaque » ?",
+      "mot": "flaque",
+      "choix": [
+        "un nom",
+        "un verbe",
+        "un adjectif"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Dans « Sofia grimpe sur le rocher. », quelle est la nature du mot « grimpe » ?",
+      "mot": "grimpe",
+      "choix": [
+        "un nom",
+        "un verbe",
+        "un adjectif"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Dans « Léo ouvre le volet. », quelle est la nature du mot « volet » ?",
+      "mot": "volet",
+      "choix": [
+        "un nom",
+        "un verbe",
+        "un adjectif"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Dans « Le chat bondit sur la table. », quelle est la nature du mot « bondit » ?",
+      "mot": "bondit",
+      "choix": [
+        "un nom",
+        "un verbe",
+        "un adjectif"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Dans « Le renard est agile. », quelle est la nature du mot « agile » ?",
+      "mot": "agile",
+      "choix": [
+        "un nom",
+        "un verbe",
+        "un adjectif"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Dans « Les enfants chuchotent dans la classe. », quelle est la nature du mot « chuchotent » ?",
+      "mot": "chuchotent",
+      "choix": [
+        "un nom",
+        "un verbe",
+        "un adjectif"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm",
+      "question": "Dans « Le renard sort de sa tanière. », quelle est la nature du mot « tanière » ?",
+      "mot": "tanière",
+      "choix": [
+        "un nom",
+        "un verbe",
+        "un adjectif"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm",
+      "question": "Dans « Le galet est très lisse. », quelle est la nature du mot « lisse » ?",
+      "mot": "lisse",
+      "choix": [
+        "un nom",
+        "un verbe",
+        "un adjectif"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}

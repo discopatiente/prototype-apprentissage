@@ -1,0 +1,39 @@
+{
+  "id": "lesson-francais-123",
+  "theme": "francais",
+  "titre": "Les accents : é, è, ê",
+  "description": "Découvre les trois accents et apprends à bien écrire des mots",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Sur la lettre e, on peut trouver trois accents. Ils changent la façon de dire la lettre, et il faut les écrire pour que le mot soit juste."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "é, l'accent aigu, se penche vers le haut à droite. Il fait un son fermé, comme dans « un pré », « un éclair », « un été ».",
+      "visuel": "un pré | un éclair ⚡ | un été"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "è, l'accent grave, se penche vers le bas. Il fait un son plus ouvert, comme dans « une crème », « un élève », « la rivière ».",
+      "visuel": "une crème | un élève | la rivière"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "ê, l'accent circonflexe, est un petit chapeau. On le trouve dans « une forêt », « une fête », « une tête ». Autrefois, il y avait un s à la place du chapeau : forest est devenu forêt.",
+      "visuel": "une forêt 🌳 | une fête 🎉 | une tête"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Un accent oublié, et le mot est faux : on écrit « une forêt », pas « une foret ». Pour t'aider, regarde bien le mot et dis-le à voix haute.",
+      "visuel": "une forêt ✅ | une foret ❌"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

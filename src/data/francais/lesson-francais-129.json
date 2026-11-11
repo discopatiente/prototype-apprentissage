@@ -1,0 +1,128 @@
+{
+  "id": "lesson-francais-129",
+  "theme": "francais",
+  "titre": "Que dois-tu faire ?",
+  "description": "Lis la consigne et dis ce qu'on te demande de faire",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Consigne : Entoure le mot « renard ». Que dois-tu faire ?",
+      "choix": [
+        "Faire un cercle autour du mot",
+        "Écrire le mot une deuxième fois",
+        "Faire un trait sur le mot"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Consigne : Souligne le verbe. Que dois-tu faire ?",
+      "choix": [
+        "Entourer le verbe d'un cercle",
+        "Écrire le verbe en plus grand",
+        "Tracer un trait sous le verbe"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Consigne : Coche la bonne réponse. Que dois-tu faire ?",
+      "choix": [
+        "Écrire la réponse en entier",
+        "Mettre une croix dans la case de la bonne réponse",
+        "Faire un trait sous la réponse"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Consigne : Relie chaque animal à sa maison. Que dois-tu faire ?",
+      "choix": [
+        "Entourer tous les animaux",
+        "Tracer un trait entre chaque animal et sa maison",
+        "Écrire le nom des maisons"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Consigne : Recopie la phrase. Que dois-tu faire ?",
+      "choix": [
+        "Écrire la phrase de nouveau, exactement pareil",
+        "Dire la phrase à voix haute",
+        "Barrer la phrase"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Consigne : Complète la phrase avec le bon mot. Que dois-tu faire ?",
+      "choix": [
+        "Recopier toute la phrase",
+        "Barrer le mot en trop",
+        "Écrire le mot qui manque"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm",
+      "question": "Consigne : Range les mots dans l'ordre alphabétique. Que dois-tu faire ?",
+      "choix": [
+        "Barrer les mots",
+        "Relier les mots entre eux",
+        "Mettre les mots dans le bon ordre"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm",
+      "question": "Consigne : Barre l'intrus. Que dois-tu faire ?",
+      "choix": [
+        "Entourer le mot qui va avec les autres",
+        "Faire un trait sur le mot qui ne va pas avec les autres",
+        "Écrire un autre mot"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm",
+      "question": "Consigne : Entoure les noms de la phrase. Que dois-tu faire ?",
+      "choix": [
+        "Faire un cercle autour de chaque nom",
+        "Tracer un trait sous chaque verbe",
+        "Cocher une case"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm",
+      "question": "Consigne : Souligne en rouge le mot « grimper ». Que dois-tu faire ?",
+      "choix": [
+        "Faire un cercle rouge autour du mot",
+        "Tracer un trait rouge sous le mot",
+        "Recopier le mot en rouge"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

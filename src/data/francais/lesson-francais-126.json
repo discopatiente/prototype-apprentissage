@@ -1,0 +1,164 @@
+{
+  "id": "lesson-francais-126",
+  "theme": "francais",
+  "titre": "Le bon son",
+  "description": "Choisis le mot bien écrit : c ou ç, g, ge ou gu, s ou ss",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Léo est un petit ___.",
+      "question": "« Léo est un petit ___. » — Quel mot est bien écrit ?",
+      "choix": [
+        "garson",
+        "garcon",
+        "garçon"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Le ___ nage dans la rivière.",
+      "question": "« Le ___ nage dans la rivière. » — Quel mot est bien écrit ?",
+      "choix": [
+        "poisson",
+        "poiçon",
+        "poisón"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Sofia admire la ___ au zoo.",
+      "question": "« Sofia admire la ___ au zoo. » — Quel mot est bien écrit ?",
+      "choix": [
+        "jirafe",
+        "girafe",
+        "girrafe"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Le poisson bouge sa ___.",
+      "question": "« Le poisson bouge sa ___. » — Quel mot est bien écrit ?",
+      "choix": [
+        "nagoire",
+        "nageoire",
+        "najoire"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "La ___ vole autour de la ruche.",
+      "question": "« La ___ vole autour de la ruche. » — Quel mot est bien écrit ?",
+      "choix": [
+        "gêpe",
+        "guépe",
+        "guêpe"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Sofia joue de la ___.",
+      "question": "« Sofia joue de la ___. » — Quel mot est bien écrit ?",
+      "choix": [
+        "guitare",
+        "gitare",
+        "guittare"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Aujourd'hui, j'ai une ___ de judo.",
+      "question": "« Aujourd'hui, j'ai une ___ de judo. » — Quel mot est bien écrit ?",
+      "choix": [
+        "leçon",
+        "leson",
+        "lecon"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "La ___ du jardin est rouge.",
+      "question": "« La ___ du jardin est rouge. » — Quel mot est bien écrit ?",
+      "choix": [
+        "roze",
+        "ross",
+        "rose"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "Léa fait un ___ de sa maison.",
+      "question": "« Léa fait un ___ de sa maison. » — Quel mot est bien écrit ?",
+      "choix": [
+        "desin",
+        "dessin",
+        "dezin"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "Sofia coud un morceau de ___.",
+      "question": "« Sofia coud un morceau de ___. » — Quel mot est bien écrit ?",
+      "choix": [
+        "tissu",
+        "tisu",
+        "tizu"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-11",
+      "type": "qcm-texte",
+      "texte": "Nous ___ dans la piscine.",
+      "question": "« Nous ___ dans la piscine. » — Quel mot est bien écrit ?",
+      "choix": [
+        "nagons",
+        "najons",
+        "nageons"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-12",
+      "type": "qcm-texte",
+      "texte": "Je prends ma ___ pour effacer.",
+      "question": "« Je prends ma ___ pour effacer. » — Quel mot est bien écrit ?",
+      "choix": [
+        "gome",
+        "gomme",
+        "jomme"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

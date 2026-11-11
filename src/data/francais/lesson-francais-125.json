@@ -1,0 +1,44 @@
+{
+  "id": "lesson-francais-125",
+  "theme": "francais",
+  "titre": "Les sons difficiles : ç, ge/gu, ss",
+  "description": "Apprends à écrire les sons qui piègent : le c cédille, le g et le s",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Certaines lettres changent de son selon la lettre qui vient après. Voici trois pièges à connaître : le c, le g et le s."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "Le c fait « k » devant a, o, u : un cadeau, une corde. Il fait « s » devant e et i : une cerise, un citron.",
+      "visuel": "un cadeau 🎁 | une corde | une cerise 🍒 | un citron"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "Pour faire « s » devant a, o ou u, on ajoute une cédille sous le c : ç. On écrit « ça », « un garçon », « une leçon ».",
+      "visuel": "ça | un garçon | une leçon"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "Le g fait « g » devant a, o, u : une gare, une gomme. Il fait « j » devant e et i : une girafe.",
+      "visuel": "une gare | une gomme | une girafe 🦒"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "Pour faire « j » devant a ou o, on ajoute un e : ge. On écrit « une nageoire », « nous nageons ». Pour faire « g » devant e ou i, on ajoute un u : gu. On écrit « une guêpe », « une guitare ».",
+      "visuel": "nageoire | nous nageons | une guêpe 🐝 | une guitare 🎸"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "Le s, tout seul entre deux voyelles, fait « z » : une rose. Pour faire « s » entre deux voyelles, on double le s : ss. On écrit « un poisson », « un dessin », « du tissu ».",
+      "visuel": "une rose 🌹 | un poisson 🐟 | un dessin | du tissu"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

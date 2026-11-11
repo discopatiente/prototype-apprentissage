@@ -318,6 +318,47 @@
           "lesson-francais-114",
           "lesson-francais-115"
         ]
+      },
+      {
+        "id": "niveau-34",
+        "titre": "Niveau 34",
+        "lessons": [
+          "lesson-francais-116",
+          "lesson-francais-117",
+          "lesson-francais-118",
+          "lesson-francais-119"
+        ]
+      },
+      {
+        "id": "niveau-35",
+        "titre": "Niveau 35",
+        "lessons": [
+          "lesson-francais-120",
+          "lesson-francais-121",
+          "lesson-francais-122"
+        ]
+      },
+      {
+        "id": "niveau-36",
+        "titre": "Niveau 36",
+        "lessons": [
+          "lesson-francais-123",
+          "lesson-francais-124",
+          "lesson-francais-125",
+          "lesson-francais-126",
+          "lesson-francais-127"
+        ]
+      },
+      {
+        "id": "niveau-37",
+        "titre": "Niveau 37",
+        "lessons": [
+          "lesson-francais-128",
+          "lesson-francais-129",
+          "lesson-francais-130",
+          "lesson-francais-131",
+          "lesson-francais-132"
+        ]
       }
     ]
   },

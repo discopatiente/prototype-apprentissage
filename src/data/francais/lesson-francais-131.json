@@ -1,0 +1,112 @@
+{
+  "id": "lesson-francais-131",
+  "theme": "francais",
+  "titre": "Fiche : le renard",
+  "description": "Lis la fiche sur le renard et retrouve les réponses dans le texte",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Le renard est un animal sauvage. Il a un pelage roux, de grandes oreilles pointues et une queue très touffue. Il vit dans une tanière, un trou creusé dans la terre. Le renard est surtout actif la nuit. Il a une très bonne ouïe : il entend les petits bruits de loin. La femelle s'appelle la renarde et ses petits, les renardeaux. Ils naissent au printemps, dans la tanière. On rencontre des renards dans les forêts, mais aussi près des villages.",
+      "question": "De quelle couleur est le pelage du renard ?",
+      "choix": [
+        "Gris",
+        "Roux",
+        "Noir"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Le renard est un animal sauvage. Il a un pelage roux, de grandes oreilles pointues et une queue très touffue. Il vit dans une tanière, un trou creusé dans la terre. Le renard est surtout actif la nuit. Il a une très bonne ouïe : il entend les petits bruits de loin. La femelle s'appelle la renarde et ses petits, les renardeaux. Ils naissent au printemps, dans la tanière. On rencontre des renards dans les forêts, mais aussi près des villages.",
+      "question": "Comment est la queue du renard ?",
+      "choix": [
+        "Très touffue",
+        "Très courte",
+        "Toute lisse"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Le renard est un animal sauvage. Il a un pelage roux, de grandes oreilles pointues et une queue très touffue. Il vit dans une tanière, un trou creusé dans la terre. Le renard est surtout actif la nuit. Il a une très bonne ouïe : il entend les petits bruits de loin. La femelle s'appelle la renarde et ses petits, les renardeaux. Ils naissent au printemps, dans la tanière. On rencontre des renards dans les forêts, mais aussi près des villages.",
+      "question": "Où vit le renard ?",
+      "choix": [
+        "Dans un nid",
+        "Dans l'eau",
+        "Dans une tanière"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Le renard est un animal sauvage. Il a un pelage roux, de grandes oreilles pointues et une queue très touffue. Il vit dans une tanière, un trou creusé dans la terre. Le renard est surtout actif la nuit. Il a une très bonne ouïe : il entend les petits bruits de loin. La femelle s'appelle la renarde et ses petits, les renardeaux. Ils naissent au printemps, dans la tanière. On rencontre des renards dans les forêts, mais aussi près des villages.",
+      "question": "Quand le renard est-il surtout actif ?",
+      "choix": [
+        "La nuit",
+        "Le matin",
+        "À midi"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Le renard est un animal sauvage. Il a un pelage roux, de grandes oreilles pointues et une queue très touffue. Il vit dans une tanière, un trou creusé dans la terre. Le renard est surtout actif la nuit. Il a une très bonne ouïe : il entend les petits bruits de loin. La femelle s'appelle la renarde et ses petits, les renardeaux. Ils naissent au printemps, dans la tanière. On rencontre des renards dans les forêts, mais aussi près des villages.",
+      "question": "Que peut faire le renard grâce à sa bonne ouïe ?",
+      "choix": [
+        "Nager très vite",
+        "Courir très vite",
+        "Entendre les petits bruits de loin"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Le renard est un animal sauvage. Il a un pelage roux, de grandes oreilles pointues et une queue très touffue. Il vit dans une tanière, un trou creusé dans la terre. Le renard est surtout actif la nuit. Il a une très bonne ouïe : il entend les petits bruits de loin. La femelle s'appelle la renarde et ses petits, les renardeaux. Ils naissent au printemps, dans la tanière. On rencontre des renards dans les forêts, mais aussi près des villages.",
+      "question": "Comment s'appelle la femelle du renard ?",
+      "choix": [
+        "La renardine",
+        "La renarde",
+        "La renette"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Le renard est un animal sauvage. Il a un pelage roux, de grandes oreilles pointues et une queue très touffue. Il vit dans une tanière, un trou creusé dans la terre. Le renard est surtout actif la nuit. Il a une très bonne ouïe : il entend les petits bruits de loin. La femelle s'appelle la renarde et ses petits, les renardeaux. Ils naissent au printemps, dans la tanière. On rencontre des renards dans les forêts, mais aussi près des villages.",
+      "question": "Comment s'appellent les petits du renard ?",
+      "choix": [
+        "Les renardeaux",
+        "Les renardons",
+        "Les renardets"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Le renard est un animal sauvage. Il a un pelage roux, de grandes oreilles pointues et une queue très touffue. Il vit dans une tanière, un trou creusé dans la terre. Le renard est surtout actif la nuit. Il a une très bonne ouïe : il entend les petits bruits de loin. La femelle s'appelle la renarde et ses petits, les renardeaux. Ils naissent au printemps, dans la tanière. On rencontre des renards dans les forêts, mais aussi près des villages.",
+      "question": "En plus des forêts, où peut-on rencontrer des renards ?",
+      "choix": [
+        "Dans la mer",
+        "Près des villages",
+        "Sur les toits"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

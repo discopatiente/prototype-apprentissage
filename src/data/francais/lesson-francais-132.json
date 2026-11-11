@@ -1,0 +1,132 @@
+{
+  "id": "lesson-francais-132",
+  "theme": "francais",
+  "titre": "Je lis et je comprends",
+  "description": "Comprends des consignes, puis lis une petite fiche sur la tortue",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm",
+      "question": "Consigne : Relie chaque nombre à son double. Que dois-tu faire ?",
+      "choix": [
+        "Entourer tous les nombres",
+        "Écrire les nombres en lettres",
+        "Tracer un trait entre chaque nombre et son double"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm",
+      "question": "Consigne : Recopie le mot « équilibre ». Que dois-tu faire ?",
+      "choix": [
+        "Écrire de nouveau le mot, sans te tromper",
+        "Barrer le mot",
+        "Souligner le mot"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm",
+      "question": "Consigne : Coche les mots qui sont des verbes. Que dois-tu faire ?",
+      "choix": [
+        "Tracer un trait sous les noms",
+        "Mettre une croix dans la case des verbes",
+        "Recopier les verbes"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm",
+      "question": "Consigne : Souligne le nom dans chaque phrase. Que dois-tu faire ?",
+      "choix": [
+        "Tracer un trait sous le nom",
+        "Faire un cercle autour du verbe",
+        "Barrer le nom"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm",
+      "question": "Consigne : Complète : Le chat ___ sur le toit. Que dois-tu faire ?",
+      "choix": [
+        "Recopier toute la phrase",
+        "Barrer le chat",
+        "Écrire le mot qui manque"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm",
+      "question": "Consigne : Entoure la lettre qui vient après b dans l'alphabet. Que dois-tu faire ?",
+      "choix": [
+        "Tracer un trait sous la lettre b",
+        "Faire un cercle autour de cette lettre",
+        "Barrer la lettre b"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "La tortue a une carapace qui protège son corps. Elle avance lentement. Quand elle est en danger, la tortue de terre rentre sa tête et ses pattes sous sa carapace. Certaines tortues vivent sur la terre, d'autres vivent dans la mer. Les tortues pondent des œufs.",
+      "question": "Qu'est-ce qui protège le corps de la tortue ?",
+      "choix": [
+        "Ses pattes",
+        "Sa carapace",
+        "Sa tête"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "La tortue a une carapace qui protège son corps. Elle avance lentement. Quand elle est en danger, la tortue de terre rentre sa tête et ses pattes sous sa carapace. Certaines tortues vivent sur la terre, d'autres vivent dans la mer. Les tortues pondent des œufs.",
+      "question": "Comment avance la tortue ?",
+      "choix": [
+        "Très vite",
+        "En sautant",
+        "Lentement"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-09",
+      "type": "qcm-texte",
+      "texte": "La tortue a une carapace qui protège son corps. Elle avance lentement. Quand elle est en danger, la tortue de terre rentre sa tête et ses pattes sous sa carapace. Certaines tortues vivent sur la terre, d'autres vivent dans la mer. Les tortues pondent des œufs.",
+      "question": "Où vivent certaines tortues ?",
+      "choix": [
+        "Dans la mer",
+        "Dans les arbres",
+        "Dans le ciel"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-10",
+      "type": "qcm-texte",
+      "texte": "La tortue a une carapace qui protège son corps. Elle avance lentement. Quand elle est en danger, la tortue de terre rentre sa tête et ses pattes sous sa carapace. Certaines tortues vivent sur la terre, d'autres vivent dans la mer. Les tortues pondent des œufs.",
+      "question": "Que pondent les tortues ?",
+      "choix": [
+        "Des graines",
+        "Des œufs",
+        "Des cailloux"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    }
+  ]
+}

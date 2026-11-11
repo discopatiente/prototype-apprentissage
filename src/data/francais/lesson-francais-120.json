@@ -1,0 +1,49 @@
+{
+  "id": "lesson-francais-120",
+  "theme": "francais",
+  "titre": "Les homophones : c'est/s'est, ça/sa, ce/se",
+  "description": "Trois nouvelles paires de mots qui se prononcent pareil mais ne s'écrivent pas pareil",
+  "type": "diaporama",
+  "points": 10,
+  "ecrans": [
+    {
+      "id": "ecran-01",
+      "texte": "Tu connais déjà plusieurs paires de mots qui se prononcent pareil : a/à, et/est, son/sont, on/ont, ou/où, ces/ses, mais/mes. En voici trois autres : c'est et s'est, ça et sa, ce et se."
+    },
+    {
+      "id": "ecran-02",
+      "texte": "c'est veut dire « cela est ». On peut le remplacer par « c'était » : « C'est mon chat. » → « C'était mon chat. »",
+      "visuel": "C'est un renard ! → C'était un renard !"
+    },
+    {
+      "id": "ecran-03",
+      "texte": "s'est, avec un s, va avec un verbe : « Léo s'est blessé. » On peut le remplacer par « s'était » : « Léo s'était blessé. »",
+      "visuel": "Léo s'est blessé → Léo s'était blessé"
+    },
+    {
+      "id": "ecran-04",
+      "texte": "ça veut dire « cela » : « Ça me plaît. » → « Cela me plaît. » Il y a une cédille sous le c.",
+      "visuel": "Ça me plaît → Cela me plaît 😊"
+    },
+    {
+      "id": "ecran-05",
+      "texte": "sa veut dire « son », mais pour un mot féminin : « Sofia range sa chambre. » → « Sofia range son lit. » Il n'y a pas de cédille.",
+      "visuel": "sa chambre → son lit"
+    },
+    {
+      "id": "ecran-06",
+      "texte": "ce se met devant un nom, pour le montrer : « ce volet », « ce chemin ». se se met devant un verbe : « Le renard se cache. » Astuce : avec « je », on dit « me » : « Je me cache. » Alors on écrit se.",
+      "visuel": "ce volet | ce chemin | il se cache → je me cache"
+    },
+    {
+      "id": "ecran-07",
+      "texte": "Pour choisir : essaie de remplacer le mot. « c'était » pour c'est, « s'était » pour s'est, « cela » pour ça, « son » pour sa, « me » pour se.",
+      "visuel": "c'était | s'était | cela | son | me"
+    },
+    {
+      "id": "ecran-08",
+      "texte": "Bravo, tu as terminé cette leçon ! Tu peux la revoir quand tu veux si tu as un doute, en revenant sur cette leçon depuis la liste.",
+      "visuel": "🎉"
+    }
+  ]
+}

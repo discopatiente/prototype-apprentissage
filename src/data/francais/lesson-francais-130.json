@@ -1,0 +1,112 @@
+{
+  "id": "lesson-francais-130",
+  "theme": "francais",
+  "titre": "Fiche : le judo",
+  "description": "Lis la fiche sur le judo et retrouve les réponses dans le texte",
+  "exercices": [
+    {
+      "id": "ex-01",
+      "type": "qcm-texte",
+      "texte": "Le judo est un sport qui vient du Japon. On le pratique sur un tapis qui s'appelle le tatami. Les judokas portent une tenue blanche : le judogi. Ils l'attachent avec une ceinture. La couleur de la ceinture montre le niveau : on commence avec la ceinture blanche, puis on passe à la jaune, à l'orange, à la verte, à la bleue, et ainsi de suite jusqu'à la ceinture noire. Avant et après chaque combat, les judokas se saluent. Au judo, on apprend à tomber sans se faire mal, à garder l'équilibre et à respecter son adversaire.",
+      "question": "D'où vient le judo ?",
+      "choix": [
+        "Du Japon",
+        "De la Chine",
+        "De la France"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-02",
+      "type": "qcm-texte",
+      "texte": "Le judo est un sport qui vient du Japon. On le pratique sur un tapis qui s'appelle le tatami. Les judokas portent une tenue blanche : le judogi. Ils l'attachent avec une ceinture. La couleur de la ceinture montre le niveau : on commence avec la ceinture blanche, puis on passe à la jaune, à l'orange, à la verte, à la bleue, et ainsi de suite jusqu'à la ceinture noire. Avant et après chaque combat, les judokas se saluent. Au judo, on apprend à tomber sans se faire mal, à garder l'équilibre et à respecter son adversaire.",
+      "question": "Comment s'appelle le tapis du judo ?",
+      "choix": [
+        "Le judogi",
+        "Le tatami",
+        "La ceinture"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-03",
+      "type": "qcm-texte",
+      "texte": "Le judo est un sport qui vient du Japon. On le pratique sur un tapis qui s'appelle le tatami. Les judokas portent une tenue blanche : le judogi. Ils l'attachent avec une ceinture. La couleur de la ceinture montre le niveau : on commence avec la ceinture blanche, puis on passe à la jaune, à l'orange, à la verte, à la bleue, et ainsi de suite jusqu'à la ceinture noire. Avant et après chaque combat, les judokas se saluent. Au judo, on apprend à tomber sans se faire mal, à garder l'équilibre et à respecter son adversaire.",
+      "question": "Comment s'appelle la tenue des judokas ?",
+      "choix": [
+        "Le tatami",
+        "Le maillot",
+        "Le judogi"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-04",
+      "type": "qcm-texte",
+      "texte": "Le judo est un sport qui vient du Japon. On le pratique sur un tapis qui s'appelle le tatami. Les judokas portent une tenue blanche : le judogi. Ils l'attachent avec une ceinture. La couleur de la ceinture montre le niveau : on commence avec la ceinture blanche, puis on passe à la jaune, à l'orange, à la verte, à la bleue, et ainsi de suite jusqu'à la ceinture noire. Avant et après chaque combat, les judokas se saluent. Au judo, on apprend à tomber sans se faire mal, à garder l'équilibre et à respecter son adversaire.",
+      "question": "Quelle ceinture a-t-on au début ?",
+      "choix": [
+        "La ceinture noire",
+        "La ceinture blanche",
+        "La ceinture jaune"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-05",
+      "type": "qcm-texte",
+      "texte": "Le judo est un sport qui vient du Japon. On le pratique sur un tapis qui s'appelle le tatami. Les judokas portent une tenue blanche : le judogi. Ils l'attachent avec une ceinture. La couleur de la ceinture montre le niveau : on commence avec la ceinture blanche, puis on passe à la jaune, à l'orange, à la verte, à la bleue, et ainsi de suite jusqu'à la ceinture noire. Avant et après chaque combat, les judokas se saluent. Au judo, on apprend à tomber sans se faire mal, à garder l'équilibre et à respecter son adversaire.",
+      "question": "Que montre la couleur de la ceinture ?",
+      "choix": [
+        "Le niveau du judoka",
+        "Son âge",
+        "Sa taille"
+      ],
+      "bonne_reponse": 0,
+      "points": 10
+    },
+    {
+      "id": "ex-06",
+      "type": "qcm-texte",
+      "texte": "Le judo est un sport qui vient du Japon. On le pratique sur un tapis qui s'appelle le tatami. Les judokas portent une tenue blanche : le judogi. Ils l'attachent avec une ceinture. La couleur de la ceinture montre le niveau : on commence avec la ceinture blanche, puis on passe à la jaune, à l'orange, à la verte, à la bleue, et ainsi de suite jusqu'à la ceinture noire. Avant et après chaque combat, les judokas se saluent. Au judo, on apprend à tomber sans se faire mal, à garder l'équilibre et à respecter son adversaire.",
+      "question": "Que font les judokas avant et après un combat ?",
+      "choix": [
+        "Ils chantent",
+        "Ils courent",
+        "Ils se saluent"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    },
+    {
+      "id": "ex-07",
+      "type": "qcm-texte",
+      "texte": "Le judo est un sport qui vient du Japon. On le pratique sur un tapis qui s'appelle le tatami. Les judokas portent une tenue blanche : le judogi. Ils l'attachent avec une ceinture. La couleur de la ceinture montre le niveau : on commence avec la ceinture blanche, puis on passe à la jaune, à l'orange, à la verte, à la bleue, et ainsi de suite jusqu'à la ceinture noire. Avant et après chaque combat, les judokas se saluent. Au judo, on apprend à tomber sans se faire mal, à garder l'équilibre et à respecter son adversaire.",
+      "question": "À quelle ceinture arrive-t-on à la fin de la liste ?",
+      "choix": [
+        "La ceinture verte",
+        "La ceinture noire",
+        "La ceinture blanche"
+      ],
+      "bonne_reponse": 1,
+      "points": 10
+    },
+    {
+      "id": "ex-08",
+      "type": "qcm-texte",
+      "texte": "Le judo est un sport qui vient du Japon. On le pratique sur un tapis qui s'appelle le tatami. Les judokas portent une tenue blanche : le judogi. Ils l'attachent avec une ceinture. La couleur de la ceinture montre le niveau : on commence avec la ceinture blanche, puis on passe à la jaune, à l'orange, à la verte, à la bleue, et ainsi de suite jusqu'à la ceinture noire. Avant et après chaque combat, les judokas se saluent. Au judo, on apprend à tomber sans se faire mal, à garder l'équilibre et à respecter son adversaire.",
+      "question": "Qu'apprend-on à faire sans se faire mal ?",
+      "choix": [
+        "Sauter",
+        "Courir",
+        "Tomber"
+      ],
+      "bonne_reponse": 2,
+      "points": 10
+    }
+  ]
+}
